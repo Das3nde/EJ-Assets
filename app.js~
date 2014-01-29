@@ -11,8 +11,26 @@ var path = require('path');
 
 var app = express();
 
+var watches = [
+  {name:"Anonimo Militare Flyback"},
+  {name:"AP ROOS Chrono"},
+{name:"AP ROOS Safari_Temp"},
+{name:"AP ROOS Volcano_Temp"},
+{name:"Blancpain Villeret"},
+{name:"Breguet Classique Retrograde"},
+{name:"Breitling Bentley Barnato"},
+{name:"Breitling Navitimer"},
+{name:"Breitling Transocean Chrono"},
+{name:"Breitling Transocean Unitime"},
+{name:"Cartier Ballon Bleu Chrono"},
+{name:"Clerc Odyssey"},
+{name:"Franck Muller Master Banker_Temp"},
+{name:"Glashutte Panomatic Lunar"},
+{name:"Glashutte Senator Navigator_Temp"}
+  ];
+
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.favicon());
@@ -28,7 +46,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', routes.index(watches));
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

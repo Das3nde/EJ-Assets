@@ -11,6 +11,63 @@ var path = require('path');
 
 var app = express();
 
+var watches = [
+  {name:"Anonimo Militare Flyback"},
+  {name:"AP ROOS Chrono"},
+{name:"AP ROOS Safari_Temp"},
+{name:"AP ROOS Volcano_Temp"},
+{name:"Blancpain Villeret"},
+{name:"Breguet Classique Retrograde"},
+{name:"Breitling Bentley Barnato"},
+{name:"Breitling Navitimer"},
+{name:"Breitling Transocean Chrono"},
+{name:"Breitling Transocean Unitime"},
+{name:"Cartier Ballon Bleu Chrono"},
+{name:"Clerc Odyssey"},
+{name:"Franck Muller Master Banker_Temp"},
+{name:"Glashutte Panomatic Lunar"},
+{name:"Glashutte Senator Navigator_Temp"},
+{name:"Glashutte Senator Sixties"},
+{name:"GP 1945 XXL"},
+{name:"GP WW.TC Financial_Temp"},
+{name:"GP WW.TC Traveller"},
+{name:"Graham Swordfish Grillo"},
+{name:"Hublot Big Bang Chrono Cappuccino"},
+{name:"Hublot Classic Fusion"},
+{name:"IWC Big Pilot"},
+{name:"IWC Pilot Double Chrono"},
+{name:"IWC Pilot Hand Wound Vintage 1936"},
+{name:"IWC Pilot Spitfire Chrono"},
+{name:"IWC Pilot Top Gun Miramar"},
+{name:"IWC Portofino 8-day"},
+{name:"IWC Portuguese Chrono"},
+{name:"Jaquet Droz Les Deux Fuseaux Majestic Beijing"},
+{name:"JLC Deep Sea Chrono_Temp"},
+{name:"JLC Master Compressor_Temp"},
+{name:"JLC Master Grande Ultra Thin"},
+{name:"Maurice Lacroix Masterpiece Retrograde GMT"},
+{name:"Maurice Lacroix Masterpiece Retrograde"},
+{name:"Panerai PAM 049"},
+{name:"Panerai PAM 086_Temp"},
+{name:"Panerai PAM 104"},
+{name:"Panerai PAM 441_Temp"},
+{name:"Patek Philippe Calatrava_Temp"},
+{name:"Rolex Bamford Milgauss"},
+{name:"Rolex Datejust II"},
+{name:"Rolex Daytona Meteorite"},
+{name:"Rolex GMT Master II"},
+{name:"Rolex Submariner with Date"},
+{name:"Rolex Submariner Without Date"},
+{name:"Tudor Heritage Chrono_Temp"},
+{name:"Ulysse Nardin GMT Big Date"},
+{name:"Ulysse Nardin Maxi Marine Chronometer"},
+{name:"Vacheron Constantin Overseas Dual Time"},
+{name:"Zenith Class Open Chrono"},
+{name:"Zenith El Primero Chronomaster"},
+{name:"Zenith El Primero Moonphase"},
+{name:"Zenith Pilot"}
+  ];
+
 // all environments
 app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
@@ -28,7 +85,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', routes.index(watches));
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
