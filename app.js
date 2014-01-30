@@ -39,7 +39,7 @@ var watches = [
 {name:"IWC Pilot Hand Wound Vintage 1936"},
 {name:"IWC Pilot Spitfire Chrono"},
 {name:"IWC Pilot Top Gun Miramar"},
-{name:"IWC Portofino 8-day"},
+{name:"IWC Portofino 8-Day"},
 {name:"IWC Portuguese Chrono"},
 {name:"Jaquet Droz Les Deux Fuseaux Majestic Beijing"},
 {name:"JLC Deep Sea Chrono_Temp"},
