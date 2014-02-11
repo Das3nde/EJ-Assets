@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  p Welcome to Eleven James
+  each watch in watches
+    a(href='/images/' + watch.name + '.png') #{watch.name}
+    br
