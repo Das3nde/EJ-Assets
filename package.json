@@ -9,6 +9,7 @@
     "express": "3.4.7",
     "jade": "*",
     "passport": ">=0.2.0",
-    "passport-local": ">=0.1.6"
+    "passport-local": ">=0.1.6",
+    "bcrypt-nodejs": "latest"
   }
 }
