@@ -5,7 +5,7 @@ module.exports = function(app, passport) {
    ***************************************/
 
   app.get('/home', function(req, res) {
-    res.render('index');
+    res.render('testIndex');
   });
 
   /***************************************
