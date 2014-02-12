@@ -67,14 +67,6 @@ module.exports = function(app, passport) {
   });
 
   /***************************************
-   * HOME PAGE (with login links)
-   ***************************************/
-
-  app.get('/home', function(req, res) {
-    res.render('testIndex');
-  });
-
-  /***************************************
    * LOGIN
    ***************************************/
 
