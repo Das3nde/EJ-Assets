@@ -3,9 +3,7 @@ extends layout
 block content
   div
     div
-      h1
-        span Login
-
+      h1 Login
       form(action='/login' method='post')
         div
           label Email
@@ -14,8 +12,6 @@ block content
           label Password
           input(type='password' name='password')
         button(type='submit') Login
-
       hr
-
       p Go 
         a(href='/home') home
