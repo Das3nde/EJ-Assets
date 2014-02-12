@@ -89,7 +89,7 @@ app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
-// require('./config/passport')(passport); // Pass passport to configuration
+require('./config/passport')(passport); // Pass passport to configuration
 require('./routes/routes.js')(app, passport);
 
 // development only

@@ -16,6 +16,11 @@ module.exports = function(app, passport) {
     res.render('login');
   });
 
+  app.post('/login', passport.authenticate('local-login', {
+    successRedirect : '/',
+    failureRedirect : '/login',
+  }));
+
   /***************************************
    * LOGOUT
    ***************************************/
