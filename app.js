@@ -8,11 +8,10 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
-var Mongoose = require('Mongoose');
+var Mongoose = require('mongoose');
 var passport = require('passport');
 
-var db = Mongoose.createConnection('localhost', 'ej-assets');
-
+Mongoose.connect('localhost', 'ejassets');
 
 
 var app = express();
