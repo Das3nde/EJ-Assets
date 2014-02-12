@@ -59,6 +59,14 @@ var watches = [
 module.exports = function(app, passport) {
 
   /***************************************
+   * Imported Index page (modify later)
+   ***************************************/
+
+  app.get('/', isLoggedIn, function(req, res) {
+    res.render('index', {title : 'Eleven James' , watches: watches});
+  });
+
+  /***************************************
    * HOME PAGE (with login links)
    ***************************************/
 
@@ -111,5 +119,5 @@ function isLoggedIn(req, res, next) {
   if(req.isAuthenticated())
     return next();
 
-  res.redirect('/');
+  res.redirect('/login');
 }

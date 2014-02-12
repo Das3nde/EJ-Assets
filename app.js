@@ -37,16 +37,13 @@ app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
-require('./config/passport')(passport); // Pass passport to configuration
+require('./config/passport')(passport);
 require('./routes/routes.js')(app, passport);
 
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
-
-app.get('/', routes.index(watches));
-app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
