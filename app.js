@@ -69,7 +69,10 @@ var watches = [
 {name:"Zenith Pilot"}
   ];
 
-// all environments
+/**********************************************
+ * Initiialize our environments
+ **********************************************/
+
 app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -78,6 +81,11 @@ app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
+app.use(express.cookieParser());
+app.use(express.bodyParser());
+app.use(express.session({ secret: 'fortheswarm' }));
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
