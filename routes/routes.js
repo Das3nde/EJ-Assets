@@ -99,7 +99,7 @@ module.exports = function(app, passport) {
   /***************************************
    * SIGNUP
    ***************************************/
-
+/*
   app.get('/signup', function(req, res) {
     res.render('signup');
   });
@@ -108,6 +108,7 @@ module.exports = function(app, passport) {
     successRedirect : '/',
     failureRedirect : '/signup',
   }));
+*/
 };
 
 /*****************************************
