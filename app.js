@@ -8,7 +8,12 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var Mongoose = require('Mongoose');
 var passport = require('passport');
+
+var db = Mongoose.createConnection('localhost', 'ej-assets');
+
+
 
 var app = express();
 
