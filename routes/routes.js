@@ -134,6 +134,19 @@ module.exports = function(app, passport) {
       res.json({lists : data.data});
     });
   });
+
+  app.get('/campaigns.json', isLoggedIn, function(req, res) {
+    mc.campaigns.list({'status':'sent'}, function(data) {
+      res.json({campaigns : data.data});
+    }, function(error) {
+      if(error.error) {
+        req.session.error_flash = error.code + ": " + error.error;
+      } else {
+        req.session.error_flash = "An unknown error occurred";
+      }
+      res.redirect('/mailchimp');
+    });
+  });
 };
 
 /*****************************************

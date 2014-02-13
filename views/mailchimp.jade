@@ -1,22 +1,44 @@
 extends layout
 
 block content
-  div.container(ng-controller="MailchimpController")
+  div.container(ng-controller="MailchimpController" ng-init="getContent()")
     div.row
       div.span6
         ul.nav.nav-tabs
           li(ng-class="{active: selectedTab == 'home' }")
             a(href='#' ng-click="selectedTab = 'home'") Home
           li(ng-class="{active: selectedTab == 'lists' }")
-            a(href='#' ng-click="selectedTab = 'lists'") Tutorials
+            a(href='#' ng-click="selectedTab = 'lists'") Lists
           li(ng-class="{active: selectedTab == 'reports' }")
-            a(href='#' ng-click="selectedTab = 'reports'") Practice Editor
+            a(href='#' ng-click="selectedTab = 'reports'") Reports
       div.tab-content(ng-show="selectedTab == 'home'")
         p This is where the home page information will go
       div.tab-content(ng-show="selectedTab == 'lists'")
-        p This is where the Mailchimp Lists will go
-      div.tab-content(ng-show="selectedTab == 'reports'")
-        p This is where the Mailchimp Reports will go
+        p Welcome! You currently have {{lists.length}} lists
+
+        table.table.table-bordered
+          tr
+          each header in ['Name', 'Subscriber Count', 'Date Created', 'List Rating']
+            th= header
+          tr(ng-repeat="list in lists")
+            td
+              a(href='#') {{list.name}}
+            td {{list.stats.member_count}}
+            td {{list.date_created}}
+            td {{list.list_rating}}
+    div.tab-content(ng-show="selectedTab == 'reports'")
+      p Welcome! You currently have {{campaigns.length}} campaigns
+
+        table.table.table-bordered
+          tr
+            th Title
+            th Type
+            th Sent at
+            tr(ng-repeat="campaign in campaigns")
+              td
+                a(href='#') {{campaign.title}}
+              td {{campaign.type}}
+              td {{campaign.send_time}}
   if success_flash
     p.text-success= success_flash
   if error_flash
