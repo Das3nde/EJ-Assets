@@ -12,8 +12,9 @@ var mcapi = require('./node_modules/mailchimp-api/mailchimp');
 
 Mongoose.connect('localhost', 'ejassets');
 
-
 var app = express();
+
+mc = new mcapi.Mailchimp('99a8d61ae5dc0f904a72ec1899c41f6d-us4');
 
 
 /**********************************************
@@ -36,13 +37,28 @@ app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+/**********************************************
+ * Configure passport
+ **********************************************/
+
 require('./config/passport')(passport);
+
+/**********************************************
+ * Define Routes
+ **********************************************/
+
 require('./routes/routes.js')(app, passport);
 
-// development only
+/**********************************************
+ * Development Only
+ **********************************************/
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+/**********************************************
+ * Start Server
+ **********************************************/
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
