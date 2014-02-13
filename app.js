@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 var Mongoose = require('mongoose');
 var passport = require('passport');
+var mcapi = require('./node_modules/mailchimp-api/mailchimp');
 
 Mongoose.connect('localhost', 'ejassets');
 
