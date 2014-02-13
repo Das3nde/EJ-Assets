@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "ej-test-server",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "mongoose": ">=3.8.7",
     "passport": ">=0.2.0",
     "passport-local": ">=0.1.6",
-    "bcrypt-nodejs": "latest"
+    "bcrypt-nodejs": "latest",
+		"mailchimp-api": "*"
   }
 }
