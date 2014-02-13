@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  div.container(ng-controller="MailchimpController")
+    div.row
+      div.span6
+        ul.nav.nav-tabs
+
+          li(ng-class="{active: selectedTab == 'info' }")
+            a(href='#' ng-click="selectedTab = 'info'") Home
+            
+          li(ng-class="{active: selectedTab == 'tutorials' }")
+            a(href='#' ng-click="selectedTab = 'tutorials'") Tutorials
+
+          li(ng-class="{active: selectedTab == 'editor' }")
+            a(href='#' ng-click="selectedTab = 'editor'") Practice Editor
+
+          li(ng-class="{active: selectedTab == 'gallery' }")
+            a(href='#' ng-click="selectedTab = 'gallery'") Gallery
+
+          li(ng-class="{active: selectedTab == 'contact' }")
+            a(href='#' ng-click="selectedTab = 'contact'") Contact
+
+  if success_flash
+    p.text-success= success_flash
+  if error_flash
+    p.text-error= error_flash
+  div.content

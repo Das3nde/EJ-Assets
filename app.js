@@ -37,6 +37,14 @@ app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(function(req, res, next) {
+	res.locals.error_flash = req.session.error_flash;
+	req.session.error_flash = false;
+	res.locals.success_flash = req.session.success_flash;
+	req.session.success_flash = false;
+	next();
+});
+
 /**********************************************
  * Configure passport
  **********************************************/
