@@ -128,6 +128,12 @@ module.exports = function(app, passport) {
 			res.render('mailchimp', { title: 'Mailchimp' });
 		});
 	});
+
+  app.get('/lists.json', isLoggedIn, function(req, res) {
+    mc.lists.list({}, function(data) {
+      res.json({lists : data.data});
+    });
+  });
 };
 
 /*****************************************

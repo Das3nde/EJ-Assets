@@ -5,26 +5,18 @@ block content
     div.row
       div.span6
         ul.nav.nav-tabs
-
           li(ng-class="{active: selectedTab == 'home' }")
             a(href='#' ng-click="selectedTab = 'home'") Home
-            
           li(ng-class="{active: selectedTab == 'lists' }")
             a(href='#' ng-click="selectedTab = 'lists'") Tutorials
-
           li(ng-class="{active: selectedTab == 'reports' }")
             a(href='#' ng-click="selectedTab = 'reports'") Practice Editor
-
       div.tab-content(ng-show="selectedTab == 'home'")
         p This is where the home page information will go
-
       div.tab-content(ng-show="selectedTab == 'lists'")
         p This is where the Mailchimp Lists will go
-
       div.tab-content(ng-show="selectedTab == 'reports'")
         p This is where the Mailchimp Reports will go
-
-
   if success_flash
     p.text-success= success_flash
   if error_flash
