@@ -113,7 +113,7 @@ module.exports = function(app, passport) {
 	 * MAILCHIMP
 	 ***************************************/
 
-	app.get('/mailchimp', function(req, res) {
+	app.get('/mailchimp', isLoggedIn, function(req, res) {
 		mc.helper.ping(function(data) {
 			res.render('mailchimp', { title : 'Mailchimp' });
 		}, function(err) {
