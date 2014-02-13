@@ -59,12 +59,20 @@ var watches = [
 module.exports = function(app, passport) {
 
   /***************************************
-   * Imported Index page (modify later)
+   * HOME
    ***************************************/
 
   app.get('/', isLoggedIn, function(req, res) {
-    res.render('index', {title : 'Eleven James' , watches: watches});
+    res.render('home', {title : 'Eleven James' , watches: watches});
   });
+
+	/***************************************
+	 * WATCHES
+	 ***************************************/
+
+	app.get('/watches', isLoggedIn, function(req, res) {
+		res.render('index', {title : 'EJ Watches', watches : watches });
+	});
 
   /***************************************
    * LOGIN
@@ -91,7 +99,7 @@ module.exports = function(app, passport) {
   /***************************************
    * SIGNUP
    ***************************************/
-/*
+
   app.get('/signup', function(req, res) {
     res.render('signup');
   });
@@ -100,7 +108,7 @@ module.exports = function(app, passport) {
     successRedirect : '/',
     failureRedirect : '/signup',
   }));
-*/
+
 };
 
 /*****************************************
