@@ -28,15 +28,15 @@ app.controller('MailchimpController', function($scope, $http) {
 });
 
 
-app.controller('ExportsController', function($scope, $http) {
+app.controller('ExportsController', function($scope, $http, $q) {
   $scope.lists = [];
   $scope.newList = {
     id : '',
     name : ''
-  }
+  };
 
   $scope.getLists = function() {
-    $http.get('/exports/lists.json').success(function(data) {
+    $http.get('/exports/lists.json').then(function(data) {
       $scope.lists = data.lists;
     });
   };

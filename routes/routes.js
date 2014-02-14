@@ -1,3 +1,4 @@
+var MCList = require('../models/MCList.js');
 var watches = [
 {name:"Anonimo Militare Flyback"},
 {name:"AP ROOS Chrono"},
@@ -194,9 +195,17 @@ module.exports = function(app, passport, api) {
       if(error || !list) {
         res.json({error : error});
       } else {
-        res.json({ member : member });
+        res.json({ list : list });
       }
     });
+  });
+
+  /***************************************
+   * TEST Routes
+   ***************************************/
+
+  app.get('/test.json', function(req, res) {
+    res.json({result : 'It worked' });
   });
 };
 

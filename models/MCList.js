@@ -1,5 +1,5 @@
 var Mongoose = require('mongoose');
-var MCMemberSchema = require('MCMember.js').MCMemberSchema;
+var MCMemberSchema = require('./MCMember.js').MCMemberSchema;
 
 var MCListSchema = Mongoose.Schema({
   id : String,
