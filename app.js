@@ -9,12 +9,58 @@ var path = require('path');
 var Mongoose = require('mongoose');
 var passport = require('passport');
 var mcapi = require('./node_modules/mailchimp-api/mailchimp');
+var MailChimpAPI = require('mailchimp').MailChimpAPI;
+var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 
 Mongoose.connect('localhost', 'ejassets');
 
 var app = express();
 
-mc = new mcapi.Mailchimp('99a8d61ae5dc0f904a72ec1899c41f6d-us4');
+var apikey = '99a8d61ae5dc0f904a72ec1899c41f6d-us4'
+mc = new mcapi.Mailchimp(apikey);
+
+/**********************************************
+ * Instantiate Mailchimp API Object
+ **********************************************/
+
+try {
+  var api = new MailChimpAPI(apikey, { version : '2.0' });
+  console.log('Mailchimp API Successfully instantiated');
+} catch (error) {
+  console.log(error.message + '... So go f*** yourself');
+}
+
+/**********************************************
+ * Instantiate Mailchimp Export API Object
+ **********************************************/
+
+try {
+  var exportApi = new MailChimpExportAPI(apikey, { version : '1.0', secure : false });
+  console.log('Mailchimp Export Api Successfully Instantiated');
+} catch (error) {
+  console.log(error.message + '... So go f*** yourself');
+}
+
+/*
+api.call('lists', 'list', function(error, data) {
+  if(error) {
+    console.log(error.message + '... so go f*** yourself');
+  } else {
+    console.log(data);
+  }
+});
+*/
+
+
+/*
+exportApi.list({id : '6808257603'}, function(error, data) {
+  if(error) {
+    console.log(error.message + '... so go f*** yourself');
+  } else {
+    console.log(data[1]);
+  }
+});
+*/
 
 
 /**********************************************
@@ -55,7 +101,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport);
+require('./routes/routes.js')(app, passport, api);
 
 /**********************************************
  * Development Only
