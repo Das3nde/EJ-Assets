@@ -8,9 +8,9 @@ block content
           li(ng-class="{active: selectedTab == 'home' }")
             a(href='#' ng-click="selectedTab = 'home'") Home
           li(ng-class="{active: selectedTab == 'lists' }")
-            a(href='#' ng-click="selectedTab = 'lists'") Lists
+            a(href='#' ng-click="selectedTab = 'lists'; getLists()") Lists
           li(ng-class="{active: selectedTab == 'reports' }")
-            a(href='#' ng-click="selectedTab = 'reports'") Reports
+            a(href='#' ng-click="selectedTab = 'reports'; getCampaigns()") Reports
       div.tab-content(ng-show="selectedTab == 'home'")
         p This is where the home page information will go
       div.tab-content(ng-show="selectedTab == 'lists'")
@@ -22,7 +22,7 @@ block content
             th= header
           tr(ng-repeat="list in lists")
             td
-              a(href='#') {{list.name}}
+              a(href='/lists/{{list.id}}') {{list.name}}
             td {{list.stats.member_count}}
             td {{list.date_created}}
             td {{list.list_rating}}

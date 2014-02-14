@@ -147,6 +147,30 @@ module.exports = function(app, passport) {
       res.redirect('/mailchimp');
     });
   });
+
+  app.get('/lists/:id', isLoggedIn, function(req, res) {
+    mc.lists.list( {filters : { list_id : req.params.id }}, function(listData) {
+      var list = listData.data[0];
+      mc.lists.members( {id : req.params.id, status : 'subscribed', opts : {sort_field : 'email'}}, function(memberData) {
+        console.log(memberData.total);
+        console.log(memberData.data[0]);
+        for(var i = 0; i < memberData.data.length; i++) {
+          console.log(memberData.data[i].email);
+        }
+        res.render('lists/view', { title : list.title, list : list, members : memberData.data });
+      }, function(error) {
+        console.log(error);
+        if(error.name == "List_DoesNotExist") {
+          req.session.error_flash = "The list does not exist";
+        } else if(error.error) {
+          req.session.error_flash = error.code + ": " + error.error;
+        } else {
+          req.session.error_flash = "An unknown error occurred";
+        }
+        res.redirect('/mailchimp');
+      });
+    });
+  });
 };
 
 /*****************************************
