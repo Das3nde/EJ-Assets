@@ -26,3 +26,18 @@ app.controller('MailchimpController', function($scope, $http) {
     });
   };
 });
+
+
+app.controller('ExportsController', function($scope, $http) {
+  $scope.lists = [];
+  $scope.newList = {
+    id : '',
+    name : ''
+  }
+
+  $scope.getLists = function() {
+    $http.get('/exports/lists.json').success(function(data) {
+      $scope.lists = data.lists;
+    });
+  };
+});

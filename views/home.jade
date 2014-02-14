@@ -3,7 +3,7 @@ extends layout
 block content
   div.container
     h1 Welcome to Eleven James
-    div
+    div(ng-controller="ExportsController")
       p What would you like to do?
       a(href='/watches') View watch image directory
       br
@@ -11,3 +11,7 @@ block content
       br
       br
       a(href='/exports/lists.json') Test Mailchimp Lists Importer (console)
+      br
+      a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
+      div(ng-repeat="list in lists")
+        p {{list.name}}

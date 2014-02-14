@@ -131,6 +131,7 @@ module.exports = function(app, passport, api) {
 
   app.get('/lists.json', isLoggedIn, function(req, res) {
     mc.lists.list({}, function(data) {
+      console.log(data.data);
       res.json({lists : data.data});
     });
   });
@@ -181,7 +182,19 @@ module.exports = function(app, passport, api) {
       if(error) {
         console.log(error.message);
       } else {
-        console.log(data);
+        console.log(data.data);
+        res.json({lists : data.data});
+      }
+    });
+  });
+
+  app.post('/lists.json', isLoggedIn, function(req, res) {
+    var list = new MCList(req.body);
+    list.save(function(error, list) {
+      if(error || !list) {
+        res.json({error : error});
+      } else {
+        res.json({ member : member });
       }
     });
   });
