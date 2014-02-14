@@ -41,16 +41,6 @@ try {
   console.log(error.message + '... So go f*** yourself');
 }
 
-/*
-api.call('lists', 'list', function(error, data) {
-  if(error) {
-    console.log(error.message + '... so go f*** yourself');
-  } else {
-    console.log(data);
-  }
-});
-*/
-
 
 /*
 exportApi.list({id : '6808257603'}, function(error, data) {
