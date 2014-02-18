@@ -15,5 +15,8 @@ block content
       a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
       br
       br
+      a(href='#') Test getting lists by date
+      br
+      br
       div(ng-repeat="list in lists")
         a(href="/lists/{{list.id}}") {{list.name}}
