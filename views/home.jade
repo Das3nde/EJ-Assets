@@ -16,4 +16,4 @@ block content
       br
       br
       div(ng-repeat="list in lists")
-        p {{list.name}}
+        a(href="/lists/{{list.id}}") {{list.name}}
