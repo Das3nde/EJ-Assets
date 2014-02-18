@@ -35,11 +35,17 @@ app.controller('ExportsController', function($scope, $http) {
     $http.get('/exports/lists.json').success(function(data) {
       $scope.lists = data.lists;
     }).then(function(data) {
-      var newList = {id : '', name : ''};
+      /*
+      var newList = {id : '', name : '', date_created : ''};
+      */
       for(var i = 0; i < $scope.lists.length; i++) {
+        /*
         newList.id = $scope.lists[i].id;
         newList.name = $scope.lists[i].name;
+        newList.date_created = $scope.lists[i].date_created;
         $http.post('/lists.json', newList);
+        */
+        $http.post('/lists.json', $scope.lists[i]);
       }
     });
   };
