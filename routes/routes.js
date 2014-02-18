@@ -129,14 +129,7 @@ module.exports = function(app, passport, api) {
 			res.render('mailchimp', { title: 'Mailchimp' });
 		});
 	});
-/*
-  app.get('/lists.json', isLoggedIn, function(req, res) {
-    mc.lists.list({}, function(data) {
-      console.log(data.data);
-      res.json({lists : data.data});
-    });
-  });
-*/
+
   app.get('/lists.json', isLoggedIn, function(req, res) {
     MCList.find({}, function(error, lists) {
       console.log(lists);
