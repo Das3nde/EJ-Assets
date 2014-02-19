@@ -54,8 +54,6 @@ try {
   console.log(error.message + '... f*** f*** f***');
 }
 */
-var sha1 = require('./SHA-1');
-console.log(sha1('hello'));
 
 /**********************************************
  * Initiialize our environments

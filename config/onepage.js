@@ -1,7 +1,6 @@
 var http = require('http'),
     qs = require('querystring'),
-    request = require('request'),
-    sha1 = require('../SHA-1');
+    request = require('request');
 
 function OnePageCRM (login, password) {
   request({
