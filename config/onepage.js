@@ -1,6 +1,7 @@
 var http = require('http'),
     qs = require('querystring'),
-    request = require('request');
+    request = require('request'),
+    crypto = require('crypto');
 
 function OnePageCRM (login, password) {
   request({
@@ -17,7 +18,12 @@ function OnePageCRM (login, password) {
   );
 }
 
-OnePageCRM.createContact = function(/*firstname, lastname, zip_code, emails, phones*/) {
+OnePageCRM.prototype.createContact = function(/*firstname, lastname, zip_code, emails, phones*/) {
+  var hash_uid = crypto.createHash('sha1').update(this.uid).digest('hex');
+  console.log('UID hash is: ' + hash_uid);
+  var hash_ts = crytp.createHash('sha1').update(toString(Date.now()/1000)).digest('hex');
+  console.log('Timestamp hash is: ' + hash_ts);
+
 }
 
 

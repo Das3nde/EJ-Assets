@@ -46,14 +46,23 @@ try {
  **********************************************/
 
 var OnePageCRM = require('./config/onepage.js');
-/*
+
 try {
   var crm = new OnePageCRM('justin@elevenjames.com', '2q8JIF6aPWQlScMGS1x7');
   console.log('Testing OnePageCRM Login');
 } catch(error) {
   console.log(error.message + '... f*** f*** f***');
 }
-*/
+
+try {
+  crm.createContact();
+} catch (error) {
+  console.log(error.message + ' fail');
+}
+
+var crypto = require('crypto');
+
+console.log(crypto.createHmac('sha256', 'password').update('hello').digest('hex'));
 
 /**********************************************
  * Initiialize our environments
