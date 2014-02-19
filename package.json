@@ -14,6 +14,7 @@
     "passport-local": ">=0.1.6",
     "bcrypt-nodejs": "latest",
 		"mailchimp-api": "*",
-    "mailchimp": "*"
+    "mailchimp": "*",
+    "request" : "2.x.x"
   }
 }

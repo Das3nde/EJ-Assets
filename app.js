@@ -41,17 +41,18 @@ try {
   console.log(error.message + '... So go f*** yourself');
 }
 
+/**********************************************
+ * Test section for OnePageCRM Tools
+ **********************************************/
 
-/*
-exportApi.list({id : '6808257603'}, function(error, data) {
-  if(error) {
-    console.log(error.message + '... so go f*** yourself');
-  } else {
-    console.log(data[1]);
-  }
-});
-*/
+var OnePageCRM = require('./config/onepage.js');
 
+try {
+  var crm = new OnePageCRM('justin@elevenjames.com', '2q8JIF6aPWQlScMGS1x7');
+  console.log('Testing OnePageCRM Login');
+} catch(error) {
+  console.log(error.message + '... f*** f*** f***');
+}
 
 /**********************************************
  * Initiialize our environments
