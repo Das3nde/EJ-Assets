@@ -4,6 +4,10 @@
 
 var app = angular.module('app', []);
 
+/***********************************
+ * Controller for Mailchimp Calls
+ ***********************************/
+
 app.controller('MailchimpController', function($scope, $http) {
   $scope.selectedTab = 'home';
   $scope.lists = [];
@@ -27,6 +31,9 @@ app.controller('MailchimpController', function($scope, $http) {
   };
 });
 
+/************************************
+ * Controller for Mailchimp Exports
+ ************************************/
 
 app.controller('ExportsController', function($scope, $http) {
   $scope.lists = [];
@@ -39,5 +46,9 @@ app.controller('ExportsController', function($scope, $http) {
         $http.post('/lists.json', $scope.lists[i]);
       }
     });
+  };
+  
+  $scope.testExport = function() {
+    $http.get('/test/export');
   };
 });

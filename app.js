@@ -44,7 +44,6 @@ try {
 /**********************************************
  * Test section for OnePageCRM Tools
  **********************************************/
-
 var OnePageCRM = require('./config/onepage.js');
 
 try {
@@ -53,16 +52,6 @@ try {
 } catch(error) {
   console.log(error.message + '... f*** f*** f***');
 }
-
-try {
-  crm.createContact();
-} catch (error) {
-  console.log(error.message + ' fail');
-}
-
-var crypto = require('crypto');
-
-console.log(crypto.createHmac('sha256', 'password').update('hello').digest('hex'));
 
 /**********************************************
  * Initiialize our environments
@@ -102,7 +91,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport, api);
+require('./routes/routes.js')(app, passport, api, crm);
 
 /**********************************************
  * Development Only

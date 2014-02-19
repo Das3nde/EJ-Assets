@@ -57,7 +57,7 @@ var watches = [
   ];
 
 
-module.exports = function(app, passport, api) {
+module.exports = function(app, passport, api, crm) {
 
   /***************************************
    * HOME
@@ -206,6 +206,10 @@ module.exports = function(app, passport, api) {
 
   app.get('/test.json', function(req, res) {
     res.json({result : 'It worked' });
+  });
+
+  app.get('/test/export', function(req, res) {
+    crm.createContact();
   });
 };
 
