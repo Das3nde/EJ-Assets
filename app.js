@@ -11,6 +11,7 @@ var passport = require('passport');
 var mcapi = require('./node_modules/mailchimp-api/mailchimp');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
+var request = require('request');
 
 Mongoose.connect('localhost', 'ejassets');
 
@@ -46,8 +47,20 @@ try {
  **********************************************/
 var OnePageCRM = require('./config/onepage.js');
 
+var crm = new OnePageCRM();
+
 try {
-  var crm = new OnePageCRM('justin@elevenjames.com', '2q8JIF6aPWQlScMGS1x7');
+  request({
+    method : 'POST',
+    uri : 'https://app.onepagecrm.com/api/auth/login.json',
+    form : {login : 'justin@elevenjames.com', password : '2q8JIF6aPWQlScMGS1x7'}
+  }, function(error, response, body) {
+    res = JSON.parse(body);
+    crm.uid = res.data.uid;
+    console.log("UID is " + res.data.uid);
+    crm.key = res.data.key;
+    console.log("Key is " + res.data.key);
+  });
   console.log('Testing OnePageCRM Login');
 } catch(error) {
   console.log(error.message + '... f*** f*** f***');

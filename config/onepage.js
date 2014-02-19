@@ -1,23 +1,13 @@
 var http = require('http'),
     qs = require('querystring'),
     request = require('request'),
-    crypto = require('crypto');
+    crypto = require('crypto'),
+    base64 = require('base64-js');
 
-function OnePageCRM (login, password) {
-  request({
-    method : 'POST',
-    uri : 'https://app.onepagecrm.com/api/auth/login.json',
-    form : {login : login, password : password}
-  }, function(error, response, body) {
-      res = JSON.parse(body);
-      this.uid = res.data.uid;
-      console.log(res.data.uid);
-
-      this.key = res.data.key;
-      console.log(res.data.key);
-    }
-  );
+function OnePageCRM () {
 }
+
+module.exports = OnePageCRM;
 
 OnePageCRM.prototype.createContact = function() {
   console.log('UID is: ' + this.uid);
@@ -29,11 +19,18 @@ OnePageCRM.prototype.createContact = function() {
   var hash_uri = crypto.createHash('sha1').update(uri).digest('hex');
   console.log('URI Hash is: ' + hash_uri);
 
-  var params = 'firstname==Justin&lastname=Knutson';
+  var params = qs.stringify({firstname : 'Justin', lastname : 'Knutson'});
+  console.log('Params qs is: ' + params);
+
   var hash_params = crypto.createHash('sha1').update(params).digest('hex');
   console.log('Params Hash is: ' + hash_params);
 
-  var auth = crypto.createHmac('sha256', this.key).update(this.uid + '.' + ts + '.POST.' + hash_uri + '.' + hash_params).digest('hex');
+  var auth_string = this.uid + '.' + ts + '.POST.' + hash_uri + '.' + hash_params;
+  console.log('Hash string is: ' + auth_string);
+
+  var buffer = new Buffer(this.key, 'base64');
+
+  var auth = crypto.createHmac('sha256', buffer).update(auth_string).digest('hex');
   console.log('Auth token is: ' + auth);
 
   request({
@@ -44,12 +41,10 @@ OnePageCRM.prototype.createContact = function() {
       'X-OnePageCRM-TS' : ts,
       'X-OnePageCRM-Auth' : auth
     },
-    form : {firstname : 'Justin', lastname : 'Knutson'}
+    body : params
   }, function(error, response, body) {
     res = JSON.parse(body);
     console.log(res);
   });
 }
 
-
-module.exports = OnePageCRM;
