@@ -11,13 +11,18 @@ var passport = require('passport');
 var mcapi = require('./node_modules/mailchimp-api/mailchimp');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
+var OnePageCRM = require('./config/onepage.js');
 var request = require('request');
 
 Mongoose.connect('localhost', 'ejassets');
 
 var app = express();
 
-var apikey = '99a8d61ae5dc0f904a72ec1899c41f6d-us4'
+var apikey = '99a8d61ae5dc0f904a72ec1899c41f6d-us4',
+    onepage_uid = '525da050eb8997663500001e',
+    onepage_key = 'xSWc1f4oYarbhXUtBzRAXx8RH1Iv6zcNRmVefPjuf/U=';
+
+// This may be obsolete
 mc = new mcapi.Mailchimp(apikey);
 
 /**********************************************
@@ -43,12 +48,11 @@ try {
 }
 
 /**********************************************
- * Test section for OnePageCRM Tools
+ * OnePageCRM Tools
  **********************************************/
-var OnePageCRM = require('./config/onepage.js');
 
-var crm = new OnePageCRM();
-
+var crm = new OnePageCRM(onepage_uid, onepage_key);
+/*
 try {
   request({
     method : 'POST',
@@ -65,6 +69,7 @@ try {
 } catch(error) {
   console.log(error.message + '... f*** f*** f***');
 }
+*/
 
 /**********************************************
  * Initiialize our environments

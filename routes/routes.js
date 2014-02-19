@@ -209,7 +209,7 @@ module.exports = function(app, passport, api, crm) {
   });
 
   app.get('/test/export', function(req, res) {
-    crm.createContact();
+    crm.createContact('Justin', 'Knutson', '07302', '2537203662', 'knutson.justin@gmail.com');
   });
 };
 
