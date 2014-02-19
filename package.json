@@ -15,7 +15,6 @@
     "bcrypt-nodejs": "latest",
 		"mailchimp-api": "*",
     "mailchimp": "*",
-    "request" : "2.x.x",
-    "crypto" : "0.0.3"
+    "request" : "2.x.x"
   }
 }
