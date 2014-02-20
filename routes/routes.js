@@ -64,7 +64,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
    ***************************************/
 
   app.get('/', isLoggedIn, function(req, res) {
-    res.render('home', {title : 'Eleven James' , watches: watches});
+    res.render('home', {title : 'Eleven James'});
   });
 
 	/***************************************
@@ -85,7 +85,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.post('/login', passport.authenticate('local-login', {
     successRedirect : '/',
-    failureRedirect : '/login',
+    failureRedirect : '/login'
   }));
 
   /***************************************
@@ -101,11 +101,11 @@ module.exports = function(app, passport, api, exportApi, crm) {
    * SIGNUP
    ***************************************/
 
-  app.get('/signup', function(req, res) {
+  app.get('/signup', isLoggedIn, function(req, res) {
     res.render('signup');
   });
 
-  app.post('/signup', passport.authenticate('local-signup', {
+  app.post('/signup', isLoggedIn, passport.authenticate('local-signup', {
     successRedirect : '/',
     failureRedirect : '/signup',
   }));
