@@ -185,10 +185,14 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/webhooks/inquiries.json', function(req, res) {
-	res.send({success : 1});
+    res.send({success : 1});
   });
+
   app.post('/webhooks/inquiries.json', function(req, res) {
-	console.log(req.body);
+    console.log(req.body);
+    var data = req.body.data;
+    crm.createContact(data.merges.FNAME, data.merges.LNAME, data.merges.ZIPCODE, data.merges.PHONE, data.email);
+    res.json({success : 1});
   });
   
   /***************************************
