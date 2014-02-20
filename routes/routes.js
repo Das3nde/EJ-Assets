@@ -116,8 +116,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   // Mailchimp test page
 	app.get('/mailchimp', isLoggedIn, function(req, res) {
-			res.render('mailchimp', { title: 'Mailchimp' });
-		});
+	  res.render('mailchimp', { title: 'Mailchimp' });
 	});
 
   app.get('/lists.json', isLoggedIn, function(req, res) {
