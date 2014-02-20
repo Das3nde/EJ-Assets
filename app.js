@@ -52,24 +52,6 @@ try {
  **********************************************/
 
 var crm = new OnePageCRM(onepage_uid, onepage_key);
-/*
-try {
-  request({
-    method : 'POST',
-    uri : 'https://app.onepagecrm.com/api/auth/login.json',
-    form : {login : 'justin@elevenjames.com', password : '2q8JIF6aPWQlScMGS1x7'}
-  }, function(error, response, body) {
-    res = JSON.parse(body);
-    crm.uid = res.data.uid;
-    console.log("UID is " + res.data.uid);
-    crm.key = res.data.key;
-    console.log("Key is " + res.data.key);
-  });
-  console.log('Testing OnePageCRM Login');
-} catch(error) {
-  console.log(error.message + '... f*** f*** f***');
-}
-*/
 
 /**********************************************
  * Initiialize our environments
