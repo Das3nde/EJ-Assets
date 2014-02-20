@@ -1,3 +1,382 @@
 Express server listening on port 8080
 [90mGET / [32m200 [90m8ms - 183b[0m
 [90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+Express server listening on port 8080
+[90mGET / [36m302 [90m7ms - 68b[0m
+[90mGET /login [32m200 [90m496ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [32m200 [90m4ms - 637b[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m123ms - 58b[0m
+[90mGET / [32m200 [90m52ms - 733b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /mailchimp [32m200 [90m393ms - 1.9kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /lists.json [32m200 [90m486ms - 12.39kb[0m
+[90mGET /campaigns.json [32m200 [90m1262ms - 159.8kb[0m
+[90mGET /watches [32m200 [90m61ms - 4.93kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff [32m200 [90m68ms - 22.75kb[0m
+[90mGET /logout [36m302 [90m2ms - 58b[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m47ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m49ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 637b[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m2ms[0m
+[90mPOST /login [36m302 [90m5ms - 68b[0m
+[90mGET /login [32m200 [90m41ms - 862b[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mPOST /login [36m302 [90m7ms - 68b[0m
+[90mGET /login [32m200 [90m41ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mPOST /login [36m302 [90m112ms - 58b[0m
+[90mGET / [32m200 [90m31ms - 733b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m12ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m10ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m13ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m13ms[0m
+[90mGET / [36m302 [90m3ms - 68b[0m
+[90mGET /login [36m304 [90m56ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m111ms - 58b[0m
+[90mGET / [32m200 [90m40ms - 733b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /mailchimp [36m304 [90m304ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m12ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m10ms[0m
+[90mGET /lists.json [32m200 [90m501ms - 12.39kb[0m
+[90mGET /campaigns.json [32m200 [90m1255ms - 160.88kb[0m
+[90mGET /watches [36m304 [90m67ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m7ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /images/AP%20ROOS%20Safari_Temp.png [32m200 [90m237ms - 165.92kb[0m
+[90mGET /mailchimp [36m304 [90m301ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /lists.json [32m200 [90m470ms - 12.39kb[0m
+[90mGET /campaigns.json [32m200 [90m1312ms - 160.88kb[0m
+[90mGET /watches [32m200 [90m61ms - 4.93kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /mailchimp [32m200 [90m288ms - 1.9kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /lists.json [32m200 [90m429ms - 12.39kb[0m
+[90mGET /campaigns.json [32m200 [90m1379ms - 160.88kb[0m
+[90mHEAD / [36m302 [90m3ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m55ms - 862b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mHEAD / [36m302 [90m40ms - 40b[0m
+[90mGET /signup [32m200 [90m41ms - 868b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 637b[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m2ms[0m
+[90mGET /scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /admin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /admin/pma/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /admin/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /db/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /dbadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /mysql/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /mysqladmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /typo3/phpmyadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /web/phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /xampp/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /web/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /php-my-admin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /websql/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET /_phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /apache-default/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /blog/phpmyadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /cpanelphpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /cpphpmyadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /forum/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /php/phpmyadmin/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.10.0.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.10.0.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.10.0.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.10.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.10.1.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.10.2.0/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.11.0.0/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.11.1-all-languages/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.11.1.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.11.1.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.11.1.2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.6.1-pl2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.6.1-pl3/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.6.4-pl3/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.6.4-pl4/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.6.4-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.6.5/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.6.6/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.6.9/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.0-beta1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.0-pl1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.0-pl2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.0-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.5/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.7.6/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.7.7/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.8.2.3/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.8.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.8.3/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.8.4/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET /phpMyAdmin-2.8.5/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.8.6/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET /phpMyAdmin-2.8.7/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.8.8/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.8.9/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.9.0-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.9.0.1/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2.9.0.2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.9.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.9.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-2.9.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.0.0-rc1-english/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-3.0.1.0-english/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.0.1.0/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-3.0.1.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.1.0.0-english/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-3.1.0.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin-3.1.2.0-english/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.1.2.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin-3.4.3.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin3/scripts/setup.php [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /cgi-bin/rtpd.cgi?/bin/busybox [33m404 [90m1ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.139/ [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.daydaydata.com/proxy.txt [33m404 [90m37ms[0m
+[90mGET http://www.daydaydata.com/proxy.txt [33m404 [90m2ms[0m
+[90mGET /user/soapCaller.bs [33m404 [90m1ms[0m
+[90mGET http://wikipedia.pl [36m302 [90m1ms - 40b[0m
+[90mGET http://wikipedia.pl/login [32m200 [90m44ms - 862b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /cgi-bin/rtpd.cgi?/bin/busybox [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /cgi-bin/rtpd.cgi?/bin/busybox [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /cgi-bin/rtpd.cgi?echo&AdminPasswd_ss|tdb&get&HTTPAccount [33m404 [90m1ms[0m
+[90mGET /img/snapshot.cgi?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA�� [33m404 [90m1ms[0m
+[90mGET /oamp/System.xml?action=login&user=L1_admin&password=L1_51 [33m404 [90m2ms[0m
+[90mGET /oidtable.cgi?grep='$IFS/etc/privpasswd;' [33m404 [90m2ms[0m
+[90mGET /LIVE_VIEW.asp [33m404 [90m2ms[0m
+[90mGET /cgi/maker/ptcmd.cgi?cmd=;cat+/tmp/config/usr.ini [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m37ms[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m47ms - 862b[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 637b[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m114ms - 58b[0m
+[90mGET / [32m200 [90m36ms - 733b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m19ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m19ms[0m
+[90mGET /javascripts/app.js [36m304 [90m20ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m21ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m16ms[0m
+[90mGET /mailchimp [32m200 [90m377ms - 1.9kb[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /lists.json [32m200 [90m522ms - 12.39kb[0m
+[90mGET /campaigns.json [32m200 [90m1144ms - 161.64kb[0m
+[90mGET /script [33m404 [90m2ms[0m
+[90mGET /jenkins/script [33m404 [90m1ms[0m
+[90mGET /hudson/script [33m404 [90m1ms[0m
+[90mGET /cgi-bin/php [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /cgi-bin/rtpd.cgi?/bin/busybox [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m3ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m49ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m8ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m11ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m0ms - 40b[0m
+[90mGET http://www.google.com/ [36m302 [90m0ms - 68b[0m
+[90mGET http://74.125.128.101/ [36m302 [90m1ms - 68b[0m
+[90mHEAD / [36m302 [90m0ms - 40b[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://62.236.108.234/ [36m302 [90m1ms - 68b[0m
+[90mGET http://62.236.108.234/login [32m200 [90m38ms - 862b[0m
+[90mGET http://62.236.108.234/ [36m302 [90m1ms - 68b[0m
+[90mGET http://62.236.108.234/login [32m200 [90m47ms - 862b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m37ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m37ms - 862b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m1ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m2ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m38ms - 862b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m2ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m44ms - 862b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m38ms - 862b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m37ms - 862b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /webhooks/inquiries.json [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m52ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 637b[0m
