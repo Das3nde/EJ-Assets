@@ -185,7 +185,10 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/webhooks/inquiries.json', function(req, res) {
-    console.log(req.body);
+	res.send({success : 1});
+  });
+  app.post('/webhooks/inquiries.json', function(req, res) {
+	console.log(req.body);
   });
   
   /***************************************
