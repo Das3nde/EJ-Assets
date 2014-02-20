@@ -18,22 +18,22 @@ Mongoose.connect('localhost', 'ejassets');
 
 var app = express();
 
-var apikey = '99a8d61ae5dc0f904a72ec1899c41f6d-us4',
+var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4',
     onepage_uid = '525da050eb8997663500001e',
     onepage_key = 'xSWc1f4oYarbhXUtBzRAXx8RH1Iv6zcNRmVefPjuf/U=';
 
 // This may be obsolete
-mc = new mcapi.Mailchimp(apikey);
+mc = new mcapi.Mailchimp(mc_key);
 
 /**********************************************
  * Instantiate Mailchimp API Object
  **********************************************/
 
 try {
-  var api = new MailChimpAPI(apikey, { version : '2.0' });
+  var api = new MailChimpAPI(mc_key, { version : '2.0' });
   console.log('Mailchimp API Successfully instantiated');
 } catch (error) {
-  console.log(error.message + '... So go f*** yourself');
+  console.log(error.message);
 }
 
 /**********************************************
@@ -41,10 +41,10 @@ try {
  **********************************************/
 
 try {
-  var exportApi = new MailChimpExportAPI(apikey, { version : '1.0', secure : false });
+  var exportApi = new MailChimpExportAPI(mc_key, { version : '1.0', secure : false });
   console.log('Mailchimp Export Api Successfully Instantiated');
 } catch (error) {
-  console.log(error.message + '... So go f*** yourself');
+  console.log(error.message);
 }
 
 /**********************************************
@@ -91,7 +91,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport, api, crm);
+require('./routes/routes.js')(app, passport, api, exportApi, crm);
 
 /**********************************************
  * Development Only

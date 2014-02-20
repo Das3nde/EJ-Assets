@@ -57,7 +57,7 @@ var watches = [
   ];
 
 
-module.exports = function(app, passport, api, crm) {
+module.exports = function(app, passport, api, exportApi, crm) {
 
   /***************************************
    * HOME
@@ -174,6 +174,20 @@ module.exports = function(app, passport, api, crm) {
     });
   });
 
+  app.get('/test/lists/:id', isLoggedIn, function(req, res) {
+    exportApi.list({ id : req.params.id }, function(error, data) {
+      if(error) {
+        console.log(error.message);
+      } else {
+        console.log(data);
+      }
+    });
+  });
+
+  app.post('/webhooks/inquiries.json', function(req, res) {
+    console.log(req.body);
+  });
+  
   /***************************************
    * MAILCHIMP EXPORTS
    ***************************************/
