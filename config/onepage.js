@@ -15,7 +15,15 @@ OnePageCRM.prototype.createContact = function(firstname, lastname, zip_code, pho
   var ts = parseInt((Date.now()/1000)).toString(),
       uri = 'https://app.onepagecrm.com/api/contacts.json',
       hash_uri = crypto.createHash('sha1').update(uri).digest('hex'),
-      params = qs.stringify({firstname : firstname, lastname : lastname, zip_code : zip_code, phones : 'other|'+phone, emails : 'other|'+email, tags : 'Inquiries'}),
+      params = qs.stringify({
+        firstname : firstname,
+        lastname : lastname,
+        zip_code : zip_code,
+        phones : 'other|' + phone,
+        emails : 'other|' + email,
+        lead_source : 'email_web',
+        tags : 'Inquiries'
+      }),
       hash_params = crypto.createHash('sha1').update(params).digest('hex'),
       auth_string = this.uid + '.' + ts + '.POST.' + hash_uri + '.' + hash_params,
       buffer = new Buffer(this.key, 'base64'),
