@@ -111,21 +111,22 @@ module.exports = function(app, passport, api, exportApi, crm) {
   }));
 
 	/***************************************
-	 * MAILCHIMP
+	 * MAILCHIMP API CALLS
 	 ***************************************/
 
-  // Mailchimp test page
+  // Mailchimp test/home page
 	app.get('/mailchimp', isLoggedIn, function(req, res) {
 	  res.render('mailchimp', { title: 'Mailchimp' });
 	});
 
+  // GET Mailchimp lists from database
   app.get('/lists.json', isLoggedIn, function(req, res) {
     MCList.find({}, function(error, lists) {
-      console.log(lists);
       res.json({lists : lists});
     });
   });
 
+  // GET Mailchimp Campaigns - DEPRECATED 20 February 2014
   app.get('/campaigns.json', isLoggedIn, function(req, res) {
     mc.campaigns.list({'status':'sent'}, function(data) {
       res.json({campaigns : data.data});
@@ -139,6 +140,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  // GET Mailchimp List Members - DEPRECATED 20 February 2014
   app.get('/lists/:id', isLoggedIn, function(req, res) {
     mc.lists.list( {filters : { list_id : req.params.id }}, function(listData) {
       var list = listData.data[0];
@@ -163,22 +165,17 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
-  app.get('/test/lists/:id', isLoggedIn, function(req, res) {
-    exportApi.list({ id : req.params.id }, function(error, data) {
-      if(error) {
-        console.log(error.message);
-      } else {
-        console.log(data);
-      }
-    });
-  });
+  /***************************************
+   * MAILCHIMP WEBHOOKS
+   ***************************************/
 
+  // Set up Webhooks
   app.get('/webhooks/inquiries.json', function(req, res) {
     res.send({success : 1});
   });
 
+  // Post data to OnePageCRM
   app.post('/webhooks/inquiries.json', function(req, res) {
-    console.log(req.body);
     var data = req.body.data;
     crm.createContact(data.merges.FNAME, data.merges.LNAME, data.merges.ZIPCODE, data.merges.PHONE, data.email);
     res.json({success : 1});
@@ -199,6 +196,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  // Post list to Database
   app.post('/lists.json', isLoggedIn, function(req, res) {
     var list = new MCList(req.body);
     list.save(function(error, list) {
