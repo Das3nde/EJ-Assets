@@ -64,7 +64,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
    ***************************************/
 
   app.get('/', isLoggedIn, function(req, res) {
-    res.render('home', {title : 'Eleven James' , watches: watches});
+    res.render('home', {title : 'Eleven James'});
   });
 
 	/***************************************
@@ -85,7 +85,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.post('/login', passport.authenticate('local-login', {
     successRedirect : '/',
-    failureRedirect : '/login',
+    failureRedirect : '/login'
   }));
 
   /***************************************
@@ -101,42 +101,32 @@ module.exports = function(app, passport, api, exportApi, crm) {
    * SIGNUP
    ***************************************/
 
-  app.get('/signup', function(req, res) {
+  app.get('/signup', isLoggedIn, function(req, res) {
     res.render('signup');
   });
 
-  app.post('/signup', passport.authenticate('local-signup', {
+  app.post('/signup', isLoggedIn, passport.authenticate('local-signup', {
     successRedirect : '/',
     failureRedirect : '/signup',
   }));
 
 	/***************************************
-	 * MAILCHIMP
+	 * MAILCHIMP API CALLS
 	 ***************************************/
 
+  // Mailchimp test/home page
 	app.get('/mailchimp', isLoggedIn, function(req, res) {
-		mc.helper.ping(function(data) {
-			res.render('mailchimp', { title : 'Mailchimp' });
-		}, function(err) {
-			console.log(err);
-			if(err.name == 'Invalid_ApiKey') {
-				res.locals.error_flash = "Invalid API key. Set it in app.js";
-			} else if (error.error) {
-				res.locals.error_flash = error.code + ": " + error.error;
-			} else {
-				res.locals.error_flash = "An unknown error occurred";
-			}
-			res.render('mailchimp', { title: 'Mailchimp' });
-		});
+	  res.render('mailchimp', { title: 'Mailchimp' });
 	});
 
+  // GET Mailchimp lists from database
   app.get('/lists.json', isLoggedIn, function(req, res) {
     MCList.find({}, function(error, lists) {
-      console.log(lists);
       res.json({lists : lists});
     });
   });
 
+  // GET Mailchimp Campaigns - DEPRECATED 20 February 2014
   app.get('/campaigns.json', isLoggedIn, function(req, res) {
     mc.campaigns.list({'status':'sent'}, function(data) {
       res.json({campaigns : data.data});
@@ -150,6 +140,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  // GET Mailchimp List Members - DEPRECATED 20 February 2014
   app.get('/lists/:id', isLoggedIn, function(req, res) {
     mc.lists.list( {filters : { list_id : req.params.id }}, function(listData) {
       var list = listData.data[0];
@@ -174,24 +165,24 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
-  app.get('/test/lists/:id', isLoggedIn, function(req, res) {
-    exportApi.list({ id : req.params.id }, function(error, data) {
-      if(error) {
-        console.log(error.message);
-      } else {
-        console.log(data);
-      }
-    });
-  });
+  /***************************************
+   * MAILCHIMP WEBHOOKS
+   ***************************************/
 
+  // Set up Webhooks
   app.get('/webhooks/inquiries.json', function(req, res) {
     res.send({success : 1});
   });
 
+  // Post data to OnePageCRM
   app.post('/webhooks/inquiries.json', function(req, res) {
-    console.log(req.body);
     var data = req.body.data;
-    crm.createContact(data.merges.FNAME, data.merges.LNAME, data.merges.ZIPCODE, data.merges.PHONE, data.email);
+    crm.createContact({
+      firstname : data.merges.FNAME,
+      lastname : data.merges.LNAME,
+      zip_code : data.merges.ZIPCODE,
+      phones : ('other|' + data.merges.PHONE),
+      emails : ('other|' + data.email), tags : 'Inquiries'});
     res.json({success : 1});
   });
   
@@ -210,6 +201,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  // Post list to Database
   app.post('/lists.json', isLoggedIn, function(req, res) {
     var list = new MCList(req.body);
     list.save(function(error, list) {
@@ -230,7 +222,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/test/export', function(req, res) {
-    crm.createContact('Justin', 'Knutson', '07302', '2537203662', 'knutson.justin@gmail.com');
+    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
+    crm.createContact(params);
   });
 };
 

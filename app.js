@@ -1,14 +1,13 @@
-
-/**
+/**********************************************
  * Module dependencies.
- */
+ **********************************************/
 
 var express = require('express');
 var http = require('http');
 var path = require('path');
 var Mongoose = require('mongoose');
 var passport = require('passport');
-var mcapi = require('./node_modules/mailchimp-api/mailchimp');
+var mcapi = require('./node_modules/mailchimp-api/mailchimp');  // This is now deprecated 20 February 2014
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 var OnePageCRM = require('./config/onepage.js');
@@ -22,11 +21,11 @@ var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4',
     onepage_uid = '525da050eb8997663500001e',
     onepage_key = 'xSWc1f4oYarbhXUtBzRAXx8RH1Iv6zcNRmVefPjuf/U=';
 
-// This may be obsolete
+// Deprecated 20 February 2014
 mc = new mcapi.Mailchimp(mc_key);
 
 /**********************************************
- * Instantiate Mailchimp API Object
+ * Instantiate Mailchimp API Objects
  **********************************************/
 
 try {
@@ -35,10 +34,6 @@ try {
 } catch (error) {
   console.log(error.message);
 }
-
-/**********************************************
- * Instantiate Mailchimp Export API Object
- **********************************************/
 
 try {
   var exportApi = new MailChimpExportAPI(mc_key, { version : '1.0', secure : false });

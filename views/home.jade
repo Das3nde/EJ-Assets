@@ -9,20 +9,11 @@ block content
       br
       a(href='/mailchimp') View daily mailchimp imports
       br
-      br
-      a(href='/exports/lists.json') Test Mailchimp Lists Importer (console)
-      br
-      a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
-      br
-      br
-      a(href='#') Test getting lists by date
-      br
-      br
-      div(ng-repeat="list in lists")
-        a(href="/lists/{{list.id}}") {{list.name}}
-
-      br
-      br
-      br
-      br
+      //-a(href='/exports/lists.json') Test Mailchimp Lists Importer (console)
+      //-br
+      //-a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
+      //-br
+      //-br
+      //-div(ng-repeat="list in lists")
+        //-a(href="/lists/{{list.id}}") {{list.name}}
       a(href='#' ng-click="testExport()") Try creating a dummy contact in OnePage
