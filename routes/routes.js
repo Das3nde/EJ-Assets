@@ -217,7 +217,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/test/export', function(req, res) {
-    crm.createContact('Justin', 'Knutson', '07302', '2537203662', 'knutson.justin@gmail.com');
+    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
+    crm.createContact(params);
   });
 };
 

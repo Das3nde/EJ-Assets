@@ -14,16 +14,19 @@ module.exports = OnePageCRM;
 OnePageCRM.prototype.execute = function(path, method, params) {
   var self = this;
 
+  console.log("Method has received: " + path + method + params);
+
   var timestamp = parseInt((Date.now()/1000)).toString();
   var uri = 'https://app.onepagecrm.com/api/' + path;
   var uri_hash = crypto.createHash('sha1').update(uri).digest('hex');
 
-  var hash_string = this.uid + '.' + timestamp + '.' + method + '.' + hash_uri;
+  var hash_string = this.uid + '.' + timestamp + '.' + method + '.' + uri_hash;
 
   if(method == 'POST' || method == 'PUT') {
+    console.log("This must either be a POST or PUT");
     var qs_params = qs.stringify(params);
     var params_hash = crypto.createHash('sha1').update(qs_params).digest('hex');
-    hash_string += params_hash;
+    hash_string += '.' + params_hash;
   }
 
   buffer = new Buffer(this.key, 'base64');
@@ -38,7 +41,7 @@ OnePageCRM.prototype.execute = function(path, method, params) {
       'X-OnePageCRM-TS' : timestamp,
       'X-OnePageCRM-Auth' : auth
     },
-    body : params
+    body : qs.stringify(params)
   }, function(error, response, body) {
     res = JSON.parse(body);
     console.log(res);
