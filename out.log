@@ -380,3 +380,396 @@ Express server listening on port 8080
 [90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
 [90mGET /javascripts/angular-resource.min.js [36m304 [90m1ms[0m
 [90mGET /javascripts/app.js [32m200 [90m2ms - 637b[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m7ms - 68b[0m
+[90mGET /login [32m200 [90m453ms - 862b[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m19ms[0m
+[90mGET /javascripts/app.js [36m304 [90m18ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m17ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m17ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+{ type: 'subscribe',
+  fired_at: '2014-02-20 15:48:33',
+  data: 
+   { id: 'ddd0b44fec',
+     email: 'knutson.justin+test15@gmail.com',
+     email_type: 'html',
+     ip_opt: '72.225.246.231',
+     ip_signup: '72.225.246.231',
+     web_id: '86797109',
+     merges: 
+      { EMAIL: 'knutson.justin+test15@gmail.com',
+        SALUTATION: 'Mr.',
+        FNAME: 'Knutson',
+        LNAME: 'Justin',
+        MMERGE3: '',
+        MMERGE4: '',
+        MMERGE5: '',
+        MMERGE6: '',
+        ZIPCODE: '',
+        PHONE: '253-720-3662' },
+     list_id: '3530a0376a' } }
+UID is: 525da050eb8997663500001e
+Timestamp is: 1392911313
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+Params Hash is: 12ccfa5fc4aef0ce77f3985e8daa1d6aae9776ce
+Hash string is: 525da050eb8997663500001e.1392911313.POST.0d6e96e427e59ecc8fff179605f1bdd3ddcb2981.12ccfa5fc4aef0ce77f3985e8daa1d6aae9776ce
+Auth token is: dbf95de2cbba9b6071162038facfad2a6a0fc940f782157902d94553f892544f
+[90mPOST /webhooks/inquiries.json [32m200 [90m27ms - 18b[0m
+{ status: 0,
+  message: 'Created',
+  timestamp: 1392911041,
+  data: 
+   { id: '530622c1eb8997791a00001a',
+     pendingdeal: false,
+     starred: false,
+     owner: '525da050eb8997663500001e',
+     type: 'contact',
+     firstname: 'Knutson',
+     lastname: 'Justin',
+     company: null,
+     status: 'lead',
+     tags: [ 'Inquiries' ],
+     photo_url: null,
+     company_id: null,
+     next_actions: [],
+     queued_actions: [],
+     nextaction: {},
+     jobtitle: null,
+     zip: null,
+     country: null,
+     address: null,
+     city: null,
+     state: null,
+     description: null,
+     lead_source: null,
+     phones: [ [Object] ],
+     emails: [ [Object] ],
+     urls: [],
+     company_type: false },
+  tags: 
+   { names: 
+      [ 'Aficionado',
+        'Blogger/advisor',
+        'Charter Member',
+        'Connoisseur',
+        'Inquiries',
+        'Interviewee',
+        'investor',
+        'Media',
+        'Pay Monthly',
+        'prospect',
+        'supply',
+        'Trial',
+        'VIP' ],
+     counts: 
+      { Aficionado: [Object],
+        'Blogger/advisor': [Object],
+        'Charter Member': [Object],
+        Connoisseur: [Object],
+        Inquiries: [Object],
+        Interviewee: [Object],
+        investor: [Object],
+        Media: [Object],
+        'Pay Monthly': [Object],
+        prospect: [Object],
+        supply: [Object],
+        Trial: [Object],
+        VIP: [Object] },
+     system_counts: { pendings: [Object], starred: [Object], waiting: [Object] } },
+  statuses: 
+   [ { name: 'all', count: 1 },
+     { name: 'lead', count: 1 },
+     { name: 'prospect', count: 0 },
+     { name: 'customer', count: 0 },
+     { name: 'inactive', count: 0 },
+     { name: 'general', count: 0 },
+     { name: 'custom1', count: 0 },
+     { name: 'custom2', count: 0 },
+     { name: 'custom3', count: 0 },
+     { team: [Object] },
+     { stream: [Object] } ] }
+[90mGET / [36m302 [90m1ms - 40b[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET /webhooks/inquiries.json [32m200 [90m6ms - 18b[0m
+[90mGET /webhooks/inquiries.json [36m304 [90m4ms[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m6ms - 68b[0m
+[90mGET /login [36m304 [90m465ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m20ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m18ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m17ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m18ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m53ms - 862b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m47ms - 862b[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.102/ [36m302 [90m1ms - 68b[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m37ms - 862b[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m73ms - 862b[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m2ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m2ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m54ms - 862b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m45ms - 862b[0m
+{ type: 'subscribe',
+  fired_at: '2014-02-21 02:54:50',
+  data: 
+   { id: '88d2f3358f',
+     email: 'francisco.troula@bancovotorantim.com.br',
+     email_type: 'html',
+     ip_opt: '177.32.173.156',
+     ip_signup: '177.32.173.156',
+     web_id: '86814353',
+     merges: 
+      { EMAIL: 'francisco.troula@bancovotorantim.com.br',
+        SALUTATION: 'Mr.',
+        FNAME: 'Francisco',
+        LNAME: 'Troula',
+        MMERGE3: '',
+        MMERGE4: '',
+        MMERGE5: '',
+        MMERGE6: '',
+        ZIPCODE: '',
+        PHONE: '407-227-0523' },
+     list_id: '3530a0376a' } }
+UID is: 525da050eb8997663500001e
+Timestamp is: 1392951290
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+Params Hash is: 542d488da8df8656f802eae2a14b91c8951fae98
+Hash string is: 525da050eb8997663500001e.1392951290.POST.0d6e96e427e59ecc8fff179605f1bdd3ddcb2981.542d488da8df8656f802eae2a14b91c8951fae98
+Auth token is: 515ec0251291bdb0ba8fdfbd976056fa76dddaba8e249db5211ebc3e5f0fa742
+[90mPOST /webhooks/inquiries.json [32m200 [90m61ms - 18b[0m
+{ status: 0,
+  message: 'Created',
+  timestamp: 1392951018,
+  data: 
+   { id: '5306beeaeb899717bf000004',
+     pendingdeal: false,
+     starred: false,
+     owner: '525da050eb8997663500001e',
+     type: 'contact',
+     firstname: 'Francisco',
+     lastname: 'Troula',
+     company: null,
+     status: 'lead',
+     tags: [ 'Inquiries' ],
+     photo_url: null,
+     company_id: null,
+     next_actions: [],
+     queued_actions: [],
+     nextaction: {},
+     jobtitle: null,
+     zip: null,
+     country: null,
+     address: null,
+     city: null,
+     state: null,
+     description: null,
+     lead_source: null,
+     phones: [ [Object] ],
+     emails: [ [Object] ],
+     urls: [],
+     company_type: false },
+  tags: 
+   { names: 
+      [ 'Aficionado',
+        'Blogger/advisor',
+        'Charter Member',
+        'Connoisseur',
+        'Inquiries',
+        'Interviewee',
+        'investor',
+        'Media',
+        'Pay Monthly',
+        'prospect',
+        'supply',
+        'Trial',
+        'VIP' ],
+     counts: 
+      { Aficionado: [Object],
+        'Blogger/advisor': [Object],
+        'Charter Member': [Object],
+        Connoisseur: [Object],
+        Inquiries: [Object],
+        Interviewee: [Object],
+        investor: [Object],
+        Media: [Object],
+        'Pay Monthly': [Object],
+        prospect: [Object],
+        supply: [Object],
+        Trial: [Object],
+        VIP: [Object] },
+     system_counts: { pendings: [Object], starred: [Object], waiting: [Object] } },
+  statuses: 
+   [ { name: 'all', count: 1 },
+     { name: 'lead', count: 1 },
+     { name: 'prospect', count: 0 },
+     { name: 'customer', count: 0 },
+     { name: 'inactive', count: 0 },
+     { name: 'general', count: 0 },
+     { name: 'custom1', count: 0 },
+     { name: 'custom2', count: 0 },
+     { team: [Object] },
+     { stream: [Object] } ] }
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m2ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m77ms - 862b[0m
+[90mGET http://www.google.com/ [36m302 [90m2ms - 68b[0m
+[90mGET http://173.194.127.14/ [36m302 [90m1ms - 68b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m80ms - 862b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m2ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m35ms - 862b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m78ms - 862b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m45ms - 862b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m40ms - 862b[0m
+{ type: 'subscribe',
+  fired_at: '2014-02-21 19:48:33',
+  data: 
+   { id: '845d405cb2',
+     email: 'bleffell@gmail.com',
+     email_type: 'html',
+     ip_opt: '72.225.246.231',
+     ip_signup: '72.225.246.231',
+     web_id: '84344973',
+     merges: 
+      { EMAIL: 'bleffell@gmail.com',
+        SALUTATION: 'Mr.',
+        FNAME: 'Benjamin',
+        LNAME: 'Leffell',
+        MMERGE3: '',
+        MMERGE4: '',
+        MMERGE5: '',
+        MMERGE6: '',
+        ZIPCODE: '',
+        PHONE: '' },
+     list_id: '3530a0376a' } }
+UID is: 525da050eb8997663500001e
+Timestamp is: 1393012113
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+URI Hash is: 0d6e96e427e59ecc8fff179605f1bdd3ddcb2981
+Params Hash is: 668abecab46a36c99e6649c1105cc6f72a36bc4b
+Hash string is: 525da050eb8997663500001e.1393012113.POST.0d6e96e427e59ecc8fff179605f1bdd3ddcb2981.668abecab46a36c99e6649c1105cc6f72a36bc4b
+Auth token is: c6c85b4a00203b03bfc1f3c7c2d2b3eedbd884c18289c66b29897e3d7960c8c0
+[90mPOST /webhooks/inquiries.json [32m200 [90m14ms - 18b[0m
+{ status: 0,
+  message: 'Created',
+  timestamp: 1393011839,
+  data: 
+   { id: '5307ac7feb8997206000000d',
+     pendingdeal: false,
+     starred: false,
+     owner: '525da050eb8997663500001e',
+     type: 'contact',
+     firstname: 'Benjamin',
+     lastname: 'Leffell',
+     company: null,
+     status: 'lead',
+     tags: [ 'Inquiries' ],
+     photo_url: null,
+     company_id: null,
+     next_actions: [],
+     queued_actions: [],
+     nextaction: {},
+     jobtitle: null,
+     zip: null,
+     country: null,
+     address: null,
+     city: null,
+     state: null,
+     description: null,
+     lead_source: null,
+     phones: [],
+     emails: [ [Object] ],
+     urls: [],
+     company_type: false },
+  tags: 
+   { names: 
+      [ 'Aficionado',
+        'Blogger/advisor',
+        'Charter Member',
+        'Connoisseur',
+        'Inquiries',
+        'Interviewee',
+        'investor',
+        'Media',
+        'Pay Monthly',
+        'prospect',
+        'supply',
+        'Trial',
+        'VIP' ],
+     counts: 
+      { Aficionado: [Object],
+        'Blogger/advisor': [Object],
+        'Charter Member': [Object],
+        Connoisseur: [Object],
+        Inquiries: [Object],
+        Interviewee: [Object],
+        investor: [Object],
+        Media: [Object],
+        'Pay Monthly': [Object],
+        prospect: [Object],
+        supply: [Object],
+        Trial: [Object],
+        VIP: [Object] },
+     system_counts: { pendings: [Object], starred: [Object], waiting: [Object] } },
+  statuses: 
+   [ { name: 'all', count: 1 },
+     { name: 'lead', count: 1 },
+     { name: 'prospect', count: 0 },
+     { name: 'customer', count: 0 },
+     { name: 'inactive', count: 0 },
+     { name: 'general', count: 0 },
+     { name: 'custom1', count: 0 },
+     { name: 'custom2', count: 0 },
+     { team: [Object] },
+     { stream: [Object] } ] }
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://173.194.127.227/ [36m302 [90m2ms - 68b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m34ms - 862b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [32m200 [90m5ms - 1.28kb[0m
+[90mGET http://www.baidu.com/ [36m302 [90m2ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m48ms - 862b[0m
