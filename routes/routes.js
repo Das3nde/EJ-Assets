@@ -177,7 +177,12 @@ module.exports = function(app, passport, api, exportApi, crm) {
   // Post data to OnePageCRM
   app.post('/webhooks/inquiries.json', function(req, res) {
     var data = req.body.data;
-    crm.createContact(data.merges.FNAME, data.merges.LNAME, data.merges.ZIPCODE, data.merges.PHONE, data.email);
+    crm.createContact({
+      firstname : data.merges.FNAME,
+      lastname : data.merges.LNAME,
+      zip_code : data.merges.ZIPCODE,
+      phones : ('other|' + data.merges.PHONE),
+      emails : ('other|' + data.email), tags : 'Inquiries'});
     res.json({success : 1});
   });
   
