@@ -1,5 +1,6 @@
 var MCList = require('../models/MCList.js');
 var Contact = require('../models/Contact.js');
+var ben_id = '529e29eaeb89975e52000007';
 
 var watches = [
 {name:"Anonimo Militare Flyback"},
@@ -183,7 +184,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
       firstname : data.merges.FNAME,
       lastname : data.merges.LNAME,
       zip_code : data.merges.ZIPCODE,
-      owner_id : '51f14139eb899718c500001b',
+      owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
       emails : ('other|' + data.email), tags : 'Inquiries'});
     res.json({success : 1});
@@ -290,12 +291,12 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/test/export', function(req, res) {
-    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
+    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
     crm.createContact(params);
   });
 
   app.get('/test/contacts', function(req, res) {
-    var params = {whole_team : 1, find : 'Barrett'};
+    var params = {whole_team : 1, search : 'Ahmed'};
     crm.getContacts(params, function(data) {
       console.log(data.contacts[0]);
       res.json(data.contacts[0]);
