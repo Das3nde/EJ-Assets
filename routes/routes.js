@@ -1,5 +1,6 @@
 var MCList = require('../models/MCList.js');
 var Contact = require('../models/Contact.js');
+var Deletes = require('../models/Deletes.js');
 var ben_id = '529e29eaeb89975e52000007';
 
 var watches = [
@@ -222,24 +223,32 @@ module.exports = function(app, passport, api, exportApi, crm) {
       if(error) {
         console.log(error.message);
       } else {
-        var contact = data[1];
-        new Contact({
-          email : contact[0],
-          first_name : contact[1],
-          last_name : contact[2],
-//          phone : ,
-//          zip : ,
-          mc_date_added : contact[7],
-          mc_region : contact[15],
-          mc_leid : contact[17],
-          mc_euid : contact[18]
-        }).save(function(error, contact) {
-          if(error || !contact) {
-            res.json({error : error});
-          } else {
-            res.json({contact : contact});
-          }
-        });
+        var contact = {};
+        console.log(data[0]);
+        for(var i = 1; i < data.length; i++) {
+          contact = data[i];
+          console.log(contact);
+          new Contact({
+            email : contact[0],
+            first_name : formatName(contact[1]),
+            last_name : formatName(contact[2]),
+            country : contact[14],
+            state : contact[15],
+              ip : contact[8],
+              latitude : contact[9],
+              longitude : contact[10],
+              region : contact[13],
+              created : contact[7],
+              euid : contact[18],
+              leid : contact[17]
+          }).save(function(error, contact) {
+            if(error || !contact) {
+              res.json({error : error});
+            } else {
+              res.json({contact : contact});
+            }
+          });
+        }
       }
     });
   });
@@ -250,36 +259,91 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/onepage/contacts', isLoggedIn, function(req, res) {
     crm.getContacts({whole_team : 1}, function(data) {
-      console.log("We're now in callback");
-      console.log("Looping until " + data.maxpage);
+      // Iterate over all of the available pages
       for(var index = 1; index <= 1/*data.maxpage*/; index++) {
         crm.getContacts({whole_team : 1, page : index}, function(data) {
-          var contact = {};
           for(var i = 0; i < data.contacts.length; i++) {
-            contact = data.contacts[i];
-            console.log(contact.lastname);
-            crm.getContact(contact.id, function(data) {
-              contact = data.contact;
-              console.log(contact);
-              new Contact({
-                first_name : (contact.firstname.charAt(0).toUpperCase() + contact.firstname.slice(1).toLowerCase()),
-                last_name : (contact.lastname.charAt(0).toUpperCase() + contact.lastname.slice(1).toLowerCase()),
-                zip : contact.zip
-              }).save(function(error, contact) {
-                if(error || !contact) {
-                  console.log("Error");
-                  res.json({error : error});
+            crm.getContact(data.contacts[i].id, function(data) {
+              var contact = data.contact;
+              var first_name = formatName(contact.firstname),
+                  last_name = formatName(contact.lastname);
+              var email = '';
+              if(contact.emails.length > 0) {
+                email = contact.emails[0].address;
+              }
+
+              var phones = [];
+
+              for(var i = 0; i < contact.phones.length; i++) {
+                phones.push({type : contact.phones[i].type, number : contact.phones[i].number});
+              }
+              console.log(first_name + ' ' + last_name);
+              console.log('Phones is ' + JSON.stringify(phones));
+
+              Contact.findOne({first_name : first_name, last_name : last_name}, function(error, duplicate) {
+                if(error || !duplicate) {
+                  console.log('No duplicate for ' + first_name + ' ' + last_name);
+                  console.log('Adding contact');
+                  new Contact({
+                    first_name : first_name,
+                    last_name : last_name,
+                    id : contact.id,
+                    email : email,
+                    country : contact.country,
+                    state : contact.state,
+                      company : contact.company,
+                      job_title : contact.job_title,
+                      address : contact.address,
+                      zip : contact.zip,
+                      city : contact.city,
+                      description : contact.description,
+                      phones : phones,
+                      owner : contact.owner,
+                      status : contact.status,
+                      lead_source : contact.lead_source,
+                      tags : contact.tags
+                  }).save(function(error, contact) {
+                    if(error || !contact) {
+                     console.log('Error saving contact');
+                   } else {
+                     console.log('Success!');
+                   }
+                  });
                 } else {
-                  console.log("Success");
-                  res.json({contact : contact});
+                  console.log('Duplicate found for ' + first_name + ' ' + last_name);
+                  console.log('Duplicate ID is ' + duplicate.id);
+                  console.log('Contact ID is ' + contact.id);
+                  if(duplicate.id != contact.id) {
+                    Deletes.findOne({first_name : first_name, last_name : last_name}, function(error, deletes) {
+                      if(error || !deletes) {
+                        console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
+                        new Deletes({
+                          first_name : first_name,
+                          last_name : last_name,
+                          id : contact.id
+                        }).save(function(error, deletes) {
+                          if(error || !deletes) {
+                            console.log('Error saving deletes');
+                          } else {
+                            console.log('Success saving deletes!');
+                          }
+                        });
+                      } else {
+                        console.log(first_name + ' ' + last_name + ' is already staged for deletion!');
+                      }
+                    });
+                  } else {
+                    console.log('However, the duplicate is literally the same');
+                    // This is where we should update the contact and make sure all the fields are the same
+                  }
                 }
               });
             });
           }
         });
-        console.log("looping, index: " + index);
       }
     });
+    res.send({success : 1});
   });
 
   /***************************************
@@ -314,4 +378,8 @@ function isLoggedIn(req, res, next) {
     return next();
 
   res.redirect('/login');
+}
+
+function formatName(name) {
+  return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
 }
