@@ -1,4 +1,6 @@
 var MCList = require('../models/MCList.js');
+var Contact = require('../models/Contact.js');
+
 var watches = [
 {name:"Anonimo Militare Flyback"},
 {name:"AP ROOS Chrono"},
@@ -215,11 +217,28 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/exports/lists/:id', isLoggedIn, function(req, res) {
     exportApi.list({id : req.params.id}, function(error, data) {
-      if(error)
+      if(error) {
         console.log(error.message);
-      else
-        console.log(data);
-      res.json(data);
+      } else {
+        var contact = data[1];
+        new Contact({
+          email : contact[0],
+          first_name : contact[1],
+          last_name : contact[2],
+//          phone : ,
+//          zip : ,
+          mc_date_added : contact[7],
+          mc_region : contact[15],
+          mc_leid : contact[17],
+          mc_euid : contact[18]
+        }).save(function(error, contact) {
+          if(error || !contact) {
+            res.json({error : error});
+          } else {
+            res.json({contact : contact});
+          }
+        });
+      }
     });
   });
 
