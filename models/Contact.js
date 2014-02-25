@@ -4,7 +4,9 @@ var ContactSchema = Mongoose.Schema({
   email : String,
   first_name : String,
   last_name : String,
-  phone : String
+  phone : String,
+  zip : String,
+  mc_date_added : Date
 });
 
 module.exports = Mongoose.model('Contact', ContactSchema);

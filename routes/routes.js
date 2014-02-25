@@ -213,6 +213,15 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  app.get('/exports/lists/:id', isLoggedIn, function(req, res) {
+    exportApi.list({id : req.params.id}, function(error, data) {
+      if(error)
+        console.log(error.message);
+      else
+        console.log(JSON.stringify(data));
+    });
+  });
+
   /***************************************
    * TEST Routes
    ***************************************/
