@@ -11,21 +11,27 @@ function OnePageCRM (uid, key) {
 
 module.exports = OnePageCRM;
 
-OnePageCRM.prototype.execute = function(path, method, params) {
+OnePageCRM.prototype.execute = function(path, method, params, callback) {
   var self = this;
   
   var timestamp = parseInt((Date.now()/1000)).toString();
   var uri = 'https://app.onepagecrm.com/api/' + path;
-  var uri_hash = crypto.createHash('sha1').update(uri).digest('hex');
-
-  var hash_string = this.uid + '.' + timestamp + '.' + method + '.' + uri_hash;
+  var body = '';
+  var params_hash = '';
 
   if(method == 'POST' || method == 'PUT') {
-    console.log("This must either be a POST or PUT");
-    var qs_params = qs.stringify(params);
-    var params_hash = crypto.createHash('sha1').update(qs_params).digest('hex');
-    hash_string += '.' + params_hash;
+    body = qs.stringify(params);
+    params_hash = '.' + crypto.createHash('sha1').update(qs.stringify(params)).digest('hex');
+  } else {
+    if(params != null) {
+      uri += ('?' + qs.stringify(params));
+    }
+    console.log(uri);
   }
+
+  var uri_hash = crypto.createHash('sha1').update(uri).digest('hex');
+
+  var hash_string = this.uid + '.' + timestamp + '.' + method + '.' + uri_hash + params_hash;
 
   var buffer = new Buffer(this.key, 'base64');
 
@@ -39,14 +45,23 @@ OnePageCRM.prototype.execute = function(path, method, params) {
       'X-OnePageCRM-TS' : timestamp,
       'X-OnePageCRM-Auth' : auth
     },
-    body : qs.stringify(params)
+    body : body
   }, function(error, response, body) {
-    res = JSON.parse(body);
-    console.log(res);
+    callback(JSON.parse(body).data);
   });
 }
 
 OnePageCRM.prototype.createContact = function(params) {
-  this.execute('contacts.json', 'POST', params);
+  this.execute('contacts.json', 'POST', params, function(data) {
+    console.log(data)
+  });
 }
 
+OnePageCRM.prototype.getContacts = function(params, callback) {
+  this.execute('contacts.json', 'GET', params, callback);
+}
+
+OnePageCRM.prototype.getContact = function(id, callback) {
+  console.log("Getting contact with id " + id);
+  this.execute('contacts/' + id + '.json', 'GET', null, callback);
+}

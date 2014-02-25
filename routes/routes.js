@@ -1,4 +1,7 @@
 var MCList = require('../models/MCList.js');
+var Contact = require('../models/Contact.js');
+var ben_id = '529e29eaeb89975e52000007';
+
 var watches = [
 {name:"Anonimo Militare Flyback"},
 {name:"AP ROOS Chrono"},
@@ -181,6 +184,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
       firstname : data.merges.FNAME,
       lastname : data.merges.LNAME,
       zip_code : data.merges.ZIPCODE,
+      owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
       emails : ('other|' + data.email), tags : 'Inquiries'});
     res.json({success : 1});
@@ -213,6 +217,71 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
   });
 
+  app.get('/exports/lists/:id', isLoggedIn, function(req, res) {
+    exportApi.list({id : req.params.id}, function(error, data) {
+      if(error) {
+        console.log(error.message);
+      } else {
+        var contact = data[1];
+        new Contact({
+          email : contact[0],
+          first_name : contact[1],
+          last_name : contact[2],
+//          phone : ,
+//          zip : ,
+          mc_date_added : contact[7],
+          mc_region : contact[15],
+          mc_leid : contact[17],
+          mc_euid : contact[18]
+        }).save(function(error, contact) {
+          if(error || !contact) {
+            res.json({error : error});
+          } else {
+            res.json({contact : contact});
+          }
+        });
+      }
+    });
+  });
+  
+  /***************************************
+   * OnePageCRM Routes
+   ***************************************/
+
+  app.get('/onepage/contacts', isLoggedIn, function(req, res) {
+    crm.getContacts({whole_team : 1}, function(data) {
+      console.log("We're now in callback");
+      console.log("Looping until " + data.maxpage);
+      for(var index = 1; index <= 1/*data.maxpage*/; index++) {
+        crm.getContacts({whole_team : 1, page : index}, function(data) {
+          var contact = {};
+          for(var i = 0; i < data.contacts.length; i++) {
+            contact = data.contacts[i];
+            console.log(contact.lastname);
+            crm.getContact(contact.id, function(data) {
+              contact = data.contact;
+              console.log(contact);
+              new Contact({
+                first_name : (contact.firstname.charAt(0).toUpperCase() + contact.firstname.slice(1).toLowerCase()),
+                last_name : (contact.lastname.charAt(0).toUpperCase() + contact.lastname.slice(1).toLowerCase()),
+                zip : contact.zip
+              }).save(function(error, contact) {
+                if(error || !contact) {
+                  console.log("Error");
+                  res.json({error : error});
+                } else {
+                  console.log("Success");
+                  res.json({contact : contact});
+                }
+              });
+            });
+          }
+        });
+        console.log("looping, index: " + index);
+      }
+    });
+  });
+
   /***************************************
    * TEST Routes
    ***************************************/
@@ -222,8 +291,16 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/test/export', function(req, res) {
-    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
+    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
     crm.createContact(params);
+  });
+
+  app.get('/test/contacts', function(req, res) {
+    var params = {whole_team : 1, search : 'Ahmed'};
+    crm.getContacts(params, function(data) {
+      console.log(data.contacts[0]);
+      res.json(data.contacts[0]);
+    });
   });
 };
 
