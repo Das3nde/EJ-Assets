@@ -260,7 +260,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
   app.get('/onepage/contacts', isLoggedIn, function(req, res) {
     crm.getContacts({whole_team : 1}, function(data) {
       // Iterate over all of the available pages
-      for(var index = 1; index <= 1/*data.maxpage*/; index++) {
+      for(var index = 1; index <= data.maxpage; index++) {
         crm.getContacts({whole_team : 1, page : index}, function(data) {
           for(var i = 0; i < data.contacts.length; i++) {
             crm.getContact(data.contacts[i].id, function(data) {
