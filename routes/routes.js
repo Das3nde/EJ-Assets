@@ -261,7 +261,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
               console.log(contact);
               new Contact({
                 first_name : (contact.firstname.charAt(0).toUpperCase() + contact.firstname.slice(1).toLowerCase()),
-                last_name : (contact.lastname.charAt(0).toUpperCase() + contact.lastname.slice(1).toUpperCase()),
+                last_name : (contact.lastname.charAt(0).toUpperCase() + contact.lastname.slice(1).toLowerCase()),
                 zip : contact.zip
               }).save(function(error, contact) {
                 if(error || !contact) {
