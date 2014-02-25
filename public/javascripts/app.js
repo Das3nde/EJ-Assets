@@ -55,4 +55,8 @@ app.controller('ExportsController', function($scope, $http) {
   $scope.testExport = function() {
     $http.get('/test/export');
   };
+
+  $scope.getContacts = function() {
+    $http.get('/onepage/contacts');
+  };
 });

@@ -241,6 +241,25 @@ module.exports = function(app, passport, api, exportApi, crm) {
       }
     });
   });
+  
+  /***************************************
+   * OnePageCRM Routes
+   ***************************************/
+
+  app.get('/onepage/contacts', isLoggedIn, function(req, res) {
+    crm.getContacts({whole_team : 1}, function(data) {
+      console.log("We're now in callback");
+      console.log("Looping until " + data.maxpage);
+      for(var index = 1; index <= data.maxpage; index++) {
+        crm.getContacts({whole_team : 1, page : index}, function(data) {
+          for(var i = 0; i < data.contacts.length; i++) {
+            console.log(data.contacts[i].firstname);
+          }
+        });
+        console.log("looping, index: " + index);
+      }
+    });
+  });
 
   /***************************************
    * TEST Routes
@@ -257,7 +276,10 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/test/contacts', function(req, res) {
     var params = {whole_team : 1};
-    crm.getContacts(params);
+    crm.getContacts(params, function(data) {
+      console.log(data.contacts[0]);
+      res.json(data.contacts[0]);
+    });
   });
 };
 

@@ -11,7 +11,7 @@ function OnePageCRM (uid, key) {
 
 module.exports = OnePageCRM;
 
-OnePageCRM.prototype.execute = function(path, method, params) {
+OnePageCRM.prototype.execute = function(path, method, params, callback) {
   var self = this;
   
   var timestamp = parseInt((Date.now()/1000)).toString();
@@ -45,15 +45,16 @@ OnePageCRM.prototype.execute = function(path, method, params) {
     },
     body : body
   }, function(error, response, body) {
-    res = JSON.parse(body);
-    console.log(res);
+    callback(JSON.parse(body).data);
   });
 }
 
 OnePageCRM.prototype.createContact = function(params) {
-  this.execute('contacts.json', 'POST', params);
+  this.execute('contacts.json', 'POST', params, function(data) {
+    console.log(data)
+  });
 }
 
-OnePageCRM.prototype.getContacts = function(params) {
-  this.execute('contacts.json', 'GET', params);
+OnePageCRM.prototype.getContacts = function(params, callback) {
+  this.execute('contacts.json', 'GET', params, callback);
 }
