@@ -314,6 +314,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
                   console.log('Duplicate ID is ' + duplicate.id);
                   console.log('Contact ID is ' + contact.id);
                   if(duplicate.id != contact.id) {
+                    // This is where we should update and merge duplicates
                     Deletes.findOne({first_name : first_name, last_name : last_name}, function(error, deletes) {
                       if(error || !deletes) {
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
