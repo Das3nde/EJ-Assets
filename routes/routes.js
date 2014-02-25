@@ -183,6 +183,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
       firstname : data.merges.FNAME,
       lastname : data.merges.LNAME,
       zip_code : data.merges.ZIPCODE,
+      owner_id : '51f14139eb899718c500001b',
       phones : ('other|' + data.merges.PHONE),
       emails : ('other|' + data.email), tags : 'Inquiries'});
     res.json({success : 1});
@@ -294,7 +295,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
   });
 
   app.get('/test/contacts', function(req, res) {
-    var params = {whole_team : 1};
+    var params = {whole_team : 1, find : 'Barrett'};
     crm.getContacts(params, function(data) {
       console.log(data.contacts[0]);
       res.json(data.contacts[0]);
