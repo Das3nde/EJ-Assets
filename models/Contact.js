@@ -1,9 +1,7 @@
 var Mongoose = require('mongoose');
 
 var ContactSchema = Mongoose.Schema({
-  email_work : String,
-  email_home : String,
-  email_other : String,
+  email : String,
   first_name : String,
   last_name : String,
   phone : String,

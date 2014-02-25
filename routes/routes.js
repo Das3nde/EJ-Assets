@@ -257,7 +257,21 @@ module.exports = function(app, passport, api, exportApi, crm) {
             contact = data.contacts[i];
             console.log(contact.lastname);
             crm.getContact(contact.id, function(data) {
-              console.log(data.contact.emails);
+              contact = data.contact;
+              console.log(contact);
+              new Contact({
+                first_name : (contact.firstname.charAt(0).toUpperCase() + contact.firstname.slice(1).toLowerCase()),
+                last_name : (contact.lastname.charAt(0).toUpperCase() + contact.lastname.slice(1).toUpperCase()),
+                zip : contact.zip
+              }).save(function(error, contact) {
+                if(error || !contact) {
+                  console.log("Error");
+                  res.json({error : error});
+                } else {
+                  console.log("Success");
+                  res.json({contact : contact});
+                }
+              });
             });
           }
         });
