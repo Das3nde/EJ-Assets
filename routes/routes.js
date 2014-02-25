@@ -250,10 +250,15 @@ module.exports = function(app, passport, api, exportApi, crm) {
     crm.getContacts({whole_team : 1}, function(data) {
       console.log("We're now in callback");
       console.log("Looping until " + data.maxpage);
-      for(var index = 1; index <= data.maxpage; index++) {
+      for(var index = 1; index <= 1/*data.maxpage*/; index++) {
         crm.getContacts({whole_team : 1, page : index}, function(data) {
+          var contact = {};
           for(var i = 0; i < data.contacts.length; i++) {
-            console.log(data.contacts[i].firstname);
+            contact = data.contacts[i];
+            console.log(contact.lastname);
+            crm.getContact(contact.id, function(data) {
+              console.log(data.contact.emails);
+            });
           }
         });
         console.log("looping, index: " + index);

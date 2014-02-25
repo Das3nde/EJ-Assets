@@ -23,7 +23,9 @@ OnePageCRM.prototype.execute = function(path, method, params, callback) {
     body = qs.stringify(params);
     params_hash = '.' + crypto.createHash('sha1').update(qs.stringify(params)).digest('hex');
   } else {
-    uri += ('?' + qs.stringify(params));
+    if(params != null) {
+      uri += ('?' + qs.stringify(params));
+    }
     console.log(uri);
   }
 
@@ -57,4 +59,9 @@ OnePageCRM.prototype.createContact = function(params) {
 
 OnePageCRM.prototype.getContacts = function(params, callback) {
   this.execute('contacts.json', 'GET', params, callback);
+}
+
+OnePageCRM.prototype.getContact = function(id, callback) {
+  console.log("Getting contact with id " + id);
+  this.execute('contacts/' + id + '.json', 'GET', null, callback);
 }
