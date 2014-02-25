@@ -218,8 +218,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
       if(error)
         console.log(error.message);
       else
-        console.log(JSON.stringify(data));
-      return;
+        console.log(data);
+      res.json(data);
     });
   });
 

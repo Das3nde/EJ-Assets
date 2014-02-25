@@ -6,7 +6,10 @@ var ContactSchema = Mongoose.Schema({
   last_name : String,
   phone : String,
   zip : String,
-  mc_date_added : Date
+  mc_date_added : Date,
+  mc_region : String,
+  mc_leid : String,
+  mc_euid : String
 });
 
 module.exports = Mongoose.model('Contact', ContactSchema);
