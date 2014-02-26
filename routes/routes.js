@@ -417,7 +417,7 @@ function formatName(name) {
 }
 
 function compareContacts(duplicate, contact) {
-  if(contact.country != null && !duplicate.country) {
+  if(contact.country && !duplicate.country) {
     console.log(duplicate.first_name + ' ' + duplicate.last_name + ' needs to merge country field');
   }
 
