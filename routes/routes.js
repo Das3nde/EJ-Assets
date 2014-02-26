@@ -271,11 +271,6 @@ module.exports = function(app, passport, api, exportApi, crm) {
               var emails = [];
               if(contact.emails.length > 0) {
                 email = contact.emails[0].address;
-                /*
-                for(var k = 0; k < contact.emails.length; k++) {
-                  emails.push(contact.emails[k]);
-                }
-                */
               }
 
               var phones = [];
@@ -287,6 +282,10 @@ module.exports = function(app, passport, api, exportApi, crm) {
               console.log('Phones is ' + JSON.stringify(phones));
 
               Contact.findOne({first_name : first_name, last_name : last_name}, function(error, duplicate) {
+                /***********************************************************
+                 * CONTACT refers to the current reference on OnePage
+                 * DUPLICATE refers to the contact already in the database
+                 ***********************************************************/
                 if(error || !duplicate) {
                   console.log('No duplicate for ' + first_name + ' ' + last_name);
                   console.log('Adding contact');
@@ -308,7 +307,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
                       status : contact.status,
                       lead_source : contact.lead_source,
                       tags : contact.tags,
-                      emails : emails
+                      emails : contact.emails
                   }).save(function(error, contact) {
                     if(error || !contact) {
                      console.log('Error saving contact');
@@ -329,6 +328,23 @@ module.exports = function(app, passport, api, exportApi, crm) {
                          ******************************************************/
 
                         console.log('Merging records for ' + first_name + ' ' + last_name);
+                        /* MERGES:
+                         *
+                         * Country
+                         * State
+                         * Company
+                         * Job_title
+                         * Address
+                         * Zip
+                         * City
+                         * Description
+                         * Phones (push)
+                         * Lead_source
+                         * Tags (push)
+                         * Emails (push)
+                         */
+                        
+                        compareContacts(duplicate, contact); // This function should return a params {} object
 
 
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
@@ -398,4 +414,12 @@ function isLoggedIn(req, res, next) {
 
 function formatName(name) {
   return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+}
+
+function compareContacts(duplicate, contact) {
+  if(contact.country != null && !duplicate.country) {
+    console.log(duplicate.first_name + ' ' + duplicate.last_name + ' needs to merge country field');
+  }
+
+  return {};
 }
