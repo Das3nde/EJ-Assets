@@ -315,7 +315,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
                   console.log('Contact ID is ' + contact.id);
                   if(duplicate.id != contact.id) {
                     // This is where we should update and merge duplicates
-                    Deletes.findOne({first_name : first_name, last_name : last_name}, function(error, deletes) {
+                    Deletes.findOne({id : duplicate.id}, function(error, deletes) {
                       if(error || !deletes) {
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
                         new Deletes({
@@ -336,6 +336,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
                   } else {
                     console.log('However, the duplicate is literally the same');
                     // This is where we should update the contact and make sure all the fields are the same
+                    // Wait... what did I mean by this?
                   }
                 }
               });
