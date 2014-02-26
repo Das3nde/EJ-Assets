@@ -268,8 +268,14 @@ module.exports = function(app, passport, api, exportApi, crm) {
               var first_name = formatName(contact.firstname),
                   last_name = formatName(contact.lastname);
               var email = '';
+              var emails = [];
               if(contact.emails.length > 0) {
                 email = contact.emails[0].address;
+                /*
+                for(var k = 0; k < contact.emails.length; k++) {
+                  emails.push(contact.emails[k]);
+                }
+                */
               }
 
               var phones = [];
@@ -301,7 +307,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
                       owner : contact.owner,
                       status : contact.status,
                       lead_source : contact.lead_source,
-                      tags : contact.tags
+                      tags : contact.tags,
+                      emails : emails
                   }).save(function(error, contact) {
                     if(error || !contact) {
                      console.log('Error saving contact');
