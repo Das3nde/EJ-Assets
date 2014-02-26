@@ -329,8 +329,13 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
                         console.log('Merging records for ' + first_name + ' ' + last_name);
 
-                        
-                        console.log(compareContacts(duplicate, contact));
+                        Contact.update({_id : duplicate._id}, update = compareContacts(duplicate, contact), function(error, numAffected) {
+                          if(error) {
+                            console.log(error);
+                          } else {
+                            console.log(numAffected + ' were changed!');
+                          }
+                        });
 
 
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
@@ -432,8 +437,12 @@ function compareContacts(duplicate, contact) {
     params.city = contact.city;
   }
 
-  if(contact.description && !duplicate.description) {
-    params.description = duplicate.description + '\n\nMerged Description\n\n' + contact.description;
+  if(contact.description) {
+    params.description = '';
+    if(duplicate.description) {
+      params.description = duplicate.description + '\n\nMerged Description\n\n';
+    }
+    params.description += contact.description;
   }
 
   if(contact.lead_source && !duplicate.lead_source) {
@@ -488,22 +497,7 @@ function compareContacts(duplicate, contact) {
         params.tags.push(contact.tags[i]);
       }
       unique = true;
+    }
   }
-
   return params;
 }
-                        /* MERGES:
-                         *
-                         * Country
-                         * State
-                         * Company
-                         * Job_title
-                         * Address
-                         * Zip
-                         * City
-                         * Description
-                         * Phones (push)
-                         * Lead_source
-                         * Tags (push)
-                         * Emails (push)
-                         */
