@@ -328,23 +328,9 @@ module.exports = function(app, passport, api, exportApi, crm) {
                          ******************************************************/
 
                         console.log('Merging records for ' + first_name + ' ' + last_name);
-                        /* MERGES:
-                         *
-                         * Country
-                         * State
-                         * Company
-                         * Job_title
-                         * Address
-                         * Zip
-                         * City
-                         * Description
-                         * Phones (push)
-                         * Lead_source
-                         * Tags (push)
-                         * Emails (push)
-                         */
+
                         
-                        compareContacts(duplicate, contact); // This function should return a params {} object
+                        console.log(compareContacts(duplicate, contact));
 
 
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
@@ -417,9 +403,107 @@ function formatName(name) {
 }
 
 function compareContacts(duplicate, contact) {
+  var params = {};
   if(contact.country && !duplicate.country) {
-    console.log(duplicate.first_name + ' ' + duplicate.last_name + ' needs to merge country field');
+    params.country = contact.country;
   }
 
-  return {};
+  if(contact.state && !duplicate.state) {
+    params.state = contact.state;
+  }
+
+  if(contact.company && !duplicate.company) {
+    params.company = contact.company;
+  }
+
+  if(contact.job_title && !duplicate.job_title) {
+    params.job_title = contact.job_title;
+  }
+
+  if(contact.address && !duplicate.address) {
+    params.address = contact.address;
+  }
+
+  if(contact.zip && !duplicate.zip) {
+    params.zip = contact.zip
+  }
+
+  if(contact.city && !duplicate.city) {
+    params.city = contact.city;
+  }
+
+  if(contact.description && !duplicate.description) {
+    params.description = duplicate.description + '\n\nMerged Description\n\n' + contact.description;
+  }
+
+  if(contact.lead_source && !duplicate.lead_source) {
+    params.lead_source = contact.lead_source;
+  }
+
+  if(contact.phones.length > 0) {
+    params.phones = [];
+    var unique = true;
+    for(var i = 0; i < contact.phones.length; i++) {
+      for(var j = 0; j < duplicate.phones.length; j++) {
+        if(contact.phones[i] == duplicate.phones[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.phones.push(contact.phones[i]);
+      }
+      unique = true;
+    }
+  }
+
+  if(contact.emails.length > 0) {
+    params.emails = [];
+    var unique = true;
+    for(var i = 0; i < contact.emails.length; i++) {
+      for(var j = 0; j < duplicate.emails.length; j++) {
+        if(contact.emails[i] == duplicate.emails[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.emails.push(contact.emails[i]);
+      }
+      unique = true;
+    }
+  }
+
+  if(contact.tags.length > 0) {
+    params.tags = [];
+    var unique = true;
+    for(var i = 0; i < contact.tags.length; i++) {
+      for(var j = 0; j < duplicate.tags.length; j++) {
+        if(contact.tags[i] == duplicate.tags[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.tags.push(contact.tags[i]);
+      }
+      unique = true;
+  }
+
+  return params;
 }
+                        /* MERGES:
+                         *
+                         * Country
+                         * State
+                         * Company
+                         * Job_title
+                         * Address
+                         * Zip
+                         * City
+                         * Description
+                         * Phones (push)
+                         * Lead_source
+                         * Tags (push)
+                         * Emails (push)
+                         */
