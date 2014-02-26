@@ -47,6 +47,9 @@ OnePageCRM.prototype.execute = function(path, method, params, callback) {
     },
     body : body
   }, function(error, response, body) {
+    if(error) {
+      console.log(error);
+    }
     callback(JSON.parse(body).data);
   });
 }
