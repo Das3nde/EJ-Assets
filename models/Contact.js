@@ -30,7 +30,8 @@ var ContactSchema = Mongoose.Schema({
   owner : String,
   status : String,
   lead_source : String,
-  tags : [String]
+  tags : [String],
+  emails : [{type : String, address : String}]
 });
 
 module.exports = Mongoose.model('Contact', ContactSchema);
