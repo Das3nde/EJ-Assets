@@ -188,18 +188,29 @@ module.exports = function(app, passport, api, exportApi, crm) {
       owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
       emails : ('other|' + data.email), tags : 'Inquiries'}, function(contact) {
+
         // Test case
-        console.log(contact);
+        var due =  parseOnePageCRMDate(new Date(Date.now()+24*60*60*1000));
+        var params = {};
         if(data.merges.PHONE) {
-          crm.createAction({
+          params = {
             cid : contact.id,
-            asignee_id : contact.owner_id,
+            assignee_id : contact.owner,
             name : 'Schedule follow-up call',
-            date : new Date(new Date.getTime() + 24 * 60 * 60 * 1000),
-            next : true}, function(data) {
-              console.log(data);
-            });
+            date : due};
+        } else {
+          params = {
+            cid : contact.id,
+            assignee_id : contact.owner,
+            name : 'Schedule follow-up email',
+            date : due};
         }
+        crm.createAction(params, function(data) {
+          console.log(data);
+        });
+        // End Test Case
+
+        console.log(contact);
       });
     res.json({success : 1});
   });
@@ -392,20 +403,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/test/export', function(req, res) {
     var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
-    crm.createContact(params, function(data) {
-      var data = {};
-      data.merges.PHONE = '2537203662';
-      if(data.merges.PHONE) {
-        crm.createAction({
-          cid : contact.id,
-          asignee_id : contact.owner_id,
-          name : 'Schedule follow-up call',
-          date : new Date(new Date.getTime() + 24 * 60 * 60 * 1000),
-          next : true}, function(data) {
-            console.log(data);
-          });
-      }
-      console.log(data);
+    crm.createContact(params, function(contact) {
+      console.log(contact);
     });
   });
 
@@ -527,4 +526,10 @@ function compareContacts(duplicate, contact) {
     }
   }
   return params;
+}
+
+function parseOnePageCRMDate(date) {
+  var format_date = (date.getDate() < 10) ? ('0' + date.getDate()) : (date.getDate());
+  var format_month = (date.getMonth() < 9) ? ('0' + (date.getMonth() + 1)) : (date.getMonth() + 1);
+  return format_date + '.' + format_month + '.' + date.getFullYear();
 }
