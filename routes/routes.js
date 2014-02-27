@@ -182,8 +182,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
   app.post('/webhooks/inquiries.json', function(req, res) {
     var data = req.body.data;
     crm.createContact({
-      firstname : data.merges.FNAME,
-      lastname : data.merges.LNAME,
+      firstname : formatName(data.merges.FNAME),
+      lastname : formatName(data.merges.LNAME),
       zip_code : data.merges.ZIPCODE,
       owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
