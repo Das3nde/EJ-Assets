@@ -1419,3 +1419,282 @@ This must either be a POST or PUT
 [90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 64kb[0m
 [90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 64kb[0m
 [90mGET /manager/html [33m404 [90m3ms[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m6ms - 68b[0m
+[90mGET /login [32m200 [90m468ms - 882b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m18ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m17ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [32m200 [90m8ms - 1.44kb[0m
+[90mPOST /login [36m302 [90m119ms - 58b[0m
+[90mGET / [32m200 [90m48ms - 981b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m9ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+https://app.onepagecrm.com/api/contacts.json?whole_team=1&search=Ahmed
+{ id: '530b9599eb89970fe60000a1',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Kamil',
+  lastname: 'Ahmed',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {} }
+[90mGET /test/contacts [32m200 [90m308ms - 370b[0m
+[90mGET /mailchimp [32m200 [90m101ms - 1.98kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m15ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m14ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m16ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m13ms[0m
+[90mGET /lists.json [36m304 [90m4ms[0m
+[90mGET /lists.json [36m304 [90m6ms[0m
+[90mGET /campaigns.json [32m200 [90m1179ms - 159.16kb[0m
+[90mGET /watches [32m200 [90m67ms - 4.95kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m12ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m13ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m14ms[0m
+[90mGET /javascripts/app.js [36m304 [90m15ms[0m
+[90mGET /javascripts/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff [32m200 [90m5ms - 22.75kb[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m8ms - 18b[0m
+{ id: '530d1aedeb89976bf4000001',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'James FM',
+  lastname: 'Meaney',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '353-87-9888' } ],
+  emails: [ { type: 'other', address: 'jmeaney@meaneys.com' } ],
+  urls: [],
+  company_type: false }
+[90mGET http://37.28.156.211/sprawdza.php [33m404 [90m3ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m2ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.101/ [36m302 [90m1ms - 68b[0m
+[90mGET http://proxyjudge1.proxyfire.net/fastenv [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.138/ [36m302 [90m3ms - 68b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET /HNAP1/ [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.100/ [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m39ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m82ms - 882b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m5ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m6ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m200 [90m3354ms - 5.67mb[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [36m304 [90m2ms[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [36m304 [90m1ms[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [36m304 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m4ms - 18b[0m
+{ id: '530e67a3eb89973b7c00000b',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Wes',
+  lastname: 'Hall',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '416-867-232' } ],
+  emails: [ { type: 'other', address: 'hallintogether@me.com' } ],
+  urls: [],
+  company_type: false }
+[90mPOST /webhooks/inquiries.json [32m200 [90m4ms - 18b[0m
+{ id: '530e6f5eeb899759c0000007',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Rob',
+  lastname: 'Swikert',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '208-890-6050' } ],
+  emails: [ { type: 'other', address: 'rob@mirageinc.com' } ],
+  urls: [],
+  company_type: false }
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+{ id: '530e80b4eb899724d4000001',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Papatheofanous',
+  lastname: 'Manos',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [],
+  emails: [ { type: 'other', address: 'mp@plcap.com' } ],
+  urls: [],
+  company_type: false }
+[90mGET http://www.google.com/ [36m302 [90m2ms - 68b[0m
+[90mGET http://173.194.127.230/ [36m302 [90m2ms - 68b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m5ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+{ id: '530f56a6eb89975491000005',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Joe',
+  lastname: 'Bransom',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '203-987-5839' } ],
+  emails: [ { type: 'other', address: 'joebransom@gmail.com' } ],
+  urls: [],
+  company_type: false }
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m254ms - 568.19kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m139ms - 90.56kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m4ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m5ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m66ms - 93.63kb[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m200 [90m136ms - 5.67mb[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m206 [90m3822ms - 5.64mb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 1kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m14ms - 578b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 829b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 446b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m3ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 195b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m4ms - 18b[0m
+undefined
+[90mGET / [36m302 [90m1ms - 40b[0m
