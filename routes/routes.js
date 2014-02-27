@@ -181,9 +181,15 @@ module.exports = function(app, passport, api, exportApi, crm) {
   // Post data to OnePageCRM
   app.post('/webhooks/inquiries.json', function(req, res) {
     var data = req.body.data;
+    var lname = '';
+    if(!data.merges.LNAME) {
+      lname = 'Anonymous';
+    } else {
+      lname = formatName(data.merges.LNAME);
+    }
     crm.createContact({
       firstname : formatName(data.merges.FNAME),
-      lastname : formatName(data.merges.LNAME),
+      lastname : lname,
       zip_code : data.merges.ZIPCODE,
       owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
