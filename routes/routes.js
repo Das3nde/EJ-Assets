@@ -187,7 +187,20 @@ module.exports = function(app, passport, api, exportApi, crm) {
       zip_code : data.merges.ZIPCODE,
       owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
-      emails : ('other|' + data.email), tags : 'Inquiries'});
+      emails : ('other|' + data.email), tags : 'Inquiries'}, function(contact) {
+        // Test case
+        console.log(contact);
+        if(data.merges.PHONE) {
+          crm.createAction({
+            cid : contact.id,
+            asignee_id : contact.owner_id,
+            name : 'Schedule follow-up call',
+            date : new Date(new Date.getTime() + 24 * 60 * 60 * 1000),
+            next : true}, function(data) {
+              console.log(data);
+            });
+        }
+      });
     res.json({success : 1});
   });
   
@@ -379,7 +392,21 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/test/export', function(req, res) {
     var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
-    crm.createContact(params);
+    crm.createContact(params, function(data) {
+      var data = {};
+      data.merges.PHONE = '2537203662';
+      if(data.merges.PHONE) {
+        crm.createAction({
+          cid : contact.id,
+          asignee_id : contact.owner_id,
+          name : 'Schedule follow-up call',
+          date : new Date(new Date.getTime() + 24 * 60 * 60 * 1000),
+          next : true}, function(data) {
+            console.log(data);
+          });
+      }
+      console.log(data);
+    });
   });
 
   app.get('/test/contacts', function(req, res) {

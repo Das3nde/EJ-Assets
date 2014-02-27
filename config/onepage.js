@@ -54,10 +54,8 @@ OnePageCRM.prototype.execute = function(path, method, params, callback) {
   });
 }
 
-OnePageCRM.prototype.createContact = function(params) {
-  this.execute('contacts.json', 'POST', params, function(data) {
-    console.log(data)
-  });
+OnePageCRM.prototype.createContact = function(params, callback) {
+  this.execute('contacts.json', 'POST', params, callback);
 }
 
 OnePageCRM.prototype.getContacts = function(params, callback) {
@@ -74,7 +72,7 @@ OnePageCRM.prototype.updateContact = function(id, params, callback) {
   this.execute('contacts/' + id + '.json', 'PUT', params, callback);
 }
 
-OnePageCRM.prototype.createAction = function(name, params, callback) {
+OnePageCRM.prototype.createAction = function(params, callback) {
   console.log("Adding a new action with name " + name);
   this.execute('actions.json', 'POST', params, callback);
 }
