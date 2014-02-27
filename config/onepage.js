@@ -73,3 +73,8 @@ OnePageCRM.prototype.updateContact = function(id, params, callback) {
   console.log("Updating contact id " + id);
   this.execute('contacts/' + id + '.json', 'PUT', params, callback);
 }
+
+OnePageCRM.prototype.createAction = function(name, params, callback) {
+  console.log("Adding a new action with name " + name);
+  this.execute('actions.json', 'POST', params, callback);
+}
