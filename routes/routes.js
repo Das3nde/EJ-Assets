@@ -187,7 +187,31 @@ module.exports = function(app, passport, api, exportApi, crm) {
       zip_code : data.merges.ZIPCODE,
       owner_id : ben_id,
       phones : ('other|' + data.merges.PHONE),
-      emails : ('other|' + data.email), tags : 'Inquiries'});
+      emails : ('other|' + data.email), tags : 'Inquiries'}, function(contact) {
+
+        // Test case
+        var due =  parseOnePageCRMDate(new Date(Date.now()+24*60*60*1000));
+        var params = {};
+        if(data.merges.PHONE) {
+          params = {
+            cid : contact.id,
+            assignee_id : contact.owner,
+            name : 'Schedule follow-up call',
+            date : due};
+        } else {
+          params = {
+            cid : contact.id,
+            assignee_id : contact.owner,
+            name : 'Schedule follow-up email',
+            date : due};
+        }
+        crm.createAction(params, function(data) {
+          console.log(data);
+        });
+        // End Test Case
+
+        console.log(contact);
+      });
     res.json({success : 1});
   });
   
@@ -268,6 +292,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
               var first_name = formatName(contact.firstname),
                   last_name = formatName(contact.lastname);
               var email = '';
+              var emails = [];
               if(contact.emails.length > 0) {
                 email = contact.emails[0].address;
               }
@@ -281,6 +306,10 @@ module.exports = function(app, passport, api, exportApi, crm) {
               console.log('Phones is ' + JSON.stringify(phones));
 
               Contact.findOne({first_name : first_name, last_name : last_name}, function(error, duplicate) {
+                /***********************************************************
+                 * CONTACT refers to the current reference on OnePage
+                 * DUPLICATE refers to the contact already in the database
+                 ***********************************************************/
                 if(error || !duplicate) {
                   console.log('No duplicate for ' + first_name + ' ' + last_name);
                   console.log('Adding contact');
@@ -301,7 +330,8 @@ module.exports = function(app, passport, api, exportApi, crm) {
                       owner : contact.owner,
                       status : contact.status,
                       lead_source : contact.lead_source,
-                      tags : contact.tags
+                      tags : contact.tags,
+                      emails : contact.emails
                   }).save(function(error, contact) {
                     if(error || !contact) {
                      console.log('Error saving contact');
@@ -314,9 +344,24 @@ module.exports = function(app, passport, api, exportApi, crm) {
                   console.log('Duplicate ID is ' + duplicate.id);
                   console.log('Contact ID is ' + contact.id);
                   if(duplicate.id != contact.id) {
-                    // This is where we should update and merge duplicates
-                    Deletes.findOne({first_name : first_name, last_name : last_name}, function(error, deletes) {
+                    Deletes.findOne({id : duplicate.id}, function(error, deletes) {
                       if(error || !deletes) {
+                        /******************************************************
+                         * Okay, we found a REAL FUCKING DUPLICATE so let's
+                         * merge the records and add it to our pending deletes
+                         ******************************************************/
+
+                        console.log('Merging records for ' + first_name + ' ' + last_name);
+
+                        Contact.update({_id : duplicate._id}, update = compareContacts(duplicate, contact), function(error, numAffected) {
+                          if(error) {
+                            console.log(error);
+                          } else {
+                            console.log(numAffected + ' were changed!');
+                          }
+                        });
+
+
                         console.log('Staging ' + first_name + ' ' + last_name + ' for deletion');
                         new Deletes({
                           first_name : first_name,
@@ -336,6 +381,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
                   } else {
                     console.log('However, the duplicate is literally the same');
                     // This is where we should update the contact and make sure all the fields are the same
+                    // Wait... what did I mean by this?
                   }
                 }
               });
@@ -357,7 +403,9 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
   app.get('/test/export', function(req, res) {
     var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
-    crm.createContact(params);
+    crm.createContact(params, function(contact) {
+      console.log(contact);
+    });
   });
 
   app.get('/test/contacts', function(req, res) {
@@ -383,4 +431,105 @@ function isLoggedIn(req, res, next) {
 
 function formatName(name) {
   return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+}
+
+function compareContacts(duplicate, contact) {
+  var params = {};
+  if(contact.country && !duplicate.country) {
+    params.country = contact.country;
+  }
+
+  if(contact.state && !duplicate.state) {
+    params.state = contact.state;
+  }
+
+  if(contact.company && !duplicate.company) {
+    params.company = contact.company;
+  }
+
+  if(contact.job_title && !duplicate.job_title) {
+    params.job_title = contact.job_title;
+  }
+
+  if(contact.address && !duplicate.address) {
+    params.address = contact.address;
+  }
+
+  if(contact.zip && !duplicate.zip) {
+    params.zip = contact.zip
+  }
+
+  if(contact.city && !duplicate.city) {
+    params.city = contact.city;
+  }
+
+  if(contact.description) {
+    params.description = '';
+    if(duplicate.description) {
+      params.description = duplicate.description + '\n\nMerged Description\n\n';
+    }
+    params.description += contact.description;
+  }
+
+  if(contact.lead_source && !duplicate.lead_source) {
+    params.lead_source = contact.lead_source;
+  }
+
+  if(contact.phones.length > 0) {
+    params.phones = [];
+    var unique = true;
+    for(var i = 0; i < contact.phones.length; i++) {
+      for(var j = 0; j < duplicate.phones.length; j++) {
+        if(contact.phones[i] == duplicate.phones[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.phones.push(contact.phones[i]);
+      }
+      unique = true;
+    }
+  }
+
+  if(contact.emails.length > 0) {
+    params.emails = [];
+    var unique = true;
+    for(var i = 0; i < contact.emails.length; i++) {
+      for(var j = 0; j < duplicate.emails.length; j++) {
+        if(contact.emails[i] == duplicate.emails[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.emails.push(contact.emails[i]);
+      }
+      unique = true;
+    }
+  }
+
+  if(contact.tags.length > 0) {
+    params.tags = [];
+    var unique = true;
+    for(var i = 0; i < contact.tags.length; i++) {
+      for(var j = 0; j < duplicate.tags.length; j++) {
+        if(contact.tags[i] == duplicate.tags[j]) {
+          unique = false;
+          break;
+        }
+      }
+      if(unique) {
+        params.tags.push(contact.tags[i]);
+      }
+      unique = true;
+    }
+  }
+  return params;
+}
+
+function parseOnePageCRMDate(date) {
+  var format_date = (date.getDate() < 10) ? ('0' + date.getDate()) : (date.getDate());
+  var format_month = (date.getMonth() < 9) ? ('0' + (date.getMonth() + 1)) : (date.getMonth() + 1);
+  return format_date + '.' + format_month + '.' + date.getFullYear();
 }
