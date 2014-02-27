@@ -47,6 +47,9 @@ OnePageCRM.prototype.execute = function(path, method, params, callback) {
     },
     body : body
   }, function(error, response, body) {
+    if(error) {
+      console.log(error);
+    }
     callback(JSON.parse(body).data);
   });
 }
@@ -64,4 +67,9 @@ OnePageCRM.prototype.getContacts = function(params, callback) {
 OnePageCRM.prototype.getContact = function(id, callback) {
   console.log("Getting contact with id " + id);
   this.execute('contacts/' + id + '.json', 'GET', null, callback);
+}
+
+OnePageCRM.prototype.updateContact = function(id, params, callback) {
+  console.log("Updating contact id " + id);
+  this.execute('contacts/' + id + '.json', 'PUT', params, callback);
 }
