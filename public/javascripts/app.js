@@ -7,7 +7,7 @@ var app = angular.module('app', []);
 /***********************************
  * Controller for Mailchimp Calls
  ***********************************/
-
+/*
 app.controller('MailchimpController', function($scope, $http) {
   $scope.selectedTab = 'home';
   $scope.lists = [];
@@ -34,7 +34,7 @@ app.controller('MailchimpController', function($scope, $http) {
     $http.get('/exports/lists/' + id);
   };
 });
-
+*/
 /************************************
  * Controller for Mailchimp Exports
  ************************************/
