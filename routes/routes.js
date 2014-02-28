@@ -16,24 +16,27 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
 
   /***************************************
-   * PAGES
+   * PAGES AND DIRECTORIES
    ***************************************/
 
-  /* INDEX */
+  /* INDEX PAGE */
   app.get('/', isLoggedIn, routes.index());
   
-  /* LOGIN */
+  /* LOGIN PAGE */
   app.get('/login', routes.login());
 
-  /* SIGNUP */
+  /* SIGNUP PAGE */
   app.get('/signup', isLoggedIn, routes.signup());
 
-  /* WATCHES */
+  /* VIEW WATCH DIRECTORY */
   app.get('/watches', isLoggedIn, routes.watches(Watch));
+
+  /* ADD A WATCH FORM */
+  app.get('/add_watch', isLoggedIn, routes.addWatch());
 
 
   /***************************************
-   * ACCOUNT
+   * ACCOUNT MANAGEMENT
    ***************************************/
 
   /* LOGIN */
@@ -45,13 +48,10 @@ module.exports = function(app, passport, api, exportApi, crm) {
   /* SIGN-UP */
   app.post('/signup', isLoggedIn, account.signup(passport));
 
+
   /***************************************
    * ADD WATCH PAGE
    ***************************************/
-
-  app.get('/add_watch', isLoggedIn, function(req, res) {
-    res.render('add_watch');
-  });
 
   app.post('/add_watch.json', isLoggedIn, function(req, res) {
     var watch = new Watch(req.body);
