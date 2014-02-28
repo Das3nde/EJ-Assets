@@ -1,23 +1,18 @@
 extends layout
 
+block head
+  script(type='text/javascript' src='/javascripts/controllers/MailchimpExportAPIController.js')
+
 block content
   div.container
     h1 Welcome to Eleven James
-    div(ng-controller="ExportsController")
+    div(ng-controller="MailchimpExportAPIController")
       p What would you like to do?
+
       a(href='/watches') View watch image directory
       br
+      br
+
       a(href='/mailchimp') View daily mailchimp imports
       br
-      //-a(href='/exports/lists.json') Test Mailchimp Lists Importer (console)
-      //-br
-      //-a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
-      //-br
-      //-br
-      //-div(ng-repeat="list in lists")
-        //-a(href="/lists/{{list.id}}") {{list.name}}
-      a(href='#' ng-click="testExport()") Try creating a dummy contact in OnePage
       br
-      a(href='#' ng-click="getContacts()") Try GETting contacts
-      br
-      a(href='/test/contacts') Test Contacts

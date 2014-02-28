@@ -398,29 +398,6 @@ module.exports = function(app, passport, api, exportApi, crm) {
     });
     res.send({success : 1});
   });
-
-  /***************************************
-   * TEST Routes
-   ***************************************/
-
-  app.get('/test.json', function(req, res) {
-    res.json({result : 'It worked' });
-  });
-
-  app.get('/test/export', function(req, res) {
-    var params = {firstname : 'Justin', lastname : 'Knutson', zip_code : '07302', owner_id : ben_id, phone : 'other|2537203662', emails : 'other|knutson.justin@gmail.com', tags : 'Inquiries'};
-    crm.createContact(params, function(contact) {
-      console.log(contact);
-    });
-  });
-
-  app.get('/test/contacts', function(req, res) {
-    var params = {whole_team : 1, search : 'Ahmed'};
-    crm.getContacts(params, function(data) {
-      console.log(data.contacts[0]);
-      res.json(data.contacts[0]);
-    });
-  });
 };
 
 /*****************************************
@@ -435,9 +412,18 @@ function isLoggedIn(req, res, next) {
   res.redirect('/login');
 }
 
+/*****************************************
+ * Format any name to be capitalized
+ *****************************************/
+
 function formatName(name) {
   return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
 }
+
+/*****************************************
+ * Compare two contacts and return update
+ * parameters
+ *****************************************/
 
 function compareContacts(duplicate, contact) {
   var params = {};
@@ -533,6 +519,10 @@ function compareContacts(duplicate, contact) {
   }
   return params;
 }
+
+/*********************************************
+ * Parse a date in the style of dd.mm.yyyy
+ *********************************************/
 
 function parseOnePageCRMDate(date) {
   var format_date = (date.getDate() < 10) ? ('0' + date.getDate()) : (date.getDate());
