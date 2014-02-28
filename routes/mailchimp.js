@@ -4,6 +4,10 @@
  * Purpose: Deal with internal mailchimp calls
  ***********************************/
 
+/***********************************
+ * IMPORT CAMPAIGNS FROM MC
+ ***********************************/
+
 exports.importCampaigns = function(mcApi) {
   return function(req, res) {
     mcApi.call('campaigns', 'list', function(error, data) {

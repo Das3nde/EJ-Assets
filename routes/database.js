@@ -4,6 +4,9 @@
  * Purpose: Database CRUD Operations
  ***********************************/
 
+/***********************************
+ * RETRIEVE MAILCHIMP LISTS
+ ***********************************/
 exports.getMailchimpLists = function(MCList) {
   return function(req, res) {
     MCList.find({}, function(error, lists) {
@@ -11,6 +14,10 @@ exports.getMailchimpLists = function(MCList) {
     });
   };
 };
+
+/***********************************
+ * ADD WATCH TO DATABASE
+ ***********************************/
 
 exports.addWatch = function(Watch) {
   return function(req, res) {
