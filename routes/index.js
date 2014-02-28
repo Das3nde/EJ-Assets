@@ -35,3 +35,9 @@ exports.addWatch = function() {
     res.render('add_watch');
   };
 };
+
+exports.mailchimp = function() {
+  return function(req, res) {
+    res.render('mailchimp', {title : 'Mailchimp' });
+  };
+};

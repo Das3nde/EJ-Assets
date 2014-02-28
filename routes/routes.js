@@ -7,6 +7,10 @@ var Contact = require('../models/Contact.js');
 var Deletes = require('../models/Deletes.js');
 var Watch = require('../models/Watch.js');
 
+/*****************************************
+ * Helper Routes
+ *****************************************/
+
 var routes = require('./index.js');
 var accounts = require('./accounts.js');
 var watches = require('./watches.js');
@@ -35,6 +39,9 @@ module.exports = function(app, passport, api, exportApi, crm) {
   /* ADD A WATCH FORM */
   app.get('/add_watch', isLoggedIn, routes.addWatch());
 
+  /* VIEW MAILCHIMP HOMEPAGE */
+  app.get('/mailchimp', isLoggedIn, routes.mailchimp()); 
+
 
   /***************************************
    * ACCOUNT MANAGEMENT
@@ -61,11 +68,6 @@ module.exports = function(app, passport, api, exportApi, crm) {
 	/***************************************
 	 * MAILCHIMP API CALLS
 	 ***************************************/
-
-  // Mailchimp test/home page
-	app.get('/mailchimp', isLoggedIn, function(req, res) {
-	  res.render('mailchimp', { title: 'Mailchimp' });
-	});
 
   // GET Mailchimp lists from database
   app.get('/lists.json', isLoggedIn, function(req, res) {
