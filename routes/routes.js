@@ -1,7 +1,15 @@
+/*****************************************
+ * Mongoose Models
+ *****************************************/
+
 var MCList = require('../models/MCList.js');
 var Contact = require('../models/Contact.js');
 var Deletes = require('../models/Deletes.js');
 var Watch = require('../models/Watch.js');
+
+var routes = require('./index.js');
+var account = require('./account.js');
+
 var ben_id = '529e29eaeb89975e52000007';
 
 module.exports = function(app, passport, api, exportApi, crm) {
@@ -10,9 +18,12 @@ module.exports = function(app, passport, api, exportApi, crm) {
    * HOME
    ***************************************/
 
+  app.get('/', isLoggedIn, routes.index());
+/*
   app.get('/', isLoggedIn, function(req, res) {
     res.render('home', {title : 'Eleven James'});
   });
+  */
 
 	/***************************************
 	 * WATCHES
@@ -24,11 +35,14 @@ module.exports = function(app, passport, api, exportApi, crm) {
       res.render('index', {title : 'EJ Watches', watches : watches });
     });
 	});
-
   /***************************************
    * LOGIN
    ***************************************/
 
+  app.get('/login', routes.login());
+  app.post('/login', account.login(passport));
+
+  /*
   app.get('/login', function(req, res) {
     res.render('login');
   });
@@ -37,6 +51,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
     successRedirect : '/',
     failureRedirect : '/login'
   }));
+  */
 
   /***************************************
    * LOGOUT
