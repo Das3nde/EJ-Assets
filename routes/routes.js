@@ -14,48 +14,36 @@ var ben_id = '529e29eaeb89975e52000007';
 
 module.exports = function(app, passport, api, exportApi, crm) {
 
+
   /***************************************
    * PAGES
    ***************************************/
 
+  /* INDEX */
   app.get('/', isLoggedIn, routes.index());
+  
+  /* LOGIN */
   app.get('/login', routes.login());
 
-	/***************************************
-	 * WATCHES
-	 ***************************************/
+  /* SIGNUP */
+  app.get('/signup', isLoggedIn, routes.signup());
 
-	app.get('/watches', isLoggedIn, function(req, res) {
-    Watch.find({}, function(error, watches) {
-      if(error) console.log(error);
-      res.render('index', {title : 'EJ Watches', watches : watches });
-    });
-	});
+  /* WATCHES */
+  app.get('/watches', isLoggedIn, routes.watches(Watch));
+
 
   /***************************************
-   * LOGIN
+   * ACCOUNT
    ***************************************/
 
+  /* LOGIN */
   app.post('/login', account.login(passport));
 
-  /***************************************
-   * LOGOUT
-   ***************************************/
-
+  /* LOGOUT */
   app.get('/logout', account.logout());
 
-  /***************************************
-   * SIGNUP
-   ***************************************/
-
-  app.get('/signup', isLoggedIn, function(req, res) {
-    res.render('signup');
-  });
-
-  app.post('/signup', isLoggedIn, passport.authenticate('local-signup', {
-    successRedirect : '/',
-    failureRedirect : '/signup',
-  }));
+  /* SIGN-UP */
+  app.post('/signup', isLoggedIn, account.signup(passport));
 
   /***************************************
    * ADD WATCH PAGE
