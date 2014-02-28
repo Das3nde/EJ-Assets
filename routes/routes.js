@@ -141,18 +141,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
     });
   });
 
-  // Post list to Database
-  app.post('/lists.json', isLoggedIn, function(req, res) {
-    var list = new MCList(req.body);
-    list.save(function(error, list) {
-      if(error || !list) {
-        res.json({error : error});
-      } else {
-        res.json({ list : list });
-      }
-    });
-  });
-
   app.get('/exports/lists/:id', isLoggedIn, function(req, res) {
     exportApi.list({id : req.params.id}, function(error, data) {
       if(error) {
