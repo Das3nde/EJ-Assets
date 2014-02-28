@@ -12,9 +12,11 @@ var Watch = require('../models/Watch.js');
  *****************************************/
 
 var routes = require('./index.js');
+var database = require('./database.js');
 var accounts = require('./accounts.js');
 var watches = require('./watches.js');
 var mailchimp = require('./mailchimp.js');
+var onepage = require('./onepage.js');
 
 var ben_id = '529e29eaeb89975e52000007';
 
@@ -63,10 +65,10 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
    ***************************************/
 
   /* ADD A WATCH */
-  app.post('/add_watch.json', isLoggedIn, watches.add(Watch));
-
+  app.post('/add_watch.json', isLoggedIn, database.addWatch(Watch));
+  
   /* GET MAILCHIMP LISTS */
-  app.get('/mailchimp/lists.json', isLoggedIn, mailchimp.getLists(MCList));
+  app.get('/mailchimp/lists.json', isLoggedIn, database.getMailchimpLists(MCList));
 
   /* IMPORT MAILCHIMP CAMPAIGNS */
   app.get('/mailchimp/campaigns.json', isLoggedIn, mailchimp.importCampaigns(mcApi));

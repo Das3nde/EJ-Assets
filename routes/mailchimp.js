@@ -4,14 +4,6 @@
  * Purpose: Deal with internal mailchimp calls
  ***********************************/
 
-exports.getLists = function(MCList) {
-  return function(req, res) {
-    MCList.find({}, function(error, lists) {
-      res.json({lists : lists});
-    });
-  };
-};
-
 exports.importCampaigns = function(mcApi) {
   return function(req, res) {
     mcApi.call('campaigns', 'list', function(error, data) {
