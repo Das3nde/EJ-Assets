@@ -4,7 +4,7 @@
  * Purpose: Control Mailchimp Exports
  ************************************/
 
-function ExportsController($scope, $http) {
+function MailchimpExportAPIController($scope, $http) {
   $scope.lists = [];
   
   $scope.getLists = function() {

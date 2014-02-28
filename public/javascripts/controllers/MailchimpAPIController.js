@@ -25,8 +25,4 @@ function MailchimpController($scope, $http) {
       $scope.campaigns = data.campaigns;
     });
   };
-
-  $scope.getContacts = function(id) {
-    $http.get('/mailchimp/lists/' + id);
-  };
 }
