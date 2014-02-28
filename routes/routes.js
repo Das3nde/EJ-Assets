@@ -114,6 +114,25 @@ module.exports = function(app, passport, api, exportApi, crm) {
     failureRedirect : '/signup',
   }));
 
+  /***************************************
+   * ADD WATCH PAGE
+   ***************************************/
+
+  app.get('/add_watch', isLoggedIn, function(req, res) {
+    res.render('add_watch');
+  });
+
+  app.post('/add_watch.json', isLoggedIn, function(req, res) {
+    var watch = new Watch(req.body);
+    watch.save(function(error, watch) {
+      if(error || !watch) {
+        res.json({error : error});
+      } else {
+        res.json({member : member});
+      }
+    });
+  });
+
 	/***************************************
 	 * MAILCHIMP API CALLS
 	 ***************************************/

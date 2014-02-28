@@ -1,12 +1,9 @@
 extends layout
 
-block head
-  script(type='text/javascript' src='/javascripts/controllers/MailchimpExportAPIController.js')
-
 block content
   div.container
     h1 Welcome to Eleven James
-    div(ng-controller="MailchimpExportAPIController")
+    div
       p What would you like to do?
 
       a(href='/watches') View watch image directory
@@ -14,5 +11,9 @@ block content
       br
 
       a(href='/mailchimp') View daily mailchimp imports
+      br
+      br
+
+      a(href='/add_watch') Add a watch to the inventory list
       br
       br
