@@ -15,18 +15,18 @@ function MailchimpController($scope, $http) {
   };
 
   $scope.getLists = function() {
-    $http.get('/lists.json').success(function(data) {
+    $http.get('/mailchimp/lists.json').success(function(data) {
       $scope.lists = data.lists;
     });
   };
 
   $scope.getCampaigns = function() {
-    $http.get('/campaigns.json').success(function(data) {
+    $http.get('/mailchimp/campaigns.json').success(function(data) {
       $scope.campaigns = data.campaigns;
     });
   };
 
   $scope.getContacts = function(id) {
-    $http.get('/exports/lists/' + id);
+    $http.get('/mailchimp/lists/' + id);
   };
 }

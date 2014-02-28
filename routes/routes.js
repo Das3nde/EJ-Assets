@@ -14,10 +14,11 @@ var Watch = require('../models/Watch.js');
 var routes = require('./index.js');
 var accounts = require('./accounts.js');
 var watches = require('./watches.js');
+var mailchimp = require('./mailchimp.js');
 
 var ben_id = '529e29eaeb89975e52000007';
 
-module.exports = function(app, passport, api, exportApi, crm) {
+module.exports = function(app, passport, mcApi, exportApi, crm) {
 
 
   /***************************************
@@ -58,62 +59,18 @@ module.exports = function(app, passport, api, exportApi, crm) {
 
 
   /***************************************
-   * DATABASE CALLS
+   * DATABASE CRUD OPERATIONS
    ***************************************/
 
   /* ADD A WATCH */
   app.post('/add_watch.json', isLoggedIn, watches.add(Watch));
 
+  /* GET MAILCHIMP LISTS */
+  app.get('/mailchimp/lists.json', isLoggedIn, mailchimp.getLists(MCList));
 
-	/***************************************
-	 * MAILCHIMP API CALLS
-	 ***************************************/
+  /* IMPORT MAILCHIMP CAMPAIGNS */
+  app.get('/mailchimp/campaigns.json', isLoggedIn, mailchimp.importCampaigns(mcApi));
 
-  // GET Mailchimp lists from database
-  app.get('/lists.json', isLoggedIn, function(req, res) {
-    MCList.find({}, function(error, lists) {
-      res.json({lists : lists});
-    });
-  });
-
-  // GET Mailchimp Campaigns - DEPRECATED 20 February 2014
-  app.get('/campaigns.json', isLoggedIn, function(req, res) {
-    mc.campaigns.list({'status':'sent'}, function(data) {
-      res.json({campaigns : data.data});
-    }, function(error) {
-      if(error.error) {
-        req.session.error_flash = error.code + ": " + error.error;
-      } else {
-        req.session.error_flash = "An unknown error occurred";
-      }
-      res.redirect('/mailchimp');
-    });
-  });
-
-  // GET Mailchimp List Members - DEPRECATED 20 February 2014
-  app.get('/lists/:id', isLoggedIn, function(req, res) {
-    mc.lists.list( {filters : { list_id : req.params.id }}, function(listData) {
-      var list = listData.data[0];
-      mc.lists.members( {id : req.params.id, status : 'subscribed', opts : {sort_field : 'email'}}, function(memberData) {
-        console.log(memberData.total);
-        console.log(memberData.data[0]);
-        for(var i = 0; i < memberData.data.length; i++) {
-          console.log(memberData.data[i].email);
-        }
-        res.render('lists/view', { title : list.title, list : list, members : memberData.data });
-      }, function(error) {
-        console.log(error);
-        if(error.name == "List_DoesNotExist") {
-          req.session.error_flash = "The list does not exist";
-        } else if(error.error) {
-          req.session.error_flash = error.code + ": " + error.error;
-        } else {
-          req.session.error_flash = "An unknown error occurred";
-        }
-        res.redirect('/mailchimp');
-      });
-    });
-  });
 
   /***************************************
    * MAILCHIMP WEBHOOKS
@@ -172,7 +129,7 @@ module.exports = function(app, passport, api, exportApi, crm) {
    ***************************************/
 
   app.get('/exports/lists.json', isLoggedIn, function(req, res) {
-    api.call('lists', 'list', function(error, data) {
+    mcApi.call('lists', 'list', function(error, data) {
       if(error) {
         console.log(error.message);
       } else {
