@@ -15,15 +15,11 @@ var ben_id = '529e29eaeb89975e52000007';
 module.exports = function(app, passport, api, exportApi, crm) {
 
   /***************************************
-   * HOME
+   * PAGES
    ***************************************/
 
   app.get('/', isLoggedIn, routes.index());
-/*
-  app.get('/', isLoggedIn, function(req, res) {
-    res.render('home', {title : 'Eleven James'});
-  });
-  */
+  app.get('/login', routes.login());
 
 	/***************************************
 	 * WATCHES
@@ -35,32 +31,18 @@ module.exports = function(app, passport, api, exportApi, crm) {
       res.render('index', {title : 'EJ Watches', watches : watches });
     });
 	});
+
   /***************************************
    * LOGIN
    ***************************************/
 
-  app.get('/login', routes.login());
   app.post('/login', account.login(passport));
-
-  /*
-  app.get('/login', function(req, res) {
-    res.render('login');
-  });
-
-  app.post('/login', passport.authenticate('local-login', {
-    successRedirect : '/',
-    failureRedirect : '/login'
-  }));
-  */
 
   /***************************************
    * LOGOUT
    ***************************************/
 
-  app.get('/logout', function(req, res) {
-    req.logout();
-    res.redirect('/');
-  });
+  app.get('/logout', account.logout());
 
   /***************************************
    * SIGNUP
