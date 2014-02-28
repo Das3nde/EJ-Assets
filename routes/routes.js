@@ -8,7 +8,8 @@ var Deletes = require('../models/Deletes.js');
 var Watch = require('../models/Watch.js');
 
 var routes = require('./index.js');
-var account = require('./account.js');
+var accounts = require('./accounts.js');
+var watches = require('./watches.js');
 
 var ben_id = '529e29eaeb89975e52000007';
 
@@ -40,29 +41,22 @@ module.exports = function(app, passport, api, exportApi, crm) {
    ***************************************/
 
   /* LOGIN */
-  app.post('/login', account.login(passport));
+  app.post('/login', accounts.login(passport));
 
   /* LOGOUT */
-  app.get('/logout', account.logout());
+  app.get('/logout', accounts.logout());
 
   /* SIGN-UP */
-  app.post('/signup', isLoggedIn, account.signup(passport));
+  app.post('/signup', isLoggedIn, accounts.signup(passport));
 
 
   /***************************************
-   * ADD WATCH PAGE
+   * DATABASE CALLS
    ***************************************/
 
-  app.post('/add_watch.json', isLoggedIn, function(req, res) {
-    var watch = new Watch(req.body);
-    watch.save(function(error, watch) {
-      if(error || !watch) {
-        res.json({error : error});
-      } else {
-        res.json({watch : watch});
-      }
-    });
-  });
+  /* ADD A WATCH */
+  app.post('/add_watch.json', isLoggedIn, watches.add(Watch));
+
 
 	/***************************************
 	 * MAILCHIMP API CALLS
