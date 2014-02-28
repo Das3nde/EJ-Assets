@@ -1,5 +1,8 @@
 extends layout
 
+block head
+  script(type='text/javascript' src='/javascripts/controllers/MailchimpController.js')
+
 block content
   div.container(ng-controller="MailchimpController" ng-init="getContent()")
     div.row
