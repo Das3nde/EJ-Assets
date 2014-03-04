@@ -1,5 +1,4 @@
 var Mongoose = require('mongoose');
-var MCMemberSchema = require('./MCMember.js').MCMemberSchema;
 
 var MCListSchema = Mongoose.Schema({
   id : String,
@@ -32,7 +31,6 @@ var MCListSchema = Mongoose.Schema({
     open_rate : Number,
     click_rate : Number,
     date_last_campaign : Date},
-  members : [MCMemberSchema]
 });
 
 module.exports = Mongoose.model('MCList', MCListSchema);

@@ -4,7 +4,7 @@ block content
   div.container
     h1 Welcome to Eleven James
     each watch in watches
-      a(href='/images/' + watch.name + '.png') #{watch.name}
+      a(href='/images/' + watch.img + '.png') #{watch.brand + ' ' + watch.family + ' ' + watch.model}
       br
     br
     p

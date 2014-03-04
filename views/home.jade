@@ -3,21 +3,17 @@ extends layout
 block content
   div.container
     h1 Welcome to Eleven James
-    div(ng-controller="ExportsController")
+    div
       p What would you like to do?
+
       a(href='/watches') View watch image directory
       br
+      br
+
       a(href='/mailchimp') View daily mailchimp imports
       br
-      //-a(href='/exports/lists.json') Test Mailchimp Lists Importer (console)
-      //-br
-      //-a(href='#' ng-click="getLists()") Show me the Mailchimp Lists
-      //-br
-      //-br
-      //-div(ng-repeat="list in lists")
-        //-a(href="/lists/{{list.id}}") {{list.name}}
-      a(href='#' ng-click="testExport()") Try creating a dummy contact in OnePage
       br
-      a(href='#' ng-click="getContacts()") Try GETting contacts
+
+      a(href='/add_watch') Add a watch to the inventory list
       br
-      a(href='/test/contacts') Test Contacts
+      br

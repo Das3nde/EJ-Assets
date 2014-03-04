@@ -29,7 +29,7 @@ mc = new mcapi.Mailchimp(mc_key);
  **********************************************/
 
 try {
-  var api = new MailChimpAPI(mc_key, { version : '2.0' });
+  var mcApi = new MailChimpAPI(mc_key, { version : '2.0' });
   console.log('Mailchimp API Successfully instantiated');
 } catch (error) {
   console.log(error.message);
@@ -86,7 +86,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport, api, exportApi, crm);
+require('./routes/routes.js')(app, passport, mcApi, exportApi, crm);
 
 /**********************************************
  * Development Only

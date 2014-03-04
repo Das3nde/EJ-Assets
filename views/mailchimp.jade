@@ -1,5 +1,8 @@
 extends layout
 
+block head
+  script(type='text/javascript' src='/javascripts/controllers/MailchimpAPIController.js')
+
 block content
   div.container(ng-controller="MailchimpController" ng-init="getContent()")
     div.row
@@ -21,8 +24,7 @@ block content
           each header in ['Name', 'Subscriber Count', 'Date Created', 'List Rating']
             th= header
           tr(ng-repeat="list in lists")
-            td
-              a(href='#' ng-click='getContacts(list.id)') {{list.name}}
+            td {{list.name}}
             td {{list.stats.member_count}}
             td {{list.date_created}}
             td {{list.list_rating}}
