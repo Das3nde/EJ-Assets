@@ -1839,3 +1839,475 @@ Adding a new action with name Schedule follow-up call
   waiting: false,
   done: false,
   closed: null }
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m7ms - 68b[0m
+[90mGET /login [36m304 [90m500ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m1ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m60ms - 18b[0m
+Adding a new action with name Schedule follow-up email
+{ id: '530fa23ceb89974b39000005',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: null,
+  lastname: 'Anonymous',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [],
+  emails: [ { type: 'other', address: 'knutson.justin+test23@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '530fa23deb89974b39000009',
+  cid: '530fa23ceb89974b39000005',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up email',
+  date: '28.02.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /HNAP1/ [33m404 [90m3ms[0m
+[90mGET http://www.google.com/ [36m302 [90m3ms - 68b[0m
+[90mGET http://173.194.127.64/ [36m302 [90m3ms - 68b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '530fb748eb8997275e000001',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'James',
+  lastname: 'Marshall',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '646-717-4949' } ],
+  emails: [ { type: 'other', address: 'james@happymarshall.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '530fb748eb8997275e000005',
+  cid: '530fb748eb8997275e000001',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '28.02.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m2ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '530fdd8ceb89974964000008',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Dalbir',
+  lastname: 'Chana',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '075-174-5685' } ],
+  emails: [ { type: 'other', address: 'd_s_chana@hotmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '530fdd8deb8997496400000c',
+  cid: '530fdd8ceb89974964000008',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '01.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mPOST /webhooks/inquiries.json [32m200 [90m8ms - 18b[0m
+Adding a new action with name Schedule follow-up email
+{ id: '53100637eb89976c85000006',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Joseph',
+  lastname: 'Licata',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [],
+  emails: [ { type: 'other', address: 'jlicataiv@yahoo.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '53100638eb89976c8500000a',
+  cid: '53100637eb89976c85000006',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up email',
+  date: '01.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.100/ [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.102/ [36m302 [90m1ms - 68b[0m
+[90mGET http://www.google.com/ [36m302 [90m3ms - 68b[0m
+[90mGET http://173.194.127.224/ [36m302 [90m1ms - 68b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m0ms - 40b[0m
+[90mGET /actus4 [32m200 [90m2ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m25ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://173.194.127.168/ [36m302 [90m3ms - 68b[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m469ms - 568.19kb[0m
+[90mGET / [36m302 [90m0ms - 68b[0m
+[90mGET /login [32m200 [90m52ms - 882b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '53113580eb89973412000002',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Joe',
+  lastname: 'Bransom',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '203-987-5839' } ],
+  emails: [ { type: 'other', address: 'joebransom@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '53113580eb89973412000006',
+  cid: '53113580eb89973412000002',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '02.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://173.194.127.224/ [36m302 [90m1ms - 68b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m3ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '53118952eb8997372e000004',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Iffi',
+  lastname: 'Wahla',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '916-860-2125' } ],
+  emails: [ { type: 'other', address: 'iwahla@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '53118954eb8997375a000001',
+  cid: '53118952eb8997372e000004',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '02.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /mysqladmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m200 [90m1598ms - 5.67mb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m5ms - 568.19kb[0m
+[90mGET /mysqladmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET http://www.google.com/ [36m302 [90m3ms - 68b[0m
+[90mGET http://173.194.127.0/ [36m302 [90m1ms - 68b[0m
+[90mGET http://www.google.com/ [36m302 [90m3ms - 68b[0m
+[90mGET http://173.194.127.2/ [36m302 [90m1ms - 68b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /script [33m404 [90m1ms[0m
+[90mGET /jenkins/script [33m404 [90m1ms[0m
+[90mGET /hudson/script [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /HNAP1/ [33m404 [90m1ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.139/ [36m302 [90m1ms - 68b[0m
+[90mGET / [36m302 [90m0ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /web-console/ServerInfo.jsp [33m404 [90m2ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m1ms[0m
+[90mGET //scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //admin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //admin/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //db/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //dbadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //mysql/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //mysqladmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //typo3/phpmyadmin/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET //phpadmin/scripts/setup.php [33m404 [90m0ms[0m
+[90mGET //web/phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //xampp/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //web/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET //php-my-admin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //websql/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //_phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //apache-default/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //blog/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //cpanelphpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //cpphpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //forum/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //php/phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.10.0.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.10.0.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.10.0.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.10.0/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET //phpMyAdmin-2.10.1.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.10.2.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.11.0.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.11.1-all-languages/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.11.1.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.11.1.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.11.1.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.6.1-pl2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.6.1-pl3/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.6.4-pl3/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.6.4-pl4/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.6.4-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.6.5/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.6.6/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.6.9/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.0-beta1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.0-pl1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.0-pl2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.0-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.5/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.7.6/scripts/setup.php [33m404 [90m0ms[0m
+[90mGET //phpMyAdmin-2.7.7/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.2.3/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.3/scripts/setup.php [33m404 [90m4ms[0m
+[90mGET //phpMyAdmin-2.8.4/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.5/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.6/scripts/setup.php [33m404 [90m0ms[0m
+[90mGET //phpMyAdmin-2.8.7/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.8.9/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.9.0-rc1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.9.0.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-2.9.0.2/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.9.1/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET //phpMyAdmin-2.9.2/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET //phpMyAdmin-2/scripts/setup.php [33m404 [90m3ms[0m
+[90mGET //phpMyAdmin-3.0.0-rc1-english/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.0.1.0-english/scripts/setup.php [33m404 [90m4ms[0m
+[90mGET //phpMyAdmin-3.0.1.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.0.1.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.1.0.0/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.1.2.0-english/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin-3.1.2.0/scripts/setup.php [33m404 [90m0ms[0m
+[90mGET //phpMyAdmin-3.4.3.1/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin2/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET //phpMyAdmin3/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /p_/webdav/xmltools/minidom/xml/sax/saxutils/os/popen2?cmd=whoami [33m404 [90m3ms[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m4ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '53149fb9eb899723ad000005',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Chris',
+  lastname: 'Dichiara',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '516-847-4205' } ],
+  emails: [ { type: 'other', address: 'chrisdichiara@yahoo.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '53149fbaeb899723ad000009',
+  cid: '53149fb9eb899723ad000005',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '04.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /vicidial/project_auth_entries.txt [33m404 [90m1ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.102/ [36m302 [90m1ms - 68b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.google.com/ [36m302 [90m0ms - 68b[0m
+[90mGET http://74.125.128.100/ [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /invoker/JMXInvokerServlet [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://74.125.128.113/ [36m302 [90m1ms - 68b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m56ms - 882b[0m
+[90mGET /stylesheets/style.css [32m200 [90m3ms - 401b[0m
+[90mGET /javascripts/app.js [32m200 [90m8ms - 1.44kb[0m
+[90mGET /javascripts/angular-resource.min.js [32m200 [90m8ms - 2.51kb[0m
+[90mGET /javascripts/angular.min.js [32m200 [90m78ms - 78.94kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [32m200 [90m133ms - 99.21kb[0m
+[90mPOST /login [36m302 [90m120ms - 58b[0m
+[90mGET / [32m200 [90m53ms - 981b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m12ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m12ms[0m
+[90mGET /javascripts/app.js [36m304 [90m14ms[0m
+[90mGET /watches [32m200 [90m78ms - 4.95kb[0m
+[90mGET /javascripts/angular.min.js [36m304 [90m11ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m10ms[0m
+[90mGET /javascripts/angular-resource.min.js [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m12ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m12ms[0m
+[90mGET /javascripts/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff [32m200 [90m3ms - 22.75kb[0m
+[90mGET /invoker/JMXInvokerServlet [33m404 [90m2ms[0m
+[90mGET http://www.google.com/ [36m302 [90m1ms - 68b[0m
+[90mGET http://173.194.127.67/ [36m302 [90m1ms - 68b[0m
