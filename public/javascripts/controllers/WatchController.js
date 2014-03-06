@@ -5,6 +5,12 @@
  ***********************************/
 
 function WatchController($scope, $http) {
+  $scope.watches = [];
+
+  $scope.setWatches = function(watches) {
+    $scope.watches = watches;
+  };
+
   $scope.defaultForm = {
     brand : '',
     family : '',
@@ -35,5 +41,18 @@ function WatchController($scope, $http) {
 
   $scope.addInstruction = function() {
     $scope.instructions.push({id : $scope.instructions.length+1});
+  };
+
+  $scope.removeWatch = function(watch) {
+    $http.delete('/watches/' + watch._id + '.json').success(function(data) {
+      console.log(data);
+    });
+    $scope.getWatches();
+  };
+
+  $scope.getWatches = function() {
+    $http.get('/watches.json').success(function(data) {
+      $scope.watches = data.watches;
+    });
   };
 }
