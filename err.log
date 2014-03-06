@@ -28,3 +28,38 @@ connect.limit() will be removed in connect 3.0
 connect.multipart() will be removed in connect 3.0
 visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
 connect.limit() will be removed in connect 3.0
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+
+events.js:66
+        throw arguments[1]; // Unhandled 'error' event
+                       ^
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+    at EventEmitter.emit (events.js:115:20)
+    at connection.on._self._poolState (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+    at EventEmitter.emit (events.js:91:17)
+    at Socket.errorHandler (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+    at Socket.EventEmitter.emit (events.js:88:17)
+    at Socket._destroy.self.errorEmitted (net.js:328:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+
+events.js:66
+        throw arguments[1]; // Unhandled 'error' event
+                       ^
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+    at EventEmitter.emit (events.js:115:20)
+    at connection.on._self._poolState (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+    at EventEmitter.emit (events.js:91:17)
+    at Socket.errorHandler (/home/ec2-user/EJ-Assets/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+    at Socket.EventEmitter.emit (events.js:88:17)
+    at Socket._destroy.self.errorEmitted (net.js:328:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
