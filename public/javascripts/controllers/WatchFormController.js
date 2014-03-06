@@ -5,6 +5,32 @@
  ***********************************/
 
 function WatchFormController($scope, $http) {
+  $scope.defaultForm = {
+    brand : '',
+    family : '',
+    model : '',
+    reference : '',
+    serial : '',
+    img : '',
+    instructions : [],
+    description_long : '',
+    description_short : '',
+    trivia : ''
+  };
+
+  $scope.defaultInstructions = [{id : '1'}];
+
+  $scope.watch = angular.copy($scope.defaultForm);
+  $scope.instructions = angular.copy($scope.defaultInstructions);
+
+  $scope.test = function() {
+    alert(JSON.stringify($scope.watch));
+//    $scope.watchForm.$setPristine();
+    $scope.watch = angular.copy($scope.defaultForm);
+    $scope.instructions = angular.copy($scope.defaultInstructions);
+  };
+
+
   $scope.newWatch = {
     brand : '',
     family : '',
