@@ -56,6 +56,22 @@ exports.addWatch = function() {
 };
 
 /***********************************
+ * VIEW INDIVIDUAL WATCH PAGE
+ ***********************************/
+
+exports.viewWatch = function(Watch) {
+  return function(req, res) {
+    Watch.find({_id : req.params.id}, function(error, watch) {
+      if(error) {
+        console.log("Can't find your fucking watch");
+      } else {
+        res.render('watch', {watch : watch[0]});
+      }
+    });
+  };
+};
+
+/***********************************
  * MAILCHIMP HOME PAGE
  ***********************************/
 

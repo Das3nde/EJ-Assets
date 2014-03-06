@@ -1,16 +1,63 @@
 extends layout
 
 block head
-  script(type='text/javascript' src='/javascripts/controllers/WatchFormController.js')
+  script(type='text/javascript' src='/javascripts/controllers/WatchController.js')
 
 block content
-  div.container(ng-controller="WatchFormController")
-    form(novalidate, ng-submit="addWatch()")
-      input(ng-model="newWatch.brand", placeholder="Brand")
-      input(ng-model="newWatch.family", placeholder="Family")
-      input(ng-model="newWatch.model", placeholder="Model")
-      input(ng-model="newWatch.reference", placeholder="Reference")
-      input(ng-model="newWatch.serial", placeholder="Serial Number")
-      input(ng-model="newWatch.img", placeholder="Image Name")
+  div.container(ng-controller='WatchController')
+    form.form-horizontal(role='form' name="watchForm")
+      h1 Inventory Information
       br
-      button.btn.btn-success(type="submit") Add Watch
+      div.form-group
+        label.col-sm-1.control-label(for='brand') Brand
+        div.col-sm-2
+          input.form-control#brand(type='text' placeholder='Brand' ng-model="watch.brand")
+        label.col-sm-1.control-label(for='family') Family
+        div.col-sm-2
+          input.form-control#family(type='text' placeholder='Family' ng-model="watch.family")
+        label.col-sm-1.control-label(for='model') Model
+        div.col-sm-2
+          input.form-control#model(type='text' placeholder='Model' ng-model='watch.model')
+      div.form-group
+        label.col-sm-1.control-label(for='reference') Reference
+        div.col-sm-3
+          input.form-control#reference(type='text' placeholder='Reference' ng-model='watch.reference')
+        label.col-sm-1.control-label(for='serial') Serial Number
+        div.col-sm-4
+          input.form-control#serial(type='text' placeholder='Serial Number' ng-model='watch.serial')
+      div.form-group
+        label.col-sm-1.control-label(for='image') Image Link
+        div.col-sm-2
+          input.form-control#image(type='text' placeholder='Image Link' ng-model='watch.img')
+      br
+      h1 Instructions
+      br
+      div.form-group(data-ng-repeat="instruction in instructions")
+        div.col-sm-2
+          input.form-control#instruction(type='text' placeholder='Name' ng-model='instruction.name')
+        div.col-sm-3
+          textarea.form-control(placeholder='Description' ng-model='instruction.description')
+        div.col-sm-3
+          textarea.form_control(placeholder='Special Instructions' ng-model='instruction.special')
+
+      div.form-group
+        div.col-sm-offset-2.col-sm-2
+          button.btn.btn-info(type='button' ng-click='addInstruction()') Add Instruction
+      h1 Flavor Text
+
+      div.form-group
+        label.col-sm-2.control-label(for='description-long') Description
+        div.col-sm-4
+          textarea.form-control#description-long(placeholder='Description' ng-model='watch.description_long')
+      div.form-group
+        label.col-sm-2.control-label(for='description-short') Abridged Description
+        div.col-sm-4
+          textarea.form-control#description-short(placeholder='Abridged Description' ng-model='watch.description_short')
+      div.form-group
+        label.col-sm-2.control-label(for='trivia') Trivia
+        div.col-sm-4
+          textarea.form-control#trivia(placeholder='Trivia' ng-model='watch.trivia')
+
+      div.form-group
+        div.col-sm-offset-2.col-sm-2
+          button.btn.btn-success(type='submit' ng-click='addWatch()') Submit

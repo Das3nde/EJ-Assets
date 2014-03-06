@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div.container(ng-controller="WatchController")
+    h1 #{watch.brand + ' ' + watch.family + ' ' + watch.model}
+    h2 Description
+    p #{watch.description_long}
+    h2 Picture
+    img(src='/images/#{watch.img}.png')
+    h2 Instructions
+    each instruction in watch.instructions
+      if instruction.name
+        p
+          b #{instruction.name}
+      if instruction.description
+        p #{instruction.description}
+      if instruction.special
+        p
+          i #{instruction.special}
+    h2 Short Description
+    p #{watch.description_short}
+    h2 Trivia
+    p #{watch.trivia}

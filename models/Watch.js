@@ -7,7 +7,10 @@ var WatchSchema = Mongoose.Schema({
   model : String,
   reference : String,
   serial : String,
-  complications : [String]
+  instructions : [],
+  description_long : String,
+  description_short : String,
+  trivia : String
 });
 
 module.exports = Mongoose.model('Watch', WatchSchema);

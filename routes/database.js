@@ -31,3 +31,35 @@ exports.addWatch = function(Watch) {
     });
   };
 };
+
+/***********************************
+ * REMOVE WATCH FROM DATABASE
+ ***********************************/
+
+exports.removeWatch = function(Watch) {
+  return function(req, res) {
+    Watch.findOneAndRemove({_id : req.params.id}, function(error, data) {
+      if(error) {
+        res.json({error : error});
+      } else {
+        res.json({data : data});
+      }
+    });
+  };
+};
+
+/***********************************
+ * GET WATCHES FROM DATABASE
+ ***********************************/
+
+exports.getWatches = function(Watch) {
+  return function(req, res) {
+    Watch.find({}, function(error, watches) {
+      if(error) {
+        res.json({error : error});
+      } else {
+        res.json({watches : watches});
+      }
+    });
+  };
+};
