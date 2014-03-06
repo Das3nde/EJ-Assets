@@ -23,37 +23,17 @@ function WatchFormController($scope, $http) {
   $scope.watch = angular.copy($scope.defaultForm);
   $scope.instructions = angular.copy($scope.defaultInstructions);
 
-  $scope.test = function() {
+  $scope.addWatch = function() {
+    $scope.watch.instructions = $scope.instructions;
     alert(JSON.stringify($scope.watch));
-//    $scope.watchForm.$setPristine();
+    $http.post('/watch.json', $scope.watch).success(function(data) {
+// Code here
+    });
     $scope.watch = angular.copy($scope.defaultForm);
     $scope.instructions = angular.copy($scope.defaultInstructions);
   };
 
-
-  $scope.newWatch = {
-    brand : '',
-    family : '',
-    model : '',
-    reference : '',
-    serial : '',
-    img : ''
-  };
-
-  $scope.addWatch = function() {
-    $http.post('/add_watch.json', $scope.newWatch).success(function(data) {
-      if(data.watch) {
-        console.log("Success adding watch!");
-
-        $scope.newWatch.brand = '';
-        $scope.newWatch.family = '';
-        $scope.newWatch.model = '';
-        $scope.newWatch.reference = '';
-        $scope.newWatch.serial = '';
-        $scope.newWatch.img = '';
-      } else {
-        alert(JSON.stringify(data));
-      }
-    });
+  $scope.addInstruction = function() {
+    $scope.instructions.push({id : $scope.instructions.length+1});
   };
 }

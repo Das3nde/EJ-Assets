@@ -65,7 +65,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
    ***************************************/
 
   /* ADD A WATCH */
-  app.post('/add_watch.json', isLoggedIn, database.addWatch(Watch));
+  app.post('/watch.json', isLoggedIn, database.addWatch(Watch));
   
   /* GET MAILCHIMP LISTS */
   app.get('/mailchimp/lists.json', isLoggedIn, database.getMailchimpLists(MCList));
