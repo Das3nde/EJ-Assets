@@ -4,10 +4,10 @@ block content
   div.container
     h1 Welcome to Eleven James
     each watch in watches
-      a(href='/images/' + watch.img + '.png') #{watch.brand + ' ' + watch.family + ' ' + watch.model}
+      a(href='/watches/' + watch._id) #{watch.brand + ' ' + watch.family + ' ' + watch.model}
       br
-    br
-    p
+    //br
+    //p
       a(href='/logout')
         button.btn.btn-default.btn-large(type='button')
           span.glyphicon.glyphicon-log-out Logout
