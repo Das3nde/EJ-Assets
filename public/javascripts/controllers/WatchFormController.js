@@ -5,7 +5,6 @@
  ***********************************/
 
 function WatchFormController($scope, $http) {
-
   $scope.newWatch = {
     brand : '',
     family : '',
