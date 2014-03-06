@@ -1,21 +1,10 @@
 extends layout
 
 block head
-  script(type='text/javascript' src='/javascripts/controllers/WatchFormController.js')
+  script(type='text/javascript' src='/javascripts/controllers/WatchController.js')
 
 block content
-  div.container(ng-controller="WatchFormController" style='display: none')
-    form(novalidate, ng-submit="addWatch()")
-      input(ng-model="newWatch.brand", placeholder="Brand")
-      input(ng-model="newWatch.family", placeholder="Family")
-      input(ng-model="newWatch.model", placeholder="Model")
-      input(ng-model="newWatch.reference", placeholder="Reference")
-      input(ng-model="newWatch.serial", placeholder="Serial Number")
-      input(ng-model="newWatch.img", placeholder="Image Name")
-      br
-      button.btn.btn-success(type="submit") Add Watch
-
-  div.container(ng-controller='WatchFormController')
+  div.container(ng-controller='WatchController')
     form.form-horizontal(role='form' name="watchForm")
       h1 Inventory Information
       br

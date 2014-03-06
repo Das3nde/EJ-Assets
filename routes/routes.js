@@ -45,6 +45,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   /* VIEW MAILCHIMP HOMEPAGE */
   app.get('/mailchimp', isLoggedIn, routes.mailchimp()); 
 
+  /* VIEW AN INDIVIDUAL WATCH */
+  app.get('/watches/:id.json', isLoggedIn, routes.viewWatch(Watch));
+
 
   /***************************************
    * ACCOUNT MANAGEMENT
