@@ -2758,3 +2758,227 @@ Adding a new action with name Schedule follow-up email
 [90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 195b[0m
 [90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m422ms - 568.19kb[0m
 [90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m7ms - 68b[0m
+[90mGET /login [32m200 [90m463ms - 894b[0m
+[90mGET /stylesheets/style.css [32m200 [90m6ms - 401b[0m
+[90mGET /javascripts/app.js [32m200 [90m6ms - 756b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [32m200 [90m98ms - 99.21kb[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [32m200 [90m285ms - 100.04kb[0m
+[90mPOST /login [36m302 [90m121ms - 58b[0m
+[90mGET / [32m200 [90m45ms - 856b[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m12ms[0m
+[90mGET /javascripts/app.js [36m304 [90m14ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m10ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /signup [32m200 [90m75ms - 896b[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mPOST /signup [36m302 [90m127ms - 58b[0m
+[90mGET / [36m304 [90m35ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET / [36m304 [90m38ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m13ms[0m
+[90mGET /javascripts/app.js [36m304 [90m14ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m15ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m8ms[0m
+[90mGET /watches [32m200 [90m54ms - 1.21kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m14ms[0m
+[90mGET /javascripts/app.js [36m304 [90m11ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m13ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m13ms[0m
+[90mGET /javascripts/controllers/WatchController.js [32m200 [90m10ms - 1.46kb[0m
+[90mGET /add_watch [32m200 [90m115ms - 3.58kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m11ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mPOST /watch.json [32m200 [90m14ms - 468b[0m
+[90mGET /watches [32m200 [90m59ms - 1.81kb[0m
+[90mGET /javascripts/app.js [36m304 [90m13ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m15ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m13ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m13ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m15ms[0m
+[90mGET /watches/5318f554896ca543265e84d3.json [32m200 [90m83ms - 874b[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback.png [36m304 [90m10ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m12ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m13ms[0m
+[90mGET /watches.json [32m200 [90m6ms - 520b[0m
+[90mDELETE /watches/5318f554896ca543265e84d3.json [32m200 [90m6ms - 467b[0m
+[90mDELETE /watches/5318f554896ca543265e84d3.json [32m200 [90m4ms - 18b[0m
+[90mGET /watches.json [32m200 [90m6ms - 19b[0m
+[90mGET /add_watch [36m304 [90m101ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m10ms[0m
+[90mGET / [36m304 [90m52ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /signout [33m404 [90m5ms[0m
+[90mGET /logout [36m302 [90m3ms - 58b[0m
+[90mGET / [36m302 [90m0ms - 68b[0m
+[90mGET /login [32m200 [90m37ms - 894b[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET / [36m302 [90m4ms - 68b[0m
+[90mGET /login [36m304 [90m42ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mPOST /login [36m302 [90m115ms - 58b[0m
+[90mGET / [32m200 [90m45ms - 856b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /watches [32m200 [90m43ms - 1.21kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /add_watch [36m304 [90m112ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m7ms[0m
+[90mPOST /watch.json [32m200 [90m26ms - 2.16kb[0m
+[90mGET /watches [32m200 [90m58ms - 3.55kb[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /watches/5318f863896ca543265e84d4.json [32m200 [90m77ms - 2.13kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback.png [36m304 [90m2ms[0m
+[90mDELETE /watches/5318f863896ca543265e84d4.json [32m200 [90m7ms - 2.16kb[0m
+[90mGET /watches.json [36m304 [90m3ms[0m
+[90mGET /watches [32m200 [90m47ms - 1.21kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /add_watch [36m304 [90m130ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m12ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /watches [36m304 [90m49ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m16ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m14ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m15ms[0m
+[90mGET /javascripts/app.js [36m304 [90m16ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m11ms[0m
+[90mGET /images [36m303 [90m5ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /login [32m200 [90m40ms - 894b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m58ms - 894b[0m
+[90mGET /stylesheets/style.css [32m200 [90m3ms - 401b[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 756b[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [32m200 [90m175ms - 99.21kb[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [32m200 [90m187ms - 100.04kb[0m
+[90mPOST /login [36m302 [90m116ms - 58b[0m
+[90mGET / [32m200 [90m34ms - 856b[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /add_watch [32m200 [90m151ms - 3.58kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchController.js [32m200 [90m6ms - 1.46kb[0m
+[90mPOST /watch.json [32m200 [90m12ms - 1.86kb[0m
+[90mPOST /watch.json [32m200 [90m45ms - 2.09kb[0m
+[90mPOST /watch.json [32m200 [90m2709ms - 1.28kb[0m
+[90mPOST /watch.json [32m200 [90m663ms - 1.63kb[0m
+[90mGET http://www.google.com/ [36m302 [90m2ms - 68b[0m
+[90mGET http://173.194.70.101/ [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m304 [90m39ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /watches [32m200 [90m52ms - 8.67kb[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET / [36m304 [90m30ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /add_watch [36m304 [90m90ms[0m
+[90mGET /javascripts/vendor/bootstrap/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mPOST /watch.json [32m200 [90m48ms - 1.85kb[0m
+[90mPOST /watch.json [32m200 [90m445ms - 1.91kb[0m
+[90mPOST /watch.json [32m200 [90m14ms - 1.86kb[0m
+[90mPOST /watch.json [32m200 [90m49ms - 1.49kb[0m
+[90mPOST /watch.json [32m200 [90m13ms - 1.57kb[0m
+[90mPOST /watch.json [32m200 [90m7ms - 1.8kb[0m
+[90mPOST /watch.json [32m200 [90m9ms - 1.7kb[0m
+[90mPOST /watch.json [32m200 [90m43ms - 1.47kb[0m
+[90mPOST /watch.json [32m200 [90m7ms - 1.82kb[0m
+[90mPOST /watch.json [32m200 [90m8ms - 1.65kb[0m
+[90mPOST /watch.json [32m200 [90m78ms - 1.74kb[0m
+[90mPOST /watch.json [32m200 [90m10ms - 1.97kb[0m
+[90mPOST /watch.json [32m200 [90m50ms - 2.19kb[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mPOST /watch.json [32m200 [90m11ms - 2.29kb[0m
+[90mPOST /watch.json [32m200 [90m9ms - 1.35kb[0m
+[90mPOST /watch.json [32m200 [90m11ms - 1.12kb[0m
+[90mPOST /watch.json [32m200 [90m4ms - 1.98kb[0m
+[90mPOST /watch.json [32m200 [90m7ms - 1.9kb[0m
+[90mPOST /watch.json [32m200 [90m7ms - 1.38kb[0m
+[90mPOST /watch.json [32m200 [90m5ms - 1.27kb[0m
+[90mPOST /watch.json [32m200 [90m17ms - 1.21kb[0m
+[90mPOST /watch.json [32m200 [90m6ms - 1.49kb[0m
+[90mPOST /watch.json [32m200 [90m73ms - 2.1kb[0m
+[90mPOST /watch.json [32m200 [90m4ms - 1.59kb[0m
+[90mGET /assets/ElevenJames_Slideshow1125%20(1).pdf [32m200 [90m4201ms - 5.67mb[0m
+[90mPOST /watch.json [32m200 [90m9ms - 3.01kb[0m
+[90mPOST /watch.json [32m200 [90m8ms - 2.33kb[0m
+[90mPOST /watch.json [32m200 [90m6ms - 1.46kb[0m
+[90mPOST /watch.json [32m200 [90m5ms - 1.55kb[0m
+[90mPOST /watch.json [32m200 [90m9ms - 1.62kb[0m
+[90mPOST /watch.json [32m200 [90m7ms - 1.75kb[0m
