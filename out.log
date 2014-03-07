@@ -3260,3 +3260,453 @@ Adding a new action with name Schedule follow-up call
 [90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
 [90mGET /javascripts/app.js [36m304 [90m3ms[0m
 [90mGET /images/.png [33m404 [90m2ms[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m6ms - 68b[0m
+[90mGET /login [32m200 [90m455ms - 887b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m117ms - 58b[0m
+[90mGET / [32m200 [90m49ms - 991b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [32m200 [90m88ms - 71.64kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m208ms - 7.5kb[0m
+[90mGET /images/.png [33m404 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m12ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m13ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m9ms - 3.68kb[0m
+[90mGET /images/.png [33m404 [90m3ms[0m
+[90mGET /watches [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m39ms - 887b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mPOST /login [36m302 [90m111ms - 58b[0m
+[90mGET / [36m304 [90m44ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [32m200 [90m59ms - 71.64kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m3ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m142ms - 7.5kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m8ms - 3.68kb[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /images/.png [33m404 [90m1ms[0m
+{ _id: '531901e8896ca543265e84d6' }
+1
+[90mPUT /watches/531901e8896ca543265e84d6.json [32m200 [90m10ms - 22b[0m
+{ _id: '531901e8896ca543265e84d6' }
+1
+[90mPUT /watches/531901e8896ca543265e84d6.json [32m200 [90m6ms - 22b[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m145ms - 7.5kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m1ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m150ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /images/.png [33m404 [90m5ms[0m
+{ _id: '531901e8896ca543265e84d6' }
+1
+[90mPUT /watches/531901e8896ca543265e84d6.json [32m200 [90m7ms - 22b[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m127ms - 7.54kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m13ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m15ms[0m
+[90mGET /javascripts/app.js [36m304 [90m16ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m16ms[0m
+[90mGET /images/.png [33m404 [90m4ms[0m
+{ _id: '531901e8896ca543265e84d6' }
+1
+[90mPUT /watches/531901e8896ca543265e84d6.json [32m200 [90m8ms - 22b[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m166ms - 7.5kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [32m200 [90m141ms - 7.02kb[0m
+[90mGET /images/.png [33m404 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m13ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m12ms[0m
+{ _id: '531905fb896ca543265e84d8' }
+1
+[90mPUT /watches/531905fb896ca543265e84d8.json [32m200 [90m7ms - 22b[0m
+{ _id: '531905fb896ca543265e84d8' }
+1
+[90mPUT /watches/531905fb896ca543265e84d8.json [32m200 [90m5ms - 22b[0m
+{ _id: '531905fb896ca543265e84d8' }
+1
+[90mPUT /watches/531905fb896ca543265e84d8.json [32m200 [90m41ms - 22b[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [32m200 [90m137ms - 7.2kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [32m200 [90m146ms - 7.27kb[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Pil_Top_Gun_Mir.JPG.png [33m404 [90m10ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m6ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m5ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m7ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m6ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m7ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m8ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m13ms - 22b[0m
+{ _id: '5319e080896ca543265e84e1' }
+1
+[90mPUT /watches/5319e080896ca543265e84e1.json [32m200 [90m5ms - 22b[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m159ms - 7.5kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/.png [33m404 [90m3ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m119ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /images/.png [33m404 [90m3ms[0m
+[90mGET /watches/5319e54e896ca543265e84e4.json [32m200 [90m139ms - 7.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Port_Chr_White_Temp.jpg.png [33m404 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Port_Chr_White_Temp.jpg.png [33m404 [90m3ms[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m30ms - 22b[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m6ms - 22b[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m5ms - 22b[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m17ms - 22b[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m9ms - 22b[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m153ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/.png [33m404 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m6ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m128ms - 6.95kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [32m200 [90m171ms - 7.56kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m10ms[0m
+{ _id: '531a0ddf896ca543265e84ef' }
+1
+[90mPUT /watches/531a0ddf896ca543265e84ef.json [32m200 [90m6ms - 22b[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [32m200 [90m131ms - 7.54kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m3ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [36m304 [90m116ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m181ms - 6.67kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /images/.png [33m404 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+{ _id: '531905a2896ca543265e84d7' }
+1
+[90mPUT /watches/531905a2896ca543265e84d7.json [32m200 [90m8ms - 22b[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m148ms - 6.74kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /watches/531a0e42896ca543265e84f0.json [32m200 [90m117ms - 7.04kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/BREG_Mar.JPG.png [33m404 [90m5ms[0m
+[90mGET /watches/5319d480896ca543265e84d9.json [32m200 [90m136ms - 7.24kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /images/.png [33m404 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [36m304 [90m149ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /watches/5319d543896ca543265e84da.json [32m200 [90m150ms - 7.3kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watches/5319d6a1896ca543265e84db.json [32m200 [90m134ms - 7.25kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /images/.png [33m404 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /watches/5319d543896ca543265e84da.json [36m304 [90m121ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /images/.png [33m404 [90m6ms[0m
+[90mGET /watches/531a2fdf74717ff32e06b875.json [32m200 [90m163ms - 6.95kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /images/.png [33m404 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /watches/5319dbe3896ca543265e84de.json [32m200 [90m141ms - 7.25kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/GP_Vin_1945_XXL.JPG.png [33m404 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /watches/5319d97f896ca543265e84dd.json [32m200 [90m153ms - 7.02kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/GP_Cer_Hawk_Temp.jpg.png [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [32m200 [90m5ms - 756b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m2738ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m3411ms - 100.04kb[0m
+[90mGET /watches/5319d792896ca543265e84dc.json [32m200 [90m128ms - 6.88kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m3ms - 3.68kb[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mGET /watches/5319df25896ca543265e84df.json [32m200 [90m159ms - 7.15kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/GLA_Sen_Nav_Wor.JPG.png [33m404 [90m2ms[0m
+{ _id: '5319df25896ca543265e84df' }
+1
+[90mPUT /watches/5319df25896ca543265e84df.json [32m200 [90m7ms - 22b[0m
+[90mGET /watches/531a1eb8896ca543265e84f1.json [32m200 [90m141ms - 8.51kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/GLA_Pan_Cou_XL_Temp.jpg.png [33m404 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/GLA_Pan_Cou_XL_Temp.jpg.png [33m404 [90m3ms[0m
+[90mGET /watches/531a2717896ca543265e84f2.json [32m200 [90m157ms - 7.8kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/HUB_Big_Bang_UNI_Temp.jpg.png [33m404 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /watches/531a32f074717ff32e06b876.json [32m200 [90m137ms - 7.22kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /images/.png [33m404 [90m6ms[0m
+[90mGET /watches/531a27cc896ca543265e84f3.json [32m200 [90m140ms - 6.91kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Big_Pil.JPG.png [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+{ _id: '531a27cc896ca543265e84f3' }
+1
+[90mPUT /watches/531a27cc896ca543265e84f3.json [32m200 [90m7ms - 22b[0m
+[90mGET /watches/5319e54e896ca543265e84e4.json [32m200 [90m142ms - 7.54kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Port_Chr_White_Temp.jpg.png [33m404 [90m3ms[0m
+{ _id: '5319e54e896ca543265e84e4' }
+1
+[90mPUT /watches/5319e54e896ca543265e84e4.json [32m200 [90m7ms - 22b[0m
+[90mGET /watches/5319e70d896ca543265e84e5.json [32m200 [90m143ms - 7.63kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Spi_Chr.JPG.png [33m404 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Spi_Chr.JPG.png [33m404 [90m2ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [32m200 [90m137ms - 7.75kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Pil_Top_Gun_Mir.JPG.png [33m404 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/5319dff3896ca543265e84e0.json [32m200 [90m174ms - 6.92kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Pil_Hand_Wou_Vin_1936.JPG.png [33m404 [90m2ms[0m
+[90mGET /watches/5319e310896ca543265e84e2.json [32m200 [90m114ms - 7.11kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m10ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Porto_8Day.JPG.png [33m404 [90m11ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /watches/5319e3e1896ca543265e84e3.json [32m200 [90m147ms - 7.18kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/IWC_Portu_Chr.JPG.png [33m404 [90m5ms[0m
+[90mGET /watches.json [32m200 [90m30ms - 68.88kb[0m
+[90mDELETE /watches/5319e3e1896ca543265e84e3.json [32m200 [90m4ms - 1.74kb[0m
+[90mGET /watches/5319f77e896ca543265e84e6.json [32m200 [90m142ms - 7.75kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Com.JPG.png [33m404 [90m8ms[0m
+[90mGET /watches/5319f7e8896ca543265e84e7.json [32m200 [90m136ms - 6.79kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG.png [33m404 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watches/5319f95b896ca543265e84e8.json [32m200 [90m115ms - 6.5kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [32m200 [90m147ms - 7.03kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JD_Les_Deux_Fus_Maj_Beij.JPG.png [33m404 [90m5ms[0m
+[90mGET /watches/531a019c896ca543265e84e9.json [32m200 [90m136ms - 7.42kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/MON_Nic_Rie_Chr_Temp.jpg.png [33m404 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+{ _id: '531a019c896ca543265e84e9' }
+1
+[90mPUT /watches/531a019c896ca543265e84e9.json [32m200 [90m8ms - 22b[0m
+[90mGET /watches/531a032f896ca543265e84ea.json [32m200 [90m139ms - 7.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/OME_Spe_Temp.jpg.png [33m404 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /watches/531a0b7c896ca543265e84ec.json [32m200 [90m141ms - 6.72kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/PAN_Pam_104.JPG.png [33m404 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/PAN_Pam_104.JPG.png [33m404 [90m2ms[0m
+[90mGET /watches/53190105896ca543265e84d5.json [32m200 [90m152ms - 7.25kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m12ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+{ _id: '53190105896ca543265e84d5' }
+1
+[90mPUT /watches/53190105896ca543265e84d5.json [32m200 [90m9ms - 22b[0m
+{ _id: '53190105896ca543265e84d5' }
+1
+[90mPUT /watches/53190105896ca543265e84d5.json [32m200 [90m5ms - 22b[0m
+[90mGET /watches/531a2978896ca543265e84f5.json [32m200 [90m151ms - 7.08kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/VC_Ove_Dual_Time.JPG.png [33m404 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /watches/531a29f8896ca543265e84f6.json [32m200 [90m170ms - 7.2kb[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/ZEN_Cla_Open.JPG.png [33m404 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /watches/531a0c90896ca543265e84ed.json [32m200 [90m175ms - 6.65kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/Zen_Pil_Mon.JPG.png [33m404 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/Zen_Pil_Mon.JPG.png [33m404 [90m2ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [32m200 [90m143ms - 7.83kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /images/.png [33m404 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [36m304 [90m156ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m11ms[0m
+[90mGET /images/.png [33m404 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
