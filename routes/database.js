@@ -92,18 +92,23 @@ exports.updateWatch = function(Watch) {
 
 exports.addImage = function(Watch) {
   return function(req, res) {
-    var tempPath = req.files.watchImage.path,
-        targetPath = path.resolve('./images/' + req.files.watchImage.name + '.png');
-    if(path.extname(req.files.watchImage.name).toLowerCase() === '.png') {
-      fs.rename(tempPath, targetPath, function(error) {
-        if(error) throw error;
-        console.log("Upload Complete");
-      });
-    } else {
-      fs.unlink(tempPath, function() {
-        if(error) throw error;
-        console.error("Only .png files are allowed!");
-      });
-    }
+    Watch.findOne({_id : req.params.id}, function(error, watch) {
+      var tempPath = req.files.watchImage.path,
+          targetPath = path.resolve('./public/images/' + watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg');
+
+      if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg') {
+        fs.rename(tempPath, targetPath, function(err) {
+          if(err) throw err;
+          console.log("Upload Complete");
+          watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
+          watch.save();
+        });
+      } else {
+        fs.unlink(tempPath, function(err) {
+          if(err) throw err;
+          console.error("Only .jpg files are allowed!");
+        });
+      }
+    });
   };
 };
