@@ -2,6 +2,11 @@ extends layout
 
 block content
   div.container(ng-controller="WatchController")
+    div.row
+      div.col-md-8
+        h1 #{watch.brand + ' ' + watch.family + ' ' + watch.model}
+      div.col-md-4
+        a(href='#') Edit
     h1 #{watch.brand + ' ' + watch.family + ' ' + watch.model}
     h2 Description
     p #{watch.description_long}
