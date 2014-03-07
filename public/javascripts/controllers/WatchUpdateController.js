@@ -17,7 +17,6 @@ function WatchUpdateController($scope, $http) {
   $scope.watch = [];
 
   $scope.setWatch = function(watch) {
-    alert('Setting watch');
     $scope.watch = watch;
   };
 

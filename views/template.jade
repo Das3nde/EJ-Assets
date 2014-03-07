@@ -75,13 +75,22 @@
 </tr>
 <tr>
 <td valign="top" align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000;">
-<p ng-repeat="instruction in watch.instructions">
-<em><strong>{{instruction.task}}</strong></em>
+<div ng-repeat="instruction in watch.instructions">
+<p ng-show="instruction.name">
+<em><strong>{{instruction.name}}</strong></em>
 <br>
-{{watch.instruction}}
-<br><br>
 </p>
-<p>Always secure the crown back into the case before use</p>
+<p ng-show="instruction.description">
+{{instruction.description}}
+<br>
+</p>
+<p ng-show="instruction.special">
+<i>
+{{instruction.special}}
+</i>
+<br>
+</p>
+</div>
 </tr>
 </table>
 </td>
