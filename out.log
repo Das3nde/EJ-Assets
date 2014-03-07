@@ -3710,3 +3710,221 @@ Express server listening on port 8080
 [90mGET /images/.png [33m404 [90m8ms[0m
 [90mGET /javascripts/app.js [36m304 [90m8ms[0m
 [90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m7ms - 68b[0m
+[90mGET /login [32m200 [90m487ms - 887b[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mPOST /login [36m302 [90m120ms - 58b[0m
+[90mGET / [32m200 [90m50ms - 991b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m5ms[0m
+[90mGET /watches [32m200 [90m107ms - 70.54kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m12ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m5ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m234ms - 7.65kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m12ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m11ms - 3.71kb[0m
+[90mGET /images/ [33m404 [90m8ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+Upload Complete
+[90mPOST /images/531901e8896ca543265e84d6.json [36m302 [90m25456ms - 74b[0m
+[90mGET /watches/ [32m200 [90m65ms - 70.58kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m147ms - 7.73kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m12ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m3114ms - 2.33mb[0m
+[90mGET /watches/templates/531901e8896ca543265e84d6.json [32m200 [90m98ms - 8.06kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /watches [36m302 [90m3ms - 68b[0m
+[90mGET /login [32m200 [90m41ms - 887b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m111ms - 58b[0m
+[90mGET / [36m304 [90m40ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [32m200 [90m58ms - 70.58kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m140ms - 7.1kb[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m8ms - 3.71kb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG [33m404 [90m2ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG [33m404 [90m2ms[0m
+Upload Complete
+[90mPOST /images/531a0d06896ca543265e84ee.json [36m302 [90m82350ms - 74b[0m
+[90mGET /watches/ [32m200 [90m76ms - 70.56kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m1ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m196ms - 7.07kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m5915ms - 4.88mb[0m
+[90mGET /watches/templates/531a0d06896ca543265e84ee.json [32m200 [90m91ms - 7.4kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [32m200 [90m183ms - 7.69kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m10ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg [33m404 [90m11ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m12ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+Upload Complete
+[90mPOST /images/531a0ddf896ca543265e84ef.json [36m302 [90m2201ms - 74b[0m
+[90mGET /watches/ [32m200 [90m53ms - 70.54kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [32m200 [90m174ms - 7.64kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m198ms - 215.81kb[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m234ms - 6.89kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+Upload Complete
+[90mPOST /images/531905a2896ca543265e84d7.json [36m302 [90m51618ms - 74b[0m
+[90mGET /watches/ [32m200 [90m50ms - 70.56kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m1ms[0m
+[90mGET /watches/531a0e42896ca543265e84f0.json [32m200 [90m129ms - 7.19kb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/BREG_Mar.JPG [33m404 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /watches/templates/531901e8896ca543265e84d6.json [36m304 [90m82ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/BREG_Mar.JPG [33m404 [90m4ms[0m
+Upload Complete
+[90mPOST /images/531a0e42896ca543265e84f0.json [36m302 [90m47693ms - 74b[0m
+[90mGET /watches/ [32m200 [90m63ms - 70.53kb[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /watches/5319d480896ca543265e84d9.json [32m200 [90m150ms - 7.39kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m14ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /javascripts/app.js [36m304 [90m11ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+Upload Complete
+[90mPOST /images/5319d480896ca543265e84d9.json [36m302 [90m45800ms - 74b[0m
+[90mGET /watches/ [32m200 [90m55ms - 70.57kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m7ms[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [32m200 [90m167ms - 7.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+Upload Complete
+[90mPOST /images/531905fb896ca543265e84d8.json [36m302 [90m59143ms - 74b[0m
+[90mGET /watches/ [32m200 [90m50ms - 70.6kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /watches/5319d6a1896ca543265e84db.json [32m200 [90m126ms - 7.4kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+Upload Complete
+[90mPOST /images/5319d6a1896ca543265e84db.json [36m302 [90m53997ms - 74b[0m
+[90mGET /watches/ [32m200 [90m59ms - 70.63kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /watches/5319d543896ca543265e84da.json [32m200 [90m159ms - 7.45kb[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m11ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m12ms[0m
+[90mGET /images/ [33m404 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m11ms[0m
+Upload Complete
+[90mPOST /images/5319d543896ca543265e84da.json [36m302 [90m57492ms - 74b[0m
+[90mGET /watches/ [32m200 [90m68ms - 70.66kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /watches/531a2fdf74717ff32e06b875.json [32m200 [90m171ms - 7.1kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+Upload Complete
+[90mPOST /images/531a2fdf74717ff32e06b875.json [36m302 [90m54337ms - 74b[0m
+[90mGET /watches/ [32m200 [90m48ms - 70.69kb[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /watches/5319d792896ca543265e84dc.json [32m200 [90m131ms - 7.03kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+Upload Complete
+[90mPOST /images/5319d792896ca543265e84dc.json [36m302 [90m60916ms - 74b[0m
+[90mGET /watches/ [32m200 [90m57ms - 70.72kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m8ms[0m
