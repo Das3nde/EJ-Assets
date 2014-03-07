@@ -12,6 +12,8 @@ function WatchUpdateController($scope, $http) {
       editTrivia = false;
   var editInstructions = [];
 
+  $scope.defaultInstructions = {name : '', description : '', special : ''};
+
   $scope.watch = [];
 
   $scope.setWatch = function(watch) {
@@ -129,4 +131,15 @@ function WatchUpdateController($scope, $http) {
         {_id : watch._id},
         {trivia : watch.trivia}]);
   };
+
+  /********************************
+   * Add Watch Instruction
+   ********************************/
+
+  $scope.addInstruction = function(instruction) {
+    $scope.watch.instructions.push(instruction);
+    $scope.updateInstructions($scope.watch);
+    $scope.instruction = angular.copy($scope.defaultInstruction);
+  };
+
 }

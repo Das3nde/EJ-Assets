@@ -4,6 +4,9 @@
  * Purpose: Database CRUD Operations
  ***********************************/
 
+var path = require('path'),
+    fs = require('fs');
+
 /***********************************
  * RETRIEVE MAILCHIMP LISTS
  ***********************************/
@@ -80,5 +83,27 @@ exports.updateWatch = function(Watch) {
         console.log(numAffected);
       }
     });
+  };
+};
+
+/***********************************
+ * ADD AN IMAGE TO A WATCH
+ ***********************************/
+
+exports.addImage = function(Watch) {
+  return function(req, res) {
+    var tempPath = req.files.watchImage.path,
+        targetPath = path.resolve('./images/' + req.files.watchImage.name + '.png');
+    if(path.extname(req.files.watchImage.name).toLowerCase() === '.png') {
+      fs.rename(tempPath, targetPath, function(error) {
+        if(error) throw error;
+        console.log("Upload Complete");
+      });
+    } else {
+      fs.unlink(tempPath, function() {
+        if(error) throw error;
+        console.error("Only .png files are allowed!");
+      });
+    }
   };
 };

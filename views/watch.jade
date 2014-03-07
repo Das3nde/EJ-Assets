@@ -66,6 +66,16 @@ block content
           button.btn.btn-success(type='button' ng-click="editInstructionOff($index); updateInstructions(watch)") Submit Changes
 
     div.row
+      div.col-md-2
+        input.form-control(type='text' placeholder='Name' ng-model='instruction.name')
+      div.col-md-3
+        textarea.form-control(placeholder='Description' ng-model='instruction.description')
+      div.col-md-3
+        textarea.form_control(placeholder='Special Instructions' ng-model='instruction.special')
+      div.col-md-offset-2.col-md-2
+        button.btn.btn-info(type='button' ng-click='addInstruction(instruction)') Add Instruction
+
+    div.row
       div.col-md-9
         h2 Short Description
     div.row(ng-hide="showEditShortDescription()")
@@ -94,3 +104,9 @@ block content
         textarea.form_control(placeholder='{{watch.trivia}}' ng-model='watch.trivia')
       div.col-md-3
         button.btn.btn-success(type='button' ng-click="editTriviaOff(); updateTrivia(watch)") Submit Changes
+
+
+
+    form(action='/images/{{watch._id}}.json', method="post", enctype="multipart/form-data")
+      input(type="file", name="watchImage")
+      button(type="submit") Add Image
