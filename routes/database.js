@@ -70,6 +70,15 @@ exports.getWatches = function(Watch) {
 
 exports.updateWatch = function(Watch) {
   return function(req, res) {
-    // Do something here
+    var query = req.body[0];
+    console.log(query);
+    Watch.update(query, req.body[1], function(error, numAffected) {
+      if(error) {
+        res.json({error : error});
+      } else {
+        res.json({numAffected : numAffected});
+        console.log(numAffected);
+      }
+    });
   };
 };

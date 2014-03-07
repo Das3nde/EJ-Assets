@@ -31,9 +31,8 @@ function WatchController($scope, $http) {
 
   $scope.addWatch = function() {
     $scope.watch.instructions = $scope.instructions;
-    alert(JSON.stringify($scope.watch));
     $http.post('/watch.json', $scope.watch).success(function(data) {
-// Code here
+// Code here to confirm POST
     });
     $scope.watch = angular.copy($scope.defaultForm);
     $scope.instructions = angular.copy($scope.defaultInstructions);

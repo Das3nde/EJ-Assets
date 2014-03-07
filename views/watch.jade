@@ -1,28 +1,96 @@
 extends layout
 
+block head
+  script(type='text/javascript' src='/javascripts/controllers/WatchUpdateController.js')
+
 block content
-  div.container(ng-controller="WatchController")
+  div.container(ng-controller="WatchUpdateController" ng-init="setWatch(#{JSON.stringify(watch)})")
+
     div.row
-      div.col-md-8
-        h1 #{watch.brand + ' ' + watch.family + ' ' + watch.model}
-      div.col-md-4
-        a(href='#') Edit
-    h1 #{watch.brand + ' ' + watch.family + ' ' + watch.model}
-    h2 Description
-    p #{watch.description_long}
+      div.col-md-9
+        h1 {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
+      div.col-md-3(ng-hide="showEditName()")
+        a(href='#' ng-click="editNameOn()") Edit
+    div.row
+      div.col-md-9
+
+    div.row(ng-show='showEditName()')
+      div.col-md-3
+        input.form-control(type='text' placeholder="{{watch.brand}}" ng-model="watch.brand")
+      div.col-md-3
+        input.form-control(type='text' placeholder='Family' ng-model="watch.family")
+      div.col-md-3
+        input.form-control(type='text' placeholder='Model' ng-model='watch.model')
+      div.col-md-r3
+        button.btn.btn-success(type='button' ng-click="editNameOff(); updateName(watch)") Submit Changes
+
+    div.row
+      div.col-md-9
+        h2 Description
+    div.row(ng-hide="showEditLongDescription()")
+      div.col-md-9
+        p {{watch.description_long}}
+      div.col-md-3
+        a(href='#' ng-click="editLongDescriptionOn()") Edit
+
+    div.row(ng-show="showEditLongDescription()")
+      div.col-md-9
+        textarea.form-control(placeholder='{{watch.description_long}}' ng-model="watch.description_long")
+      div.col-md-3
+        button.btn.btn-success(type='button' ng-click="editLongDescriptionOff(); updateLongDescription(watch)") Submit Changes
+
     h2 Picture
     img(src='/images/#{watch.img}.png')
-    h2 Instructions
-    each instruction in watch.instructions
-      if instruction.name
-        p
-          b #{instruction.name}
-      if instruction.description
-        p #{instruction.description}
-      if instruction.special
-        p
-          i #{instruction.special}
-    h2 Short Description
-    p #{watch.description_short}
-    h2 Trivia
-    p #{watch.trivia}
+    div.row
+      div.col-md-9
+        h2 Instructions
+
+    div(ng-repeat="instruction in watch.instructions")
+      div.row
+        div.col-md-9
+          p(ng-show="instruction.name")
+            b {{instruction.name}}
+          p(ng-show="instruction.description") {{instruction.description}}
+          p(ng-show="instruction.special")
+            i {{instruction.special}}
+        div.col-md-3(ng-hide="showEditInstruction($index)")
+          a(href='' ng-click="editInstructionOn($index)") Edit
+      div.row(ng-show="showEditInstruction($index)")
+        div.col-md-3
+          input.form-control(type='text' placeholder='{{instruction.name}}' ng-model='instruction.name')
+        div.col-md-3
+          textarea.form-control(placeholder='{{instruction.description}}' ng-model='instruction.description')
+        div.col-md-3
+          textarea.form_control(placeholder='{{instruction.special}}' ng-model='instruction.special')
+        div.col-md-3
+          button.btn.btn-success(type='button' ng-click="editInstructionOff($index); updateInstructions(watch)") Submit Changes
+
+    div.row
+      div.col-md-9
+        h2 Short Description
+    div.row(ng-hide="showEditShortDescription()")
+      div.col-md-9
+        p {{watch.description_short}}
+      div.col-md-3
+        a(href='' ng-click="editShortDescriptionOn()") Edit
+
+    div.row(ng-show="showEditShortDescription()")
+      div.col-md-9
+        textarea.form-control(placeholder='{{watch.description_short}}' ng-model="watch.description_short")
+      div.col-md-3
+        button.btn.btn-success(type='button' ng-click="editShortDescriptionOff(); updateShortDescription(watch)") Submit Changes
+
+
+    div.row
+      div.col-md-9
+        h2 Trivia
+    div.row(ng-hide='showEditTrivia()')
+      div.col-md-9
+        p {{watch.trivia}}
+      div.col-md-3
+        a(href='' ng-click="editTriviaOn()") Edit
+    div.row(ng-show='showEditTrivia()')
+      div.col-md-9
+        textarea.form_control(placeholder='{{watch.trivia}}' ng-model='watch.trivia')
+      div.col-md-3
+        button.btn.btn-success(type='button' ng-click="editTriviaOff(); updateTrivia(watch)") Submit Changes
