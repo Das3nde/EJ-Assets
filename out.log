@@ -2982,3 +2982,281 @@ Express server listening on port 8080
 [90mPOST /watch.json [32m200 [90m5ms - 1.55kb[0m
 [90mPOST /watch.json [32m200 [90m9ms - 1.62kb[0m
 [90mPOST /watch.json [32m200 [90m7ms - 1.75kb[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m8ms - 68b[0m
+[90mGET /login [32m200 [90m472ms - 887b[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m111ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m132ms - 100.04kb[0m
+[90mPOST /login [36m302 [90m120ms - 58b[0m
+[90mGET / [32m200 [90m51ms - 991b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [32m200 [90m5ms - 22.77kb[0m
+[90mGET /watches [32m200 [90m89ms - 65.37kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [32m200 [90m5ms - 1.43kb[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m217ms - 6.7kb[0m
+[90mGET /images/.png [33m404 [90m69ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m137ms[0m
+[90mGET /javascripts/app.js [36m304 [90m139ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m142ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m141ms - 3.07kb[0m
+[90mGET /images/.png [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m147ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m12ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m11ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [32m200 [90m133ms - 6.76kb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m17ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m15ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m15ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m17ms[0m
+[90mGET /javascripts/app.js [36m304 [90m18ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m154ms - 5.87kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m13ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m14ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m13ms[0m
+[90mGET /javascripts/app.js [36m304 [90m14ms[0m
+[90mGET /images/.png [33m404 [90m7ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m163ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /watches/531a0ddf896ca543265e84ef.json [36m304 [90m140ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AP_ROOS_Saf_Temp.jpg.png [33m404 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mPOST /watch.json [36m302 [90m3ms - 40b[0m
+[90mGET /login [32m200 [90m42ms - 887b[0m
+[90mGET /add_watch [36m302 [90m2ms - 68b[0m
+[90mGET /login [36m304 [90m72ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m102ms - 100.04kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m145ms - 97.67kb[0m
+[90mPOST /login [36m302 [90m112ms - 58b[0m
+[90mGET / [32m200 [90m38ms - 991b[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [32m200 [90m6ms - 22.77kb[0m
+[90mGET /watches [32m200 [90m53ms - 65.37kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchController.js [32m200 [90m12ms - 1.43kb[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [32m200 [90m117ms - 6.22kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m11ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m12ms - 3.07kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /images/.png [33m404 [90m5ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m21ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '531a2e23eb89973f7d00001f',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Trevor',
+  lastname: 'Mello',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '678-925-8453' } ],
+  emails: [ { type: 'other', address: 'trevor@jpturner.com' } ],
+  urls: [],
+  company_type: false }
+Adding a new action with name Schedule follow-up call
+{ id: '531a2e23eb89973fbd000004',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Trevor',
+  lastname: 'Mello',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '678-925-8453' } ],
+  emails: [ { type: 'other', address: 'trevor@jpturner.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '531a2e23eb89973fbd000008',
+  cid: '531a2e23eb89973f7d00001f',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '08.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+{ id: '531a2e25eb89973fe0000001',
+  cid: '531a2e23eb89973fbd000004',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '08.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mPOST /webhooks/inquiries.json [32m200 [90m7ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '531a2e51eb89974059000002',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Trevor',
+  lastname: 'Mello',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '678-925-8453' } ],
+  emails: [ { type: 'other', address: 'trevor@jpturner.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '531a2e51eb89974059000006',
+  cid: '531a2e51eb89974059000002',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '08.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m5ms[0m
+[90mGET /watches [36m304 [90m60ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m11ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m12ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m14ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /add_watch [32m200 [90m86ms - 3.57kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m9ms[0m
+[90mPOST /watch.json [32m200 [90m11ms - 1.56kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [32m200 [90m72ms - 67.07kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m142ms - 6.16kb[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m2ms[0m
+{ _id: '531a0d06896ca543265e84ee' }
+1
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m8ms - 22b[0m
+{ _id: '531a0d06896ca543265e84ee' }
+1
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m6ms - 22b[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m117ms - 6.15kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/AS_TBR.JPG.png [33m404 [90m6ms[0m
+[90mGET /watches/531905fb896ca543265e84d8.json [36m304 [90m105ms[0m
+[90mGET /images/.png [33m404 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+{ _id: '531905fb896ca543265e84d8' }
+1
+[90mPUT /watches/531905fb896ca543265e84d8.json [32m200 [90m8ms - 22b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /add_watch [36m304 [90m98ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mPOST /watch.json [32m200 [90m10ms - 1.82kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [32m200 [90m67ms - 69.05kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /add_watch [36m304 [90m85ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m3ms[0m
+[90mPOST /watch.json [32m200 [90m45ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watches [32m200 [90m62ms - 71.64kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m4ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m110ms - 6.7kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/.png [33m404 [90m2ms[0m
