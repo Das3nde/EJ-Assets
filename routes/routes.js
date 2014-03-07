@@ -73,6 +73,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   /* REMOVE A WATCH */
   app.delete('/watches/:id.json', isLoggedIn, database.removeWatch(Watch));
 
+  /* UPDATE A WATCH */
+  app.put('/watches/:id/json', isLoggedIn, database.updateWatch(Watch));
+
   /* GET WATCHES */
   app.get('/watches.json', isLoggedIn, database.getWatches(Watch));
   

@@ -63,3 +63,13 @@ exports.getWatches = function(Watch) {
     });
   };
 };
+
+/***********************************
+ * UPDATE A WATCH
+ ***********************************/
+
+exports.updateWatch = function(Watch) {
+  return function(req, res) {
+    // Do something here
+  };
+};
