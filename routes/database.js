@@ -63,3 +63,22 @@ exports.getWatches = function(Watch) {
     });
   };
 };
+
+/***********************************
+ * UPDATE A WATCH
+ ***********************************/
+
+exports.updateWatch = function(Watch) {
+  return function(req, res) {
+    var query = req.body[0];
+    console.log(query);
+    Watch.update(query, req.body[1], function(error, numAffected) {
+      if(error) {
+        res.json({error : error});
+      } else {
+        res.json({numAffected : numAffected});
+        console.log(numAffected);
+      }
+    });
+  };
+};

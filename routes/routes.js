@@ -46,7 +46,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   app.get('/mailchimp', isLoggedIn, routes.mailchimp()); 
 
   /* VIEW AN INDIVIDUAL WATCH */
-  app.get('/watches/:id.json', isLoggedIn, routes.viewWatch(Watch));
+  app.get('/watches/:id.json'/*, isLoggedIn*/, routes.viewWatch(Watch));
 
 
   /***************************************
@@ -72,6 +72,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
 
   /* REMOVE A WATCH */
   app.delete('/watches/:id.json', isLoggedIn, database.removeWatch(Watch));
+
+  /* UPDATE A WATCH */
+  app.put('/watches/:id.json',/* isLoggedIn,*/ database.updateWatch(Watch));
 
   /* GET WATCHES */
   app.get('/watches.json', isLoggedIn, database.getWatches(Watch));

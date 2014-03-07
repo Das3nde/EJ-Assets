@@ -40,7 +40,7 @@ exports.signup = function() {
 exports.watches = function(Watch) {
   return function(req, res) {
     Watch.find({}, function(error, watches) {
-      res.render('index', {title : 'EJ Watches', watches : watches });
+      res.render('directory', {title : 'EJ Watches', watches : watches });
     });
   };
 };
