@@ -48,6 +48,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   /* VIEW AN INDIVIDUAL WATCH */
   app.get('/watches/:id.json'/*, isLoggedIn*/, routes.viewWatch(Watch));
 
+  /* GET A TEMPLATE FOR A WATCH */
+  app.get('/watches/templates/:id.json', isLoggedIn, routes.generateTemplate(Watch));
+
 
   /***************************************
    * ACCOUNT MANAGEMENT

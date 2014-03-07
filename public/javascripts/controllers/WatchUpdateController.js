@@ -17,6 +17,7 @@ function WatchUpdateController($scope, $http) {
   $scope.watch = [];
 
   $scope.setWatch = function(watch) {
+    alert('Setting watch');
     $scope.watch = watch;
   };
 
@@ -146,5 +147,4 @@ function WatchUpdateController($scope, $http) {
     $scope.updateInstructions($scope.watch);
     $scope.instruction = angular.copy($scope.defaultInstruction);
   };
-
 }
