@@ -83,8 +83,13 @@ function WatchUpdateController($scope, $http) {
     return editInstructions[index];
   };
 
-  $scope.updateInstructions = function(watch) {
+  $scope.updateInstructions = function(watch, index) {
     $http.put("/watches/" + watch._id + ".json", [{_id : watch._id}, {instructions : watch.instructions}]);
+  };
+
+  $scope.removeInstruction = function(watch, index) {
+    $scope.watch.instructions.splice(index, 1);
+    $http.put("/watches/" + watch._id + ".json", [{_id : $scope.watch._id}, {instructions : watch.instructions}]);
   };
 
   /********************************

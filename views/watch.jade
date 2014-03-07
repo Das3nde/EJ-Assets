@@ -47,14 +47,16 @@ block content
 
     div(ng-repeat="instruction in watch.instructions")
       div.row
-        div.col-md-9
+        div.col-md-8
           p(ng-show="instruction.name")
             b {{instruction.name}}
           p(ng-show="instruction.description") {{instruction.description}}
           p(ng-show="instruction.special")
             i {{instruction.special}}
-        div.col-md-3(ng-hide="showEditInstruction($index)")
+        div.col-md-2(ng-hide="showEditInstruction($index)")
           a(href='' ng-click="editInstructionOn($index)") Edit
+        div.col-md-2
+          a(href='' ng-click="removeInstruction(watch, $index)") Remove
       div.row(ng-show="showEditInstruction($index)")
         div.col-md-3
           input.form-control(type='text' placeholder='{{instruction.name}}' ng-model='instruction.name')
