@@ -102,6 +102,7 @@ exports.addImage = function(Watch) {
           console.log("Upload Complete");
           watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
           watch.save();
+          res.redirect('/watches/');
         });
       } else {
         fs.unlink(tempPath, function(err) {
