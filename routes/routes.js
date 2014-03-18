@@ -328,7 +328,8 @@ function isLoggedIn(req, res, next) {
  *****************************************/
 
 function formatName(name) {
-  return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+  if(name) return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+  return null;
 }
 
 /*****************************************
