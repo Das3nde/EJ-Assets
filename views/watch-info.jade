@@ -1,0 +1,40 @@
+extends layout
+
+block head
+  script(type='text/javascript' src='/javascripts/controllers/WatchInfoController.js')
+
+block content
+  div.container(ng-controller="WatchInfoController" ng-init="setWatches( #{JSON.stringify(watches)})")
+    h1 All Watch Data
+    div.row(ng-repeat="watch in watches | orderBy:'brand'")
+      hr
+      div.col-md-8
+        div.row
+          div.col-md-8
+            h2
+              | {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
+        div.row
+          div.col-md-8
+            p
+              | {{watch.description_long}}
+            br
+        div.row(ng-repeat="instruction in watch.instructions")
+          div.col-md-8
+            p(ng-show="instruction.name")
+              b {{instruction.name}}
+            p(ng-show="instruction.description") {{instruction.description}}
+            p(ng-show="instruction.special")
+              i {{instruction.special}}
+        div.row
+          div.col-md-8
+            br
+            br
+            p
+              i
+                b {{watch.trivia}}
+      div.col-md-4
+        img(src="/images/{{watch.img}}" width="100%")
+    div.row
+      div.col-md-4
+        a(href="/watch-info.json")
+          button.btn.btn-success(type='button' ng-click='exportWatches()') Export Watches
