@@ -51,6 +51,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   /* GET A TEMPLATE FOR A WATCH */
   app.get('/watches/templates/:id.json', isLoggedIn, routes.generateTemplate(Watch));
 
+  /* GET WATCH INFO AS PLAINTEXT */
+  app.get('/watch-info.json', routes.watchInfo(Watch));
+
 
   /***************************************
    * ACCOUNT MANAGEMENT

@@ -14,3 +14,8 @@ block content
           button.btn.btn-danger(type='button' ng-click='removeWatch(watch)') Remove
         br
         hr
+
+      div.row
+        div.col-md-4
+          a(href="/watch-info.json")
+            button.btn.btn-success(type='button' ng-click='exportWatches()') Export Watches

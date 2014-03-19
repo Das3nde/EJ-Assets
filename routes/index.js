@@ -88,6 +88,17 @@ exports.generateTemplate = function(Watch) {
 };
 
 /***********************************
+ * DUMP WATCH INFO
+ ***********************************/
+
+exports.watchInfo = function(Watch) {
+  return function(req, res) {
+    Watch.find({}, function(error, watches) {
+      res.render('watch-info', {title: 'Watch Info', watches : watches});
+    });
+  };
+};
+/***********************************
  * MAILCHIMP HOME PAGE
  ***********************************/
 
