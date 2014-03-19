@@ -67,6 +67,11 @@ OnePageCRM.prototype.getContact = function(id, callback) {
   this.execute('contacts/' + id + '.json', 'GET', null, callback);
 }
 
+OnePageCRM.prototype.getFilters = function(callback) {
+  console.log("Getting Filters");
+  this.execute('filters.json', 'GET', null, callback);
+}
+
 OnePageCRM.prototype.updateContact = function(id, params, callback) {
   console.log("Updating contact id " + id);
   this.execute('contacts/' + id + '.json', 'PUT', params, callback);

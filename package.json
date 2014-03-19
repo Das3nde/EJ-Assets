@@ -16,6 +16,7 @@
 		"mailchimp-api": "*",
     "mailchimp": "*",
     "request" : "2.x.x",
-    "base64-js" : "0.0.6"
+    "base64-js" : "0.0.6",
+    "phone" : "0.0.x"
   }
 }

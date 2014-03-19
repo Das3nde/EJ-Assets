@@ -1,4 +1,11 @@
 /*****************************************
+ * Dependencies
+ *****************************************/
+
+var formatPhone = require('phone');
+var fs = require('fs');
+
+/*****************************************
  * Mongoose Models
  *****************************************/
 
@@ -200,6 +207,32 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
   /***************************************
    * OnePageCRM Routes
    ***************************************/
+  
+  app.get('/onepage/member-numbers.json', function(req, res) {
+    fs.writeFileSync('members.csv', 'First Name,Last Name,Phone Number\n')
+    crm.getContacts({whole_team : 1, filter_id : '5329d355eb89976372000002'}, function(data) {
+      for(var index = 1; index <= data.maxpage; index++) {
+        crm.getContacts({whole_team : 1, page : index, filter_id : '5329d355eb89976372000002'}, function(data) {
+          for(var i = 0; i < data.contacts.length; i++) {
+            crm.getContact(data.contacts[i].id, function(data) {
+              var contact = data.contact;
+              var first_name = formatName(contact.firstname),
+                  last_name = formatName(contact.lastname);
+              var phone = '';
+              if(contact.phones.length > 0) {
+                phone = contact.phones[0].number;
+              }
+              console.log(first_name + ' ' + last_name + ' ' + formatPhone(phone));
+              fs.appendFile('members.csv', first_name + ',' + last_name + ',' + formatPhone(phone) + '\n', function(err) {
+                if(err) throw err;
+                console.log('Saved');
+              });
+            });
+          }
+        });
+      }
+    });
+  });
 
   app.get('/onepage/contacts', isLoggedIn, function(req, res) {
     crm.getContacts({whole_team : 1}, function(data) {

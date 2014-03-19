@@ -98,6 +98,16 @@ exports.watchInfo = function(Watch) {
     });
   };
 };
+
+/***********************************
+ * GET MEMBERS
+ ***********************************/
+
+exports.getMembers = function() {
+  return function(req, res) {
+    res.render('members', {title: 'Member Info'});
+  };
+};
 /***********************************
  * MAILCHIMP HOME PAGE
  ***********************************/
