@@ -11,6 +11,7 @@ var mcapi = require('./node_modules/mailchimp-api/mailchimp');  // This is now d
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 var OnePageCRM = require('./config/onepage.js');
+var ZohoCRM = require('./config/zoho.js');
 var request = require('request');
 
 Mongoose.connect('localhost', 'ejassets');
@@ -47,6 +48,34 @@ try {
  **********************************************/
 
 var crm = new OnePageCRM(onepage_uid, onepage_key);
+var zoho = new ZohoCRM('68867e4dc484b6da2cf76a6725a60052');
+/*
+var example = [{
+  Leads: [{
+    row : [
+      {_attr: {no: '1'}},
+    {FL : [
+      {_attr : {val : "Lead Source"}},
+      'Web Inquiries']},
+    {FL : [
+      {_attr : {val : "Company"}},
+      'Eleven James']},
+    {FL : [
+      {_attr : {val : "First Name"}},
+      'Justin']},
+    {FL : [
+      {_attr : {val : "Last Name"}},
+      'Knutson']}
+    ]
+  }]
+}];
+
+
+
+zoho.postInquiry(example, {scope : "crmapi", wfTrigger : "true"}, function(data) {
+  console.log(data);
+});
+*/
 
 /**********************************************
  * Initiialize our environments
@@ -86,7 +115,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport, mcApi, exportApi, crm);
+require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
 
 /**********************************************
  * Development Only
