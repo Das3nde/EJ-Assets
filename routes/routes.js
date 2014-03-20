@@ -111,6 +111,10 @@ module.exports = function(app, passport, mcApi, exportApi, crm) {
     res.send({success : 1});
   });
 
+  app.get('/webhooks/zoho.json', function(req, res) {
+    res.send({success : 1});
+  });
+
   // Post data to OnePageCRM
   app.post('/webhooks/inquiries.json', function(req, res) {
     var data = req.body.data;
