@@ -7793,3 +7793,629 @@ Adding a new action with name Schedule follow-up email
   closed: null }
 [90mGET http://proxyjudge1.proxyfire.net/fastenv [33m404 [90m2ms[0m
 [90mGET / [36m302 [90m2ms - 40b[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET /watch-info.json [32m200 [90m567ms - 78.96kb[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m7ms - 315b[0m
+[90mGET /javascripts/app.js [32m200 [90m7ms - 756b[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m122ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m162ms - 100.04kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m974ms - 215.81kb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m16063ms - 2.33mb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m31125ms - 4.19mb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m31239ms - 4.37mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m31702ms - 4.35mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m35281ms - 4.88mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m24637ms - 4.65mb[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [32m200 [90m41881ms - 5.46mb[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m10714ms - 4.5mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m10116ms - 4.97mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m6497ms - 4.71mb[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [32m200 [90m10877ms - 5.3mb[0m
+[90mGET /watch-info.json [32m200 [90m176ms - 78.96kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 756b[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m2ms - 315b[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m354ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m393ms - 100.04kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m1473ms - 215.81kb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m15989ms - 4.88mb[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [32m200 [90m15775ms - 5.46mb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m5186ms - 4.49mb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m8905ms - 4.49mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m5093ms - 4.65mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m8804ms - 4.53mb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m44960ms - 2.33mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m3821ms - 3.75mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m7068ms - 4.74mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m5ms - 247.7kb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m58603ms - 4.19mb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m85ms - 208.06kb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m3ms - 36.74kb[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m4ms - 481.53kb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m65708ms - 4.37mb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m4ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m8385ms - 4.38mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m80935ms - 4.35mb[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m13924ms - 4.23mb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m12878ms - 4.63mb[0m
+[90mGET / [36m302 [90m4ms - 68b[0m
+[90mGET /login [32m200 [90m45ms - 887b[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m14673ms - 4.52mb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 756b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m5291ms - 97.67kb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m25929ms - 4.05mb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m7009ms - 100.04kb[0m
+[90mGET /watch-info-json [33m404 [90m2ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m53983ms - 4.65mb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m16502ms - 4.38mb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m14336ms - 4.66mb[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [32m200 [90m3ms - 99.62kb[0m
+[90mGET /watch-info.json [32m200 [90m153ms - 78.96kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m206 [90m4ms - 1b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m2ms - 315b[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [32m200 [90m2ms - 76.19kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m206 [90m2ms - 12.12kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [32m200 [90m9119ms - 4.13mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [32m200 [90m14213ms - 5.07mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m200 [90m14284ms - 4.3mb[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [32m200 [90m15ms - 36.03kb[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m15155ms - 215.81kb[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [32m200 [90m36256ms - 4.93mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m55036ms - 4.84mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m16367ms - 4.71mb[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m16868ms - 4.5mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m29026ms - 4.97mb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [32m200 [90m50608ms - 4.39mb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m48036ms - 2.33mb[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [32m200 [90m39892ms - 5.3mb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m64113ms - 4.37mb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m53085ms - 4.66mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m73604ms - 4.88mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m73777ms - 4.35mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m22231ms - 3.75mb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m78595ms - 4.19mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m25596ms - 4.38mb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m3ms - 247.7kb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m25170ms - 4.65mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m25267ms - 4.53mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m28154ms - 4.74mb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m3ms - 208.06kb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m25090ms - 4.49mb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m2ms - 36.74kb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m24771ms - 4.49mb[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m4ms - 481.53kb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m21064ms - 4.23mb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m22088ms - 4.05mb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m23757ms - 4.63mb[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m25476ms - 4.52mb[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [32m200 [90m2ms - 99.62kb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m26947ms - 4.84mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [32m200 [90m3ms - 76.19kb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m30336ms - 4.38mb[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [32m200 [90m3ms - 36.03kb[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [32m200 [90m27229ms - 4.93mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m200 [90m24717ms - 4.3mb[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [32m200 [90m23568ms - 4.13mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [32m200 [90m29601ms - 5.07mb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [32m200 [90m25255ms - 4.39mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m28350ms - 4.71mb[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m23302ms - 4.5mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m26065ms - 4.97mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m22789ms - 4.65mb[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [32m200 [90m27252ms - 5.3mb[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [32m200 [90m27253ms - 5.46mb[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /watch-info.json [36m304 [90m109ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [36m304 [90m6ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m6ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m4ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m4ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m5ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m6ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m6ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m0ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m0ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m3ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m0ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m0ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info.json [36m304 [90m97ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [36m304 [90m3ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m4ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m0ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m0ms[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [36m304 [90m0ms[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m0ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m2ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m0ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info.json [32m200 [90m92ms - 78.96kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m4ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m2ms - 315b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m10ms - 97.67kb[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 756b[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m54ms - 215.81kb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m3099ms - 2.33mb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m7127ms - 4.19mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m3676ms - 4.65mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m9849ms - 4.88mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m15420ms - 4.35mb[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [32m200 [90m8425ms - 5.3mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m4695ms - 4.71mb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m25391ms - 4.37mb[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [32m200 [90m2ms - 36.03kb[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m16164ms - 4.5mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [32m200 [90m2ms - 76.19kb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m13745ms - 4.97mb[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [32m200 [90m2ms - 99.62kb[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [32m200 [90m8974ms - 4.93mb[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [32m200 [90m17568ms - 4.13mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m4219ms - 3.75mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m200 [90m22561ms - 4.3mb[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [32m200 [90m56129ms - 5.46mb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m5744ms - 4.66mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [32m200 [90m24736ms - 5.07mb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [32m200 [90m30370ms - 4.39mb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m8605ms - 4.38mb[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m7724ms - 4.52mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m13614ms - 4.84mb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m52215ms - 4.63mb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m3ms - 36.74kb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m78178ms - 4.05mb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m2ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m357ms - 208.06kb[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m2377ms - 481.53kb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m91ms - 247.7kb[0m
+[90mGET /watch-info.json [36m304 [90m127ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m120976ms - 4.23mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m120971ms - 4.38mb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m37ms[0m
+[90mGET /watch-info.json [36m304 [90m94ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m2ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m3ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m0ms[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m0ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m3ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m2ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m252292ms - 4.74mb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m717133ms - 4.49mb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m1066997ms - 4.49mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m820250ms - 4.53mb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m912308ms - 4.65mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m9969ms - 7.3mb[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m25546ms - 7.3mb[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m21ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '532a2649eb89972061000001',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Troy',
+  lastname: 'Gorczyca',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '917-892-5564' } ],
+  emails: [ { type: 'other', address: 'troy.gorczyca@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '532a264aeb89972061000005',
+  cid: '532a2649eb89972061000001',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '20.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /cgi-bin/rtpd.cgi?/bin/busybox [33m404 [90m4ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '532a5397eb8997045c000004',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Justin',
+  lastname: 'Soffer',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '917-405-3006' } ],
+  emails: [ { type: 'other', address: 'jsoffer@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '532a5398eb8997045c000008',
+  cid: '532a5397eb8997045c000004',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '21.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m3ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '532a5fdaeb89973ffd00000c',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Louis',
+  lastname: 'Ferriello',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '845-709-1375' } ],
+  emails: [ { type: 'other', address: 'lou.ferriello@gmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '532a5fdbeb8997401f000001',
+  cid: '532a5fdaeb89973ffd00000c',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '21.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /assets/lookbook.pdf [32m200 [90m3098ms - 7.3mb[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m6ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '532ab46beb899764c0000004',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Chang',
+  lastname: 'David',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '619-594-5201' } ],
+  emails: [ { type: 'other', address: 'stantonio@naver.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '532ab46ceb899764c0000008',
+  cid: '532ab46beb899764c0000004',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '21.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /assets/lookbook.pdf [32m200 [90m984ms - 7.3mb[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://24x7-allrequestsallowed.com/?PHPSESSID=1rmsxtj500143TVM%5CSHDA%5CAY [36m302 [90m2ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://proxyjudge1.proxyfire.net/fastenv [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /watch-info.json [32m200 [90m98ms - 78.96kb[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m5ms - 315b[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m1633ms - 215.81kb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m17539ms - 2.33mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m29873ms - 4.88mb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m4ms - 481.53kb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m17378ms - 4.66mb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m3ms - 36.74kb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m3ms - 208.06kb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m3ms - 247.7kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m50776ms - 4.19mb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m55052ms - 4.37mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m14644ms - 4.38mb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m14809ms - 4.49mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m56755ms - 3.75mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m62856ms - 4.35mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m10593ms - 4.53mb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m20821ms - 4.49mb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m18040ms - 4.65mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m18310ms - 4.74mb[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [32m200 [90m5ms - 18b[0m
+Adding a new action with name Schedule follow-up call
+{ id: '532b2ee3eb899715ec000001',
+  pendingdeal: false,
+  starred: false,
+  owner: '529e29eaeb89975e52000007',
+  type: 'contact',
+  firstname: 'Paul',
+  lastname: 'Elam',
+  company: null,
+  status: 'lead',
+  tags: [ 'Inquiries' ],
+  photo_url: null,
+  company_id: null,
+  next_actions: [],
+  queued_actions: [],
+  nextaction: {},
+  jobtitle: null,
+  zip: null,
+  country: null,
+  address: null,
+  city: null,
+  state: null,
+  description: null,
+  lead_source: null,
+  phones: [ { type: 'other', number: '773-454-3299' } ],
+  emails: [ { type: 'other', address: 'pelam@hotmail.com' } ],
+  urls: [],
+  company_type: false }
+{ id: '532b2ee3eb899715ec000005',
+  cid: '532b2ee3eb899715ec000001',
+  assignee_id: '529e29eaeb89975e52000007',
+  queued: false,
+  name: 'Schedule follow-up call',
+  date: '21.03.2014',
+  next: false,
+  waiting: false,
+  done: false,
+  closed: null }
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m830ms - 568.19kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m158ms - 90.56kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m4ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 93.63kb[0m
+[90mGET /watch-info.json [32m200 [90m118ms - 78.96kb[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 756b[0m
+[90mGET /javascripts/controllers/WatchInfoController.js [32m200 [90m2ms - 315b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m73ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m93ms - 100.04kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m0ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m2ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m2047ms - 215.81kb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m3ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 1kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 1kb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m10567ms - 2.33mb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m23987ms - 4.19mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m42047ms - 4.84mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m47232ms - 4.65mb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m23890ms - 4.05mb[0m
+[90mGET /images/http://11j.vaudevilleventures.com/watch-images/JLC_Mas_Gra_Ult_Thin.JPG [33m404 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m5ms - 481.53kb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m3ms - 36.74kb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m3ms - 208.06kb[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m61867ms - 4.52mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [32m200 [90m74594ms - 5.07mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m2ms - 247.7kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m79600ms - 4.38mb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m41475ms - 4.63mb[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m34339ms - 4.23mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m35769ms - 4.38mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m18528ms - 4.53mb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m41149ms - 4.49mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m28033ms - 4.74mb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m43382ms - 4.49mb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m41904ms - 4.65mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m886ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m55ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4473ms - 7.27mb[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3666ms - 7.27mb[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
