@@ -49,7 +49,7 @@ try {
 
 var crm = new OnePageCRM(onepage_uid, onepage_key);
 var zoho = new ZohoCRM('68867e4dc484b6da2cf76a6725a60052');
-
+/*
 var example = [{
   Leads: [{
     row : [
@@ -75,6 +75,7 @@ var example = [{
 zoho.postInquiry(example, {scope : "crmapi", wfTrigger : "true"}, function(data) {
   console.log(data);
 });
+*/
 
 /**********************************************
  * Initiialize our environments
@@ -114,7 +115,7 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-require('./routes/routes.js')(app, passport, mcApi, exportApi, crm);
+require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
 
 /**********************************************
  * Development Only
