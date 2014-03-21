@@ -1,8 +1,8 @@
-var http = require('http'),
-    qs = require('querystring'),
-    request = require('request'),
-    crypto = require('crypto'),
-    base64 = require('base64-js');
+var http = require('http');
+var qs = require('querystring');
+var request = require('request');
+var crypto = require('crypto');
+var base64 = require('base64-js');
 
 function OnePageCRM (uid, key) {
   this.uid = uid;
