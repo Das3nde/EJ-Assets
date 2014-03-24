@@ -33,12 +33,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
    * PAGES AND DIRECTORIES
    ***************************************/
 
-  /* LOGIN PAGE */
-//  app.get('/login', routes.login());
-
-  /* SIGNUP PAGE */
-  app.get('/signup', isLoggedIn, routes.signup());
-
   /* VIEW WATCH DIRECTORY */
   app.get('/watches', isLoggedIn, routes.watches(Watch));
 
@@ -59,20 +53,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
 
   /* GET A WATCH INFO PAGE */
   app.get('/watch-info/:id.json', routes.watchPage(Watch));
-
-
-  /***************************************
-   * ACCOUNT MANAGEMENT
-   ***************************************/
-
-  /* LOGIN */
-//  app.post('/login', accounts.login(passport));
-
-  /* LOGOUT */
-//  app.get('/logout', accounts.logout());
-
-  /* SIGN-UP */
-  app.post('/signup', isLoggedIn, accounts.signup(passport));
 
 
   /***************************************
