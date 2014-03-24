@@ -101,9 +101,6 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-// require('./routes/private_routes.js')(app, passport);
-// require('./routes/public_routes.js')(app);
-
 require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
 
 /**********************************************

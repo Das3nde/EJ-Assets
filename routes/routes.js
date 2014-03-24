@@ -18,7 +18,7 @@ var Watch = require('../models/Watch.js');
  * Helper Routes
  *****************************************/
 
-var routes = require('./index.js');
+var routes = require('./pages.js');
 var database = require('./database.js');
 var accounts = require('./accounts.js');
 var watches = require('./watches.js');
@@ -59,6 +59,9 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
 
   /* GET WATCH INFO AS PLAINTEXT */
   app.get('/watch-info.json', routes.watchInfo(Watch));
+
+  /* GET A WATCH INFO PAGE */
+  app.get('/watch-info/:id.json', routes.watchPage(Watch));
 
 
   /***************************************
