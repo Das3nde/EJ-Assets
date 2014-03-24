@@ -34,7 +34,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
    ***************************************/
 
   /* LOGIN PAGE */
-  app.get('/login', routes.login());
+//  app.get('/login', routes.login());
 
   /* SIGNUP PAGE */
   app.get('/signup', isLoggedIn, routes.signup());
@@ -66,10 +66,10 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
    ***************************************/
 
   /* LOGIN */
-  app.post('/login', accounts.login(passport));
+//  app.post('/login', accounts.login(passport));
 
   /* LOGOUT */
-  app.get('/logout', accounts.logout());
+//  app.get('/logout', accounts.logout());
 
   /* SIGN-UP */
   app.post('/signup', isLoggedIn, accounts.signup(passport));

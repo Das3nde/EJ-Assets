@@ -7,13 +7,14 @@
 /***************************************
  * LOGIN
  ***************************************/
-
+/*
 exports.login = function(passport) {
   return passport.authenticate('local-login', {
     successRedirect : '/',
     failureRedirect : '/login'
   });
 };
+*/
 
 /***************************************
  * LOGOUT

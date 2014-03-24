@@ -7,12 +7,13 @@
 /***********************************
  * HOMEPAGE/INDEX
  ***********************************/
-
+/*
 exports.index = function(req, res) {
   return function(req, res) {
     res.render('home', {title : 'Eleven James'});
   };
 };
+*/
 
 /***********************************
  * LOGIN PAGE
