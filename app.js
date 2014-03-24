@@ -101,12 +101,8 @@ require('./config/passport')(passport);
  * Define Routes
  **********************************************/
 
-//////////////////////////////////////////////
-//Testing Routes
-//////////////////////////////////////////////
-
-require('./routes/index')(passport);
-require('./routes/login')(passport);
+require('./routes/index') (passport);
+require('./routes/login') (passport);
 require('./routes/signup')(passport);
 
 require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
