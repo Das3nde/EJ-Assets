@@ -8,7 +8,7 @@ var path = require('path');
 var request = require('request');
 
 /**********************************************
- * Database
+ * Connect to Database
  **********************************************/
 
 var Mongoose = require('mongoose');
@@ -100,6 +100,12 @@ require('./config/passport')(passport);
 /**********************************************
  * Define Routes
  **********************************************/
+
+//////////////////////////////////////////////
+//Testing Routes
+//////////////////////////////////////////////
+
+// require('./routes/index')(app);
 
 require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
 

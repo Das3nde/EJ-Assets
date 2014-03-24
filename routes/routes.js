@@ -34,7 +34,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
    ***************************************/
 
   /* INDEX PAGE */
-  app.get('/', isLoggedIn, routes.index());
+  app.get('/', passport.isLoggedIn, routes.index());
   
   /* LOGIN PAGE */
   app.get('/login', routes.login());
