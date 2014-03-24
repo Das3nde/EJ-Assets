@@ -1,0 +1,36 @@
+extends layout
+
+block head
+
+block content
+  div.container
+    div.row
+      div.col-md-6
+        h1 Watch Title Goes Here
+      div.col-md-6
+        img.small-image(src='http://www.elevenjames.com/img/ej-logo.png')
+    div.row
+      hr
+      div.col-md-8
+        div.row
+          div.col-md-8
+            p
+              | Watch description goes here
+            br
+        //div.row(ng-repeat="instruction in watch.instructions")
+        div.row
+          div.col-md-8
+            p(ng-show="instruction.name")
+              b Instruction Name
+            p(ng-show="instruction.description") Instruction Description
+            p(ng-show="instruction.special")
+              i Instruction special
+        div.row
+          div.col-md-8
+            br
+            br
+            p
+              i
+                b Watch Trivia Here
+      div.col-md-4
+        img(src="/images/{{watch.img}}" width="100%")
