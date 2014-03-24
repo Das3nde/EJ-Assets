@@ -119,6 +119,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
 
   // Post data to ZohoCRM
   app.post('/webhooks/zoho.json', function(req, res) {
+    /*
     var data = req.body.data;
     var lname = '';
     if(!data.merges.LNAME) {
@@ -161,6 +162,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
     zoho.postInquiry(xml_json, {scope : "crmapi", wfTrigger : "true"}, function(data) {
       console.log(data);
     });
+    */
 
     res.json({success : 1});
   });
