@@ -33,9 +33,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
    * PAGES AND DIRECTORIES
    ***************************************/
 
-  /* INDEX PAGE */
-  app.get('/', passport.isLoggedIn, routes.index());
-  
   /* LOGIN PAGE */
   app.get('/login', routes.login());
 

@@ -35,7 +35,7 @@ var ZohoCRM = require('./config/zoho.js');
 
 ////////////////////////////////////////////////
 
-var app = express();
+app = express();
 
 /**********************************************
  * API Keys
@@ -105,7 +105,7 @@ require('./config/passport')(passport);
 //Testing Routes
 //////////////////////////////////////////////
 
-// require('./routes/index')(app);
+require('./routes/index')(passport);
 
 require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
 
