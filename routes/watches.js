@@ -25,7 +25,6 @@ module.exports = function(passport) {
         console.log(error);
         res.json({error : error});
       } else {
-        console.log(watch);
         res.json({watch : watch[0]});
       }
     });

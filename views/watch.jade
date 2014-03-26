@@ -40,7 +40,7 @@ block content
         button.btn.btn-success(type='button' ng-click="editLongDescriptionOff(); updateLongDescription(watch)") Submit Changes
 
     h2 Picture
-    img(src="{{'/images/' + watch.img}}"  width="150")
+    img(ng-src="{{'/images/' + watch.img}}"  width="150")
     div.row
       div.col-md-9
         h2 Instructions
