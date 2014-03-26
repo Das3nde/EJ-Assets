@@ -28,13 +28,6 @@ var ben_id = '529e29eaeb89975e52000007';
 module.exports = function(app, passport, mcApi, exportApi) {
 
   /***************************************
-   * PAGES AND DIRECTORIES
-   ***************************************/
-
-  /* GET A WATCH INFO PAGE */
-  app.get('/watch-info/:id.json', routes.watchPage(Watch));
-
-  /***************************************
    * OnePageCRM Routes
    ***************************************/
   
