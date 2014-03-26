@@ -18,7 +18,6 @@ var Watch = require('../models/Watch.js');
  * Helper Routes
  *****************************************/
 
-var routes = require('./pages.js');
 var database = require('./database.js');
 var watches = require('./watches.js');
 var onepage = require('./onepage.js');
