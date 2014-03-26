@@ -16,8 +16,10 @@ function WatchUpdateController($scope, $http) {
 
   $scope.watch = [];
 
-  $scope.setWatch = function(watch) {
-    $scope.watch = watch;
+  $scope.getWatch = function(id) {
+    $http.get('/watches/' + id + '.json').success(function(data) {
+      $scope.watch = data.watch;
+    });
   };
 
   /*********************************

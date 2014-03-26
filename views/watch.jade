@@ -4,7 +4,7 @@ block head
   script(type='text/javascript' src='/javascripts/controllers/WatchUpdateController.js')
 
 block content
-  div.container(ng-controller="WatchUpdateController" ng-init="setWatch(#{JSON.stringify(watch)})")
+  div.container(ng-controller="WatchUpdateController" ng-init="getWatch(#{JSON.stringify(id)})")
 
     div.row
       div.col-md-9
@@ -40,7 +40,7 @@ block content
         button.btn.btn-success(type='button' ng-click="editLongDescriptionOff(); updateLongDescription(watch)") Submit Changes
 
     h2 Picture
-    img(src='/images/' + watch.img width="150")
+    img(src="{{'/images/' + watch.img}}"  width="150")
     div.row
       div.col-md-9
         h2 Instructions
@@ -109,13 +109,13 @@ block content
 
 
 
-    form(action='/images/' + watch._id + '.json', method="post", enctype="multipart/form-data")
+    form(action="{{'/images/' + watch._id + '.json'}}", method="post", enctype="multipart/form-data")
       input(type="file", name="watchImage")
       button(type="submit") Add Image
 
-    a(href='/watches/templates/' + watch._id + '.json')
+    a(href="{{'/watches/templates/' + watch._id + '.json'}}")
       button.btn.btn-primary(type='button') Generate Template
     div.row
       div.col-md-4
-        a(href='/watch-info/' + watch._id + '.json')
+        a(href='/watch-info/{{watch._id}}.json')
           button.btn.btn-success(type='button') View Watch Page

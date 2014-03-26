@@ -7,10 +7,6 @@
 function WatchController($scope, $http) {
   $scope.watches = [];
 
-  $scope.setWatches = function(watches) {
-    $scope.watches = watches;
-  };
-
   $scope.defaultForm = {
     brand : '',
     family : '',
@@ -31,8 +27,8 @@ function WatchController($scope, $http) {
 
   $scope.addWatch = function() {
     $scope.watch.instructions = $scope.instructions;
-    $http.post('/watch.json', $scope.watch).success(function(data) {
-// Code here to confirm POST
+    $http.post('/watches.json', $scope.watch).success(function(data) {
+      alert("Successfully added watch!");
     });
     $scope.watch = angular.copy($scope.defaultForm);
     $scope.instructions = angular.copy($scope.defaultInstructions);

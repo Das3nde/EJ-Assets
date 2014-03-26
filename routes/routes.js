@@ -31,17 +31,8 @@ module.exports = function(app, passport, mcApi, exportApi) {
    * PAGES AND DIRECTORIES
    ***************************************/
 
-  /* VIEW WATCH DIRECTORY */
-  app.get('/watches', isLoggedIn, routes.watches(Watch));
-
-  /* ADD A WATCH FORM */
-  app.get('/add_watch', isLoggedIn, routes.addWatch());
-
-  /* VIEW AN INDIVIDUAL WATCH */
-  app.get('/watches/:id.json'/*, isLoggedIn*/, routes.viewWatch(Watch));
-
   /* GET A TEMPLATE FOR A WATCH */
-  app.get('/watches/templates/:id.json', isLoggedIn, routes.generateTemplate(Watch));
+//  app.get('/watches/templates/:id.json', isLoggedIn, routes.generateTemplate(Watch));
 
   /* GET WATCH INFO AS PLAINTEXT */
   app.get('/watch-info.json', routes.watchInfo(Watch));
@@ -54,24 +45,9 @@ module.exports = function(app, passport, mcApi, exportApi) {
    * DATABASE CRUD OPERATIONS
    ***************************************/
 
-  /* ADD A WATCH */
-  app.post('/watch.json', isLoggedIn, database.addWatch(Watch));
-
-  /* REMOVE A WATCH */
-  app.delete('/watches/:id.json', isLoggedIn, database.removeWatch(Watch));
-
-  /* UPDATE A WATCH */
-  app.put('/watches/:id.json',/* isLoggedIn,*/ database.updateWatch(Watch));
-
-  /* GET WATCHES */
-  app.get('/watches.json', isLoggedIn, database.getWatches(Watch));
-
   /* POST AN IMAGE */
   app.post('/images/:id.json', /*isLoggedIn,*/ database.addImage(Watch));
   
-  /* GET MAILCHIMP LISTS */
-  app.get('/mailchimp/lists.json', isLoggedIn, database.getMailchimpLists(MCList));
-
 
   /***************************************
    * OnePageCRM Routes

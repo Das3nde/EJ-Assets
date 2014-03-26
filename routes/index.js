@@ -6,8 +6,9 @@ var onepage = new OnePageCRM('525da050eb8997663500001e', 'xSWc1f4oYarbhXUtBzRAXx
 
 module.exports = function(passport) {
   require('./main')(passport);
-  require('./login')(passport);
-  require('./signup')(passport);
+  require('./sso/login')(passport);
+  require('./sso/signup')(passport);
   require('./webhooks/zoho')(zoho);
   require('./webhooks/onepage')(onepage);
+  require('./watches')(passport);
 };

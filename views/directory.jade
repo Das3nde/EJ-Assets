@@ -4,12 +4,12 @@ block head
   script(type='text/javascript' src='/javascripts/controllers/WatchController.js')
 
 block content
-  div.container(ng-controller="WatchController" ng-init="setWatches( #{JSON.stringify(watches)})")
+  div.container(ng-controller="WatchController" ng-init="getWatches()")
     h1 Directory of Eleven James Watches
       hr
       div.row(ng-repeat="watch in watches | orderBy:'brand'")
         div.col-md-8
-          a.lead(ng-href='/watches/{{watch._id}}.json') {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
+          a.lead(ng-href='/watches/review/{{watch._id}}.json') {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
         div.col-md-4
           button.btn.btn-danger(type='button' ng-click='removeWatch(watch)') Remove
         br

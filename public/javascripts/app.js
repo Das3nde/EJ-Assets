@@ -4,6 +4,8 @@
 
 var app = angular.module('app', []);
 
+require('./controllers/WatchUpdateController.js');
+
 /************************************
  * Controller for Mailchimp Exports
  ************************************/
