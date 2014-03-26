@@ -4,7 +4,7 @@ module.exports = function(passport) {
 
 // GET WATCHES
 
-  app.get('/watches.json', passport.isLoggedIn, function(req, res) {
+  app.get('/watches.json', function(req, res) {
     Watch.find({}, function(error, watches) {
       if(error) {
         console.log(error);

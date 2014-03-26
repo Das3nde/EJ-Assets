@@ -31,12 +31,6 @@ module.exports = function(app, passport, mcApi, exportApi) {
    * PAGES AND DIRECTORIES
    ***************************************/
 
-  /* GET A TEMPLATE FOR A WATCH */
-//  app.get('/watches/templates/:id.json', isLoggedIn, routes.generateTemplate(Watch));
-
-  /* GET WATCH INFO AS PLAINTEXT */
-  app.get('/watch-info.json', routes.watchInfo(Watch));
-
   /* GET A WATCH INFO PAGE */
   app.get('/watch-info/:id.json', routes.watchPage(Watch));
 

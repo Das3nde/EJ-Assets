@@ -24,6 +24,12 @@ module.exports = function(passport) {
     res.render('watch', {title : 'View Watch', id : req.params.id});
   });
 
+// VIEW ALL WATCH DUMP
+
+  app.get('/watch-info.json', function(req, res) {
+    res.render('watch-info', {title: 'Watch Info'});
+  });
+
 // GENERATE A WATCH EMAIL TEMPLATE
 
   app.get('/watches/templates/:id.json', passport.isLoggedIn, function(req, res) {
