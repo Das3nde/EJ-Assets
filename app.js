@@ -26,13 +26,6 @@ var passport = require('passport');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 
-/**********************************************
- * CRM Tools
- **********************************************/
-
-var OnePageCRM = require('./config/onepage.js');
-var ZohoCRM = require('./config/zoho.js');
-
 ////////////////////////////////////////////////
 
 app = express();
@@ -41,10 +34,7 @@ app = express();
  * API Keys
  **********************************************/
 
-var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4',
-    onepage_uid = '525da050eb8997663500001e',
-    onepage_key = 'xSWc1f4oYarbhXUtBzRAXx8RH1Iv6zcNRmVefPjuf/U=',
-    zoho_key = '68867e4dc484b6da2cf76a6725a60052';
+var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4';
 
 /**********************************************
  * Instantiate Mailchimp API Objects
@@ -65,18 +55,12 @@ try {
 }
 
 /**********************************************
- * OnePageCRM Tools
- **********************************************/
-
-var crm = new OnePageCRM(onepage_uid, onepage_key);
-var zoho = new ZohoCRM(zoho_key);
-
-/**********************************************
  * Initiialize our environments
  **********************************************/
 
 app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
+app.set('config', path.join(__dirname, 'config'));
 app.set('view engine', 'jade');
 app.use(express.favicon());
 app.use(express.logger('dev'));
@@ -102,10 +86,8 @@ require('./config/passport')(passport);
  **********************************************/
 
 require('./routes/index') (passport);
-require('./routes/login') (passport);
-require('./routes/signup')(passport);
 
-require('./routes/routes.js')(app, passport, mcApi, exportApi, crm, zoho);
+require('./routes/routes.js')(app, passport, mcApi, exportApi);
 
 /**********************************************
  * Development Only

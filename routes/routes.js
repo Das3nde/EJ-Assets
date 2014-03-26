@@ -21,12 +21,11 @@ var Watch = require('../models/Watch.js');
 var routes = require('./pages.js');
 var database = require('./database.js');
 var watches = require('./watches.js');
-var mailchimp = require('./mailchimp.js');
 var onepage = require('./onepage.js');
 
 var ben_id = '529e29eaeb89975e52000007';
 
-module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
+module.exports = function(app, passport, mcApi, exportApi) {
 
   /***************************************
    * PAGES AND DIRECTORIES
@@ -73,115 +72,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
   /* GET MAILCHIMP LISTS */
   app.get('/mailchimp/lists.json', isLoggedIn, database.getMailchimpLists(MCList));
 
-  /* IMPORT MAILCHIMP CAMPAIGNS */
-  app.get('/mailchimp/campaigns.json', isLoggedIn, mailchimp.importCampaigns(mcApi));
-
-
-  /***************************************
-   * MAILCHIMP WEBHOOKS
-   ***************************************/
-
-  // Set up Webhooks
-  app.get('/webhooks/inquiries.json', function(req, res) {
-    res.send({success : 1});
-  });
-
-  app.get('/webhooks/zoho.json', function(req, res) {
-    res.send({success : 1});
-  });
-
-  // Post data to ZohoCRM
-  app.post('/webhooks/zoho.json', function(req, res) {
-    /*
-    var data = req.body.data;
-    var lname = '';
-    if(!data.merges.LNAME) {
-      lname = 'Anonymous';
-    } else {
-      lname = formatName(data.merges.LNAME);
-    }
-    var fname = '';
-    if(!data.merges.FNAME) {
-      fname = '';
-    } else {
-      fname = formatName(data.merges.FNAME);
-    }
-    var xml_json = [{
-      Leads : [{
-        row : [
-          {_attr : {no : '1'}},
-          {FL : [
-            {_attr : {val : "Lead Source"}},
-            'Web Inquiry']},
-          {FL : [
-            {_attr : {val : "First Name"}},
-            fname]},
-          {FL : [
-            {_attr : {val : "Last Name"}},
-            lname]},
-          {FL : [
-            {_attr : {val : "Zip Code"}},
-            data.merges.ZIPCODE]},
-          {FL : [
-            {_attr : {val : "Email"}},
-            data.email]},
-          {FL : [
-            {_attr : {val : "Phone"}},
-            data.merges.PHONE]}
-        ]
-      }]
-    }];
-
-    zoho.postInquiry(xml_json, {scope : "crmapi", wfTrigger : "true"}, function(data) {
-      console.log(data);
-    });
-    */
-
-    res.json({success : 1});
-  });
-
-  // Post data to OnePageCRM
-  app.post('/webhooks/inquiries.json', function(req, res) {
-    var data = req.body.data;
-    var lname = '';
-    if(!data.merges.LNAME) {
-      lname = 'Anonymous';
-    } else {
-      lname = formatName(data.merges.LNAME);
-    }
-    crm.createContact({
-      firstname : formatName(data.merges.FNAME),
-      lastname : lname,
-      zip_code : data.merges.ZIPCODE,
-      owner_id : ben_id,
-      phones : ('other|' + data.merges.PHONE),
-      emails : ('other|' + data.email), tags : 'Inquiries'}, function(contact) {
-
-        // Test case
-        var due =  parseOnePageCRMDate(new Date(Date.now()+24*60*60*1000));
-        var params = {};
-        if(data.merges.PHONE) {
-          params = {
-            cid : contact.id,
-            assignee_id : contact.owner,
-            name : 'Schedule follow-up call',
-            date : due};
-        } else {
-          params = {
-            cid : contact.id,
-            assignee_id : contact.owner,
-            name : 'Schedule follow-up email',
-            date : due};
-        }
-        crm.createAction(params, function(data) {
-          console.log(data);
-        });
-        // End Test Case
-
-        console.log(contact);
-      });
-    res.json({success : 1});
-  });
 
   /***************************************
    * OnePageCRM Routes
