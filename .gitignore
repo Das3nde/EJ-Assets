@@ -8,4 +8,4 @@ lib-cov
 *.gz
 
 node_modules
-public\images
+public/images
