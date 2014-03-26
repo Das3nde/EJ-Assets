@@ -182,57 +182,7 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
       });
     res.json({success : 1});
   });
-  
-  /***************************************
-   * MAILCHIMP EXPORTS
-   ***************************************/
 
-  app.get('/exports/lists.json', isLoggedIn, function(req, res) {
-    mcApi.call('lists', 'list', function(error, data) {
-      if(error) {
-        console.log(error.message);
-      } else {
-        console.log(data.data);
-        res.json({lists : data.data});
-      }
-    });
-  });
-
-  app.get('/exports/lists/:id', isLoggedIn, function(req, res) {
-    exportApi.list({id : req.params.id}, function(error, data) {
-      if(error) {
-        console.log(error.message);
-      } else {
-        var contact = {};
-        console.log(data[0]);
-        for(var i = 1; i < data.length; i++) {
-          contact = data[i];
-          console.log(contact);
-          new Contact({
-            email : contact[0],
-            first_name : formatName(contact[1]),
-            last_name : formatName(contact[2]),
-            country : contact[14],
-            state : contact[15],
-              ip : contact[8],
-              latitude : contact[9],
-              longitude : contact[10],
-              region : contact[13],
-              created : contact[7],
-              euid : contact[18],
-              leid : contact[17]
-          }).save(function(error, contact) {
-            if(error || !contact) {
-              res.json({error : error});
-            } else {
-              res.json({contact : contact});
-            }
-          });
-        }
-      }
-    });
-  });
-  
   /***************************************
    * OnePageCRM Routes
    ***************************************/
