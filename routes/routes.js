@@ -20,7 +20,6 @@ var Watch = require('../models/Watch.js');
 
 var routes = require('./pages.js');
 var database = require('./database.js');
-var accounts = require('./accounts.js');
 var watches = require('./watches.js');
 var mailchimp = require('./mailchimp.js');
 var onepage = require('./onepage.js');
@@ -38,9 +37,6 @@ module.exports = function(app, passport, mcApi, exportApi, crm, zoho) {
 
   /* ADD A WATCH FORM */
   app.get('/add_watch', isLoggedIn, routes.addWatch());
-
-  /* VIEW MAILCHIMP HOMEPAGE */
-  app.get('/mailchimp', isLoggedIn, routes.mailchimp()); 
 
   /* VIEW AN INDIVIDUAL WATCH */
   app.get('/watches/:id.json'/*, isLoggedIn*/, routes.viewWatch(Watch));
