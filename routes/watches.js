@@ -1,4 +1,6 @@
 var Watch = require('../models/Watch.js');
+var path = require('path');
+var fs = require('fs');
 
 module.exports = function(passport) {
 
@@ -63,6 +65,32 @@ module.exports = function(passport) {
         res.json({error : error});
       } else {
         res.json({numAffected : numAffected});
+      }
+    });
+  });
+
+// ADD AN IMAGE TO A WATCH
+
+  app.post('/images/:id.json', passport.isLoggedIn, function(req, res) {
+    Watch.findOne({_id : req.params.id}, function(error, watch) {
+      var tempPath = req.files.watchImage.path,
+          targetPath = path.resolve('./public/images/'
+            + watch.brand + ' '
+            + watch.family + ' '
+            + watch.model + '.jpg');
+      if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg') {
+        fs.rename(tempPath, targetPath, function(err) {
+          if(err) throw err;
+          console.log("Upload Complete");
+          watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
+          watch.save();
+          res.redirect('/watches/');
+        });
+      } else {
+        fs.unlink(tempPath, function(err) {
+          if(err) throw err;
+          console.error("Only .jpg files are allowed!");
+        });
       }
     });
   });

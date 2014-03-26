@@ -34,15 +34,6 @@ module.exports = function(app, passport, mcApi, exportApi) {
   /* GET A WATCH INFO PAGE */
   app.get('/watch-info/:id.json', routes.watchPage(Watch));
 
-
-  /***************************************
-   * DATABASE CRUD OPERATIONS
-   ***************************************/
-
-  /* POST AN IMAGE */
-  app.post('/images/:id.json', /*isLoggedIn,*/ database.addImage(Watch));
-  
-
   /***************************************
    * OnePageCRM Routes
    ***************************************/
