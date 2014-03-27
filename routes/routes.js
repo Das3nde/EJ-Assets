@@ -14,13 +14,6 @@ var Contact = require('../models/Contact.js');
 var Deletes = require('../models/Deletes.js');
 var Watch = require('../models/Watch.js');
 
-/*****************************************
- * Helper Routes
- *****************************************/
-
-var watches = require('./watches.js');
-var onepage = require('./onepage.js');
-
 var ben_id = '529e29eaeb89975e52000007';
 
 module.exports = function(app, passport, mcApi, exportApi) {
