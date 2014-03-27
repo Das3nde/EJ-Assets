@@ -20,7 +20,7 @@ block content
         div.col-md-4(style="padding-top:50px; color:white;")
           h2(ng-show="watch.ej_collection" style="color:#b7c4cc; font-size:1.25em; text-transform:uppercase; font-family: 'TwCenMTStd-Bold'; font-weight:normal; font-style:normal") AFICIONADO
           h2(ng-hide="watch.ej_collection" style="color:#b7c4cc; font-size:1.25em; text-transform:uppercase; font-family: 'TwCenMTStd-Bold';") OUR COLLECTION
-          h1(style="font-family:TwCenMTStd-Light; font-size:3em; margin-top:.75em") {{watch.brand + ' ' + watch.series + ' ' + watch.model}}
+          h1(style="font-family:TwCenMTStd-Light; font-size:3em; margin-top:.75em") {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
           hr
           p(style="font-family:TwCenMTStd-Light") {{watch.description_long}}
           div(ng-repeat="instruction in watch.instructions" style="font-family:TwCenMTStd-Light")
