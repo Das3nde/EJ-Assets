@@ -4,8 +4,11 @@ block head
   script(type='text/javascript' src='/javascripts/controllers/WatchUpdateController.js')
 
 block content
+  div.row
+    div.col-md-3
+      a(href="/watches")
+        button.btn.btn-success.btn-large &laquo Directory
   div.container(ng-controller="WatchUpdateController" ng-init="getWatch(#{JSON.stringify(id)})")
-
     div.row
       div.col-md-9
         h1 {{watch.brand + ' ' + watch.family + ' ' + watch.model}}

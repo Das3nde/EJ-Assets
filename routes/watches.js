@@ -83,7 +83,7 @@ module.exports = function(passport) {
           console.log("Upload Complete");
           watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
           watch.save();
-          res.redirect('/watches/');
+          res.redirect('/watches/review/' + req.params.id + '.json');
         });
       } else {
         fs.unlink(tempPath, function(err) {
