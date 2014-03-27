@@ -8419,3 +8419,61 @@ Adding a new action with name Schedule follow-up call
 [90mGET /assets/lookbook.pdf [32m206 [90m3ms - 32kb[0m
 [90mGET /assets/lookbook.pdf [32m206 [90m3666ms - 7.27mb[0m
 [90mHEAD / [36m302 [90m1ms - 40b[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m6ms - 68b[0m
+[90mGET /login [32m200 [90m542ms - 784b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m121ms - 58b[0m
+[90mGET / [32m200 [90m83ms - 882b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watches [36m304 [90m89ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m7ms[0m
+[90mGET /watches/review/533349fc9e547751507d19f0.json [32m200 [90m313ms - 5.52kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/533349fc9e547751507d19f0.json [36m304 [90m11ms[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /images/Test%20Test%20Test.jpg [36m304 [90m2ms[0m
+[90mPOST /images/533349fc9e547751507d19f0.json [33m400 [90m121681ms[0m
+Upload Complete
+[90mPOST /images/533349fc9e547751507d19f0.json [36m302 [90m1307ms - 74b[0m
+[90mGET /watches/ [36m304 [90m71ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m4ms[0m
+[90mGET /watches/review/533349fc9e547751507d19f0.json [36m304 [90m248ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /watches/533349fc9e547751507d19f0.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Test%20Test%20Test.jpg [32m200 [90m1155ms - 215.81kb[0m
+[90mPOST /images/533349fc9e547751507d19f0.json [33m400 [90m120956ms[0m
+[90mPOST /images/533349fc9e547751507d19f0.json [33m400 [90m121677ms[0m
+[90mGET http://www.google.com/ [36m302 [90m2ms - 68b[0m
+[90mGET http://74.125.128.113/ [36m302 [90m2ms - 68b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://proxyjudge1.proxyfire.net/fastenv [33m404 [90m2ms[0m
+[90mGET http://proxyjudge1.proxyfire.net/fastenv [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
