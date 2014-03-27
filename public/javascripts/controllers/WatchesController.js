@@ -4,7 +4,7 @@
  * Purpose: Control Adding and Updating Watches
  ***********************************/
 
-function WatchController($scope, $http) {
+function WatchesController($scope, $http) {
   $scope.watches = [];
 
   $scope.defaultForm = {

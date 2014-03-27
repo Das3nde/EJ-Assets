@@ -1,10 +1,14 @@
 extends layout
 
 block head
-  script(type='text/javascript' src='/javascripts/controllers/WatchController.js')
+  script(type='text/javascript' src='/javascripts/controllers/WatchesController.js')
 
 block content
-  div.container(ng-controller="WatchController" ng-init="getWatches()")
+  div.row
+    div.col-md-3
+      a(href="/")
+        button.btn.btn-success &laquo Home
+  div.container(ng-controller="WatchesController" ng-init="getWatches()")
     h1 Directory of Eleven James Watches
       hr
       div.row(ng-repeat="watch in watches | orderBy:'brand'")

@@ -10,7 +10,8 @@ var WatchSchema = Mongoose.Schema({
   instructions : [],
   description_long : String,
   description_short : String,
-  trivia : String
+  trivia : String,
+  ej_collection : String
 });
 
 module.exports = Mongoose.model('Watch', WatchSchema);
