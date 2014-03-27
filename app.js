@@ -17,6 +17,7 @@ Mongoose.connect('localhost', 'ejassets');
 /**********************************************
  * Passport for Secure Login
  **********************************************/
+
 var passport = require('passport');
 
 /**********************************************
@@ -25,8 +26,6 @@ var passport = require('passport');
 
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
-
-var ben_id = '529e29eaeb89975e52000007';
 
 ////////////////////////////////////////////////
 
@@ -37,6 +36,7 @@ app = express();
  **********************************************/
 
 var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4';
+var ben_id = '529e29eaeb89975e52000007';
 
 /**********************************************
  * Instantiate Mailchimp API Objects
@@ -89,8 +89,6 @@ require('./config/passport')(passport);
  **********************************************/
 
 require('./routes/index') (passport);
-
-require('./routes/routes.js')(app, passport, mcApi, exportApi);
 
 /**********************************************
  * Development Only
