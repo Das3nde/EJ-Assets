@@ -1,0 +1,129 @@
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m501ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m12ms[0m
+[90mGET /images/ [33m404 [90m10ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [36m304 [90m70ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m6ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m37ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mPOST /login [36m302 [90m119ms - 58b[0m
+[90mGET / [32m200 [90m43ms - 882b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /watches [32m200 [90m48ms - 1.28kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [32m200 [90m5ms - 1.37kb[0m
+[90mGET /watches.json [32m200 [90m41ms - 78.92kb[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [32m200 [90m194ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m5ms - 4.29kb[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m5ms - 1.47kb[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m10591ms - 4.88mb[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m85ms - 2.28kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m12ms - 1.76kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m13ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m7ms - 27.05kb[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m9ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m206 [90m5ms - 1b[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m3ms - 27.15kb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m206 [90m33572ms - 4.02mb[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m38ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m633ms - 539.32kb[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m76ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m0ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mPOST /login [36m302 [90m112ms - 58b[0m
+[90mGET / [32m200 [90m39ms - 882b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m43ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m30ms[0m
+[90mGET /watches/review/531a32f074717ff32e06b876.json [32m200 [90m143ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a32f074717ff32e06b876.json [32m200 [90m5ms - 1.86kb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m2ms[0m
+[90mGET /watches/review/531a0c90896ca543265e84ed.json [32m200 [90m164ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0c90896ca543265e84ed.json [32m200 [90m6ms - 1.21kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m48ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m3ms[0m
+[90mGET /watches.json [36m304 [90m30ms[0m
+[90mGET /watches/review/531a29f8896ca543265e84f6.json [32m200 [90m195ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a29f8896ca543265e84f6.json [32m200 [90m5ms - 1.72kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a29f8896ca543265e84f6.json [32m200 [90m58ms - 2.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m6ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m6ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a29f8896ca543265e84f6.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
