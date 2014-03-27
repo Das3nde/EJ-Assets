@@ -11,12 +11,21 @@ block content
   div.container(ng-controller="WatchUpdateController" ng-init="getWatch(#{JSON.stringify(id)})")
     div.row
       div.col-md-9
+        h2 {{watch.ej_collection}}
+      div.col-md-3(ng-hide="showEditCollection()")
+        a(href='#' ng-click="editCollectionOn()") Edit
+    div.row(ng-show='showEditCollection()')
+      div.col-md-3
+        select.form-control(type='text' ng-model='watch.ej_collection')
+          option Aficionado
+          option Connoisseur
+      div.col-md-3
+        button.btn.btn-success(type='button' ng-click="editCollectionOff(); updateCollection(watch)") Submit Changes
+    div.row
+      div.col-md-9
         h1 {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
       div.col-md-3(ng-hide="showEditName()")
         a(href='#' ng-click="editNameOn()") Edit
-    div.row
-      div.col-md-9
-
     div.row(ng-show='showEditName()')
       div.col-md-3
         input.form-control(type='text' placeholder="{{watch.brand}}" ng-model="watch.brand")
