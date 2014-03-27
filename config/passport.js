@@ -77,4 +77,14 @@ module.exports = function(passport) {
       return done(null, user);
     });
   }));
+
+  /**********************************************
+   * Test
+   **********************************************/
+
+  passport.isLoggedIn = function (req, res, next) {
+    if(req.isAuthenticated())
+      return next();
+    res.redirect('/login');
+  };
 };

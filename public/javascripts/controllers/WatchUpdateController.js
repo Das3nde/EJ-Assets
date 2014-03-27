@@ -5,7 +5,8 @@
  ***********************************/
 
 function WatchUpdateController($scope, $http) {
-  var editName,
+  var editCollection,
+      editName,
       editName,
       editLongDescription,
       editShortDescription,
@@ -16,8 +17,32 @@ function WatchUpdateController($scope, $http) {
 
   $scope.watch = [];
 
-  $scope.setWatch = function(watch) {
-    $scope.watch = watch;
+  $scope.getWatch = function(id) {
+    $http.get('/watches/' + id + '.json').success(function(data) {
+      $scope.watch = data.watch;
+    });
+  };
+
+  /*********************************
+   * Show/hide function for edit collection
+   *********************************/
+
+  $scope.editCollectionOn = function() {
+    editCollection = true;
+  };
+
+  $scope.editCollectionOff = function() {
+    editCollection = false;
+  };
+
+  $scope.showEditCollection = function() {
+    return editCollection;
+  };
+
+  $scope.updateCollection = function(watch) {
+    $http.put("/watches/" + watch._id + ".json", [
+        {_id : watch._id},
+        {ej_collection : watch.ej_collection}]);
   };
 
   /*********************************

@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2695527, 2013-11-25T10:25:44-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Twentieth Century Std Medium by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/twentieth-century-mt/std-medium/
+ * 
+ * Webfont: Twentieth Century Std Bold by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/twentieth-century-mt/std-bold/
+ * 
+ * Webfont: Twentieth Century Std Light by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/twentieth-century-mt/std-light/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2695527
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Font software Copyright 1997 Adobe Systems Incorporated. Typeface designs Copyright 1997 The Monotype Corporation. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/292167");
+
+  
+@font-face {font-family: 'TwCenMTStd';src: url('292167_0_0.eot');src: url('292167_0_0.eot?#iefix') format('embedded-opentype'),url('292167_0_0.woff') format('woff'),url('292167_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TwCenMTStd-Bold';src: url('292167_1_0.eot');src: url('292167_1_0.eot?#iefix') format('embedded-opentype'),url('292167_1_0.woff') format('woff'),url('292167_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TwCenMTStd-Light';src: url('292167_2_0.eot');src: url('292167_2_0.eot?#iefix') format('embedded-opentype'),url('292167_2_0.woff') format('woff'),url('292167_2_0.ttf') format('truetype');}
+ 

@@ -4,16 +4,28 @@ block head
   script(type='text/javascript' src='/javascripts/controllers/WatchUpdateController.js')
 
 block content
-  div.container(ng-controller="WatchUpdateController" ng-init="setWatch(#{JSON.stringify(watch)})")
-
+  div.row
+    div.col-md-3
+      a(href="/watches")
+        button.btn.btn-success.btn-large &laquo Directory
+  div.container(ng-controller="WatchUpdateController" ng-init="getWatch(#{JSON.stringify(id)})")
+    div.row
+      div.col-md-9
+        h2 {{watch.ej_collection}}
+      div.col-md-3(ng-hide="showEditCollection()")
+        a(href='#' ng-click="editCollectionOn()") Edit
+    div.row(ng-show='showEditCollection()')
+      div.col-md-3
+        select.form-control(type='text' ng-model='watch.ej_collection')
+          option Aficionado
+          option Connoisseur
+      div.col-md-3
+        button.btn.btn-success(type='button' ng-click="editCollectionOff(); updateCollection(watch)") Submit Changes
     div.row
       div.col-md-9
         h1 {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
       div.col-md-3(ng-hide="showEditName()")
         a(href='#' ng-click="editNameOn()") Edit
-    div.row
-      div.col-md-9
-
     div.row(ng-show='showEditName()')
       div.col-md-3
         input.form-control(type='text' placeholder="{{watch.brand}}" ng-model="watch.brand")
@@ -40,7 +52,7 @@ block content
         button.btn.btn-success(type='button' ng-click="editLongDescriptionOff(); updateLongDescription(watch)") Submit Changes
 
     h2 Picture
-    img(src='/images/' + watch.img width="150")
+    img(ng-src="{{'/images/' + watch.img}}"  width="150")
     div.row
       div.col-md-9
         h2 Instructions
@@ -109,9 +121,13 @@ block content
 
 
 
-    form(action='/images/' + watch._id + '.json', method="post", enctype="multipart/form-data")
+    form(action="{{'/images/' + watch._id + '.json'}}", method="post", enctype="multipart/form-data")
       input(type="file", name="watchImage")
       button(type="submit") Add Image
 
-    a(href='/watches/templates/' + watch._id + '.json')
+    a(href="{{'/watches/templates/' + watch._id + '.json'}}")
       button.btn.btn-primary(type='button') Generate Template
+    div.row
+      div.col-md-4
+        a(href='/watch-info/{{watch._id}}.json')
+          button.btn.btn-success(type='button') View Watch Page

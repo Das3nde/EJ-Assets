@@ -1,10 +1,10 @@
 extends layout
 
 block head
-  script(type='text/javascript' src='/javascripts/controllers/WatchController.js')
+  script(type='text/javascript' src='/javascripts/controllers/WatchesController.js')
 
 block content
-  div.container(ng-controller='WatchController')
+  div.container(ng-controller='WatchesController')
     form.form-horizontal(role='form' name="watchForm")
       h1 Inventory Information
       br
@@ -26,9 +26,11 @@ block content
         div.col-sm-4
           input.form-control#serial(type='text' placeholder='Serial Number' ng-model='watch.serial')
       div.form-group
-        label.col-sm-1.control-label(for='image') Image Link
+        label.col-sm-1.control-label(for='collection') Collection
         div.col-sm-2
-          input.form-control#image(type='text' placeholder='Image Link' ng-model='watch.img')
+          select.form-control#collection(type='text' ng-model='watch.ej_collection')
+            option(value="Aficionado") Aficionado
+            option(value="Connoisseur") Connoisseur
       br
       h1 Instructions
       br

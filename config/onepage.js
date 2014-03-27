@@ -1,8 +1,8 @@
-var http = require('http'),
-    qs = require('querystring'),
-    request = require('request'),
-    crypto = require('crypto'),
-    base64 = require('base64-js');
+var http = require('http');
+var qs = require('querystring');
+var request = require('request');
+var crypto = require('crypto');
+var base64 = require('base64-js');
 
 function OnePageCRM (uid, key) {
   this.uid = uid;
@@ -80,4 +80,10 @@ OnePageCRM.prototype.updateContact = function(id, params, callback) {
 OnePageCRM.prototype.createAction = function(params, callback) {
   console.log("Adding a new action with name " + params.name);
   this.execute('actions.json', 'POST', params, callback);
+}
+
+OnePageCRM.prototype.parseDate = function(date) {
+  var format_date = (date.getDate() < 10) ? ('0' + date.getDate()) : (date.getDate());
+  var format_month = (date.getMonth() < 9) ? ('0' + (date.getMonth() + 1)) : (date.getMonth() + 1);
+  return format_date + '.' + format_month + '.' + date.getFullYear();
 }

@@ -13,7 +13,6 @@
     "passport": ">=0.2.0",
     "passport-local": ">=0.1.6",
     "bcrypt-nodejs": "latest",
-		"mailchimp-api": "*",
     "mailchimp": "*",
     "request" : "2.x.x",
     "base64-js" : "0.0.6",
