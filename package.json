@@ -17,6 +17,7 @@
     "request" : "2.x.x",
     "base64-js" : "0.0.6",
     "phone" : "0.0.x",
-    "xml" : "0.0.x"
+    "xml" : "0.0.x",
+    "shipit" : "0.1.x"
   }
 }

@@ -27,6 +27,12 @@ var passport = require('passport');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 
+/**********************************************
+ * Shipping NPM Module
+ **********************************************/
+
+var FedexClient = require('shipit').FedexClient;
+
 ////////////////////////////////////////////////
 
 app = express();
@@ -55,6 +61,14 @@ try {
 } catch (error) {
   console.log(error.message);
 }
+
+/**********************************************
+ * Instantiate Fedex object
+ **********************************************/
+
+var fedex = new FedexClient({key : 'emJ3rD22fhw57TQO', password : 'dgMqbJY6GbLXgVqyuxHfCdUID', account : '510087488', meter : '118628117'});
+
+
 
 /**********************************************
  * Initiialize our environments
