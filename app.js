@@ -26,6 +26,8 @@ var passport = require('passport');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 
+var ben_id = '529e29eaeb89975e52000007';
+
 ////////////////////////////////////////////////
 
 app = express();

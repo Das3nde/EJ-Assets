@@ -81,3 +81,9 @@ OnePageCRM.prototype.createAction = function(params, callback) {
   console.log("Adding a new action with name " + params.name);
   this.execute('actions.json', 'POST', params, callback);
 }
+
+OnePageCRM.prototype.parseDate = function(date) {
+  var format_date = (date.getDate() < 10) ? ('0' + date.getDate()) : (date.getDate());
+  var format_month = (date.getMonth() < 9) ? ('0' + (date.getMonth() + 1)) : (date.getMonth() + 1);
+  return format_date + '.' + format_month + '.' + date.getFullYear();
+}
