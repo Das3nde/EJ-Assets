@@ -18,7 +18,6 @@ var Watch = require('../models/Watch.js');
  * Helper Routes
  *****************************************/
 
-var database = require('./database.js');
 var watches = require('./watches.js');
 var onepage = require('./onepage.js');
 
@@ -56,7 +55,7 @@ module.exports = function(app, passport, mcApi, exportApi) {
     });
   });
 
-  app.get('/onepage/contacts', isLoggedIn, function(req, res) {
+  app.get('/onepage/contacts', passport.isLoggedIn, function(req, res) {
     crm.getContacts({whole_team : 1}, function(data) {
       // Iterate over all of the available pages
       for(var index = 1; index <= data.maxpage; index++) {
@@ -168,18 +167,6 @@ module.exports = function(app, passport, mcApi, exportApi) {
     res.send({success : 1});
   });
 };
-
-/*****************************************
- * Route Middleware to make sure
- * user is logged in
- *****************************************/
-
-function isLoggedIn(req, res, next) {
-  if(req.isAuthenticated())
-    return next();
-
-  res.redirect('/login');
-}
 
 /*****************************************
  * Format any name to be capitalized
