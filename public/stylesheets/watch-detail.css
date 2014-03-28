@@ -9,13 +9,12 @@
 
 .header {
   border-top: 5px solid #c42026;
-  border-bottom: 1px dotted #b7c4cc;
+//  border-bottom: 1px dotted #b7c4cc;
   padding: 10px 0 10px;
 }
 
 h1 {
   font-size: 3em;
-  margin-top: 0.75em;
 }
 
 h3 {
@@ -27,11 +26,12 @@ h3 {
 
 p {
   font-size: 1em;
-  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding: 0px;
 }
 
-p.special {
+.special {
   text-transform: uppercase;
   font-weight: bold;
 }

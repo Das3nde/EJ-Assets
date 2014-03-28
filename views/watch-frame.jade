@@ -14,30 +14,27 @@ block content
   body.default(ng-controller="WatchUpdateController" ng-init="getWatch(#{JSON.stringify(id)})")
     div.header
       div.row
-        div.col-md-6
-          a(href="http://www.elevenjames.com" target="_blank")
-            img(src="http://www.elevenjames.com/img/ej-logo.png" height="100" alt border="0")
     div.default
       div.row
-        div.col-md-2
+        div.col-md-3
+          a(href="http://www.elevenjames.com" target="_blank")
+            img(src="http://www.elevenjames.com/img/ej-logo.png" width="400px" style="margin-top:25px; margin-left: auto; margin-right: auto; display: block;")
         div.col-md-4
           img(ng-src="{{'/images/' + watch.img}}" width="100%")
-        div.col-md-4(style="padding-top:50px;")
+        div.col-md-4(style="padding-top:25px;")
           h3(ng-show="watch.ej_collection") {{watch.ej_collection}} Collection
           h3(ng-hide="watch.ej_collection") OUR COLLECTION
           h1 {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
           hr
           p {{watch.description_long}}
           div(ng-repeat="instruction in watch.instructions")
-            br
             p(ng-show="instruction.name")
-              b 
+              b
                 | {{instruction.name}}
-            p(ng-show="instruction.description")
-                | {{instruction.description}} 
-            p.special(ng-show="instruction.special")
+              |   {{instruction.description}}
+            p.special
               | {{instruction.special}}
-          div(ng-show="watch.trivia" style="padding-top:25px")
+          div(ng-show="watch.trivia")
             h2 Did you know?
             p.trivia
               i

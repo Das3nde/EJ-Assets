@@ -36,16 +36,23 @@ var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 /**********************************************
  * GraphicsMagick
  **********************************************/
-/*
+
 var gm = require('gm');
-gm('/public/images/Breitling%20Bentley%20Barnato.jpg')
+/*
+gm('./public/images/test.jpg')
   .resize(240,240)
   .noProfile()
-  .write('/public/images/Breitling%20Resized.jpg', function(err) {
-    if(!err) console.log('done');
+  .write('./public/images/test2.jpg', function(err) {
+    if(err) console.log(err);
   });
   */
 
+gm('./public/images/test.jpg')
+  .sepia()
+  .write('./public/images/test2.jpg', function(err) {
+    if(err) console.log(err);
+  }
+  );
 ////////////////////////////////////////////////
 
 app = express();
