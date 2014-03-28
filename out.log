@@ -257,3 +257,640 @@ Express server listening on port 8080
 [90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
 [90mGET /assets/11J_Brochure.pdf [32m200 [90m82ms - 539.32kb[0m
 [90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m69ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m5ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m110ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET / [36m304 [90m80ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m79ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m3ms[0m
+[90mGET /watches.json [36m304 [90m23ms[0m
+[90mGET /watches/review/5319e080896ca543265e84e1.json [32m200 [90m139ms - 6.16kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [32m200 [90m3ms - 2.26kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/5319e080896ca543265e84e1.json [32m200 [90m66ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m6ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m57ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /watches.json [36m304 [90m24ms[0m
+[90mGET /watches/review/5323142705a154fd303039de.json [36m304 [90m174ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/5323142705a154fd303039de.json [36m304 [90m7ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/5323142705a154fd303039de.json [32m200 [90m55ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/5323142705a154fd303039de.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/review/531a28a9896ca543265e84f4.json [32m200 [90m164ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [32m200 [90m3ms - 1.53kb[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [32m200 [90m63ms - 2.33kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/review/531a342c74717ff32e06b877.json [32m200 [90m153ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m96ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m96ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m93ms[0m
+[90mGET /javascripts/app.js [36m304 [90m94ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [32m200 [90m9ms - 2.46kb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a342c74717ff32e06b877.json [32m200 [90m67ms - 2.33kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m8ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m9ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [36m304 [90m10ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/review/531a342c74717ff32e06b877.json [32m200 [90m165ms - 6.16kb[0m
+[90mGET /watches [36m304 [90m42ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /watches.json [36m304 [90m20ms[0m
+[90mGET /watches/review/531a2717896ca543265e84f2.json [32m200 [90m161ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watches/531a2717896ca543265e84f2.json [32m200 [90m3ms - 2.3kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [32m200 [90m2389ms - 99.62kb[0m
+[90mGET /watches [36m304 [90m54ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m3ms[0m
+[90mGET /watches.json [36m304 [90m40ms[0m
+[90mGET /watches/review/53336318cc53e1ac41f7fc34.json [32m200 [90m148ms - 6.16kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m11ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m12ms - 1.71kb[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [32m200 [90m63ms - 2.33kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mPUT /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m7ms - 22b[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [36m304 [90m72ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m4ms - 1.75kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET / [36m304 [90m49ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watches [36m304 [90m43ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m23ms - 78.99kb[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [36m304 [90m149ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m76ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m5ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /w00tw00t.at.ISC.SANS.DFind:) [33m404 [90m2ms[0m
+[90mGET /w00tw00t.at.ISC.SANS.DFind:) [33m404 [90m2ms[0m
+[90mGET /watch-info.json [32m200 [90m62ms - 1.55kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /javascripts/controllers/WatchesController.js [32m200 [90m2ms - 1.37kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m54ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m78ms - 100.04kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /watches.json [32m200 [90m22ms - 78.99kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [32m200 [90m136ms - 215.81kb[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m4826ms - 4.7mb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [32m200 [90m5521ms - 4.35mb[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m6766ms - 4.37mb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m6934ms - 4.19mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m8919ms - 4.88mb[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [32m200 [90m29289ms - 5.46mb[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [32m200 [90m60914ms - 4.65mb[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [32m200 [90m2ms - 36.03kb[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m57975ms - 4.5mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m49366ms - 4.71mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m51375ms - 4.97mb[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [32m200 [90m54628ms - 5.3mb[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [32m200 [90m4618ms - 4.13mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [32m200 [90m3ms - 76.19kb[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [32m200 [90m3ms - 99.62kb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m200 [90m4832ms - 4.3mb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [32m200 [90m6917ms - 4.39mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [32m200 [90m5647ms - 5.07mb[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m7666ms - 4.9mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m7584ms - 3.75mb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m7559ms - 4.66mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m11393ms - 4.84mb[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [32m200 [90m8108ms - 4.93mb[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m7103ms - 4.52mb[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [32m200 [90m56ms - 481.53kb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m28395ms - 4.38mb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m3ms - 36.74kb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [32m200 [90m2ms - 208.06kb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m32189ms - 4.05mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [32m200 [90m2ms - 247.7kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [32m200 [90m37040ms - 4.35mb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m37288ms - 4.63mb[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m37581ms - 4.23mb[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [32m200 [90m22744ms - 4.38mb[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [32m200 [90m34612ms - 4.49mb[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [32m200 [90m34576ms - 4.52mb[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [32m200 [90m33054ms - 4.49mb[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [32m200 [90m23959ms - 4.53mb[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [32m200 [90m28062ms - 4.65mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [32m200 [90m22556ms - 4.74mb[0m
+[90mGET /etc/apps/phpsysinfo/xml.php?plugin=complete [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m39ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /login [36m304 [90m30ms[0m
+[90mPOST /login [36m302 [90m111ms - 58b[0m
+[90mGET / [32m200 [90m38ms - 882b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m3165ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2679ms - 100.04kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m46ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m23ms[0m
+[90mGET /watches/review/53336318cc53e1ac41f7fc34.json [36m304 [90m189ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m5ms - 1.75kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [36m304 [90m65ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /images/ [33m404 [90m8ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [36m304 [90m7ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/review/531a032f896ca543265e84ea.json [32m200 [90m145ms - 6.16kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a032f896ca543265e84ea.json [32m200 [90m5ms - 1.86kb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m2ms[0m
+[90mGET /watches/review/5319e080896ca543265e84e1.json [32m200 [90m155ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [36m304 [90m5ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/5319e080896ca543265e84e1.json [32m200 [90m57ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/5319e080896ca543265e84e1.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/review/531a28a9896ca543265e84f4.json [36m304 [90m185ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [36m304 [90m5ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [32m200 [90m58ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m2627ms - 539.32kb[0m
+[90mGET /apple-touch-icon-152x152-precomposed.png [33m404 [90m2ms[0m
+[90mGET /apple-touch-icon-152x152.png [33m404 [90m1ms[0m
+[90mGET /apple-touch-icon-precomposed.png [33m404 [90m0ms[0m
+[90mGET /apple-touch-icon.png [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m1142ms - 539.32kb[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m23ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m2ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m28ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /user/soapCaller.bs [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m2ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m39ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m39ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m1ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m4ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m213ms - 4.38mb[0m
+[90mGET /watch-info.json [36m304 [90m94ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m0ms[0m
+[90mGET /watches.json [36m304 [90m22ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m9ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m2ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [32m200 [90m2ms - 36.03kb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [32m200 [90m2859ms - 76.19kb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m4ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m91736ms - 4.9mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m200 [90m91789ms - 4.84mb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m200 [90m91127ms - 4.3mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m200 [90m92863ms - 4.97mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m200 [90m92860ms - 4.71mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m200 [90m79794ms - 3.75mb[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m81ms - 784b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /login [36m304 [90m34ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m113ms - 58b[0m
+[90mGET / [32m200 [90m42ms - 882b[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m42ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m24ms[0m
+[90mGET /watches/review/531a0c90896ca543265e84ed.json [32m200 [90m153ms - 6.16kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a0c90896ca543265e84ed.json [32m200 [90m5ms - 1.21kb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m3ms[0m
+[90mPUT /watches/531a0c90896ca543265e84ed.json [32m200 [90m54ms - 22b[0m
+[90mPUT /watches/531a0c90896ca543265e84ed.json [32m200 [90m7ms - 22b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mGET /watches [36m304 [90m91ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /watches.json [32m200 [90m25ms - 78.99kb[0m
+[90mGET /watches/review/531a019c896ca543265e84e9.json [32m200 [90m186ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a019c896ca543265e84e9.json [32m200 [90m5ms - 1.95kb[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m2ms[0m
+Upload Complete
+[90mPOST /images/531a019c896ca543265e84e9.json [36m302 [90m698ms - 146b[0m
+[90mGET /watches/review/531a019c896ca543265e84e9.json [36m304 [90m159ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /watches/531a019c896ca543265e84e9.json [36m304 [90m7ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m315ms - 107.07kb[0m
+[90mPOST /images/531a019c896ca543265e84e9.json [33m400 [90m4340ms[0m
+[90mGET /watch-info/531a019c896ca543265e84e9.json [32m200 [90m58ms - 2.33kb[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531a019c896ca543265e84e9.json [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET / [36m304 [90m79ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m42ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /watches.json [36m304 [90m22ms[0m
+[90mGET /watch-info.json [36m304 [90m69ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m19ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m206 [90m3ms - 1b[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m3ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m206 [90m3ms - 1b[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m206 [90m1ms - 1b[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m9ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m7ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m5ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m206 [90m3ms - 1b[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m206 [90m12801ms - 1.31mb[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m206 [90m10676ms - 2.33mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m206 [90m10136ms - 3.71mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m206 [90m13575ms - 3.45mb[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m206 [90m13581ms - 3.01mb[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m206 [90m12731ms - 1.2mb[0m
+[90mGET /watches/review/5319d480896ca543265e84d9.json [32m200 [90m146ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/5319d480896ca543265e84d9.json [32m200 [90m4ms - 1.88kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/5319d480896ca543265e84d9.json [32m200 [90m107ms - 2.33kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/5319d480896ca543265e84d9.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js.map [32m200 [90m1203ms - 269.27kb[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m39ms[0m
+[90mGET /watch-info.json [36m304 [90m102ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /watches.json [36m304 [90m23ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m4ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m5ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m4ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m2ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m5ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m206 [90m4ms - 1b[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m206 [90m3ms - 1b[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m206 [90m2ms - 1b[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [32m206 [90m31588ms - 825.19kb[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m206 [90m35903ms - 1.07mb[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m5ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m2ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m2ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m3ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m3ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m3ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m3ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m3ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [32m206 [90m63395ms - 2.01mb[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [32m206 [90m107700ms - 3.28mb[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [32m206 [90m118493ms - 2.26mb[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [32m206 [90m125422ms - 3.53mb[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [32m200 [90m146733ms - 4.35mb[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [32m200 [90m146651ms - 4.05mb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m109426ms - 4.38mb[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [32m200 [90m206846ms - 4.93mb[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [32m200 [90m124760ms - 4.52mb[0m
+[90mGET / [36m304 [90m44ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m1ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m39ms[0m
+[90mGET /lookbook.pdf [33m404 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m82ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m51156ms - 7.27mb[0m
