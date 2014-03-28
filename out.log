@@ -127,3 +127,133 @@ Express server listening on port 8080
 [90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
 [90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m2ms[0m
 [90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [32m200 [90m72ms - 2.3kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m6ms[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m75ms - 2.3kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET / [36m304 [90m85ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m47ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watches.json [36m304 [90m22ms[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [36m304 [90m138ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m74ms - 2.3kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m8ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m8ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m103ms - 2.3kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m59ms - 97.67kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m2ms - 4.29kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m59ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m40ms - 1.47kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m2ms - 27.15kb[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m138399ms - 4.88mb[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m32ms - 22b[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m71ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m4ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET / [36m304 [90m51ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watches [36m304 [90m44ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m23ms - 78.96kb[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [36m304 [90m141ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m3ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m75ms - 2.32kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m69ms - 2.32kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m82ms - 539.32kb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
