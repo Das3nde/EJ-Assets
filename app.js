@@ -31,7 +31,20 @@ var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
  * Shipping NPM Module
  **********************************************/
 
-var FedexClient = require('shipit').FedexClient;
+// var FedexClient = require('shipit').FedexClient;
+
+/**********************************************
+ * GraphicsMagick
+ **********************************************/
+/*
+var gm = require('gm');
+gm('/public/images/Breitling%20Bentley%20Barnato.jpg')
+  .resize(240,240)
+  .noProfile()
+  .write('/public/images/Breitling%20Resized.jpg', function(err) {
+    if(!err) console.log('done');
+  });
+  */
 
 ////////////////////////////////////////////////
 
@@ -66,7 +79,7 @@ try {
  * Instantiate Fedex object
  **********************************************/
 
-var fedex = new FedexClient({key : 'emJ3rD22fhw57TQO', password : 'dgMqbJY6GbLXgVqyuxHfCdUID', account : '510087488', meter : '118628117'});
+// var fedex = new FedexClient({key : 'emJ3rD22fhw57TQO', password : 'dgMqbJY6GbLXgVqyuxHfCdUID', account : '510087488', meter : '118628117'});
 
 
 
