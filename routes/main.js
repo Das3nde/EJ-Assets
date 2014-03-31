@@ -42,4 +42,9 @@ module.exports = function(passport) {
     res.render('template', {title: 'Template', id : req.params.id});
   });
 
+// TEST AJAX ZOOM
+
+  app.get('/test-ajax-zoom', function(req, res) {
+    res.render('test-ajax-zoom', {title: 'Test'});
+  });
 };
