@@ -894,3 +894,1109 @@ Upload Complete
 [90mGET /assets/lookbook.pdf [32m200 [90m82ms - 7.3mb[0m
 [90mGET /assets/lookbook.pdf [32m206 [90m3ms - 32kb[0m
 [90mGET /assets/lookbook.pdf [32m206 [90m51156ms - 7.27mb[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET /lookbook-egroup.pdf [33m404 [90m11ms[0m
+[90mGET /lookbookpdf [33m404 [90m4ms[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m75ms - 16.61mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m4ms - 32kb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m13079ms - 16.58mb[0m
+[90mGET /assets/lookbook-egroup.pdf [36m304 [90m4ms[0m
+[90mGET /assets/lookbook-egroup.pdf [36m304 [90m4ms[0m
+[90mGET /assets/lookbook-egroup.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m17623ms - 16.61mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m6466ms - 7.3mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m208645ms - 14.88mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m5493ms - 7.3mb[0m
+[90mGET / [36m302 [90m5ms - 68b[0m
+[90mGET /login [32m200 [90m519ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mPOST /login [36m302 [90m266ms - 58b[0m
+[90mGET / [32m200 [90m49ms - 882b[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m5ms[0m
+[90mGET /watches [36m304 [90m57ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /watches.json [36m304 [90m63ms[0m
+[90mGET /watches/review/531a342c74717ff32e06b877.json [36m304 [90m223ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [36m304 [90m6ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a342c74717ff32e06b877.json [32m200 [90m102ms - 2.33kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m7ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m7ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m6ms[0m
+[90mGET /watches/531a342c74717ff32e06b877.json [36m304 [90m6ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /watches/review/531905a2896ca543265e84d7.json [32m200 [90m222ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m5ms - 1.38kb[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [32m200 [90m67ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET / [36m304 [90m45ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watches [36m304 [90m47ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m29ms[0m
+[90mGET /watches/review/531905a2896ca543265e84d7.json [36m304 [90m154ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m4ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mPUT /watches/531905a2896ca543265e84d7.json [32m200 [90m7ms - 22b[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m85ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [32m200 [90m5ms - 1.41kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mHEAD / [36m302 [90m38ms - 40b[0m
+[90mGET /p_/webdav/xmltools/minidom/xml/sax/saxutils/os/popen2 [33m404 [90m2ms[0m
+[90mGET /watches/review/531a28a9896ca543265e84f4.json [36m304 [90m176ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [32m200 [90m71ms - 2.33kb[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [36m304 [90m5ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mPUT /watches/531a28a9896ca543265e84f4.json [32m200 [90m6ms - 22b[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [36m304 [90m76ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m8ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/app.js [36m304 [90m12ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [32m200 [90m7ms - 1.56kb[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_0_0.woff [33m404 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_0_0.ttf [33m404 [90m2ms[0m
+[90mPUT /watches/531a28a9896ca543265e84f4.json [32m200 [90m6ms - 22b[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [36m304 [90m71ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [32m200 [90m3ms - 1.59kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_0_0.woff [33m404 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_0_0.ttf [33m404 [90m1ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m52ms - 2.33kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m60ms - 97.67kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m1ms - 4.29kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m58ms - 100.04kb[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m3ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m9068ms - 4.88mb[0m
+[90mGET /watches [36m304 [90m88ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m3ms[0m
+[90mGET /watches.json [32m200 [90m29ms - 79.09kb[0m
+[90mGET /watches/review/531905a2896ca543265e84d7.json [36m304 [90m143ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m76ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m8ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m724ms - 16.61mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m4ms - 32kb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m18531ms - 16.58mb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m4ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m105ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m4ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m5ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m73ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m3ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m79ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m5ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m53ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m97ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m7ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js.map [36m304 [90m3ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m87ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m10591ms - 7.3mb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m93ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m74ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m76ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m82ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m3ms - 144.99kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m5ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 35.27kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 71.06kb[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m78ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m90ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m76ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m93ms - 539.32kb[0m
+[90mGET / [36m304 [90m42ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m41ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m19ms[0m
+[90mGET /watches/review/531901e8896ca543265e84d6.json [36m304 [90m145ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m6ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [32m200 [90m81ms - 2.33kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m10ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m3ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m52ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 50.89kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m50ms - 256kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m5ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m5ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m5ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m6ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m5ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /watches/review/53336318cc53e1ac41f7fc34.json [36m304 [90m159ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [36m304 [90m3ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m4ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [36m304 [90m61ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [36m304 [90m3ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m52ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 50.89kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m139ms - 256kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /watches/review/531905a2896ca543265e84d7.json [36m304 [90m145ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m6ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531905a2896ca543265e84d7.json [36m304 [90m59ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m3ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/531905a2896ca543265e84d7.json [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m958ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m2079ms - 7.3mb[0m
+[90mGET http://azenv.net/ [36m302 [90m51ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m43ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /watch-info/531a28a9896ca543265e84f4.json [32m200 [90m60ms - 2.33kb[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 808b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m1ms - 4.29kb[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m125ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m132ms - 100.04kb[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /watches/531a28a9896ca543265e84f4.json [32m200 [90m3ms - 1.59kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m1ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m2ms - 27.15kb[0m
+[90mGET /fonts/292167_0_0.woff [33m404 [90m1ms[0m
+[90mGET /fonts/292167_0_0.ttf [33m404 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [32m200 [90m3447ms - 4.23mb[0m
+[90mGET http://azenv.net/ [36m302 [90m3ms - 40b[0m
+[90mGET /login [36m304 [90m40ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD /dawdwadwaad [33m404 [90m1ms[0m
+[90mHEAD /dawdwadwaad [33m404 [90m1ms[0m
+[90mGET /jmx-console/HtmlAdaptor [33m404 [90m1ms[0m
+[90mHEAD /jmx-console/HtmlAdaptor [33m404 [90m1ms[0m
+[90mGET /iesvc/iesvc.jsp [33m404 [90m2ms[0m
+[90mGET /cmd/cmd.jsp [33m404 [90m2ms[0m
+[90mGET /man/3.jsp [33m404 [90m1ms[0m
+[90mGET /browser/browser/browser.jsp [33m404 [90m2ms[0m
+[90mHEAD /manager/html [33m404 [90m0ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [90m3ms[0m
+[90mGET /phpMyAdmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /phpmyadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /pma/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /myadmin/scripts/setup.php [33m404 [90m1ms[0m
+[90mGET /MyAdmin/scripts/setup.php [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m0ms - 40b[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m58ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/%7B%7B'/images/'%20+%20watch.img%7D%7D [33m404 [90m11ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m0ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m3205ms - 4.88mb[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m50641ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m18120ms - 7.3mb[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m0ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /watch-info.json [36m304 [90m91ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m5ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /watches.json [32m200 [90m22ms - 79.09kb[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m0ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [36m304 [90m3ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m4ms[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [36m304 [90m4ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [36m304 [90m2ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [32m200 [90m50ms - 107.07kb[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m2ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m7ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m1ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m84ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m84ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m3ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m443ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m613ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m4ms - 27.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m304ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m299ms - 64kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m3ms - 64kb[0m
+[90mGET /CFIDE/administrator/enter.cfm [33m404 [90m2ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m2ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET / [36m302 [90m0ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m4ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m3ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m15202ms - 16.61mb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 1kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 1kb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 700b[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m0ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 324b[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m12235ms - 16.61mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m10516ms - 7.3mb[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m999ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m10963ms - 7.3mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m219ms - 16.61mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m5755ms - 16.61mb[0m
+[90mGET /assets/lookbook-egroup.pdf [32m206 [90m13861ms - 16.58mb[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://24x7-allrequestsallowed.com/?PHPSESSID=1rmsxtj500143TVM%5CSHDA%5CAY [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /assets/lookbook-egroup.pdf [32m200 [90m8902ms - 16.61mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m9172ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m149ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m7456ms - 7.27mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m575ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m8040ms - 7.27mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m2942ms - 7.3mb[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m207ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m50ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m105ms - 144.99kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m3ms - 74.33kb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m159ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m39ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3617ms - 7.27mb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m26ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 1kb[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 1011b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 700b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m4ms - 700b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 324b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 13b[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 1011b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 700b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m8ms - 324b[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 13b[0m
+[90mGET /assets/11J_Brochure.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 324b[0m
+[90mGET /watch-info.json [36m304 [90m68ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /watches.json [36m304 [90m21ms[0m
+[90mGET /images/%7B%7Bwatch.img%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/Audemars%20Piguet%20Royal%20Oak%20Offshore%20Safari.jpg [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Villeret%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [36m304 [90m2ms[0m
+[90mGET /images/Breitling%20Bentley%20Barnato.jpg [36m304 [90m0ms[0m
+[90mGET /images/Breitling%20Navitimer%2001.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Cartier%20Ballon%20Bleu%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Chopard%20Mille%20Miglia%20GT%20XL.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Vintage%201945%20XXL%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Traveller%20Moonphase%20(Black%20Dial).jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20Ceramic%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Navigator%20Worldview.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Counter%20XL.jpg [36m304 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20Senator%20Sixties.jpg [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20UNICO%20Titanium%20Ceramic.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portuguese%20Chronograph.jpg [36m304 [90m0ms[0m
+[90mGET /images/IWC%20Pilot%20Hand%20Wound%20Vintage%201936.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [36m304 [90m0ms[0m
+[90mGET /images/IWC%20Pilot%20Spitfire%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Portofino%208-Days.jpg [36m304 [90m1ms[0m
+[90mGET /images/IWC%20Pilot%20Double%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20%22Les%20Deux%20Fuseaux%22%20Majestic%20Beijing.jpg [36m304 [90m1ms[0m
+[90mGET /images/Jaquet%20Droz%20Legend%20Geneva%20Grande%20Seconde.jpg [36m304 [90m1ms[0m
+[90mGET /images/Montblanc%20Nicolas%20Rieussec%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /images/Omega%20Speedmaster%20.jpg [36m304 [90m1ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20104.jpg [36m304 [90m0ms[0m
+[90mGET /images/Panerai%20Luminor%20Marina%20PAM%20086.jpg [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Rolex%20Submariner%20with%20Date.jpg [36m304 [90m1ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m1ms[0m
+[90mGET /images/Vacheron%20Constantin%20Overseas%20Dual%20Time.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Moonphase.jpg [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20Class%20Open%20Chronograph.jpg [36m304 [90m0ms[0m
+[90mGET /images/Zenith%20Pilot%20Pilot%20Montre%20D'A%C3%A9ronef%20Type%2020%20GMT.jpg [36m304 [90m3ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET /robots.txt [33m404 [90m3ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m176ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m60ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m5442ms - 7.27mb[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m37ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mHEAD / [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mOPTIONS / [32m200 [90m1ms - 3b[0m
+[90mGET /nice%20ports%2C/Tri%6Eity.txt%2ebak [33m404 [90m1ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m3653ms - 4.38mb[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m49108ms - 4.38mb[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m13360ms - 4.38mb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m27896ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m320ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m3910ms - 7.27mb[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m114ms - 539.32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m110ms - 144.99kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 35.27kb[0m
+[90mGET /assets/11J_Brochure.pdf [32m206 [90m2ms - 71.06kb[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m37ms - 784b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m442ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m604ms - 100.04kb[0m
+[90mPOST /login [36m302 [90m115ms - 58b[0m
+[90mGET / [32m200 [90m40ms - 882b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [32m200 [90m2ms - 22.77kb[0m
+[90mGET /watches [32m200 [90m41ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [32m200 [90m5ms - 1.37kb[0m
+[90mGET /watches.json [32m200 [90m19ms - 79.09kb[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [32m200 [90m145ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m3ms - 4.29kb[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m4ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m36133ms - 4.88mb[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m7ms - 22b[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m5ms - 22b[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m4ms - 22b[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m3ms - 22b[0m
+[90mPUT /watches/531a0d06896ca543265e84ee.json [32m200 [90m5ms - 22b[0m
+[90mGET /watches/review/531a0e42896ca543265e84f0.json [32m200 [90m187ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /watches/531a0e42896ca543265e84f0.json [32m200 [90m4ms - 1.56kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Breguet%20Marine%20Big%20Date.jpg [32m200 [90m33991ms - 4.37mb[0m
+[90mGET /watches [36m304 [90m88ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m8ms[0m
+[90mGET /watches.json [32m200 [90m22ms - 79.09kb[0m
+[90mGET /watches/review/5319d480896ca543265e84d9.json [32m200 [90m219ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m103ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m104ms[0m
+[90mGET /javascripts/app.js [36m304 [90m105ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m106ms[0m
+[90mGET /watches/5319d480896ca543265e84d9.json [32m200 [90m7ms - 1.88kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Breitling%20Transocean%20Chronograph.jpg [32m200 [90m33285ms - 4.19mb[0m
+[90mGET / [36m304 [90m40ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m43ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m22ms[0m
+[90mGET /watches/review/5319d6a1896ca543265e84db.json [32m200 [90m135ms - 6.16kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/5319d6a1896ca543265e84db.json [32m200 [90m3ms - 1.89kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Cartier%20Roadster%20Chronograph.jpg [32m200 [90m34304ms - 4.5mb[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m309ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m4334ms - 7.27mb[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m3ms[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
