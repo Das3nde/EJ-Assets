@@ -6,7 +6,7 @@ $(function() {
     // If you need to make the left top corner be at exactly 0,0, adjust the offset values below
     offsetX : 0,
     offsetY : 0,
-    edge : -50
+    edge : -50 // Hack to keep the background of the zoom window black at the edges
   });
 
   $('.president')

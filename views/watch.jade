@@ -123,7 +123,7 @@ block content
 
     form(action="{{'/images/' + watch._id + '.json'}}", method="post", enctype="multipart/form-data")
       input(type="file", name="watchImage")
-      button(type="submit") Add Image
+      button.btn.btn-secondary(type="submit") Add Image
 
     a(href="{{'/watches/templates/' + watch._id + '.json'}}")
       button.btn.btn-primary(type='button') Generate Template
