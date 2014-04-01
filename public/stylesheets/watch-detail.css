@@ -39,3 +39,11 @@ p {
 p.trivia {
   font-family: 'TwCenMTStd-Light';
 }
+
+/* ZOOM CONTAINER */
+.zoom											{ display: block; margin: 0 auto; }
+.large										{ background: white; }
+
+/* FOR IMAGES */
+.small img								{ width: 650px; height: 905px; }
+.large img								{ width: 1712px; height: 2500px; }

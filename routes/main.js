@@ -44,7 +44,7 @@ module.exports = function(passport) {
 
 // TEST AJAX ZOOM
 
-  app.get('/test-ajax-zoom', function(req, res) {
-    res.render('test-ajax-zoom', {title: 'Test'});
+  app.get('/zoom-test', function(req, res) {
+    res.render('zoom-test', {title: 'Test'});
   });
 };
