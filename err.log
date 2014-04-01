@@ -341,3 +341,6 @@ ReferenceError: formatName is not defined
     at SessionStrategy.module.exports.strategy.pass (/home/ec2-user/EJ-Assets/node_modules/passport/lib/middleware/authenticate.js:314:9)
     at SessionStrategy.authenticate (/home/ec2-user/EJ-Assets/node_modules/passport/lib/strategies/session.js:67:10)
     at attempt (/home/ec2-user/EJ-Assets/node_modules/passport/lib/middleware/authenticate.js:337:16)
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0

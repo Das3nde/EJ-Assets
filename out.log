@@ -2000,3 +2000,17 @@ Express server listening on port 8080
 [90mGET /assets/lookbook.pdf [36m304 [90m1ms[0m
 [90mGET / [36m302 [90m2ms - 40b[0m
 [90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+Mailchimp API Successfully instantiated
+Mailchimp Export Api Successfully Instantiated
+Express server listening on port 8080
+[90mGET / [36m302 [90m6ms - 68b[0m
+[90mGET /login [32m200 [90m464ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mPOST /login [36m302 [90m120ms - 58b[0m
+[90mGET / [32m200 [90m61ms - 988b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
