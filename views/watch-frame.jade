@@ -38,7 +38,7 @@ block content
           hr
           p {{watch.description_long}}
           div(ng-repeat="instruction in watch.instructions")
-            p(ng-show="instruction.name")
+            p(ng-show="instruction.name || instruction.description")
               b
                 | {{instruction.name}}
               |   {{instruction.description}}
