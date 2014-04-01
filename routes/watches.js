@@ -1,6 +1,7 @@
 var Watch = require('../models/Watch.js');
 var path = require('path');
 var fs = require('fs');
+var gm = require('gm');
 
 module.exports = function(passport) {
 
@@ -78,6 +79,13 @@ module.exports = function(passport) {
             + watch.family + ' '
             + watch.model + '.jpg');
       if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg') {
+        gm(tempPath).resize(1096, 1526).write(targetPath, function(err) {
+          if(err) console.log(err);
+          watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
+          watch.save();
+          res.redirect('/watches/review/' + req.params.id + '.json');
+        });
+        /*
         fs.rename(tempPath, targetPath, function(err) {
           if(err) throw err;
           console.log("Upload Complete");
@@ -85,6 +93,7 @@ module.exports = function(passport) {
           watch.save();
           res.redirect('/watches/review/' + req.params.id + '.json');
         });
+        */
       } else {
         fs.unlink(tempPath, function(err) {
           if(err) throw err;
@@ -93,5 +102,29 @@ module.exports = function(passport) {
       }
     });
   });
+
+// RESIZE ALL IMAGES IN A ONE-TIME BATCH
+
+  app.post('/images/resize', passport.isLoggedIn, function(req, res) {
+    Watch.find({}, function(error, watches) {
+      for(var i = 0; i < watches.length; i++) {
+        var watch = watches[i];
+        var watchName = watch.brand + ' ' + watch.family + ' ' + watch.model;
+        var targetPath = path.resolve('./public/images/' + watchName + '.jpg');
+        var originalPath = path.resolve('./public/images/' + watchName + '_original.jpg');
+        resizeRename(targetPath, originalPath);
+      }
+    });
+    res.redirect('/');
+  });
 };
 
+
+function resizeRename(targetPath, originalPath) {
+  fs.rename(targetPath, originalPath, function(err) {
+    if(err) console.log(err);
+    gm(originalPath).resize(1096, 1526).write(targetPath, function(err) {
+      if(err) console.log(err);
+    });
+  });
+}

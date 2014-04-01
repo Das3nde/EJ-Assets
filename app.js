@@ -37,22 +37,6 @@ var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
  * GraphicsMagick
  **********************************************/
 
-var gm = require('gm');
-/*
-gm('./public/images/test.jpg')
-  .resize(240,240)
-  .noProfile()
-  .write('./public/images/test2.jpg', function(err) {
-    if(err) console.log(err);
-  });
-  */
-
-gm('./public/images/test.jpg')
-  .sepia()
-  .write('./public/images/test2.jpg', function(err) {
-    if(err) console.log(err);
-  }
-  );
 ////////////////////////////////////////////////
 
 app = express();
