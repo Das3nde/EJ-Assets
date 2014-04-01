@@ -1,0 +1,49 @@
+.default {
+  font-family: 'TwCenMTStd-Light';
+  background: black;
+  color: white;
+  font-size: 16pt;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  border-top: 5px solid #c42026;
+//  border-bottom: 1px dotted #b7c4cc;
+  padding: 10px 0 10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  color: #b7c4cc;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-family: 'TwCenMTStd-Bold';
+}
+
+p {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.special {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p.trivia {
+  font-family: 'TwCenMTStd-Light';
+}
+
+/* ZOOM CONTAINER */
+.zoom											{ display: block; margin: 0 auto; }
+.large										{ background: white; }
+
+/* FOR IMAGES */
+.small img								{ width: 650px; height: 905px; }
+.large img								{ width: 1096px; height: 1526px; }

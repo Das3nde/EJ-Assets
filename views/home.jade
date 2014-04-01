@@ -10,11 +10,12 @@ block content
       br
       br
 
-      //a(href='/mailchimp') View daily mailchimp imports
-      //br
-      //br
-
       a(href='/watches/new') Add a watch to the inventory list
+      br
+      br
+
+      form(action="/images/resize" method="post")
+        button.btn.btn-warning(action="submit") Batch resize all current watch images (WARNING CANNOT BE UNDONE)
       br
       br
 
