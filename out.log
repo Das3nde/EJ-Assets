@@ -2014,3 +2014,192 @@ Express server listening on port 8080
 [90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
 [90mGET /javascripts/app.js [36m304 [90m3ms[0m
 [90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET / [36m302 [90m2ms - 68b[0m
+[90mGET /login [32m200 [90m47ms - 784b[0m
+[90mGET /javascripts/app.js [32m200 [90m35ms - 808b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m707ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m775ms - 100.04kb[0m
+[90mPOST /login [36m302 [90m113ms - 58b[0m
+[90mGET / [32m200 [90m47ms - 988b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [32m200 [90m5ms - 22.77kb[0m
+[90mGET /watches [32m200 [90m93ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [32m200 [90m19ms - 1.37kb[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /watches.json [32m200 [90m46ms - 79.09kb[0m
+[90mGET /watches/review/531901e8896ca543265e84d6.json [32m200 [90m194ms - 6.24kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [32m200 [90m12ms - 4.29kb[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [32m200 [90m12ms - 2.07kb[0m
+[90mGET /images/ [33m404 [90m9ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [32m200 [90m459ms - 160.09kb[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [32m200 [90m84ms - 2.32kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m3ms - 1.22kb[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m5ms - 825b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m2ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m3ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m3ms - 677b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m76ms - 1.76kb[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m7ms[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m50ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m10ms - 27.05kb[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [36m304 [90m90ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET / [36m304 [90m52ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m49ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m28ms[0m
+[90mGET /watches/review/531901e8896ca543265e84d6.json [36m304 [90m195ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m52ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m54ms[0m
+[90mGET /javascripts/app.js [36m304 [90m54ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m55ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m1ms[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [32m200 [90m73ms - 2.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m2ms[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [32m200 [90m181ms - 6.24kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m3ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m64ms - 2.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m83ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m8ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m8ms[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mGET /watch-info/531901e8896ca543265e84d6.json [32m200 [90m81ms - 2.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/app.js [36m304 [90m9ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531901e8896ca543265e84d6.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Anonimo%20Militare%20Flyback%20Chronograph.jpg [36m304 [90m4ms[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [32m200 [90m185ms - 6.24kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [32m200 [90m3ms - 1.51kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [32m200 [90m657ms - 150.24kb[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [32m200 [90m63ms - 2.35kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m9ms[0m
+[90mPOST /webhooks/zoho.json [32m200 [90m2ms - 18b[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m3ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mPOST /webhooks/inquiries.json [31m500 [90m4ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mHEAD /manager/html/upload [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mHEAD /manager/status [33m404 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m149ms - 7.3mb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m19ms - 32kb[0m
+[90mGET /assets/lookbook.pdf [32m206 [90m2402ms - 7.27mb[0m
