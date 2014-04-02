@@ -10,13 +10,13 @@ module.exports = function(zoho) {
     if(!data.merges.LNAME) {
       lname = 'Anonymous';
     } else {
-      lname = formatName(data.merges.LNAME);
+      lname = zoho.formatName(data.merges.LNAME);
     }
     var fname = '';
     if(!data.merges.FNAME) {
       fname = '';
     } else {
-      fname = formatName(data.merges.FNAME);
+      fname = zoho.formatName(data.merges.FNAME);
     }
     var xml_json = [{
       Leads : [{

@@ -43,3 +43,8 @@ ZohoCRM.prototype.execute = function(url, method, params, xml_json, callback) {
 ZohoCRM.prototype.postInquiry = function(xml_json, params, callback) {
   this.execute('Leads/insertRecords', 'POST', params, xml_json, callback);
 }
+
+ZohoCRM.prototype.formatName = function(name) {
+  if(name) return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+  return null;
+}
