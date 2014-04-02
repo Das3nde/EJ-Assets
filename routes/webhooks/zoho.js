@@ -5,7 +5,6 @@ module.exports = function(zoho) {
   });
 
   app.post('/webhooks/zoho.json', function(req, res) {
-    /*
     var data = req.body.data;
     var lname = '';
     if(!data.merges.LNAME) {
@@ -25,7 +24,7 @@ module.exports = function(zoho) {
           {_attr : {no : '1'}},
           {FL : [
             {_attr : {val : "Lead Source"}},
-            'Web Inquiry']},
+            'Web']},
           {FL : [
             {_attr : {val : "First Name"}},
             fname]},
@@ -48,7 +47,6 @@ module.exports = function(zoho) {
     zoho.postInquiry(xml_json, {scope : "crmapi", wfTrigger : "true"}, function(data) {
       console.log(data);
     });
-    */
 
     res.json({success : 1});
   });
