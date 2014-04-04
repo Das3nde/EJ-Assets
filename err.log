@@ -477,3 +477,6 @@ Error: Request aborted
     at Socket.EventEmitter.emit (events.js:115:20)
     at Socket._destroy.destroyed (net.js:357:10)
     at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
