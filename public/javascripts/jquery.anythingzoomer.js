@@ -175,6 +175,7 @@
 				height : base.smallDim[1]
 			});
 
+
 		};
 
 		// Show small image - Setup
