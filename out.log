@@ -9761,3 +9761,1812 @@ Express server listening on port 8080
 [90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
 [90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
 [90mGET /images/Breitling%20Transocean%20Unitime.jpg [32m200 [90m137ms - 183.54kb[0m
+[90mGET /watches/review/533f1a1e748ace3f175407f8.json [32m200 [90m160ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f1a1e748ace3f175407f8.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watch-info/533f1a1e748ace3f175407f8.json [36m304 [90m69ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m6ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m7ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m3ms[0m
+[90mGET /watches/533f1a1e748ace3f175407f8.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/533c8174748ace3f175407ec.json [32m200 [90m69ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watches/533c8174748ace3f175407ec.json [32m200 [90m6ms - 1.4kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Hublot%20Classic%20Fusion%20Black%20Magic.jpg [32m200 [90m155ms - 124.84kb[0m
+[90mGET /watches/review/533f1b81748ace3f175407fa.json [32m200 [90m154ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/533f1b81748ace3f175407fa.json [32m200 [90m3ms - 2.39kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Chronomaster%20Grande%20Date.jpg [32m200 [90m109ms - 91.33kb[0m
+[90mGET /watch-info/533f1b81748ace3f175407fa.json [32m200 [90m66ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f1b81748ace3f175407fa.json [36m304 [90m8ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m7ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m5ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Chronomaster%20Grande%20Date.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/533c8908748ace3f175407ef.json [32m200 [90m69ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/533c8908748ace3f175407ef.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Deep%20Sea%20Chronograph.jpg [36m304 [90m0ms[0m
+[90mGET /watch-info/533c7f96748ace3f175407ea.json [32m200 [90m75ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m3ms[0m
+[90mGET /watches/533c7f96748ace3f175407ea.json [32m200 [90m8ms - 1.58kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m6ms[0m
+[90mGET /images/ [33m404 [90m7ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m6ms - 27.05kb[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Lunar.jpg [32m200 [90m151ms - 140.53kb[0m
+[90mGET /watch-info/533f1b81748ace3f175407fa.json [36m304 [90m74ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m6ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watch-info/533c76d7748ace3f175407e8.json [32m200 [90m53ms - 2.43kb[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m0ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /watches/533f1b81748ace3f175407fa.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Chronomaster%20Grande%20Date.jpg [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/533c76d7748ace3f175407e8.json [32m200 [90m2ms - 1.47kb[0m
+[90mGET /images/ [33m404 [90m0ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Blancpain%20Fifty%20Fathoms%20.jpg [32m200 [90m136ms - 130.89kb[0m
+[90mGET / [36m304 [90m51ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [36m304 [90m49ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m30ms - 117.52kb[0m
+[90mGET / [36m304 [90m35ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m1ms[0m
+[90mGET /watches/new [32m200 [90m88ms - 3.58kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mPOST /watches.json [32m200 [90m56ms - 2.36kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m59ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m36ms - 120kb[0m
+[90mGET /watches/review/533f476cbd5af3734fd5cf7b.json [32m200 [90m140ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f476cbd5af3734fd5cf7b.json [32m200 [90m3ms - 2.36kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watches/review/533f1b81748ace3f175407fa.json [36m304 [90m152ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/533f1b81748ace3f175407fa.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Chronomaster%20Grande%20Date.jpg [33m404 [90m1ms[0m
+[90mGET /watches.json [36m304 [90m39ms[0m
+[90mDELETE /watches/533f1b81748ace3f175407fa.json [32m200 [90m134ms - 2.39kb[0m
+[90mGET /watch-info/533c87df748ace3f175407ee.json [32m200 [90m72ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m0ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/533c87df748ace3f175407ee.json [32m200 [90m6ms - 2.19kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Ceramic.jpg [32m200 [90m116ms - 143.33kb[0m
+[90mGET /watches [36m304 [90m41ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m1ms[0m
+[90mGET /watches.json [32m200 [90m30ms - 117.49kb[0m
+[90mGET /watches/review/533f476cbd5af3734fd5cf7b.json [36m304 [90m176ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m7ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/533f476cbd5af3734fd5cf7b.json [36m304 [90m10ms[0m
+[90mGET /watch-info/533f476cbd5af3734fd5cf7b.json [32m200 [90m80ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m14ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m6ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f476cbd5af3734fd5cf7b.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/533c79e6748ace3f175407e9.json [32m200 [90m76ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533c79e6748ace3f175407e9.json [32m200 [90m4ms - 1.21kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Breguet%20Classique%20Retrograde%20Seconds.jpg [32m200 [90m146ms - 149.67kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m3ms[0m
+[90mGET /watch-info/5319f77e896ca543265e84e6.json [32m200 [90m107ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/5319f77e896ca543265e84e6.json [32m200 [90m5ms - 2.36kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Chronograph.jpg [32m200 [90m130ms - 170.34kb[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m104ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m0ms[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m5ms - 2.21kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m146ms - 158.21kb[0m
+[90mGET /watches [36m304 [90m85ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m29ms[0m
+[90mGET /watches/review/533f190e748ace3f175407f7.json [32m200 [90m140ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f190e748ace3f175407f7.json [32m200 [90m2ms - 1.98kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20Chronograph%20Cappuccino.jpg [32m200 [90m362ms - 136kb[0m
+[90mGET /watch-info/533f190e748ace3f175407f7.json [32m200 [90m64ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f190e748ace3f175407f7.json [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20Chronograph%20Cappuccino.jpg [36m304 [90m1ms[0m
+[90mGET /watch-info/531a27cc896ca543265e84f3.json [32m200 [90m72ms - 2.43kb[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/531a27cc896ca543265e84f3.json [32m200 [90m6ms - 1.53kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m121ms - 144.51kb[0m
+[90mGET /login [32m200 [90m64ms - 784b[0m
+[90mGET /watch-info/533c79e6748ace3f175407e9.json [32m200 [90m61ms - 2.43kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m3ms - 863b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m3ms - 1.76kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m236ms - 97.67kb[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m7ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m6ms - 602b[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m6ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /watches/533c79e6748ace3f175407e9.json [32m200 [90m3ms - 1.21kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m1ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Breguet%20Classique%20Retrograde%20Seconds.jpg [32m200 [90m363ms - 149.67kb[0m
+[90mGET /images/ [32m200 [90m4ms[0m
+[90mGET /watches/review/533dc7d8748ace3f175407f5.json [32m200 [90m189ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [32m200 [90m62ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watch-info/533f190e748ace3f175407f7.json [32m200 [90m109ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533f190e748ace3f175407f7.json [32m200 [90m6ms - 1.98kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m4ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20Chronograph%20Cappuccino.jpg [32m200 [90m151ms - 136kb[0m
+[90mGET /watch-info/533f16a1748ace3f175407f6.json [32m200 [90m68ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m0ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/533f16a1748ace3f175407f6.json [32m200 [90m7ms - 1.93kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Breitling%20Transocean%20Unitime.jpg [32m200 [90m113ms - 183.54kb[0m
+[90mGET /watch-info/533f1a1e748ace3f175407f8.json [32m200 [90m102ms - 2.43kb[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/533f1a1e748ace3f175407f8.json [32m200 [90m7ms - 1.62kb[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /watch-info/533f476cbd5af3734fd5cf7b.json [32m200 [90m71ms - 2.43kb[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m106ms - 97.67kb[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m5ms[0m
+[90mGET /watches/533f476cbd5af3734fd5cf7b.json [32m200 [90m6ms - 2.36kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches/new [36m304 [90m99ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mPOST /watches.json [32m200 [90m9ms - 335b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [36m304 [90m59ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m32ms - 117.84kb[0m
+[90mGET /watches/review/533f4a1abd5af3734fd5cf7c.json [32m200 [90m142ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m3ms - 335b[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/533f4a1abd5af3734fd5cf7c.json [32m200 [90m69ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [36m304 [90m6ms[0m
+[90mGET /images/ [33m404 [90m9ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m8ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m4ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [32m200 [90m76ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m41ms - 97.67kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2ms - 100.04kb[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m1ms - 677b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m6ms - 1.75kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m3ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [32m200 [90m47ms - 157.49kb[0m
+[90mGET /watch-info/533f1ad4748ace3f175407f9.json [32m200 [90m72ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m6ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m6ms[0m
+[90mGET /watches/533f1ad4748ace3f175407f9.json [32m200 [90m8ms - 1.85kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Zenith%20Pilot%20Big%20Date.jpg [32m200 [90m149ms - 182.02kb[0m
+[90mGET / [36m304 [90m89ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m1ms[0m
+[90mGET /watches [36m304 [90m44ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [36m304 [90m33ms[0m
+[90mGET /watches/review/531a0d06896ca543265e84ee.json [32m200 [90m140ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m1ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m1ms[0m
+[90mGET /watch-info/531a0d06896ca543265e84ee.json [36m304 [90m70ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /watches/531a0d06896ca543265e84ee.json [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/Arnold%20&%20Son%20True%20Beat%20Retrograde.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/5319f7e8896ca543265e84e7.json [32m200 [90m69ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m0ms[0m
+[90mGET /watches/5319f7e8896ca543265e84e7.json [32m200 [90m5ms - 1.35kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [32m200 [90m115ms - 127.79kb[0m
+[90mGET /watch-info/533c8908748ace3f175407ef.json [32m200 [90m103ms - 2.43kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m1ms - 602b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m2ms - 11.68kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m204ms - 97.67kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m1ms - 863b[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m366ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m4ms - 27.15kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m5ms - 27.05kb[0m
+[90mGET /watches/533c8908748ace3f175407ef.json [32m200 [90m6ms - 1.94kb[0m
+[90mGET /images/Jaeger-LeCoultre%20Deep%20Sea%20Chronograph.jpg [32m200 [90m96ms - 108.15kb[0m
+[90mGET /watch-info/5319f7e8896ca543265e84e7.json [36m304 [90m77ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/5319f7e8896ca543265e84e7.json [36m304 [90m6ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m0ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [36m304 [90m2ms[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [32m200 [90m71ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [32m200 [90m3ms - 2.7kb[0m
+[90mGET /watch-info/533c8174748ace3f175407ec.json [32m200 [90m92ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m315ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m3ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /watches/533c8174748ace3f175407ec.json [32m200 [90m7ms - 1.4kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m104ms - 27.15kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Hublot%20Classic%20Fusion%20Black%20Magic.jpg [32m200 [90m187ms - 124.84kb[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [36m304 [90m111ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m4ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [36m304 [90m5ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /watch-info/533c76d7748ace3f175407e8.json [32m200 [90m55ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m0ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m0ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m5ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m4ms[0m
+[90mGET /watches/533c76d7748ace3f175407e8.json [32m200 [90m5ms - 1.47kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Blancpain%20Fifty%20Fathoms%20.jpg [32m200 [90m196ms - 130.89kb[0m
+[90mGET /watch-info/533f1a1e748ace3f175407f8.json [32m200 [90m72ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/533f1a1e748ace3f175407f8.json [32m200 [90m5ms - 1.62kb[0m
+[90mGET /watch-info/5319f7e8896ca543265e84e7.json [32m200 [90m58ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m0ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /watches/5319f7e8896ca543265e84e7.json [32m200 [90m3ms - 1.35kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [32m200 [90m3ms - 127.79kb[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [32m200 [90m58ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m262ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2ms - 100.04kb[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m3ms - 11.68kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m3ms - 677b[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m3ms - 602b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [32m200 [90m3ms - 2.7kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m2ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m1ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [32m200 [90m58ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m3ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [32m200 [90m3ms - 2.7kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [32m200 [90m93ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [32m200 [90m6ms - 1.75kb[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20%27Pepsi%27.jpg [32m200 [90m302ms - 157.49kb[0m
+[90mGET /watch-info/533c8dae748ace3f175407f1.json [32m200 [90m76ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533c8dae748ace3f175407f1.json [32m200 [90m4ms - 1.95kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Rolex%20GMT%20Master%20II%20.jpg [32m200 [90m290ms - 145.27kb[0m
+[90mGET /watch-info/533c7f96748ace3f175407ea.json [32m200 [90m79ms - 2.43kb[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m4ms[0m
+[90mGET /watches/533c7f96748ace3f175407ea.json [32m200 [90m3ms - 1.58kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Lunar.jpg [32m200 [90m260ms - 140.53kb[0m
+[90mGET /watch-info/533c89a4748ace3f175407f0.json [32m200 [90m65ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /watches/533c89a4748ace3f175407f0.json [32m200 [90m5ms - 1.47kb[0m
+[90mGET /images/Rolex%20Datejust%20II%20.jpg [32m200 [90m252ms - 159.58kb[0m
+[90mGET /watch-info/533c79e6748ace3f175407e9.json [32m200 [90m104ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/533c79e6748ace3f175407e9.json [32m200 [90m3ms - 1.21kb[0m
+[90mGET /images/Breguet%20Classique%20Retrograde%20Seconds.jpg [32m200 [90m258ms - 149.67kb[0m
+[90mGET /watch-info/533c8f7d748ace3f175407f3.json [32m200 [90m54ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /watches/533c8f7d748ace3f175407f3.json [32m200 [90m4ms - 1.85kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Blue.jpg [32m200 [90m137ms - 178.82kb[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m58ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m4ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m4ms - 2.21kb[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m296ms - 158.21kb[0m
+[90mGET /watch-info/531a27cc896ca543265e84f3.json [32m200 [90m57ms - 2.43kb[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/531a27cc896ca543265e84f3.json [32m200 [90m3ms - 1.53kb[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m253ms - 144.51kb[0m
+[90mGET /watch-info/533f190e748ace3f175407f7.json [32m200 [90m72ms - 2.43kb[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m6ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533f190e748ace3f175407f7.json [32m200 [90m7ms - 1.98kb[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20Chronograph%20Cappuccino.jpg [32m200 [90m3ms - 136kb[0m
+[90mGET /watch-info/533c8f7d748ace3f175407f3.json [36m304 [90m75ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533c8f7d748ace3f175407f3.json [36m304 [90m6ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m5ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Zenith%20El%20Primero%20Blue.jpg [36m304 [90m0ms[0m
+[90mGET /watch-info/533c87df748ace3f175407ee.json [32m200 [90m70ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m46ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m3ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m3ms - 602b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 808b[0m
+[90mGET /watches/533c87df748ace3f175407ee.json [32m200 [90m5ms - 2.19kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Compressor%20Ceramic.jpg [32m200 [90m58ms - 143.33kb[0m
+[90mGET /watch-info/533c8dae748ace3f175407f1.json [32m200 [90m108ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m3ms - 1.22kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m3ms - 863b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m133ms - 97.67kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m4ms - 602b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m4ms - 11.68kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m3ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /watches/533c8dae748ace3f175407f1.json [32m200 [90m6ms - 1.95kb[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m2ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m3ms - 27.05kb[0m
+[90mGET /images/Rolex%20GMT%20Master%20II%20.jpg [32m200 [90m94ms - 145.27kb[0m
+[90mGET /watch-info/5319f7e8896ca543265e84e7.json [32m200 [90m118ms - 2.43kb[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m3ms - 11.68kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m5ms - 1.76kb[0m
+[90mGET /javascripts/app.js [32m200 [90m4ms - 808b[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m4ms - 1.22kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m1ms - 602b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m129ms - 97.67kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m1ms - 677b[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m176ms - 100.04kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m4ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m5ms - 27.15kb[0m
+[90mGET /watches/5319f7e8896ca543265e84e7.json [32m200 [90m5ms - 1.35kb[0m
+[90mGET /images/Jaeger-LeCoultre%20Master%20Grande%20Ultra%20Thin.jpg [32m200 [90m167ms - 127.79kb[0m
+[90mGET http://azenv.net/ [36m302 [90m3ms - 40b[0m
+[90mGET /watch-info/533f1a1e748ace3f175407f8.json [32m200 [90m109ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m24ms - 97.67kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m4ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m1ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m3ms - 677b[0m
+[90mGET /watches/533f1a1e748ace3f175407f8.json [32m200 [90m3ms - 1.62kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m11ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/53336318cc53e1ac41f7fc34.json [36m304 [90m68ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m0ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /watches/53336318cc53e1ac41f7fc34.json [36m304 [90m4ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m1ms[0m
+[90mGET /images/Rolex%20Vintage%20GMT%20Master%20'Pepsi'.jpg [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET /watch-info/533f1a1e748ace3f175407f8.json [32m200 [90m112ms - 2.43kb[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /user/soapCaller.bs [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m3ms[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m54ms - 2.43kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m147ms - 100.04kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m167ms - 97.67kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m4ms - 677b[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m1ms - 863b[0m
+[90mGET /fonts/292167_2_0.eot? [33m404 [90m1ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.eot? [33m404 [90m1ms[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m3ms - 2.21kb[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m109ms - 158.21kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m2ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m104ms - 2.43kb[0m
+[90mGET /fonts/292167_1_0.eot? [33m404 [90m1ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m78ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m77ms - 27.05kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /fonts/292167_2_0.eot? [33m404 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m161ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m2ms - 11.68kb[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m4ms - 2.21kb[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m1ms - 677b[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m3ms - 2.21kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m77ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m78ms - 27.15kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m1ms - 602b[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m54ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m156ms - 100.04kb[0m
+[90mGET /fonts/292167_2_0.eot? [33m404 [90m1ms[0m
+[90mGET /fonts/292167_1_0.eot? [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m3ms - 40b[0m
+[90mGET /watch-info/533c79e6748ace3f175407e9.json [32m200 [90m105ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m159ms - 97.67kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m1ms - 1.76kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m2ms - 863b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m2ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m159ms - 100.04kb[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /watches/533c79e6748ace3f175407e9.json [32m200 [90m5ms - 1.21kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m1ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /watch-info/533c8174748ace3f175407ec.json [36m304 [90m85ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m0ms[0m
+[90mGET /watches/533c8174748ace3f175407ec.json [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m1ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Hublot%20Classic%20Fusion%20Black%20Magic.jpg [36m304 [90m1ms[0m
+[90mGET http://ipv4scan.com/hello/check.txt [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 68b[0m
+[90mGET /login [32m200 [90m43ms - 784b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m1ms[0m
+[90mPOST /login [36m302 [90m113ms - 58b[0m
+[90mGET / [32m200 [90m40ms - 988b[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [32m200 [90m77ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m29ms - 117.84kb[0m
+[90mGET /watches/review/533f4a1abd5af3734fd5cf7c.json [32m200 [90m158ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m5ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m4ms - 335b[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m4ms[0m
+[90mGET /watches [32m200 [90m52ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /watches.json [32m200 [90m30ms - 117.84kb[0m
+[90mGET /watches/review/5319d792896ca543265e84dc.json [32m200 [90m148ms - 6.26kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /watches/5319d792896ca543265e84dc.json [32m200 [90m5ms - 1.52kb[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [32m200 [90m92ms - 149.29kb[0m
+[90mGET /watch-info/5319d792896ca543265e84dc.json [32m200 [90m77ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m2ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m3ms - 863b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m2ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /watches/5319d792896ca543265e84dc.json [32m200 [90m3ms - 1.52kb[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m7ms[0m
+[90mGET /images/Girard-Perregaux%20Sea%20Hawk%20.jpg [36m304 [90m2ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mPUT /watches/5319d792896ca543265e84dc.json [32m200 [90m7ms - 22b[0m
+[90mGET /watches [32m200 [90m60ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m6ms[0m
+[90mGET /watches.json [32m200 [90m30ms - 117.88kb[0m
+[90mGET / [32m200 [90m37ms - 988b[0m
+[90mGET / [32m200 [90m33ms - 988b[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m1ms[0m
+[90mGET /watches/new [32m200 [90m89ms - 3.58kb[0m
+[90mGET /watches/new [32m200 [90m96ms - 3.58kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff [36m304 [90m2ms[0m
+[90mGET /watches [32m200 [90m46ms - 1.28kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/controllers/WatchesController.js [36m304 [90m2ms[0m
+[90mGET /watches.json [32m200 [90m50ms - 117.88kb[0m
+[90mGET /watches/review/533f4a1abd5af3734fd5cf7c.json [32m200 [90m172ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m4ms - 335b[0m
+[90mGET /images/ [33m404 [90m3ms[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m6ms - 22b[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m7ms - 22b[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m6ms - 22b[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m6ms - 22b[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m3ms - 22b[0m
+[90mPOST /images/533f4a1abd5af3734fd5cf7c.json [36m302 [90m403ms - 146b[0m
+[90mGET /watches/review/533f4a1abd5af3734fd5cf7c.json [32m200 [90m163ms - 6.26kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchUpdateController.js [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m4ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m3ms - 923b[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Cartier%20Santos%20EDITME.jpg [32m200 [90m51ms - 77.96kb[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m6ms - 22b[0m
+[90mPUT /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m5ms - 22b[0m
+[90mGET /watch-info/533f4a1abd5af3734fd5cf7c.json [32m200 [90m71ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m5ms - 952b[0m
+[90mGET /images/ [33m404 [90m6ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m5ms[0m
+[90mGET /images/Cartier%20Santos%20EDITME.jpg [36m304 [90m3ms[0m
+[90mGET /watch-info/531a27cc896ca543265e84f3.json [32m200 [90m116ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m7ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m3ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m2ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /watches/531a27cc896ca543265e84f3.json [32m200 [90m6ms - 1.53kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m2ms[0m
+[90mGET /images/IWC%20Big%20Pilot%20.jpg [32m200 [90m53ms - 144.51kb[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /watch-info/533c8dae748ace3f175407f1.json [32m200 [90m58ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /javascripts/app.js [36m304 [90m7ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m9ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m4ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m11ms[0m
+[90mGET /images/ [33m404 [90m11ms[0m
+[90mGET /watches/533c8dae748ace3f175407f1.json [32m200 [90m11ms - 1.95kb[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m8ms[0m
+[90mGET /images/Rolex%20GMT%20Master%20II%20.jpg [32m200 [90m102ms - 145.27kb[0m
+[90mGET /watch-info/533c7f96748ace3f175407ea.json [32m200 [90m67ms - 2.43kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m1ms - 863b[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m159ms - 97.67kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m2ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /watches/533c7f96748ace3f175407ea.json [32m200 [90m6ms - 1.58kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m2ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m76ms - 27.15kb[0m
+[90mGET /images/ [33m404 [90m2ms[0m
+[90mGET /images/Glash%C3%BCtte%20Original%20PanoMatic%20Lunar.jpg [32m200 [90m306ms - 140.53kb[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /watch-info/533f4a1abd5af3734fd5cf7c.json [32m200 [90m70ms - 2.43kb[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m3ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m4ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m8ms - 27.05kb[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m6ms[0m
+[90mGET /watches/533f4a1abd5af3734fd5cf7c.json [32m200 [90m6ms - 952b[0m
+[90mGET /images/Cartier%20Santos%20EDITME.jpg [32m200 [90m84ms - 77.96kb[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m8028ms - 7.3mb[0m
+[90mGET /watch-info/533c8174748ace3f175407ec.json [36m304 [90m111ms[0m
+[90mGET /watch-info/533c8174748ace3f175407ec.json [36m304 [90m57ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m1ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m4069ms - 7.3mb[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m200 [90m138ms - 568.19kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m79ms - 90.56kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m3ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 32kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 64kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 93.63kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 1kb[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m1ms - 578b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 829b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m2ms - 446b[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m2ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [36m304 [90m3ms[0m
+[90mGET /assets/11J_Brochure_v5singlePages.pdf [32m206 [90m9ms - 195b[0m
+[90mGET http://www.google.com/intl/zh-CN/ [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m0ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+{ scope: 'crmapi',
+  wfTrigger: 'true',
+  authtoken: 'd11a44a5746e17b1c3fcfadf816e619f',
+  xmlData: '<?xml version=\'1.0\' encoding=\'UTF-8\' ?><Leads><row no="1"><FL val="Lead Source">Web</FL><FL val="First Name">Ramona</FL><FL val="Last Name">Dessouki</FL><FL val="Zip Code"></FL><FL val="Email">rhdessouki@gmail.com</FL><FL val="Phone">703-593-5465</FL></row></Leads>' }
+[90mPOST /webhooks/zoho.json [32m200 [90m59ms - 18b[0m
+{ socket: 
+   { pair: 
+      { _secureEstablished: true,
+        _isServer: false,
+        _encWriteState: true,
+        _clearWriteState: true,
+        _doneFlag: false,
+        credentials: [Object],
+        _rejectUnauthorized: false,
+        _requestCert: true,
+        ssl: {},
+        servername: false,
+        cleartext: [Circular],
+        encrypted: [Object],
+        fd: undefined,
+        _events: [Object],
+        _writeCalled: false,
+        cycleEncryptedPullLock: false,
+        cycleCleartextPullLock: false,
+        cycleCleartextPushLock: true,
+        cycleEncryptedPushLock: false,
+        npnProtocol: false },
+     writable: true,
+     readable: true,
+     _paused: false,
+     _needDrain: false,
+     _pending: [],
+     _pendingCallbacks: [],
+     _pendingBytes: 0,
+     socket: 
+      { _handle: [Object],
+        _pendingWriteReqs: 0,
+        _flags: 0,
+        _connectQueueSize: 0,
+        destroyed: false,
+        errorEmitted: false,
+        bytesRead: 3921,
+        _bytesDispatched: 1057,
+        allowHalfOpen: undefined,
+        _events: [Object],
+        _connecting: false,
+        writable: true,
+        _connectQueue: null,
+        readable: true },
+     encrypted: 
+      { pair: [Object],
+        writable: true,
+        readable: true,
+        _paused: false,
+        _needDrain: false,
+        _pending: [],
+        _pendingCallbacks: [],
+        _pendingBytes: 0,
+        _events: [Object],
+        _pool: <Buffer 16 03 01 00 d2 01 00 00 ce 03 01 53 41 6b b5 94 d2 07 d2 b6 7e 4f 52 1d 56 16 38 25 7b 54 50 7e a2 67 d5 cf bb ad 87 d8 dd e6 ee 00 00 48 c0 14 c0 0a 00 ...>,
+        _poolStart: 1057,
+        _poolEnd: 65536 },
+     authorized: false,
+     _controlReleased: true,
+     _events: 
+      { free: [Function],
+        close: [Object],
+        agentRemove: [Function],
+        drain: [Function: ondrain],
+        error: [Object] },
+     _pool: <Buffer 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 53 65 72 76 65 72 3a 20 5a 47 53 0d 0a 44 61 74 65 3a 20 53 75 6e 2c 20 30 36 20 41 70 72 20 32 30 31 ...>,
+     _poolStart: 925,
+     _poolEnd: 65536,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncomingClient] },
+     _httpMessage: 
+      { output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        agent: [Object],
+        socketPath: undefined,
+        method: 'POST',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        _events: [Object],
+        _headers: [Object],
+        _headerNames: [Object],
+        _header: 'POST /crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E HTTP/1.1\r\nhost: crm.zoho.com\r\ncontent-length: 0\r\nConnection: keep-alive\r\n\r\n',
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        parser: [Object],
+        res: [Circular] },
+     ondata: [Function: socketOnData],
+     onend: [Function: socketOnEnd],
+     npnProtocol: false,
+     authorizationError: 'Hostname/IP doesn\'t match certificate\'s altnames' },
+  connection: 
+   { pair: 
+      { _secureEstablished: true,
+        _isServer: false,
+        _encWriteState: true,
+        _clearWriteState: true,
+        _doneFlag: false,
+        credentials: [Object],
+        _rejectUnauthorized: false,
+        _requestCert: true,
+        ssl: {},
+        servername: false,
+        cleartext: [Circular],
+        encrypted: [Object],
+        fd: undefined,
+        _events: [Object],
+        _writeCalled: false,
+        cycleEncryptedPullLock: false,
+        cycleCleartextPullLock: false,
+        cycleCleartextPushLock: true,
+        cycleEncryptedPushLock: false,
+        npnProtocol: false },
+     writable: true,
+     readable: true,
+     _paused: false,
+     _needDrain: false,
+     _pending: [],
+     _pendingCallbacks: [],
+     _pendingBytes: 0,
+     socket: 
+      { _handle: [Object],
+        _pendingWriteReqs: 0,
+        _flags: 0,
+        _connectQueueSize: 0,
+        destroyed: false,
+        errorEmitted: false,
+        bytesRead: 3921,
+        _bytesDispatched: 1057,
+        allowHalfOpen: undefined,
+        _events: [Object],
+        _connecting: false,
+        writable: true,
+        _connectQueue: null,
+        readable: true },
+     encrypted: 
+      { pair: [Object],
+        writable: true,
+        readable: true,
+        _paused: false,
+        _needDrain: false,
+        _pending: [],
+        _pendingCallbacks: [],
+        _pendingBytes: 0,
+        _events: [Object],
+        _pool: <Buffer 16 03 01 00 d2 01 00 00 ce 03 01 53 41 6b b5 94 d2 07 d2 b6 7e 4f 52 1d 56 16 38 25 7b 54 50 7e a2 67 d5 cf bb ad 87 d8 dd e6 ee 00 00 48 c0 14 c0 0a 00 ...>,
+        _poolStart: 1057,
+        _poolEnd: 65536 },
+     authorized: false,
+     _controlReleased: true,
+     _events: 
+      { free: [Function],
+        close: [Object],
+        agentRemove: [Function],
+        drain: [Function: ondrain],
+        error: [Object] },
+     _pool: <Buffer 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 53 65 72 76 65 72 3a 20 5a 47 53 0d 0a 44 61 74 65 3a 20 53 75 6e 2c 20 30 36 20 41 70 72 20 32 30 31 ...>,
+     _poolStart: 925,
+     _poolEnd: 65536,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncomingClient] },
+     _httpMessage: 
+      { output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        agent: [Object],
+        socketPath: undefined,
+        method: 'POST',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        _events: [Object],
+        _headers: [Object],
+        _headerNames: [Object],
+        _header: 'POST /crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E HTTP/1.1\r\nhost: crm.zoho.com\r\ncontent-length: 0\r\nConnection: keep-alive\r\n\r\n',
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        parser: [Object],
+        res: [Circular] },
+     ondata: [Function: socketOnData],
+     onend: [Function: socketOnEnd],
+     npnProtocol: false,
+     authorizationError: 'Hostname/IP doesn\'t match certificate\'s altnames' },
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { server: 'ZGS',
+     date: 'Sun, 06 Apr 2014 14:59:02 GMT',
+     'content-type': 'text/xml;charset=utf-8',
+     'content-length': '439',
+     connection: 'keep-alive',
+     'set-cookie': 
+      [ 'bba2ee81f8=79497f43a3cf3a065c722cd54d06c255; Path=/',
+        'JSESSIONID=04E287F861264D143033D211CBD4BCF2; Path=/crm',
+        'crmcsr=b704fb2e-9884-46ad-a4aa-c349aea5fd68; Path=/; Secure' ],
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     expires: 'Thu, 01 Jan 1970 00:00:00 GMT',
+     'strict-transport-security': 'max-age=15768000' },
+  trailers: {},
+  readable: false,
+  _paused: false,
+  _pendings: [],
+  _endEmitted: false,
+  url: '',
+  method: null,
+  statusCode: 200,
+  client: 
+   { pair: 
+      { _secureEstablished: true,
+        _isServer: false,
+        _encWriteState: true,
+        _clearWriteState: true,
+        _doneFlag: false,
+        credentials: [Object],
+        _rejectUnauthorized: false,
+        _requestCert: true,
+        ssl: {},
+        servername: false,
+        cleartext: [Circular],
+        encrypted: [Object],
+        fd: undefined,
+        _events: [Object],
+        _writeCalled: false,
+        cycleEncryptedPullLock: false,
+        cycleCleartextPullLock: false,
+        cycleCleartextPushLock: true,
+        cycleEncryptedPushLock: false,
+        npnProtocol: false },
+     writable: true,
+     readable: true,
+     _paused: false,
+     _needDrain: false,
+     _pending: [],
+     _pendingCallbacks: [],
+     _pendingBytes: 0,
+     socket: 
+      { _handle: [Object],
+        _pendingWriteReqs: 0,
+        _flags: 0,
+        _connectQueueSize: 0,
+        destroyed: false,
+        errorEmitted: false,
+        bytesRead: 3921,
+        _bytesDispatched: 1057,
+        allowHalfOpen: undefined,
+        _events: [Object],
+        _connecting: false,
+        writable: true,
+        _connectQueue: null,
+        readable: true },
+     encrypted: 
+      { pair: [Object],
+        writable: true,
+        readable: true,
+        _paused: false,
+        _needDrain: false,
+        _pending: [],
+        _pendingCallbacks: [],
+        _pendingBytes: 0,
+        _events: [Object],
+        _pool: <Buffer 16 03 01 00 d2 01 00 00 ce 03 01 53 41 6b b5 94 d2 07 d2 b6 7e 4f 52 1d 56 16 38 25 7b 54 50 7e a2 67 d5 cf bb ad 87 d8 dd e6 ee 00 00 48 c0 14 c0 0a 00 ...>,
+        _poolStart: 1057,
+        _poolEnd: 65536 },
+     authorized: false,
+     _controlReleased: true,
+     _events: 
+      { free: [Function],
+        close: [Object],
+        agentRemove: [Function],
+        drain: [Function: ondrain],
+        error: [Object] },
+     _pool: <Buffer 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 53 65 72 76 65 72 3a 20 5a 47 53 0d 0a 44 61 74 65 3a 20 53 75 6e 2c 20 30 36 20 41 70 72 20 32 30 31 ...>,
+     _poolStart: 925,
+     _poolEnd: 65536,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncomingClient] },
+     _httpMessage: 
+      { output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        agent: [Object],
+        socketPath: undefined,
+        method: 'POST',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        _events: [Object],
+        _headers: [Object],
+        _headerNames: [Object],
+        _header: 'POST /crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E HTTP/1.1\r\nhost: crm.zoho.com\r\ncontent-length: 0\r\nConnection: keep-alive\r\n\r\n',
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        parser: [Object],
+        res: [Circular] },
+     ondata: [Function: socketOnData],
+     onend: [Function: socketOnEnd],
+     npnProtocol: false,
+     authorizationError: 'Hostname/IP doesn\'t match certificate\'s altnames' },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  upgrade: false,
+  _events: 
+   { end: [ [Function], [Function], [Function: responseOnEnd] ],
+     close: [ [Function], [Function] ],
+     data: [Function] },
+  request: 
+   { readable: true,
+     writable: true,
+     method: 'POST',
+     uri: 
+      { protocol: 'https:',
+        slashes: true,
+        host: 'crm.zoho.com',
+        hostname: 'crm.zoho.com',
+        href: 'https://crm.zoho.com/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        search: '?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        query: 'scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        pathname: '/crm/private/xml/Leads/insertRecords',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E' },
+     callback: [Function],
+     explicitMethod: true,
+     canTunnel: 
+      { httpOverHttp: [Function: httpOverHttp],
+        httpsOverHttp: [Function: httpsOverHttp],
+        httpOverHttps: [Function: httpOverHttps],
+        httpsOverHttps: [Function: httpsOverHttps],
+        debug: [Function] },
+     localAddress: undefined,
+     pool: {},
+     dests: [],
+     __isRequestRequest: true,
+     _callback: [Function],
+     _events: 
+      { error: [Function],
+        complete: [Function],
+        pipe: [Function],
+        end: [Object],
+        data: [Function] },
+     _redirectsFollowed: 0,
+     maxRedirects: 10,
+     followRedirect: true,
+     followAllRedirects: false,
+     redirects: [],
+     headers: { 'content-length': 0 },
+     setHost: true,
+     originalCookieHeader: undefined,
+     _disableCookies: true,
+     _jar: undefined,
+     port: 443,
+     host: 'crm.zoho.com',
+     clientErrorHandler: [Function],
+     _parserErrorHandler: [Function],
+     _buildRequest: [Function],
+     _handleUnixSocketURI: [Function],
+     url: 
+      { protocol: 'https:',
+        slashes: true,
+        host: 'crm.zoho.com',
+        hostname: 'crm.zoho.com',
+        href: 'https://crm.zoho.com/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        search: '?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        query: 'scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        pathname: '/crm/private/xml/Leads/insertRecords',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E' },
+     path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+     httpModule: 
+      { Server: [Object],
+        createServer: [Function],
+        globalAgent: [Object],
+        Agent: [Object],
+        request: [Function],
+        get: [Function] },
+     agentClass: { [Function: Agent] super_: [Object] },
+     agent: 
+      { options: {},
+        requests: {},
+        sockets: [Object],
+        maxSockets: 5,
+        _events: [Object],
+        createConnection: [Function: createConnection] },
+     _started: true,
+     href: 'https://crm.zoho.com/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+     req: 
+      { output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        agent: [Object],
+        socketPath: undefined,
+        method: 'POST',
+        path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+        _events: [Object],
+        _headers: [Object],
+        _headerNames: [Object],
+        _header: 'POST /crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E HTTP/1.1\r\nhost: crm.zoho.com\r\ncontent-length: 0\r\nConnection: keep-alive\r\n\r\n',
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        parser: [Object],
+        res: [Circular] },
+     ntick: true,
+     response: [Circular],
+     _destdata: true,
+     _ended: true,
+     _callbackCalled: true },
+  toJSON: [Function: toJSON],
+  req: 
+   { output: [],
+     outputEncodings: [],
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: false,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     agent: 
+      { options: {},
+        requests: {},
+        sockets: [Object],
+        maxSockets: 5,
+        _events: [Object],
+        createConnection: [Function: createConnection] },
+     socketPath: undefined,
+     method: 'POST',
+     path: '/crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E',
+     _events: { error: [Function], drain: [Function] },
+     _headers: { host: 'crm.zoho.com', 'content-length': 0 },
+     _headerNames: { host: 'host', 'content-length': 'content-length' },
+     _header: 'POST /crm/private/xml/Leads/insertRecords?scope=crmapi&wfTrigger=true&authtoken=d11a44a5746e17b1c3fcfadf816e619f&xmlData=%3C%3Fxml%20version%3D%271.0%27%20encoding%3D%27UTF-8%27%20%3F%3E%3CLeads%3E%3Crow%20no%3D%221%22%3E%3CFL%20val%3D%22Lead%20Source%22%3EWeb%3C%2FFL%3E%3CFL%20val%3D%22First%20Name%22%3ERamona%3C%2FFL%3E%3CFL%20val%3D%22Last%20Name%22%3EDessouki%3C%2FFL%3E%3CFL%20val%3D%22Zip%20Code%22%3E%3C%2FFL%3E%3CFL%20val%3D%22Email%22%3Erhdessouki%40gmail.com%3C%2FFL%3E%3CFL%20val%3D%22Phone%22%3E703-593-5465%3C%2FFL%3E%3C%2Frow%3E%3C%2FLeads%3E HTTP/1.1\r\nhost: crm.zoho.com\r\ncontent-length: 0\r\nConnection: keep-alive\r\n\r\n',
+     _headerSent: true,
+     socket: 
+      { pair: [Object],
+        writable: true,
+        readable: true,
+        _paused: false,
+        _needDrain: false,
+        _pending: [],
+        _pendingCallbacks: [],
+        _pendingBytes: 0,
+        socket: [Object],
+        encrypted: [Object],
+        authorized: false,
+        _controlReleased: true,
+        _events: [Object],
+        _pool: <Buffer 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 53 65 72 76 65 72 3a 20 5a 47 53 0d 0a 44 61 74 65 3a 20 53 75 6e 2c 20 30 36 20 41 70 72 20 32 30 31 ...>,
+        _poolStart: 925,
+        _poolEnd: 65536,
+        parser: [Object],
+        _httpMessage: [Circular],
+        ondata: [Function: socketOnData],
+        onend: [Function: socketOnEnd],
+        npnProtocol: false,
+        authorizationError: 'Hostname/IP doesn\'t match certificate\'s altnames' },
+     connection: 
+      { pair: [Object],
+        writable: true,
+        readable: true,
+        _paused: false,
+        _needDrain: false,
+        _pending: [],
+        _pendingCallbacks: [],
+        _pendingBytes: 0,
+        socket: [Object],
+        encrypted: [Object],
+        authorized: false,
+        _controlReleased: true,
+        _events: [Object],
+        _pool: <Buffer 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 53 65 72 76 65 72 3a 20 5a 47 53 0d 0a 44 61 74 65 3a 20 53 75 6e 2c 20 30 36 20 41 70 72 20 32 30 31 ...>,
+        _poolStart: 925,
+        _poolEnd: 65536,
+        parser: [Object],
+        _httpMessage: [Circular],
+        ondata: [Function: socketOnData],
+        onend: [Function: socketOnEnd],
+        npnProtocol: false,
+        authorizationError: 'Hostname/IP doesn\'t match certificate\'s altnames' },
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Object],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncomingClient] },
+     res: [Circular] },
+  body: '<?xml version="1.0" encoding="UTF-8" ?>\r\n<response uri="/crm/private/xml/Leads/insertRecords"><result><message>Record(s) added successfully</message><recorddetail><FL val="Id">1117586000000096005</FL><FL val="Created Time">2014-04-06 10:59:02</FL><FL val="Modified Time">2014-04-06 10:59:02</FL><FL val="Created By"><![CDATA[Amanda Lightman]]></FL><FL val="Modified By"><![CDATA[Amanda Lightman]]></FL></recorddetail></result></response>\r\n' }
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.google.com/intl/zh-CN/ [33m404 [90m1ms[0m
+[90mGET http://www.google.com/intl/zh-CN/ [33m404 [90m2ms[0m
+[90mGET /assets/lookbook.pdf [32m200 [90m5094ms - 7.3mb[0m
+[90mGET http://37.28.156.211/sprawdza.php [33m404 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
+[90mGET / [36m302 [90m2ms - 40b[0m
+[90mGET http://37.28.156.211/sprawdza.php [33m404 [90m1ms[0m
+[90mGET http://www.baidu.com/ [36m302 [90m1ms - 40b[0m
+[90mGET http://www.baidu.com/login [32m200 [90m33ms - 784b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m25ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET / [36m302 [90m1ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /watch-info/5333605acc53e1ac41f7fc33.json [32m200 [90m96ms - 2.43kb[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [32m200 [90m23ms - 97.67kb[0m
+[90mGET /stylesheets/watch-detail.css [32m200 [90m1ms - 863b[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [32m200 [90m2ms - 1.76kb[0m
+[90mGET /stylesheets/anythingzoomer.css [32m200 [90m1ms - 1.22kb[0m
+[90mGET /vendor/angular/angular.min.js [32m200 [90m2ms - 100.04kb[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 808b[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [32m200 [90m1ms - 11.68kb[0m
+[90mGET /javascripts/watch-zoom.js [32m200 [90m5ms - 602b[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [32m200 [90m2ms - 677b[0m
+[90mGET /watches/5333605acc53e1ac41f7fc33.json [32m200 [90m4ms - 2.21kb[0m
+[90mGET /fonts/292167_2_0.woff [32m200 [90m1ms - 27.15kb[0m
+[90mGET /fonts/292167_1_0.woff [32m200 [90m11ms - 27.05kb[0m
+[90mGET /images/ [33m404 [90m1ms[0m
+[90mGET /images/Girard-Perregaux%20WW.TC%20Traveller.jpg [32m200 [90m61ms - 158.21kb[0m
+[90mGET http://azenv.net/ [36m302 [90m2ms - 40b[0m
+[90mGET http://azenv.net/ [36m302 [90m37ms - 40b[0m
+[90mGET /manager/html [33m404 [90m2ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET /CFIDE/administrator/enter.cfm [33m404 [90m1ms[0m
+[90mGET /watch-info/533dc7d8748ace3f175407f5.json [36m304 [90m111ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m6ms[0m
+[90mGET /javascripts/app.js [36m304 [90m6ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m4ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m5ms[0m
+[90mGET /images/ [33m404 [90m5ms[0m
+[90mGET /watches/533dc7d8748ace3f175407f5.json [36m304 [90m6ms[0m
+[90mGET /watch-info/533f190e748ace3f175407f7.json [36m304 [90m71ms[0m
+[90mGET /javascripts/jquery.anythingzoomer.js [36m304 [90m5ms[0m
+[90mGET /vendor/angular/angular.min.js [36m304 [90m5ms[0m
+[90mGET /fonts/MyFontsWebFontsKit.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /vendor/bootstrap-3.1.1/dist/css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/anythingzoomer.css [36m304 [90m5ms[0m
+[90mGET /javascripts/watch-zoom.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/watch-detail.css [36m304 [90m1ms[0m
+[90mGET /javascripts/controllers/WatchDetailController.js [36m304 [90m1ms[0m
+[90mGET /watches/533f190e748ace3f175407f7.json [36m304 [90m3ms[0m
+[90mGET /images/ [33m404 [90m4ms[0m
+[90mGET /fonts/292167_1_0.woff [36m304 [90m3ms[0m
+[90mGET /fonts/292167_2_0.woff [36m304 [90m2ms[0m
+[90mGET /images/Hublot%20Big%20Bang%20Chronograph%20Cappuccino.jpg [36m304 [90m1ms[0m
+[90mGET /assets/11J_Brochure.pdf [32m200 [90m286ms - 539.32kb[0m
+[90mGET /webdav/ [33m404 [90m38ms[0m
+[90mGET /images/IWC%20Pilot%20Top%20Gun%20Miramar.jpg [32m200 [90m64ms - 153.86kb[0m
+[90mGET /manager/html [33m404 [90m1ms[0m
+[90mGET http://azenv.net/ [36m302 [90m1ms - 40b[0m
+[90mGET /assets/lookbook.pdf [36m304 [90m2ms[0m
+[90mHEAD / [36m302 [90m1ms - 40b[0m
