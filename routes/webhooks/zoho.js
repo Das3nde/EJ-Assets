@@ -24,7 +24,7 @@ module.exports = function(zoho) {
           {_attr : {no : '1'}},
           {FL : [
             {_attr : {val : "Lead Source"}},
-            'Web']},
+            'Inquiries']},
           {FL : [
             {_attr : {val : "First Name"}},
             fname]},
