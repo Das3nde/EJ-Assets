@@ -1009,3 +1009,11 @@ Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
