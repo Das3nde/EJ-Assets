@@ -1017,3 +1017,8 @@ Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
 Error: ENOENT, open '/home/ec2-user/EJ-Assets/public/images/favicon.ico'
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+Warning: missing space before text for line 84 of jade file "/home/ec2-user/EJ-Assets/views/template.jade"
+Warning: missing space before text for line 89 of jade file "/home/ec2-user/EJ-Assets/views/template.jade"
