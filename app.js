@@ -27,11 +27,6 @@ var passport = require('passport');
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 
-/**********************************************
- * Shipping NPM Module
- **********************************************/
-
-// var FedexClient = require('shipit').FedexClient;
 
 /**********************************************
  * GraphicsMagick
@@ -111,12 +106,6 @@ if ('development' == app.get('env')) {
 /**********************************************
  * Start Server
  **********************************************/
-
-/*
-http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
-});
-*/
 
 var ports = [8080];
 
