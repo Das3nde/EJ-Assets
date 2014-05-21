@@ -67,14 +67,6 @@ try {
 }
 
 /**********************************************
- * Instantiate Fedex object
- **********************************************/
-
-// var fedex = new FedexClient({key : 'emJ3rD22fhw57TQO', password : 'dgMqbJY6GbLXgVqyuxHfCdUID', account : '510087488', meter : '118628117'});
-
-
-
-/**********************************************
  * Initiialize our environments
  **********************************************/
 
