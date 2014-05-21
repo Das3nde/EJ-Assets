@@ -120,6 +120,15 @@ if ('development' == app.get('env')) {
  * Start Server
  **********************************************/
 
+/*
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+*/
+
+var ports = [8080];
+
+for(var i = 0; i < ports.length; i++) {
+  http.createServer(app).listen(ports[i]);
+  console.log("Express now listening on port " + ports[i]);
+}
