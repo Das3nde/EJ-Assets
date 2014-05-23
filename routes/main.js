@@ -47,4 +47,14 @@ module.exports = function(passport) {
   app.get('/zoom-test', function(req, res) {
     res.render('zoom-test', {title: 'Test'});
   });
+
+
+
+
+// NEW PAGES AS OF 5/23/2014
+//
+
+  app.get('/lookbook', function(req, res) {
+    res.render('lookbook/page', {title: 'EJ Lookbook'});
+  });
 };
