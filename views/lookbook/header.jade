@@ -1,5 +1,4 @@
-header(style="width: 100%; height: 145px; background: red; display: block; position: absolute; top: 0; left: 0; right: 0; margin: auto; min-width: 1024px; border-top: 5px solid #c42026;")
+header(style="width: 100%; height: 95px; background: red; display: block; position: absolute; top: 0; left: 0; right: 0; margin: auto; min-width: 1024px; border-top: 5px solid #c42026;")
   div.logo(style="width: 25%; height: 100%; background: blue; float: left;")
-  div.collection(style="width: 25%; height: 100%; background: green; float: left;")
-  div.collection(style="width: 25%; height: 100%; background: red; float: left;")
-  div.collection(style="width: 25%; height: 100%; background: purple; float: left;")
+  div.collection(style="width: 25%; height: 100%; background: green; float: left; text-align: center;" ng-repeat="ej_collection in ej_collections")
+    h3 {{ej_collection.name}}
