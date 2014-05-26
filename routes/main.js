@@ -36,12 +36,6 @@ module.exports = function(passport) {
     res.render('watch-info', {title: 'Watch Info'});
   });
 
-// GENERATE A WATCH EMAIL TEMPLATE
-
-  app.get('/watches/templates/:id.json', passport.isLoggedIn, function(req, res) {
-    res.render('template', {title: 'Template', id : req.params.id});
-  });
-
 // TEST AJAX ZOOM
 
   app.get('/zoom-test', function(req, res) {
