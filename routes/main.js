@@ -24,7 +24,7 @@ module.exports = function(passport) {
     res.render('watch', {title : 'View Watch', id : req.params.id});
   });
 
-// VIEW WATCH
+// VIEW WATCH (Public)
 
   app.get('/watch-info/:id.json', function(req, res) {
     res.render('watch-frame', {id : req.params.id});
@@ -35,14 +35,6 @@ module.exports = function(passport) {
   app.get('/watch-info.json', function(req, res) {
     res.render('watch-info', {title: 'Watch Info'});
   });
-
-// TEST AJAX ZOOM
-
-  app.get('/zoom-test', function(req, res) {
-    res.render('zoom-test', {title: 'Test'});
-  });
-
-
 
 
 // NEW PAGES AS OF 5/23/2014
