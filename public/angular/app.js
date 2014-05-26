@@ -3,7 +3,8 @@
 var app = angular.module('lookbook', [
     'ngRoute',
     'ngResource',
-    'controllers'
+    'controllers',
+    'services'
     ]);
 
 app.config(['$logProvider', function($logProvider) {
