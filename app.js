@@ -46,7 +46,7 @@ var ben_id = '529e29eaeb89975e52000007';
 /**********************************************
  * Instantiate Mailchimp API Objects
  **********************************************/
-
+/*
 try {
   var mcApi = new MailChimpAPI(mc_key, { version : '2.0' });
   console.log('Mailchimp API Successfully instantiated');
@@ -60,12 +60,13 @@ try {
 } catch (error) {
   console.log(error.message);
 }
+*/
 
 /**********************************************
  * Initiialize our environments
  **********************************************/
 
-app.set('port', process.env.PORT || 8080);
+//app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('config', path.join(__dirname, 'config'));
 app.set('view engine', 'jade');
