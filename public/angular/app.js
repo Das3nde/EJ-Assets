@@ -2,6 +2,7 @@
 
 var app = angular.module('lookbook', [
     'ngRoute',
+    'ngResource',
     'controllers'
     ]);
 
