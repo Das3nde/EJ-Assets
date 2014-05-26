@@ -1,5 +1,5 @@
-header(style="width: 100%; height: 95px; display: block; position: absolute; top: 0; left: 0; right: 0; margin: auto; min-width: 1200px; border-top: 5px solid #c42026;")
-  //div.logo(style="width: 320px; height: 100%; background: url('/images/ej_logo.png') no-repeat center; float: left;")
-  div.container(style="width: 1024px; height: 100%; position: absolute; left: 0; right: 0; top: 0; margin: auto")
-    div.collection(style="width: 33.3333%; height: 100%; float: left; text-align: center;" ng-repeat="ej_collection in ej_collections")
-      h3.collection(style="line-height; 20px; margin: 40px 0;") {{ej_collection.name}}
+header
+  div.header-container
+    div.logo
+    div.collection(ng-repeat="ej_collection in ej_collections")
+      h3.collection-font {{ej_collection.name}}
