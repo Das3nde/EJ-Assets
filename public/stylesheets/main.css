@@ -16,6 +16,13 @@ body {
   background: black;
   color: white;
 }
+h1,
+h2,
+h3 {
+  font-family: "TwCenMTStd-Bold";
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   font-size: 36px;
 }
@@ -61,6 +68,7 @@ p {
   .header-container .collection .collection-font {
     line-height: 20px;
     margin: 40px 0;
+    text-transform: uppercase;
   }
   .body-container {
     height: 600px;

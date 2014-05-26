@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet' href='/stylesheets/main.css' media="all" type="text/css")
+  body#ng-app(ng-app="lookbook")
+    ng-view
+  script(src="/vendor/angular/angular.min.js")
+  script(src="/vendor/angular-route/angular-route.min.js")
+  script(src="/angular/app.js")
+  script(src="/angular/controllers.js")

@@ -55,6 +55,10 @@ module.exports = function(passport) {
 //
 
   app.get('/lookbook', function(req, res) {
-    res.render('lookbook/page', {title: 'EJ Lookbook'});
+    res.render('lookbook/layout', {title: 'EJ Lookbook'});
+  });
+
+  app.get('/lookbook/:page', function(req, res) {
+    res.render('lookbook/' + req.params.page);
   });
 };
