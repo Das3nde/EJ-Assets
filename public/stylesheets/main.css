@@ -1,0 +1,128 @@
+header {
+  width: 100%;
+  height: 95px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top: 5px solid #c42026;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 12px;
+}
+p {
+  font-size: 6px;
+}
+#left {
+  float: left;
+  clear: left;
+}
+#right {
+  float: right;
+  clear: right;
+}
+@media only screen and (min-width: 980px) {
+  .header-container {
+    width: 980px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+  .header-container .logo {
+    width: 31%;
+    height: 100%;
+    background: url('/images/ej_logo.png') no-repeat center;
+    float: left;
+  }
+  .header-container .collection {
+    width: 23%;
+    height: 100%;
+    float: left;
+    text-align: center;
+  }
+  .header-container .collection .collection-font {
+    line-height: 20px;
+    margin: 40px 0;
+  }
+  .body-container {
+    height: 600px;
+    width: 980px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 100px auto 0;
+  }
+  .body-container .nav {
+    height: 100%;
+    width: 10%;
+    position: relative;
+  }
+  .body-container .nav .left-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .left-nav:hover {
+    background-position: left bottom;
+  }
+  .body-container .nav .right-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat right top;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .right-nav:hover {
+    background-position: right bottom;
+  }
+  .body-container .inner {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    float: left;
+  }
+  .body-container .inner .watch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 411px;
+    height: 100%;
+    background: url(/images/Cartier%20Ballon%20Bleu%20Chronograph_large.jpg) no-repeat;
+  }
+  .body-container .copy-block {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    text-align: center;
+  }
+}

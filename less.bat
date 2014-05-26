@@ -1,1 +1,1 @@
-lessc public\stylesheets\lookbook.less > public\stylesheets\lookbook.css
+lessc public\stylesheets\main.less > public\stylesheets\main.css

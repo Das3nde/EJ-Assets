@@ -3,15 +3,18 @@ html
   head
     title #{title}
 
-    link(rel='stylesheet' href='/stylesheets/lookbook.css' media="all" type="text/css")
+    link(rel='stylesheet' href='/stylesheets/main.css' media="all" type="text/css")
   body#ng-app(ng-app="lookbook" ng-controller="LookbookController")
     include header
-    div.body-container(style="background: black; height: 600px; width: 980px; position: absolute; top: 0; left: 0; right: 0; margin: 125px auto 0;")
-      div.nav#left(style="background: yellow; height: 100%; width: 10%; float: left; clear: left;")
-      div.inner(style="background: brown; height: 100%; width: 80%; position: relative; float: left;")
-      div.nav#right(style="background: yellow; height: 100%; width: 10%; float: right; clear: right;")
+    div.body-container
+      div.nav#left
+        div.left-nav
+      div.inner
+        div.watch
+      div.nav#right
+        div.right-nav
 
-      div.copy(style="width:100%; height: 200px; background: green; clear: both; text-align: center;")
+      div.copy-block
         h1 Name of Watch Here
         h2 Description of the watch goes in this space which should take up a few lines of copy at the very minimum
 
