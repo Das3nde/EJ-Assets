@@ -1,4 +1,5 @@
 var Watch = require('../models/Watch.js');
+var EJCollections = require('../models/EJCollections.js');
 var path = require('path');
 var fs = require('fs');
 var gm = require('gm');
