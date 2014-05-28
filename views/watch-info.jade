@@ -6,7 +6,7 @@ block head
 block content
   div.container(ng-controller="WatchesController" ng-init="getWatches()")
     h1 All Watch Data
-    div.row(ng-repeat="watch in watches | orderBy:'brand'")
+    div.row(ng-repeat="watch in watches | orderBy:brand:family:model")
       hr
       div.col-md-8
         div.row
