@@ -2,6 +2,6 @@
 
 var services = angular.module('services', ['ngResource']);
 
-services.factory('Watches', function($resource) {
+services.factory('Watches', ['$resource', function($resource) {
   return $resource('/watches.json');
-});
+}]);
