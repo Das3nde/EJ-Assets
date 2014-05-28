@@ -2,13 +2,19 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('LookbookController', ['$scope', 'Watches', function($scope, Watches) {
+controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'Watches', function($scope, $filter, $log, Watches) {
   $scope.ej_collections = [
     {name: 'Aficionado', selected: false},
     {name: 'Connoisseur', selected: true},
     {name: 'Virtuoso', selected: false}
   ];
 
-  $scope.watches = Watches.get();
+  $scope.watches = Watches.get(function(data) {
+    $scope.watches = $filter('orderBy')(data.watches, 'ej_collection');
+  });
 
+
+  $scope.test = function() {
+    $log.log($scope.watches);
+  };
 }]);

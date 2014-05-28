@@ -14,7 +14,8 @@ module.exports = function(passport) {
         console.log(error);
         res.json({error : error});
       } else {
-        res.json({watches : watches});
+        console.log("Got watches successfully");
+        res.send({watches : watches});
       }
     });
   });
