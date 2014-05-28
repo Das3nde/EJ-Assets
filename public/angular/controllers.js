@@ -9,6 +9,8 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'matc
     {name: 'Virtuoso', selected: false}
   ];
 
+  $scope.index = 0;
+
   $scope.watches = Watches.get(function(data) {
     $scope.watches = $filter('orderBy')(data.watches, 'ej_collection');
   });
@@ -16,5 +18,6 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'matc
 
   $scope.test = function() {
     $log.log($scope.watches[0]);
+    $scope.index++;
   };
 }]);
