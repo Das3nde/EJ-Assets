@@ -7,6 +7,7 @@ services.config(function($httpProvider) {
 
   var spinnerFunction = function spinnerFunction(data, headersGetter) {
     $("#spinner").show();
+    $('.watch').hide();
     return data;
   };
 
@@ -17,9 +18,11 @@ services.factory('imageRequestInterceptor', function($q, $window) {
   return function(promise) {
     return promise.then(function (response) {
       $("#spinner").hide();
+      $(".watch").show();
       return response;
     }, function(response) {
       $("#spinner").hide();
+      $(".watch").show();
       return $q.reject(response);
     });
   };
