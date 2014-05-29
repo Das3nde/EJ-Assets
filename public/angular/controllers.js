@@ -18,6 +18,6 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'matc
 
   $scope.test = function() {
     $scope.index++;
-    $log.log($scope.watches[index]);
+    $log.log($scope.watches[$scope.index]);
   };
 }]);
