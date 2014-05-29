@@ -1,6 +1,6 @@
 {
   "name": "ej-test-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -13,12 +13,9 @@
     "passport": ">=0.2.0",
     "passport-local": ">=0.1.6",
     "bcrypt-nodejs": "latest",
-    "mailchimp": "*",
     "request" : "2.x.x",
-    "base64-js" : "0.0.6",
     "phone" : "0.0.x",
     "xml" : "0.0.x",
-    "shipit" : "0.1.x",
     "gm" : "1.14.x"
   }
 }

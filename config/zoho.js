@@ -1,8 +1,5 @@
 var http = require('http'),
-    qs = require('querystring'),
     request = require('request'),
-    crypto = require('crypto'),
-    base64 = require('base64-js'),
     xml = require('xml');
 
 function ZohoCRM(authtoken) {

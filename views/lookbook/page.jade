@@ -1,0 +1,11 @@
+include header
+div.body-container
+  div.nav#left
+    div.left-nav(ng-click="decrement()")
+  div.inner
+    img.watch(ng-src="/images/{{watches[index].img}}")
+  div.nav#right
+    div.right-nav(ng-click="increment()")
+  div.copy-block
+    h1 {{watches[index].brand + ' ' + watches[index].family + ' ' + watches[index].model}}
+    p {{watches[index].description_short}}

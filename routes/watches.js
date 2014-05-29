@@ -1,4 +1,5 @@
 var Watch = require('../models/Watch.js');
+var EJCollections = require('../models/EJCollections.js');
 var path = require('path');
 var fs = require('fs');
 var gm = require('gm');
@@ -13,7 +14,8 @@ module.exports = function(passport) {
         console.log(error);
         res.json({error : error});
       } else {
-        res.json({watches : watches});
+        console.log("Got watches successfully");
+        res.send({watches : watches});
       }
     });
   });
@@ -75,13 +77,11 @@ module.exports = function(passport) {
     Watch.findOne({_id : req.params.id}, function(error, watch) {
       var tempPath = req.files.watchImage.path,
           targetPath = path.resolve('./public/images/'
-            + watch.brand + ' '
-            + watch.family + ' '
-            + watch.model + '.jpg');
+            + watch._id + '.jpg');
       if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg') {
         gm(tempPath).resize(1096, 1526).write(targetPath, function(err) {
           if(err) console.log(err);
-          watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
+          watch.img = watch._id + '.jpg';
           watch.save();
           res.redirect('/watches/review/' + req.params.id + '.json');
         });

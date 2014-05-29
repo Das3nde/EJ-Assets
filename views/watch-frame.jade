@@ -9,7 +9,7 @@ block head
   script(src="/javascripts/jquery.anythingzoomer.js")
   script(src="/javascripts/watch-zoom.js")
 
-  link(rel="stylesheet" type="text/css" href="/fonts/MyFontsWebFontsKit.css")
+  link(rel="stylesheet" type="text/css" href="/fonts/twcenfontskit.css")
   link(rel="stylesheet" type="text/css" href="/stylesheets/watch-detail.css")
 
   script(type='text/javascript' src='/javascripts/controllers/WatchDetailController.js')
@@ -24,14 +24,9 @@ block content
       div.row
         div.col-md-3(height="100%")
           a(href="http://www.elevenjames.com" target="_blank")
-            img(src="/images/logo.png" width="100%" style="margin-top:25px; margin-left: auto; margin-right: auto; display: block;")
+            img(ng-src="/images/logo.png" width="100%" style="margin-top:25px; margin-left: auto; margin-right: auto; display: block;")
         div.col-md-4(ng-show="watch.img")
           img(ng-src="{{'/images/' + watch.img}}" alt="{{watch.brand}} Small" style="width: 100%")
-          //div.zoom
-            div.small
-              img(ng-src="{{'/images/' + watch.img}}" alt="{{watch.brand}} Small" style="cursor: none;")
-            div.large
-              img(ng-src="{{'/images/' + watch.img}}" alt="{{watch.brand}} Large" style="cursor: none;")
         div.col-md-4(style="padding-top:25px;")
           h3(ng-show="watch.ej_collection") {{watch.ej_collection}} Collection
           h3(ng-hide="watch.ej_collection") OUR COLLECTION
