@@ -11,7 +11,9 @@ directives.directive("mySrc", ['$log', function($log) {
       loadImage = function() {
 
         element.hide();
+        element[0].src = attrs.mySrc;
 
+        /*
         img = new Image();
         $log.log('Attrs is ' + attrs.mySrc);
         img.src = attrs.mySrc;
@@ -19,6 +21,11 @@ directives.directive("mySrc", ['$log', function($log) {
         img.onload = function() {
           $log.log('Img loaded with src ' + attrs.mySrc);
           element[0].src = attrs.mySrc;
+          element.show();
+        };
+        */
+
+        element[0].onload = function() {
           element.show();
         };
       };
