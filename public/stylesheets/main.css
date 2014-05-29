@@ -149,3 +149,215 @@ p {
     text-align: center;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .header-container {
+    width: 768px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+  .header-container .logo {
+    display: none;
+    width: 31%;
+    height: 100%;
+    background: url('/images/ej_logo.png') no-repeat center;
+    float: left;
+  }
+  .header-container .collection {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: background 0.25s ease-in-out;
+    -moz-transition: background 0.25s ease-in-out;
+    -webkit-transition: background 0.25s ease-in-out;
+  }
+  .header-container .collection:hover {
+    background: rgba(150, 150, 150, 0.4);
+    cursor: pointer;
+  }
+  .header-container .collection .collection-font {
+    line-height: 20px;
+    margin: 40px 0;
+    text-transform: uppercase;
+  }
+  .header-container .active {
+    background: rgba(100, 100, 100, 0.4);
+  }
+  .body-container {
+    height: 600px;
+    width: 768px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 100px auto 0;
+  }
+  .body-container .nav {
+    height: 100%;
+    width: 10%;
+    position: relative;
+    cursor: pointer;
+  }
+  .body-container .nav .left-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .left-nav:hover {
+    background-position: left bottom;
+  }
+  .body-container .nav .right-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat right top;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .right-nav:hover {
+    background-position: right bottom;
+  }
+  .body-container .inner {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    float: left;
+  }
+  .body-container .inner .watch {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    height: 98%;
+  }
+  .body-container .copy-block {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+  .header-container .logo {
+    display: none;
+    width: 31%;
+    height: 100%;
+    background: url('/images/ej_logo.png') no-repeat center;
+    float: left;
+  }
+  .header-container .collection {
+    width: 100%;
+    height: 33%;
+    clear: both;
+    text-align: center;
+    transition: background 0.25s ease-in-out;
+    -moz-transition: background 0.25s ease-in-out;
+    -webkit-transition: background 0.25s ease-in-out;
+  }
+  .header-container .collection:hover {
+    background: rgba(150, 150, 150, 0.4);
+    cursor: pointer;
+  }
+  .header-container .collection .collection-font {
+    line-height: 33.33333333px;
+    margin: 0 0;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .header-container .active {
+    background: rgba(100, 100, 100, 0.4);
+  }
+  .body-container {
+    height: 70%;
+    max-height: 480px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 100px auto 0;
+  }
+  .body-container .nav {
+    height: 100%;
+    width: 15%;
+    position: relative;
+    cursor: pointer;
+  }
+  .body-container .nav .left-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .left-nav:hover {
+    background-position: left bottom;
+  }
+  .body-container .nav .right-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(/images/nav.png) no-repeat right top;
+    width: 48px;
+    height: 128px;
+  }
+  .body-container .nav .right-nav:hover {
+    background-position: right bottom;
+  }
+  .body-container .inner {
+    height: 100%;
+    width: 70%;
+    position: relative;
+    float: left;
+  }
+  .body-container .inner .watch {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 98%;
+  }
+  .body-container .copy-block {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    text-align: center;
+  }
+}
