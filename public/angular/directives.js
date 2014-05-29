@@ -12,8 +12,6 @@ directives.directive("mySrc", ['$log', function($log) {
 
         element.hide();
 
-        //element[0].src = "/images/spinner.gif";
-
         img = new Image();
         $log.log('Attrs is ' + attrs.mySrc);
         img.src = attrs.mySrc;
