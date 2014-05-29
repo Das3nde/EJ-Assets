@@ -1,5 +1,7 @@
 header
   div.header-container
     div.logo
-    div.collection(ng-repeat="ej_collection in ej_collections" ng-class="{active : ej_collection.selected}")
-      h2.collection-font {{ej_collection.name}}
+    div.collection(ng-repeat="ej_collection in ej_collections"
+      ng-class="navClass(ej_collection.name)"
+      ng-click="changeCollection(ej_collection.name)")
+      h3.collection-font {{ej_collection.name}}
