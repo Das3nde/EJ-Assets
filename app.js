@@ -21,14 +21,6 @@ Mongoose.connect('localhost', 'ejassets');
 var passport = require('passport');
 
 /**********************************************
- * Mailchimp API
- **********************************************/
-
-var MailChimpAPI = require('mailchimp').MailChimpAPI;
-var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
-
-
-/**********************************************
  * GraphicsMagick
  **********************************************/
 
@@ -37,35 +29,10 @@ var MailChimpExportAPI = require('mailchimp').MailChimpExportAPI;
 app = express();
 
 /**********************************************
- * API Keys
- **********************************************/
-
-var mc_key = '99a8d61ae5dc0f904a72ec1899c41f6d-us4';
-var ben_id = '529e29eaeb89975e52000007';
-
-/**********************************************
- * Instantiate Mailchimp API Objects
- **********************************************/
-
-try {
-  var mcApi = new MailChimpAPI(mc_key, { version : '2.0' });
-  console.log('Mailchimp API Successfully instantiated');
-} catch (error) {
-  console.log(error.message);
-}
-
-try {
-  var exportApi = new MailChimpExportAPI(mc_key, { version : '1.0', secure : false });
-  console.log('Mailchimp Export Api Successfully Instantiated');
-} catch (error) {
-  console.log(error.message);
-}
-
-/**********************************************
  * Initiialize our environments
  **********************************************/
 
-app.set('port', process.env.PORT || 8080);
+//app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('config', path.join(__dirname, 'config'));
 app.set('view engine', 'jade');

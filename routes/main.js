@@ -24,7 +24,7 @@ module.exports = function(passport) {
     res.render('watch', {title : 'View Watch', id : req.params.id});
   });
 
-// VIEW WATCH
+// VIEW WATCH (Public)
 
   app.get('/watch-info/:id.json', function(req, res) {
     res.render('watch-frame', {id : req.params.id});
@@ -36,15 +36,15 @@ module.exports = function(passport) {
     res.render('watch-info', {title: 'Watch Info'});
   });
 
-// GENERATE A WATCH EMAIL TEMPLATE
 
-  app.get('/watches/templates/:id.json', passport.isLoggedIn, function(req, res) {
-    res.render('template', {title: 'Template', id : req.params.id});
+// NEW PAGES AS OF 5/23/2014
+//
+
+  app.get('/lookbook', function(req, res) {
+    res.render('lookbook/layout', {title: 'EJ Lookbook'});
   });
 
-// TEST AJAX ZOOM
-
-  app.get('/zoom-test', function(req, res) {
-    res.render('zoom-test', {title: 'Test'});
+  app.get('/lookbook/:page', function(req, res) {
+    res.render('lookbook/' + req.params.page);
   });
 };

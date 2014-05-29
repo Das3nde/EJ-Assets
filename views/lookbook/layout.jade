@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet' href='/stylesheets/main.css' media="all" type="text/css")
+  body#ng-app(ng-app="lookbook")
+    ng-view
+
+  //- AngularJS
+  script(src="/vendor/angular/angular.min.js")
+  script(src="/vendor/angular-route/angular-route.min.js")
+  script(src="/vendor/angular-resource/angular-resource.min.js")
+
+  //- Angular Application
+  script(src="/angular/app.js")
+  script(src="/angular/controllers.js")
+  script(src="/angular/services.js")
+
+  //- MatchMediaJS
+  script(src="/vendor/matchmedia/matchmedia.js")
+  script(src="/vendor/matchmedia-ng/matchmedia-ng.js")

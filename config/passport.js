@@ -1,7 +1,5 @@
 var LocalStrategy = require('passport-local').Strategy;
 var User = require('../models/User');
-var dev = false;
-
 
 module.exports = function(passport) {
 
@@ -84,7 +82,6 @@ module.exports = function(passport) {
    **********************************************/
 
   passport.isLoggedIn = function (req, res, next) {
-    if(dev) return next(); // Make testing easy
     if(req.isAuthenticated())
       return next();
     res.redirect('/login');

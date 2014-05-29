@@ -1,4 +1,5 @@
 var Watch = require('../models/Watch.js');
+var EJCollections = require('../models/EJCollections.js');
 var path = require('path');
 var fs = require('fs');
 var gm = require('gm');
@@ -13,7 +14,8 @@ module.exports = function(passport) {
         console.log(error);
         res.json({error : error});
       } else {
-        res.json({watches : watches});
+        console.log("Got watches successfully");
+        res.send({watches : watches});
       }
     });
   });
