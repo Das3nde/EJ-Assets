@@ -7,7 +7,5 @@ div.body-container
   div.nav#right
     div.right-nav
   div.copy-block(ng-click="test()")
-    h1 Name of Watch Here
-    h2 Description of the watch goes in this space which should take up a few lines of copy at the very minimum
-    h3 {{watches[0].brand}}
-    h2 {{watches[0].img}}
+    h1 {{watches[index].brand + ' ' + watches[index].family + ' ' + watches[index].model}}
+    h2 {{watches[index].description_short}}

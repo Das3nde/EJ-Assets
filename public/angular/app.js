@@ -5,8 +5,7 @@ var app = angular.module('lookbook', [
     'ngResource',
     'matchmedia-ng',
     'controllers',
-    'services',
-    'directives'
+    'services'
     ]);
 
 app.config(['$logProvider', function($logProvider) {
