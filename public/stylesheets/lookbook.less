@@ -6,6 +6,7 @@ header {
   top: 0; left: 0; right: 0;
   margin: auto;
   border-top: 5px solid #c42026;
+  border-bottom: 1px dotted white;
 }
 
 body {
@@ -65,11 +66,21 @@ p {
       height: 100%;
       float: left;
       text-align: center;
+      transition: background 0.25s ease-in-out;
+      -moz-transition: background 0.25s ease-in-out;
+      -webkit-transition: background 0.25s ease-in-out;
+      &:hover {
+        background: #c42026;
+        cursor: pointer;
+      }
       .collection-font {
         line-height: 20px;
         margin: 40px 0;
         text-transform: uppercase;
       }
+    }
+    .active {
+      background: #c42026;
     }
   }
 
@@ -111,11 +122,10 @@ p {
       float: left;
       .watch {
         position: absolute;
-        top: 0; left: 0; right: 0;
+        top: 0; bottom: 0; left: 0; right: 0;
         margin: auto;
         width: 411px;
-        height: 100%;
-        //background: url(/images/Cartier%20Ballon%20Bleu%20Chronograph_large.jpg) no-repeat;
+        height: 98%;
       }
     }
     .copy-block {

@@ -9,6 +9,7 @@ header {
   right: 0;
   margin: auto;
   border-top: 5px solid #c42026;
+  border-bottom: 1px dotted white;
 }
 body {
   margin: 0;
@@ -34,9 +35,6 @@ h3 {
 }
 p {
   font-size: 6px;
-}
-img {
-  border: none;
 }
 #left {
   float: left;
@@ -67,11 +65,21 @@ img {
     height: 100%;
     float: left;
     text-align: center;
+    transition: background 0.25s ease-in-out;
+    -moz-transition: background 0.25s ease-in-out;
+    -webkit-transition: background 0.25s ease-in-out;
+  }
+  .header-container .collection:hover {
+    background: #c42026;
+    cursor: pointer;
   }
   .header-container .collection .collection-font {
     line-height: 20px;
     margin: 40px 0;
     text-transform: uppercase;
+  }
+  .header-container .active {
+    background: #c42026;
   }
   .body-container {
     height: 600px;
@@ -124,11 +132,12 @@ img {
   .body-container .inner .watch {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     width: 411px;
-    height: 100%;
+    height: 98%;
   }
   .body-container .copy-block {
     width: 100%;

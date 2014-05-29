@@ -1,5 +1,5 @@
 header
   div.header-container
     div.logo
-    div.collection(ng-repeat="ej_collection in ej_collections")
-      h2.collection-font(ng-show="ej_collection.name == watches[index].ej_collection") {{ej_collection.name}}
+    div.collection(ng-repeat="ej_collection in ej_collections" ng-class="{active : ej_collection.selected}")
+      h2.collection-font {{ej_collection.name}}
