@@ -3,6 +3,7 @@ div.body-container
   div.nav#left
     div.left-nav(ng-click="decrement()")
   div.inner
+    img#spinner(ng-src="/images/ej_logo.png" style="display:none;")
     img.watch(ng-src="/images/{{watches[index].img}}")
   div.nav#right
     div.right-nav(ng-click="increment()")
