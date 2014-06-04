@@ -1,7 +1,11 @@
 var Mongoose = require('mongoose');
 
 var WatchSchema = Mongoose.Schema({
-  img : String,
+  img : String, // This is now deprecated and will be phased out
+  img_small : String,
+  img_medium : String,
+  img_large : String,
+  zoom_enabled: Boolean,
   brand : String,
   family : String,
   model : String,
