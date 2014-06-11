@@ -2,7 +2,7 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'matchmedia', 'Watches', function($scope, $filter, $log, matchmedia, Watches) {
+controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$timeout', 'matchmedia', 'Watches', function($scope, $filter, $log, $timeout, matchmedia, Watches) {
   $scope.ej_collections = [
     {name: 'Aficionado'},
     {name: 'Connoisseur'},
@@ -40,5 +40,16 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', 'matc
       $scope.index--;
     }
   };
+
+  var nextWatchTimeout = function() {
+    if($scope.index == $scope.watches.length - 1) {
+      $scope.index = 0;
+    } else {
+      $scope.increment();
+    }
+    $timeout(nextWatchTimeout, 10 * 1000);
+  };
+
+  $timeout(nextWatchTimeout, 10 * 1000);
 
 }]);
