@@ -53,7 +53,6 @@ function WatchesController($scope, $http) {
   };
 
   $scope.updateLookbook = function(watch) {
-    alert("About to update LookBook with LookBook = " + watch.lookbook);
     $http.put("/watches/" + watch._id + ".json", [
         {_id : watch._id},
         {lookbook : watch.lookbook}]);
