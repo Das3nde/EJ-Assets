@@ -12,10 +12,12 @@ block content
     h1 Directory of Eleven James Watches
       hr
       div.row(ng-repeat="watch in watches | orderBy:'brand'")
-        div.col-md-8
+        div.col-md-7
           a.lead(ng-href='/watches/review/{{watch._id}}.json') {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
-        div.col-md-4
+        div.col-md-2
           button.btn.btn-danger(type='button' ng-click='removeWatch(watch)') Remove
+        div.col-md-3
+          input(type="checkbox" ng-model="watch.lookbook" ng-change="updateLookbook(watch)")
         br
         hr
 

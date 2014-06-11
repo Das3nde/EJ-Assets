@@ -17,7 +17,8 @@ function WatchesController($scope, $http) {
     instructions : [],
     description_long : '',
     description_short : '',
-    trivia : ''
+    trivia : '',
+    lookbook : false
   };
 
   $scope.defaultInstructions = [{id : '1'}];
@@ -49,5 +50,12 @@ function WatchesController($scope, $http) {
     $http.get('/watches.json').success(function(data) {
       $scope.watches = data.watches;
     });
+  };
+
+  $scope.updateLookbook = function(watch) {
+    alert("About to update LookBook with LookBook = " + watch.lookbook);
+    $http.put("/watches/" + watch._id + ".json", [
+        {_id : watch._id},
+        {lookbook : watch.lookbook}]);
   };
 }

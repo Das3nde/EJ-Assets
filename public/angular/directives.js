@@ -2,7 +2,7 @@
 
 var directives = angular.module('directives', []);
 
-directives.directive("mySrc", ['$log', function($log) {
+directives.directive("jkSrc", ['$log', function($log) {
   return {
     link: function(scope, element, attrs) {
       var img, loadImage;
@@ -11,20 +11,7 @@ directives.directive("mySrc", ['$log', function($log) {
       loadImage = function() {
 
         element.hide();
-        element[0].src = attrs.mySrc;
-
-        /*
-        img = new Image();
-        $log.log('Attrs is ' + attrs.mySrc);
-        img.src = attrs.mySrc;
-
-        img.onload = function() {
-          $log.log('Img loaded with src ' + attrs.mySrc);
-          element[0].src = attrs.mySrc;
-          element.show();
-        };
-        */
-
+        element[0].src = attrs.jkSrc;
         element[0].onload = function() {
           element.show();
         };
@@ -32,7 +19,7 @@ directives.directive("mySrc", ['$log', function($log) {
           
 
       scope.$watch((function() {
-        return attrs.mySrc;
+        return attrs.jkSrc;
       }), function(newVal, oldVal) {
         if(oldVal !== newVal) {
           loadImage();

@@ -11,7 +11,8 @@ var WatchSchema = Mongoose.Schema({
   description_long : String,
   description_short : String,
   trivia : String,
-  ej_collection : String
+  ej_collection : String,
+  lookbook : Boolean
 });
 
 module.exports = Mongoose.model('Watch', WatchSchema);

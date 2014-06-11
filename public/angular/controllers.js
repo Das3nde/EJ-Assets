@@ -10,9 +10,11 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$tim
   ];
 
   $scope.index = 0;
+  $scope.watches = [];
 
   $scope.watches = Watches.get(function(data) {
-    $scope.watches = $filter('orderBy')(data.watches, ['ej_collection', 'brand', 'family', 'model']);
+    $scope.watches = $filter('filter')(data.watches, {lookbook : true, ej_collection : '! '});
+    $scope.watches = $filter('orderBy')($scope.watches, ['ej_collection', 'brand', 'family', 'model']);
     $scope.activeClass = $scope.watches[$scope.index].ej_collection;
     $scope.$watch('index', function() {
       $scope.activeClass = $scope.watches[$scope.index].ej_collection;
