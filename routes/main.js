@@ -27,7 +27,7 @@ module.exports = function(passport) {
 // VIEW WATCH (Public)
 
   app.get('/watch-info/:id.json', function(req, res) {
-    res.render('watch-frame', {id : req.params.id});
+    res.render('watch-frame', {id : req.params.id, title: "Watch Detail"});
   });
 
 // VIEW ALL WATCH DUMP
