@@ -79,31 +79,53 @@ module.exports = function(passport) {
           targetPath = path.resolve('./public/images/'
             + watch._id + '.jpg');
 
-      var baseImagePath = path.resolve('./public/images/' + watch._id;
+      var baseImagePath = path.resolve('./public/images/' + watch._id);
 
-      var imageFormats = [
-        {path : baseImagePath + '_small.jpg', height : 400, width : 274},
-        {path : baseImagePath + '_medium.jpg', height: 800, width : 548},
-        {path : baseImagePath + '_large.jpg', height : 1000, width: 685}
-      ];
-        
+      var smallPath = baseImagePath + "_small.jpg";
+      var mediumPath = baseImagePath + "_medium.jpg";
+      var largePath = baseImagePath + "_large.jpg";
+
+      fs.unlink(smallPath, function(err) {
+        console.log("Unlinking Small Path");
+        if(err) console.log(err);
+        console.log("Small Path Deleted");
+      });
+
+      fs.unlink(mediumPath, function(err) {
+        console.log("Unlinking Medium Path");
+        if(err) console.log(err);
+        console.log("Medium Path Deleted");
+      });
+
+      fs.unlink(largePath, function(err) {
+        console.log("Unlinking Large Path");
+        if(err) console.log(err);
+        console.log("Large Path Deleted");
+      });
+
+      fs.unlink(targetPath, function(err) {
+        console.log("Unlinking legacy img");
+        if(err) console.log(err);
+        console.log("Legacy img deleted");
+      });
+
       if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg' || path.extname(req.files.watchImage.name).toLowerCase() === '.png') {
 
         gm(tempPath).resize(274, 400).write(smallPath, function(err) {
           if(err) console.log(err);
-          watch.img_small = baseImagePath + '_small.jpg';
+          watch.img_small = watch._id + '_small.jpg';
           watch.save();
         });
 
         gm(tempPath).resize(548, 800).write(mediumPath, function(err) {
           if(err) console.log(err);
-          watch.img_medium = baseImagePath + '_medium.jpg';
+          watch.img_medium = watch._id + '_medium.jpg';
           watch.save();
         });
 
         gm(tempPath).resize(1096, 1526).write(largePath, function(err) {
           if(err) console.log(err);
-          watch.img_large = baseImagePath + '_large.jpg';
+          watch.img_large = watch._id + '_large.jpg';
           watch.save();
         });
 
@@ -111,23 +133,16 @@ module.exports = function(passport) {
           if(err) console.log(err);
           watch.img = watch._id + '.jpg';
           watch.save();
-        });
-
-        res.redirect('/watches/review/' + req.params.id + '.json');
-
-        /*
-        fs.rename(tempPath, targetPath, function(err) {
-          if(err) throw err;
-          console.log("Upload Complete");
-          watch.img = watch.brand + ' ' + watch.family + ' ' + watch.model + '.jpg';
-          watch.save();
+          fs.unlink(tempPath, function(err) {
+            if(err) throw err;
+            console.error(err);
+          });
           res.redirect('/watches/review/' + req.params.id + '.json');
         });
-        */
       } else {
         fs.unlink(tempPath, function(err) {
           if(err) throw err;
-          console.error("Only .jpg files are allowed!");
+          console.error(err);
         });
       }
     });
