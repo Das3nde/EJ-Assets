@@ -78,13 +78,43 @@ module.exports = function(passport) {
       var tempPath = req.files.watchImage.path,
           targetPath = path.resolve('./public/images/'
             + watch._id + '.jpg');
-      if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg') {
+
+      var baseImagePath = path.resolve('./public/images/' + watch._id;
+
+      var imageFormats = [
+        {path : baseImagePath + '_small.jpg', height : 400, width : 274},
+        {path : baseImagePath + '_medium.jpg', height: 800, width : 548},
+        {path : baseImagePath + '_large.jpg', height : 1000, width: 685}
+      ];
+        
+      if(path.extname(req.files.watchImage.name).toLowerCase() === '.jpg' || path.extname(req.files.watchImage.name).toLowerCase() === '.png') {
+
+        gm(tempPath).resize(274, 400).write(smallPath, function(err) {
+          if(err) console.log(err);
+          watch.img_small = baseImagePath + '_small.jpg';
+          watch.save();
+        });
+
+        gm(tempPath).resize(548, 800).write(mediumPath, function(err) {
+          if(err) console.log(err);
+          watch.img_medium = baseImagePath + '_medium.jpg';
+          watch.save();
+        });
+
+        gm(tempPath).resize(1096, 1526).write(largePath, function(err) {
+          if(err) console.log(err);
+          watch.img_large = baseImagePath + '_large.jpg';
+          watch.save();
+        });
+
         gm(tempPath).resize(1096, 1526).write(targetPath, function(err) {
           if(err) console.log(err);
           watch.img = watch._id + '.jpg';
           watch.save();
-          res.redirect('/watches/review/' + req.params.id + '.json');
         });
+
+        res.redirect('/watches/review/' + req.params.id + '.json');
+
         /*
         fs.rename(tempPath, targetPath, function(err) {
           if(err) throw err;
