@@ -11,7 +11,7 @@ block content
   div.container(ng-controller="WatchesController" ng-init="getWatches()")
     h1 Directory of Eleven James Watches
       hr
-      div.row(ng-repeat="watch in watches | orderBy:'brand'")
+      div.row(ng-repeat="watch in watches | orderBy:['brand', 'family', 'model']")
         div.col-md-7
           a.lead(ng-href='/watches/review/{{watch._id}}.json') {{watch.brand + ' ' + watch.family + ' ' + watch.model}}
         div.col-md-2
