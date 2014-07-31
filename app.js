@@ -12,7 +12,7 @@ var request = require('request');
  **********************************************/
 
 var Mongoose = require('mongoose');
-Mongoose.connect('localhost', 'ejassets');
+Mongoose.connect('localhost', 'elevenjames');
 
 /**********************************************
  * Passport for Secure Login
