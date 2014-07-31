@@ -7,5 +7,4 @@ lib-cov
 *.pid
 *.gz
 *.xcf
-
 node_modules
