@@ -1,10 +1,10 @@
 doctype html
-html
+html(xmlns:ng="http://angularjs.org")
   head
     title #{title}
     link(rel='stylesheet' href='/stylesheets/main.css' media="all" type="text/css")
   body#ng-app(ng-app="lookbook")
-    ng-view
+    div(ng-view)
 
   //- jQuery
   script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
