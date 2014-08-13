@@ -2,7 +2,7 @@
 
 var directives = angular.module('directives', []);
 
-directives.directive("jkSrc", ['$log', function($log) {
+directives.directive("jkSrc", [function() {
   return {
     link: function(scope, element, attrs) {
       var img, loadImage;
