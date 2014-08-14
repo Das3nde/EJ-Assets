@@ -3,7 +3,6 @@
 var app = angular.module('lookbook', [
     'ngRoute',
     'ngResource',
-    'matchmedia-ng',
     'controllers',
     'services',
     'directives'

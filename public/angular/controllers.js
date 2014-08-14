@@ -2,7 +2,7 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$timeout', 'matchmedia', 'Watches', function($scope, $filter, $log, $timeout, matchmedia, Watches) {
+controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$timeout', 'Watches', function($scope, $filter, $log, $timeout, Watches) {
   $scope.ej_collections = [
     {name: 'Aficionado'},
     {name: 'Connoisseur'},
