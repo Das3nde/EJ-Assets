@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div
+    form(action='/login' method='post')
+      h1 Please Login to Continue
+      input(type='email' name='email' placeholder='Email Address')
+      input(type='password' name='password' placeholder='Password')
+      button(type='submit') Login &raquo;
+    hr
