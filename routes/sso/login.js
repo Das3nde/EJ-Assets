@@ -3,6 +3,10 @@ module.exports = function(passport) {
     res.render('login');
   });
 
+  app.get('/admin/login', function(req, res) {
+    res.render('admin_login');
+  });
+
   app.post('/login', passport.authenticate('local-login', {
       successRedirect : '/',
       failureRedirect : '/login'
