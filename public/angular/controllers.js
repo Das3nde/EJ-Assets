@@ -52,6 +52,6 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$tim
     $timeout(nextWatchTimeout, 10 * 1000);
   };
 
-  $timeout(nextWatchTimeout, 10 * 1000);
+  //$timeout(nextWatchTimeout, 10 * 1000);
 
 }]);
