@@ -1,3 +1,8 @@
+var fs = require('fs');
+var mg_api_key = 'key-207af28e6d73ac4ba594209aff923372';
+var domain = 'elevenjames.com';
+var mailgun = require('mailgun-js')({apiKey: mg_api_key, domain: domain});
+
 module.exports = function(passport) {
 
 // INDEX PAGE
@@ -47,4 +52,34 @@ module.exports = function(passport) {
   app.get('/lookbook/:page', function(req, res) {
     res.render('lookbook/' + req.params.page);
   });
+
+  app.post('/email', function(req, res) {
+    fs.readFile('views/receipt_email.html', 'utf8', function(err, data) {
+      if(err) {
+        return console.log(err);
+      }
+      data = data.replace("{{NAME}}", req.body.name)
+        .replace("{{WATCH}}", req.body.brand)
+        .replace("{{LINK}}", req.body.link);
+      var subject = "Your " + req.body.brand + ' ' + req.body.family;
+      var email = {
+        from : 'Eleven James Concierge <concierge@elevenjames.com>',
+        to: req.body.email,
+        subject: subject,
+        body: '',
+        html: data,
+        bcc: 'justin@elevenjames.com'
+      };
+
+      mailgun.messages().send(email, function(error, body) {
+        console.log(body);
+      });
+
+      res.send(200);
+    });
+  });
 };
+
+/*
+
+*/
