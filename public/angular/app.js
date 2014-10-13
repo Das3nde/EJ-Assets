@@ -18,4 +18,8 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'lookbook/page',
       controller: 'LookbookController'
     })
+    .when('/scroll', {
+      templateUrl: 'lookbook/page',
+      controller: 'LookbookController'
+    })
 }]);

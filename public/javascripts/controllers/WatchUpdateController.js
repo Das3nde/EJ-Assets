@@ -13,6 +13,8 @@ function WatchUpdateController($scope, $http) {
       editTrivia = false;
   var editInstructions = [];
 
+  $scope.recipient = {};
+
   $scope.defaultInstructions = {name : '', description : '', special : ''};
 
   $scope.watch = [];
@@ -170,5 +172,19 @@ function WatchUpdateController($scope, $http) {
     $scope.watch.instructions.push(instruction);
     $scope.updateInstructions($scope.watch);
     $scope.instruction = angular.copy($scope.defaultInstruction);
+  };
+
+  $scope.sendEmail = function() {
+    var url = 'assets.elevenjames.com/watch-info/' + $scope.watch._id + '.json';
+    var emailContent = {
+      name : $scope.recipient.name,
+      email : $scope.recipient.email,
+      brand : $scope.watch.brand,
+      family : $scope.watch.family,
+      link : url
+    };
+    $http.post('/email', emailContent).success(function(data) {
+      console.log(data);
+    });
   };
 }

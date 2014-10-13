@@ -16,6 +16,7 @@
     "request" : "2.x.x",
     "phone" : "0.0.x",
     "xml" : "0.0.x",
-    "gm" : "1.14.x"
+    "gm" : "1.14.x",
+    "mailgun-js": "0.6.x"
   }
 }

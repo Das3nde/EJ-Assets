@@ -2,7 +2,7 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$timeout', 'Watches', function($scope, $filter, $log, $timeout, Watches) {
+controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$timeout', '$location', 'Watches', function($scope, $filter, $log, $timeout, $location, Watches) {
   $scope.ej_collections = [
     {name: 'Aficionado'},
     {name: 'Connoisseur'},
@@ -51,7 +51,10 @@ controllers.controller('LookbookController', ['$scope', '$filter', '$log', '$tim
     }
     $timeout(nextWatchTimeout, 10 * 1000);
   };
-
-  $timeout(nextWatchTimeout, 10 * 1000);
+  
+  if($location.path()=='/scroll') {
+    $log.log($location.path());
+    $timeout(nextWatchTimeout, 10 * 1000);
+  }
 
 }]);
